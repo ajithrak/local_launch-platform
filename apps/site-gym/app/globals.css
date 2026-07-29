@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+/* Tailwind only scans this app's own files by default — workspace packages
+   that ship Tailwind classes need to be added explicitly or their utility
+   classes silently never get generated. */
+@source "../../../packages/ui/src";
