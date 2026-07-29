@@ -10,19 +10,26 @@ export interface CardProps extends HTMLAttributes<HTMLDivElement> {
 
 /**
  * Renders using the active theme's card "recipe" — border, top accent bar,
- * and ornate corner brackets are theme decisions, not per-usage props.
+ * ornate corners, and hover glow are theme decisions, not per-usage props.
+ * Box-shadow lives in className (not inline style) so the hover variant can
+ * actually take effect; inline styles would out-specificity any :hover rule.
  */
 export function Card({ className, children, style, ...props }: CardProps) {
   const theme = useTheme();
+  const hasGlow = Boolean(theme.shadow.glow);
 
   return (
     <div
-      className={cn('relative overflow-hidden p-6', className)}
+      className={cn(
+        'relative overflow-hidden p-6 transition-all duration-[var(--motion-duration)] ease-[var(--motion-ease)]',
+        'shadow-[var(--shadow-card)] hover:-translate-y-1',
+        hasGlow ? 'hover:shadow-[var(--shadow-glow)]' : 'hover:shadow-xl',
+        className
+      )}
       style={{
         backgroundColor: 'var(--color-surface)',
         border: theme.card.border,
         borderRadius: 'var(--radius-lg)',
-        boxShadow: 'var(--shadow-card)',
         ...style,
       }}
       {...props}
@@ -30,20 +37,22 @@ export function Card({ className, children, style, ...props }: CardProps) {
       {theme.card.topBar && (
         <div
           aria-hidden
-          className="absolute inset-x-0 top-0 h-1.5"
-          style={{ backgroundColor: 'var(--color-accent)' }}
+          className="absolute inset-x-0 top-0 h-2"
+          style={{
+            backgroundImage: 'linear-gradient(90deg, var(--color-accent), color-mix(in srgb, var(--color-accent) 60%, white))',
+          }}
         />
       )}
       {theme.card.ornate && (
         <>
           <span
             aria-hidden
-            className="absolute left-2 top-2 h-4 w-4 border-l-2 border-t-2"
+            className="absolute left-2.5 top-2.5 h-5 w-5 border-l-2 border-t-2"
             style={{ borderColor: 'var(--color-accent)' }}
           />
           <span
             aria-hidden
-            className="absolute bottom-2 right-2 h-4 w-4 border-b-2 border-r-2"
+            className="absolute bottom-2.5 right-2.5 h-5 w-5 border-b-2 border-r-2"
             style={{ borderColor: 'var(--color-accent)' }}
           />
         </>

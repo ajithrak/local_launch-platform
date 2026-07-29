@@ -40,6 +40,8 @@ export function ThemeProvider({ themeKey, children, className }: ThemeProviderPr
           ...cssVars,
           backgroundColor: 'var(--color-background)',
           color: 'var(--color-foreground)',
+          fontFamily: 'var(--font-body)',
+          letterSpacing: 'var(--tracking-display)',
           transition: 'background-color 0.3s ease, color 0.3s ease',
         }}
         className={className}
