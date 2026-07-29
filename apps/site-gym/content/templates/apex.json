@@ -1,0 +1,126 @@
+{
+  "industry": "gym",
+  "theme": "minimal",
+  "business": {
+    "name": "Apex Athletic",
+    "city": "San Francisco",
+    "phone": "+1 415 555 0198",
+    "whatsapp": "14155550198",
+    "email": "studio@apexathletic.com",
+    "address": "88 Market Street, San Francisco, CA",
+    "hours": "Mon–Fri · 6:00 AM – 9:00 PM · Sat–Sun · 8:00 AM – 4:00 PM",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "A Considered Approach to Training",
+    "headline": "Precision Training.",
+    "subheadline": "Fewer distractions, better coaching, and a space designed around doing the work well.",
+    "primaryCta": { "label": "Book a Session", "href": "/contact" },
+    "secondaryCta": { "label": "See Membership", "href": "/membership" }
+  },
+  "about": {
+    "title": "Training, reconsidered",
+    "body": [
+      "Apex Athletic started from a simple observation: most gyms are loud, cluttered, and impersonal. We built the opposite — a calm, considered space where every piece of equipment and every program earns its place.",
+      "Our coaches don't run you through a generic script. Every member gets a program built around their actual goals, refined every few weeks based on what's working."
+    ],
+    "highlights": [
+      "Founded 2020 in SoMa",
+      "320+ active members",
+      "10 coaches, all specialized",
+      "Complimentary first session"
+    ]
+  },
+  "stats": [
+    { "icon": "Users", "value": "320+", "label": "Members" },
+    { "icon": "Dumbbell", "value": "10", "label": "Specialist Coaches" },
+    { "icon": "Trophy", "value": "5", "label": "Years Running" },
+    { "icon": "Star", "value": "4.9★", "label": "Average Rating" }
+  ],
+  "whyChooseUs": [
+    { "icon": "Dumbbell", "title": "Considered Programming", "description": "Every program is designed around a specific outcome, not a generic template." },
+    { "icon": "Award", "title": "Expert Coaching", "description": "Small coach-to-member ratio, so your form and progress actually get attention." },
+    { "icon": "Apple", "title": "Personalized Nutrition", "description": "A nutrition plan built around your life, reviewed and adjusted monthly." },
+    { "icon": "Calendar", "title": "Adaptive Membership", "description": "Pause, adjust, or scale your plan as your schedule changes — no penalties." }
+  ],
+  "plans": [
+    { "name": "Essential", "price": "$129", "period": "/mo", "features": ["Studio access", "Locker & showers", "Complimentary first session"], "featured": false },
+    { "name": "Studio", "price": "$219", "period": "/mo", "features": ["Everything in Essential", "1 coaching session / month", "Quarterly program review"], "featured": true },
+    { "name": "Private", "price": "$349", "period": "/mo", "features": ["Everything in Studio", "Weekly private session", "Priority scheduling"], "featured": false }
+  ],
+  "programs": [
+    { "slug": "weight-loss", "name": "Composition", "tagline": "A measured approach to changing your body composition", "description": "A 12-week program pairing strength work with a nutrition plan built around your actual routine, not a generic macro sheet.", "duration": "12 weeks", "features": ["Bi-weekly check-ins", "3 sessions per week", "Personalized nutrition plan", "Progress tracked, not guessed"] },
+    { "slug": "personal-training", "name": "Private Coaching", "tagline": "One-on-one, fully considered", "description": "Individual programming with a dedicated coach who adjusts your plan as your goals evolve.", "duration": "Ongoing, billed monthly", "features": ["2–3 private sessions per week", "Programming reviewed monthly", "Direct messaging with your coach", "Includes full studio access"] }
+  ],
+  "trainers": [
+    { "slug": "coach-elena", "name": "Elena Ward", "role": "Head Coach", "bio": "Former physical therapist, now focused on strength programming that respects the body's limits.", "certifications": ["NSCA-CSCS", "DPT"], "specialties": ["Strength", "Injury-aware programming", "Mobility"] },
+    { "slug": "coach-sam", "name": "Sam Ochoa", "role": "Composition Coach", "bio": "Coaches the Composition program with a focus on sustainable, unglamorous consistency.", "certifications": ["Precision Nutrition L2"], "specialties": ["Nutrition coaching", "Body composition", "Habit building"] },
+    { "slug": "coach-mia", "name": "Mia Chen", "role": "Private Coach", "bio": "Works exclusively with private coaching clients on fully individualized programs.", "certifications": ["NSCA-CSCS", "USAW Level 1"], "specialties": ["Private coaching", "Olympic lifting", "Performance"] }
+  ],
+  "classSchedule": [
+    { "day": "Monday", "time": "6:30 AM", "className": "Strength Fundamentals", "trainer": "Elena Ward" },
+    { "day": "Tuesday", "time": "6:00 PM", "className": "Mobility & Recovery", "trainer": "Elena Ward" },
+    { "day": "Wednesday", "time": "6:30 AM", "className": "Strength Fundamentals", "trainer": "Elena Ward" },
+    { "day": "Thursday", "time": "6:00 PM", "className": "Composition Circuit", "trainer": "Sam Ochoa" },
+    { "day": "Saturday", "time": "9:00 AM", "className": "Open Studio", "trainer": "Mia Chen" }
+  ],
+  "gallery": [
+    { "caption": "Studio floor", "category": "Facility", "swatchClassName": "bg-slate-200" },
+    { "caption": "Private coaching room", "category": "Facility", "swatchClassName": "bg-zinc-200" },
+    { "caption": "Strength Fundamentals", "category": "Classes", "swatchClassName": "bg-stone-200" },
+    { "caption": "Mobility & Recovery", "category": "Classes", "swatchClassName": "bg-slate-100" },
+    { "caption": "Member progress review", "category": "Results", "swatchClassName": "bg-zinc-100" }
+  ],
+  "transformations": [
+    { "memberName": "Priya D.", "duration": "12 weeks", "description": "Completed the Composition program and reports the first plan she's actually kept up with long-term.", "beforeSwatchClassName": "bg-slate-200", "afterSwatchClassName": "bg-zinc-300" }
+  ],
+  "testimonials": [
+    { "quote": "It doesn't feel like a gym. It feels like a studio that happens to have weights in it.", "author": "Priya D., Member since 2023", "rating": 5 },
+    { "quote": "The coaching is genuinely considered — nothing feels copy-pasted from a template.", "author": "Alex R., Member since 2022", "rating": 5 },
+    { "quote": "Quiet, clean, and the coaches actually know what they're doing.", "author": "Jordan M., Member since 2024", "rating": 5 }
+  ],
+  "faqs": [
+    { "question": "Is there a trial session?", "answer": "Yes — your first session is complimentary, no commitment required." },
+    { "question": "Can I pause my membership?", "answer": "Yes, membership can be paused for up to 30 days per year at no charge." }
+  ],
+  "blogPosts": [
+    {
+      "slug": "how-to-lose-weight",
+      "title": "On Changing Your Body Composition, Slowly",
+      "excerpt": "Why the least exciting approach to changing your body is usually the one that actually works.",
+      "author": "Sam Ochoa",
+      "date": "2026-06-12",
+      "content": [
+        "The most common mistake in body composition work isn't a bad diet — it's a good diet that's impossible to sustain for more than three weeks.",
+        "A modest, consistent deficit paired with adequate protein and two to three strength sessions a week will outperform almost any aggressive short-term plan over a year.",
+        "Measure progress in trends, not days. A single high-sodium meal will not undo a month of consistent work, and a single good week will not undo a month of inconsistency either.",
+        "The plan that works is the one you can still describe, calmly, six months from now."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Information we collect", "body": "We collect the information you provide when you join or contact us — name, email, phone number, and billing details necessary to process payments." },
+      { "heading": "How we use it", "body": "Your information is used to manage your membership, communicate about sessions and schedule changes, and process payments. We do not sell member data to third parties." },
+      { "heading": "Your rights", "body": "You can request a copy of the data we hold about you, or ask us to delete it, at any time." }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Membership terms", "body": "Memberships are billed monthly and can be cancelled with 30 days notice. Pauses of up to 30 days per year are available at no charge." },
+      { "heading": "Studio use", "body": "Members are expected to re-rack equipment and respect posted session capacity limits." },
+      { "heading": "Liability", "body": "Exercise carries inherent risk. Members are responsible for training within their own limits and consulting a physician before starting a new program if needed." }
+    ]
+  },
+  "seo": {
+    "title": "Apex Athletic — San Francisco",
+    "description": "A considered strength and conditioning studio in San Francisco. Complimentary first session."
+  }
+}

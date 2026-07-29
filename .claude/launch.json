@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site-gym",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "@locallaunch/site-gym", "dev"],
+      "port": 3000,
+      "autoPort": true
+    }
+  ]
+}

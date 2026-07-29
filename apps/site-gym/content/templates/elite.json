@@ -1,0 +1,125 @@
+{
+  "industry": "gym",
+  "theme": "gold",
+  "business": {
+    "name": "Elite Performance Club",
+    "city": "Miami",
+    "phone": "+1 305 555 0121",
+    "whatsapp": "13055550121",
+    "email": "concierge@eliteperformance.club",
+    "address": "1 Brickell Ave, Miami, FL",
+    "hours": "Mon–Sun · 6:00 AM – 9:00 PM · By appointment outside these hours",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Miami's Private Training Club",
+    "headline": "Excellence, By Design.",
+    "subheadline": "An atelier approach to fitness — private suites, elite coaching, and service that anticipates what you need.",
+    "primaryCta": { "label": "Reserve Your Membership", "href": "/contact" },
+    "secondaryCta": { "label": "View Membership", "href": "/membership" }
+  },
+  "about": {
+    "title": "Where performance meets hospitality",
+    "body": [
+      "Elite Performance Club was founded on a simple idea borrowed from the hospitality world: training should feel considered from the moment you arrive. Private suites, a concierge team, and coaches selected for both expertise and discretion.",
+      "We work with a deliberately small membership so that every session, every program, and every detail can be handled the way a five-star property handles its guests."
+    ],
+    "highlights": [
+      "Founded 2021 in Brickell",
+      "180 members, by application",
+      "9 elite coaching staff",
+      "Complimentary consultation for new members"
+    ]
+  },
+  "stats": [
+    { "icon": "Users", "value": "180", "label": "Members" },
+    { "icon": "Dumbbell", "value": "9", "label": "Elite Coaches" },
+    { "icon": "Trophy", "value": "5", "label": "Years Established" },
+    { "icon": "Star", "value": "5.0★", "label": "Member Rating" }
+  ],
+  "whyChooseUs": [
+    { "icon": "Dumbbell", "title": "Private Training Suites", "description": "Book a fully private suite for sessions that require complete focus and discretion." },
+    { "icon": "Award", "title": "Elite Coaching Staff", "description": "Every coach is personally selected for both technical expertise and client care." },
+    { "icon": "Apple", "title": "Bespoke Nutrition", "description": "A dedicated nutritionist builds a plan around your lifestyle, not a template." },
+    { "icon": "Calendar", "title": "Concierge Membership", "description": "A dedicated concierge manages your bookings, travel training needs, and preferences." }
+  ],
+  "plans": [
+    { "name": "Signature", "price": "$450", "period": "/mo", "features": ["Full club access", "Private locker suite", "Complimentary consultation"], "featured": false },
+    { "name": "Reserve", "price": "$850", "period": "/mo", "features": ["Everything in Signature", "2 private sessions / month", "Quarterly nutrition review"], "featured": true },
+    { "name": "Distinguished", "price": "$1,450", "period": "/mo", "features": ["Everything in Reserve", "Weekly private session", "Dedicated concierge"], "featured": false }
+  ],
+  "programs": [
+    { "slug": "personal-training", "name": "Private Coaching", "tagline": "Fully bespoke, entirely private", "description": "One-on-one programming in a private suite, with a coach dedicated to your goals and schedule.", "duration": "Ongoing, billed monthly", "features": ["Private suite for every session", "Programming reviewed monthly", "Direct coach access", "Includes full club membership"] },
+    { "slug": "weight-loss", "name": "Composition & Wellness", "tagline": "A refined approach to body composition", "description": "A 12-week program combining private coaching with bespoke nutrition planning from our in-house nutritionist.", "duration": "12 weeks", "features": ["Weekly private sessions", "Dedicated nutritionist", "Bi-weekly progress consultations", "Access to all club amenities"] }
+  ],
+  "trainers": [
+    { "slug": "coach-alexandra", "name": "Alexandra Voss", "role": "Director of Coaching", "bio": "12 years coaching high-performance private clients across Europe and the US.", "certifications": ["NSCA-CSCS", "USAW Level 2"], "specialties": ["Private coaching", "Strength", "Executive performance"] },
+    { "slug": "coach-julian", "name": "Julian Ferreira", "role": "Performance Coach", "bio": "Works with members preparing for specific performance or aesthetic goals on a defined timeline.", "certifications": ["NASM-CPT", "Precision Nutrition L2"], "specialties": ["Body composition", "Nutrition coaching", "Performance"] },
+    { "slug": "coach-isabelle", "name": "Isabelle Laurent", "role": "Wellness Coach", "bio": "Oversees recovery and mobility programming for our Distinguished tier members.", "certifications": ["DPT", "FRC Mobility Specialist"], "specialties": ["Mobility", "Recovery", "Injury prevention"] }
+  ],
+  "classSchedule": [
+    { "day": "Monday", "time": "By appointment", "className": "Private Coaching", "trainer": "Alexandra Voss" },
+    { "day": "Tuesday", "time": "By appointment", "className": "Composition & Wellness", "trainer": "Julian Ferreira" },
+    { "day": "Wednesday", "time": "By appointment", "className": "Recovery Session", "trainer": "Isabelle Laurent" },
+    { "day": "Thursday", "time": "By appointment", "className": "Private Coaching", "trainer": "Alexandra Voss" },
+    { "day": "Saturday", "time": "By appointment", "className": "Performance Session", "trainer": "Julian Ferreira" }
+  ],
+  "gallery": [
+    { "caption": "Private training suite", "category": "Facility", "swatchClassName": "bg-amber-100" },
+    { "caption": "Members' lounge", "category": "Facility", "swatchClassName": "bg-yellow-50" },
+    { "caption": "Recovery suite", "category": "Facility", "swatchClassName": "bg-amber-50" },
+    { "caption": "Private coaching session", "category": "Classes", "swatchClassName": "bg-yellow-100" },
+    { "caption": "Member consultation", "category": "Results", "swatchClassName": "bg-amber-100" }
+  ],
+  "transformations": [
+    { "memberName": "Client, name withheld by request", "duration": "12 weeks", "description": "Completed the Composition & Wellness program ahead of a major public appearance.", "beforeSwatchClassName": "bg-yellow-50", "afterSwatchClassName": "bg-amber-100" }
+  ],
+  "testimonials": [
+    { "quote": "The level of attention is closer to a five-star hotel than a gym. Every detail is considered.", "author": "Member since 2022", "rating": 5 },
+    { "quote": "My coach and the nutritionist work together seamlessly. I've never had programming this cohesive.", "author": "Member since 2023", "rating": 5 },
+    { "quote": "Worth it purely for the privacy and the quality of coaching. No compromises here.", "author": "Member since 2024", "rating": 5 }
+  ],
+  "faqs": [
+    { "question": "Is membership open to the public?", "answer": "Membership is by application to maintain a deliberately small, well-served community." },
+    { "question": "Can sessions be arranged while traveling?", "answer": "Yes — your concierge can arrange sessions at partner facilities in select cities." }
+  ],
+  "blogPosts": [
+    {
+      "slug": "how-to-lose-weight",
+      "title": "The Discipline of Doing Less, Better",
+      "excerpt": "On why the most effective body composition plans are often the most restrained.",
+      "author": "Julian Ferreira",
+      "date": "2026-06-12",
+      "content": [
+        "The clients who see the most refined results rarely follow the most aggressive plans — they follow the most consistent ones.",
+        "A measured caloric deficit, adequate protein, and two to three well-coached strength sessions a week will outperform an extreme regimen followed for three weeks and abandoned.",
+        "We review progress in trends over weeks, not days, and we adjust deliberately rather than reactively.",
+        "The goal is never a dramatic before-and-after. It's a plan refined enough to become simply how you live."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Information we collect", "body": "We collect the information provided during your membership application and consultations — contact details, health information relevant to programming, and billing details." },
+      { "heading": "How we use it", "body": "Your information is used solely to deliver your membership services and is handled with the same discretion we apply to all client relationships. We do not sell member data to third parties." },
+      { "heading": "Your rights", "body": "You may request a copy of your data, or its deletion, at any time through your concierge." }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Membership terms", "body": "Membership is by application and billed monthly. Cancellation requires 30 days written notice to your concierge." },
+      { "heading": "Facility use", "body": "Private suites must be reserved in advance through your concierge. Guest access is available by prior arrangement." },
+      { "heading": "Liability", "body": "Exercise carries inherent risk. Members are responsible for training within their own limits and disclosing relevant health information to their coach." }
+    ]
+  },
+  "seo": {
+    "title": "Elite Performance Club — Miami",
+    "description": "A private training club in Miami offering bespoke coaching and concierge membership."
+  }
+}
