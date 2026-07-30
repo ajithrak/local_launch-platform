@@ -34,6 +34,7 @@
       "Complimentary first session"
     ]
   },
+  "googleReviews": { "rating": 4.9, "reviewCount": 96 },
   "stats": [
     { "icon": "Users", "value": "320+", "label": "Members" },
     { "icon": "Dumbbell", "value": "10", "label": "Specialist Coaches" },
@@ -86,7 +87,10 @@
   ],
   "faqs": [
     { "question": "Is there a trial session?", "answer": "Yes — your first session is complimentary, no commitment required." },
-    { "question": "Can I pause my membership?", "answer": "Yes, membership can be paused for up to 30 days per year at no charge." }
+    { "question": "Can I pause my membership?", "answer": "Yes, membership can be paused for up to 30 days per year at no charge." },
+    { "question": "How small are the coaching groups?", "answer": "No more than 6 clients per coach in any session, so form actually gets corrected." },
+    { "question": "Is there a cancellation fee?", "answer": "No. Memberships are month-to-month with no lock-in and no cancellation fees." },
+    { "question": "Do you offer nutrition coaching separately?", "answer": "Yes — nutrition guidance is included in Studio and Private plans, or available as a standalone add-on." }
   ],
   "blogPosts": [
     {

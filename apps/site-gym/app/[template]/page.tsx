@@ -6,6 +6,8 @@ import { Trainers } from '@/components/Trainers';
 import { ProgramsList } from '@/components/ProgramsList';
 import { Transformations } from '@/components/Transformations';
 import { Testimonial } from '@/components/Testimonial';
+import { GoogleReviews } from '@/components/GoogleReviews';
+import { LocationSection } from '@/components/LocationSection';
 import { HomeCta } from '@/components/HomeCta';
 import { requireTemplateConfig } from '@/lib/templates';
 
@@ -43,6 +45,8 @@ export default async function Home({ params }: { params: Promise<{ template: str
 
       <Transformations transformations={config.transformations} />
       {config.testimonials[0] && <Testimonial testimonial={config.testimonials[0]} />}
+      {config.googleReviews && <GoogleReviews reviews={config.googleReviews} business={config.business} />}
+      <LocationSection business={config.business} />
       <HomeCta />
     </>
   );

@@ -32,13 +32,29 @@ export function Footer({ business }: { business: BusinessInfo }) {
           <p className="mt-1 flex items-center gap-2 text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
             <Clock size={13} /> {business.hours}
           </p>
-          <p className="mt-1 flex items-center gap-2 text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
+          <a
+            href={`tel:${business.phone.replace(/[^\d+]/g, '')}`}
+            className="mt-1 flex items-center gap-2 text-sm hover:underline"
+            style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}
+          >
             <Phone size={13} /> {business.phone}
-          </p>
+          </a>
           <div className="mt-4 flex gap-4" style={{ color: 'var(--color-muted)' }}>
-            {business.socials.instagram && <Instagram size={18} />}
-            {business.socials.facebook && <Facebook size={18} />}
-            {business.socials.youtube && <Youtube size={18} />}
+            {business.socials.instagram && (
+              <a href={business.socials.instagram} target="_blank" rel="noreferrer" aria-label="Instagram">
+                <Instagram size={18} />
+              </a>
+            )}
+            {business.socials.facebook && (
+              <a href={business.socials.facebook} target="_blank" rel="noreferrer" aria-label="Facebook">
+                <Facebook size={18} />
+              </a>
+            )}
+            {business.socials.youtube && (
+              <a href={business.socials.youtube} target="_blank" rel="noreferrer" aria-label="YouTube">
+                <Youtube size={18} />
+              </a>
+            )}
           </div>
         </div>
 

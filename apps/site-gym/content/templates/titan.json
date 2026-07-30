@@ -35,6 +35,7 @@
       "Free trial on every plan"
     ]
   },
+  "googleReviews": { "rating": 4.9, "reviewCount": 214 },
   "stats": [
     { "icon": "Users", "value": "500+", "label": "Members" },
     { "icon": "Dumbbell", "value": "15", "label": "Certified Trainers" },
@@ -93,7 +94,10 @@
   ],
   "faqs": [
     { "question": "Do you offer a free trial?", "answer": "Yes — every plan includes one free trial class before you commit." },
-    { "question": "Can I freeze my membership?", "answer": "Memberships can be paused for up to 30 days per year, no extra charge." }
+    { "question": "Can I freeze my membership?", "answer": "Memberships can be paused for up to 30 days per year, no extra charge." },
+    { "question": "What should I bring to my first session?", "answer": "Just workout clothes and a water bottle — we provide all equipment, and towels are available at the front desk." },
+    { "question": "Is there a cancellation fee?", "answer": "No. All memberships are month-to-month with 30 days notice — no cancellation fees, ever." },
+    { "question": "Do you offer personal training?", "answer": "Yes, one-on-one sessions are available on all plans and included with the Pro and Elite tiers." }
   ],
   "blogPosts": [
     {

@@ -52,6 +52,11 @@ export const membershipPlanSchema = z.object({
   featured: z.boolean().default(false),
 });
 
+export const googleReviewsSchema = z.object({
+  rating: z.number().min(0).max(5),
+  reviewCount: z.number().min(0),
+});
+
 export const testimonialSchema = z.object({
   quote: z.string().min(1),
   author: z.string().min(1),
@@ -116,6 +121,7 @@ export const siteConfigBaseSchema = z.object({
   whyChooseUs: z.array(whyChooseUsItemSchema).default([]),
   plans: z.array(membershipPlanSchema).default([]),
   testimonials: z.array(testimonialSchema).default([]),
+  googleReviews: googleReviewsSchema.optional(),
   faqs: z.array(faqSchema).default([]),
   gallery: z.array(galleryImageSchema).default([]),
   blogPosts: z.array(blogPostSchema).default([]),
@@ -131,6 +137,7 @@ export type About = z.infer<typeof aboutSchema>;
 export type Stat = z.infer<typeof statSchema>;
 export type MembershipPlan = z.infer<typeof membershipPlanSchema>;
 export type Testimonial = z.infer<typeof testimonialSchema>;
+export type GoogleReviews = z.infer<typeof googleReviewsSchema>;
 export type Faq = z.infer<typeof faqSchema>;
 export type GalleryImage = z.infer<typeof galleryImageSchema>;
 export type BlogPost = z.infer<typeof blogPostSchema>;

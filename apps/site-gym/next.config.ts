@@ -1,8 +1,9 @@
 import type { NextConfig } from 'next';
+import { APP_BASE_PATH } from './lib/basePath';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  basePath: '/gym',
+  basePath: APP_BASE_PATH,
   webpack: (config, { dev }) => {
     // The persistent on-disk webpack cache repeatedly fails to write on this
     // machine (rename ENOENT on .pack.gz_ -> .pack.gz), and the corrupted

@@ -4,10 +4,13 @@ import { Card } from '@locallaunch/ui';
 import { useTheme } from '@locallaunch/theme-engine';
 import { motion } from 'framer-motion';
 import { ChevronRight, Star } from 'lucide-react';
+import Link from 'next/link';
 import type { MembershipPlan } from '@locallaunch/config-schema';
+import { useTemplateBasePath } from './TemplateBasePath';
 
 export function Membership({ plans }: { plans: MembershipPlan[] }) {
   const theme = useTheme();
+  const basePath = useTemplateBasePath();
   const cardVariant = theme.key === 'gold' ? 'default' : 'plain';
 
   return (
@@ -68,8 +71,9 @@ export function Membership({ plans }: { plans: MembershipPlan[] }) {
                   </li>
                 ))}
               </ul>
-              <button
-                className="w-full py-2.5 text-sm font-semibold transition hover:brightness-110 active:scale-[0.98]"
+              <Link
+                href={`${basePath}/contact`}
+                className="block w-full py-2.5 text-center text-sm font-semibold transition hover:brightness-110 active:scale-[0.98]"
                 style={{
                   backgroundColor: plan.featured ? 'var(--color-accent)' : 'transparent',
                   color: plan.featured ? 'var(--color-accent-contrast)' : 'var(--color-foreground)',
@@ -78,7 +82,7 @@ export function Membership({ plans }: { plans: MembershipPlan[] }) {
                 }}
               >
                 Choose {plan.name}
-              </button>
+              </Link>
             </Card>
           </motion.div>
         ))}

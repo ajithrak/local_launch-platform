@@ -1,4 +1,6 @@
+import { Faq } from '@/components/Faq';
 import { Membership } from '@/components/Membership';
+import { MembershipComparison } from '@/components/MembershipComparison';
 import { PageHeader } from '@/components/PageHeader';
 import { requireTemplateConfig } from '@/lib/templates';
 
@@ -14,6 +16,8 @@ export default async function MembershipPage({ params }: { params: Promise<{ tem
         description="No lock-in contracts, no hidden fees. Pick the plan that matches how often you show up."
       />
       <Membership plans={config.plans} />
+      <MembershipComparison plans={config.plans} />
+      <Faq faqs={config.faqs} />
     </>
   );
 }

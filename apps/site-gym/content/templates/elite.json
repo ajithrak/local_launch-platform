@@ -33,6 +33,7 @@
       "Complimentary consultation for new members"
     ]
   },
+  "googleReviews": { "rating": 5.0, "reviewCount": 58 },
   "stats": [
     { "icon": "Users", "value": "180", "label": "Members" },
     { "icon": "Dumbbell", "value": "9", "label": "Elite Coaches" },
@@ -85,7 +86,10 @@
   ],
   "faqs": [
     { "question": "Is membership open to the public?", "answer": "Membership is by application to maintain a deliberately small, well-served community." },
-    { "question": "Can sessions be arranged while traveling?", "answer": "Yes — your concierge can arrange sessions at partner facilities in select cities." }
+    { "question": "Can sessions be arranged while traveling?", "answer": "Yes — your concierge can arrange sessions at partner facilities in select cities." },
+    { "question": "Can I bring a guest?", "answer": "Reserve and Distinguished members may bring one guest per visit with advance concierge notice." },
+    { "question": "What is the cancellation policy?", "answer": "Membership is billed monthly and may be cancelled with 30 days written notice to your concierge." },
+    { "question": "Is nutrition coaching included?", "answer": "A complimentary consultation is included with every plan; ongoing nutrition programming is included from Reserve upward." }
   ],
   "blogPosts": [
     {

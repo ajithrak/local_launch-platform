@@ -34,6 +34,7 @@
       "First class is always free"
     ]
   },
+  "googleReviews": { "rating": 4.8, "reviewCount": 187 },
   "stats": [
     { "icon": "Users", "value": "600+", "label": "Members" },
     { "icon": "Dumbbell", "value": "14", "label": "Competitor Coaches" },
@@ -88,7 +89,10 @@
   ],
   "faqs": [
     { "question": "Is CrossFit scaled for beginners?", "answer": "Yes — every WOD has a scaled track, and your first class is always free." },
-    { "question": "Do you offer month-to-month membership?", "answer": "Yes, all memberships are month-to-month with no cancellation fees." }
+    { "question": "Do you offer month-to-month membership?", "answer": "Yes, all memberships are month-to-month with no cancellation fees." },
+    { "question": "What gear do I need?", "answer": "Just gym clothes and shoes with a flat sole. Chalk, bands, and all barbells/plates are provided." },
+    { "question": "Is there a minimum age?", "answer": "Members must be 16 or older; 16-17 year olds need a parent or guardian to sign a waiver." },
+    { "question": "Can I drop in without a membership?", "answer": "Yes, single class drop-ins are available at the front desk for visiting athletes." }
   ],
   "blogPosts": [
     {

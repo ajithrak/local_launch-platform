@@ -6,6 +6,7 @@ import { useState, type ReactNode } from 'react';
 import { Nav } from './Nav';
 import { Footer } from './Footer';
 import { WhatsAppButton } from './WhatsAppButton';
+import { CallNowButton } from './CallNowButton';
 import { ThemeSwitcher } from './ThemeSwitcher';
 import { TemplateBasePathProvider } from './TemplateBasePath';
 
@@ -35,6 +36,7 @@ export function GymShell({ business, defaultTheme, basePath, showThemeSwitcher =
         <main className="flex-1">{children}</main>
         <Footer business={business} />
         <WhatsAppButton whatsapp={business.whatsapp} />
+        <CallNowButton phone={business.phone} />
       </ThemeProvider>
     </TemplateBasePathProvider>
   );

@@ -34,6 +34,7 @@
       "Free baseline assessment for new members"
     ]
   },
+  "googleReviews": { "rating": 4.9, "reviewCount": 142 },
   "stats": [
     { "icon": "Users", "value": "410+", "label": "Members" },
     { "icon": "Dumbbell", "value": "11", "label": "Certified Coaches" },
@@ -87,7 +88,10 @@
   ],
   "faqs": [
     { "question": "Do I need to be tech-savvy to train here?", "answer": "Not at all — the dashboard is designed to be simple, and your coach walks you through it in your first session." },
-    { "question": "Is the baseline assessment free?", "answer": "Yes, every new member gets a free baseline assessment before starting any program." }
+    { "question": "Is the baseline assessment free?", "answer": "Yes, every new member gets a free baseline assessment before starting any program." },
+    { "question": "What happens to my training data?", "answer": "It's used only to power your dashboard and inform your coach's programming — never sold, and exportable or deletable anytime." },
+    { "question": "Can I cancel anytime?", "answer": "Yes, all plans are month-to-month with no cancellation fees." },
+    { "question": "Do I need my own wearable device?", "answer": "No — our connected equipment logs your training automatically. A wearable is optional, not required." }
   ],
   "blogPosts": [
     {
