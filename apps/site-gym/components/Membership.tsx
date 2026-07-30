@@ -7,7 +7,7 @@ import type { MembershipPlan } from '@locallaunch/config-schema';
 
 export function Membership({ plans }: { plans: MembershipPlan[] }) {
   return (
-    <section className="px-6 pb-16 md:px-10">
+    <section className="px-6 pb-16 pt-3 md:px-10">
       <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-3">
         {plans.map((plan, index) => (
           <motion.div
@@ -17,7 +17,7 @@ export function Membership({ plans }: { plans: MembershipPlan[] }) {
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.5, delay: index * 0.08 }}
             whileHover={{ y: -4 }}
-            className="relative"
+            className={`relative${plan.featured ? ' md:-translate-y-3' : ''}`}
           >
             {plan.featured && (
               <span
@@ -32,8 +32,17 @@ export function Membership({ plans }: { plans: MembershipPlan[] }) {
               </span>
             )}
             <Card
+              variant="plain"
               className="h-full"
-              style={plan.featured ? { borderColor: 'var(--color-accent)', borderWidth: 2 } : undefined}
+              style={
+                plan.featured
+                  ? {
+                      borderColor: 'var(--color-accent)',
+                      borderWidth: 2,
+                      backgroundColor: 'color-mix(in srgb, var(--color-accent) 6%, var(--color-surface))',
+                    }
+                  : undefined
+              }
             >
               <div className="mb-4" style={{ color: plan.featured ? 'var(--color-accent)' : 'var(--color-foreground)' }}>
                 <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 20 }}>{plan.name}</div>

@@ -6,6 +6,13 @@ import { cn } from '../cn';
 
 export interface CardProps extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
+  /**
+   * 'default' renders the theme's full card recipe (top accent bar, ornate
+   * corners). 'plain' keeps the shared border/shadow/radius but drops those
+   * decorations — for sections (pricing, profiles, list rows) that need a
+   * quieter container so the page doesn't read as one repeated card shape.
+   */
+  variant?: 'default' | 'plain';
 }
 
 /**
@@ -14,7 +21,7 @@ export interface CardProps extends HTMLAttributes<HTMLDivElement> {
  * Box-shadow lives in className (not inline style) so the hover variant can
  * actually take effect; inline styles would out-specificity any :hover rule.
  */
-export function Card({ className, children, style, ...props }: CardProps) {
+export function Card({ className, children, style, variant = 'default', ...props }: CardProps) {
   const theme = useTheme();
   const hasGlow = Boolean(theme.shadow.glow);
 
@@ -34,7 +41,7 @@ export function Card({ className, children, style, ...props }: CardProps) {
       }}
       {...props}
     >
-      {theme.card.topBar && (
+      {variant === 'default' && theme.card.topBar && (
         <div
           aria-hidden
           className="absolute inset-x-0 top-0 h-2"
@@ -43,7 +50,7 @@ export function Card({ className, children, style, ...props }: CardProps) {
           }}
         />
       )}
-      {theme.card.ornate && (
+      {variant === 'default' && theme.card.ornate && (
         <>
           <span
             aria-hidden

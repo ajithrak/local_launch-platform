@@ -18,7 +18,7 @@ export function MembershipPreview({ plans }: { plans: MembershipPlan[] }) {
       >
         Membership
       </h2>
-      <div className="mx-auto grid max-w-4xl gap-4 sm:grid-cols-3">
+      <div className="mx-auto grid max-w-4xl gap-4 pt-3 sm:grid-cols-3">
         {plans.map((plan, index) => (
           <motion.div
             key={plan.name}
@@ -26,6 +26,7 @@ export function MembershipPreview({ plans }: { plans: MembershipPlan[] }) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.4, delay: index * 0.08 }}
+            className={plan.featured ? 'sm:-translate-y-3' : undefined}
           >
             <Link href={`${basePath}/membership`} className="relative block">
               {plan.featured && (
@@ -41,8 +42,17 @@ export function MembershipPreview({ plans }: { plans: MembershipPlan[] }) {
                 </span>
               )}
               <Card
+                variant="plain"
                 className="h-full text-center transition hover:-translate-y-1"
-                style={plan.featured ? { borderColor: 'var(--color-accent)', borderWidth: 2 } : undefined}
+                style={
+                  plan.featured
+                    ? {
+                        borderColor: 'var(--color-accent)',
+                        borderWidth: 2,
+                        backgroundColor: 'color-mix(in srgb, var(--color-accent) 6%, var(--color-surface))',
+                      }
+                    : undefined
+                }
               >
                 <p className="mb-1 font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
                   {plan.name}

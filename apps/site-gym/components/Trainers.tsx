@@ -22,12 +22,15 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
             transition={{ duration: 0.5, delay: index * 0.08 }}
           >
             <Link href={`${basePath}/trainers/${trainer.slug}`}>
-              <Card className="h-full transition hover:-translate-y-1">
+              <Card variant="plain" className="h-full text-center transition hover:-translate-y-1">
                 <div
-                  className="mb-4 flex h-14 w-14 items-center justify-center rounded-full"
-                  style={{ backgroundColor: 'color-mix(in srgb, var(--color-accent) 15%, transparent)' }}
+                  className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full border-2"
+                  style={{
+                    borderColor: 'var(--color-accent)',
+                    backgroundColor: 'color-mix(in srgb, var(--color-accent) 12%, transparent)',
+                  }}
                 >
-                  <Users size={24} style={{ color: 'var(--color-accent)' }} />
+                  <Users size={28} style={{ color: 'var(--color-accent)' }} />
                 </div>
                 <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 19, color: 'var(--color-foreground)' }}>
                   {trainer.name}

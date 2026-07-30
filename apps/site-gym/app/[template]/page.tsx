@@ -38,7 +38,7 @@ export default async function Home({ params }: { params: Promise<{ template: str
 
       <div className="pt-16">
         <SectionHeading>Popular Programs</SectionHeading>
-        <ProgramsList programs={config.programs.slice(0, 4)} />
+        <ProgramsList programs={config.programs.slice(0, 4)} compact />
       </div>
 
       <Transformations transformations={config.transformations} />
