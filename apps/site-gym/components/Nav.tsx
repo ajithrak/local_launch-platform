@@ -56,7 +56,7 @@ export function Nav({ business }: NavProps) {
 
   if (theme.key === 'gold') {
     return (
-      <nav className="w-full px-6 py-5 md:px-10" style={{ color: 'var(--color-foreground)' }}>
+      <nav className="relative w-full px-6 py-5 md:px-10" style={{ color: 'var(--color-foreground)' }}>
         <div className="mb-3 flex justify-center">
           <Link href={basePath} style={{ ...displayFont, fontSize: 24 }}>
             {business.name}
@@ -70,13 +70,15 @@ export function Nav({ business }: NavProps) {
             <NavLinkUnderline key={link.href} label={link.label} href={withBase(link.href)} active={isActive(link.href)} />
           ))}
         </div>
+        <MobileToggle open={open} onToggle={() => setOpen((v) => !v)} className="absolute right-6 top-6 md:hidden" />
+        <MobileMenu open={open} basePath={basePath} onNavigate={() => setOpen(false)} />
       </nav>
     );
   }
 
   if (theme.key === 'minimal') {
     return (
-      <nav className="flex w-full items-center justify-between px-6 py-6 md:px-10" style={{ color: 'var(--color-foreground)' }}>
+      <nav className="relative flex w-full items-center justify-between px-6 py-6 md:px-10" style={{ color: 'var(--color-foreground)' }}>
         <Link href={basePath} style={{ ...displayFont, fontSize: 18, fontWeight: 700 }}>
           {business.name}
         </Link>
@@ -102,6 +104,8 @@ export function Nav({ business }: NavProps) {
             );
           })}
         </div>
+        <MobileToggle open={open} onToggle={() => setOpen((v) => !v)} className="md:hidden" />
+        <MobileMenu open={open} basePath={basePath} onNavigate={() => setOpen(false)} />
       </nav>
     );
   }
@@ -133,6 +137,8 @@ export function Nav({ business }: NavProps) {
             Join Now
           </Link>
         </div>
+        <MobileToggle open={open} onToggle={() => setOpen((v) => !v)} className="md:hidden" />
+        <MobileMenu open={open} basePath={basePath} onNavigate={() => setOpen(false)} />
       </nav>
     );
   }
@@ -154,6 +160,8 @@ export function Nav({ business }: NavProps) {
           <NavLinkUnderline key={link.href} label={link.label} href={withBase(link.href)} active={isActive(link.href)} glow />
         ))}
       </div>
+      <MobileToggle open={open} onToggle={() => setOpen((v) => !v)} className="md:hidden" />
+      <MobileMenu open={open} basePath={basePath} onNavigate={() => setOpen(false)} />
     </nav>
   );
 }

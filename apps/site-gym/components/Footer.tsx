@@ -21,7 +21,7 @@ export function Footer({ business }: { business: BusinessInfo }) {
 
   return (
     <footer className="px-6 py-10 md:px-10" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
-      <div className="mx-auto grid max-w-5xl gap-8 md:grid-cols-3">
+      <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-3">
         <div>
           <div style={{ fontFamily: 'var(--font-display)', fontSize: 18, color: 'var(--color-foreground)' }}>
             {business.name}

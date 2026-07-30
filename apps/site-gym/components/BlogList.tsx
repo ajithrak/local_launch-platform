@@ -9,7 +9,7 @@ export function BlogList({ posts }: { posts: BlogPost[] }) {
   const basePath = useTemplateBasePath();
 
   return (
-    <section className="grid gap-6 px-6 pb-16 md:grid-cols-2 md:px-10">
+    <section className="grid grid-cols-1 gap-6 px-6 pb-16 md:grid-cols-2 md:px-10">
       {posts.map((post) => (
         <Link key={post.slug} href={`${basePath}/blog/${post.slug}`}>
           <Card className="h-full transition hover:-translate-y-1">

@@ -26,7 +26,7 @@ export default async function Home({ params }: { params: Promise<{ template: str
 
   return (
     <>
-      <Hero hero={config.hero} />
+      <Hero hero={config.hero} gallery={config.gallery} />
       <Stats stats={config.stats} />
       <WhyChooseUs items={config.whyChooseUs} />
       <MembershipPreview plans={config.plans} />

@@ -7,7 +7,7 @@ import type { Testimonial } from '@locallaunch/config-schema';
 
 export function TestimonialsList({ testimonials }: { testimonials: Testimonial[] }) {
   return (
-    <section className="grid gap-6 px-6 pb-16 md:grid-cols-3 md:px-10">
+    <section className="grid grid-cols-1 gap-6 px-6 pb-16 md:grid-cols-3 md:px-10">
       {testimonials.map((testimonial, index) => (
         <motion.div
           key={testimonial.author}

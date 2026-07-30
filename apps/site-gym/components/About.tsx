@@ -5,7 +5,7 @@ import type { About as AboutConfig } from '@locallaunch/config-schema';
 
 export function About({ about }: { about: AboutConfig }) {
   return (
-    <section className="grid gap-10 px-6 pb-16 md:grid-cols-3 md:px-10">
+    <section className="grid grid-cols-1 gap-10 px-6 pb-16 md:grid-cols-3 md:px-10">
       <div className="md:col-span-2 space-y-4">
         {about.body.map((paragraph, index) => (
           <motion.p

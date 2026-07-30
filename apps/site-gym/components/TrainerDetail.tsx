@@ -4,7 +4,7 @@ import type { Trainer } from '@locallaunch/config-schema';
 
 export function TrainerDetail({ trainer }: { trainer: Trainer }) {
   return (
-    <section className="grid gap-8 px-6 pb-16 md:grid-cols-3 md:px-10">
+    <section className="grid grid-cols-1 gap-8 px-6 pb-16 md:grid-cols-3 md:px-10">
       <div className="md:col-span-2">
         <div className="mb-6 flex items-center gap-4">
           <div

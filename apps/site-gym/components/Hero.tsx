@@ -3,13 +3,15 @@
 import { useTheme } from '@locallaunch/theme-engine';
 import { buttonVariants } from '@locallaunch/ui';
 import { motion } from 'framer-motion';
-import { Crown, Dumbbell } from 'lucide-react';
+import { Crown } from 'lucide-react';
 import Link from 'next/link';
-import type { Hero as HeroConfig } from '@locallaunch/config-schema';
+import type { GalleryImage, Hero as HeroConfig } from '@locallaunch/config-schema';
+import { HeroCarousel } from './HeroCarousel';
 import { useTemplateBasePath } from './TemplateBasePath';
 
 interface HeroProps {
   hero: HeroConfig;
+  gallery: GalleryImage[];
 }
 
 const fadeUp = {
@@ -17,7 +19,7 @@ const fadeUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] as const } },
 };
 
-export function Hero({ hero }: HeroProps) {
+export function Hero({ hero, gallery }: HeroProps) {
   const theme = useTheme();
   const basePath = useTemplateBasePath();
   const withBase = (href: string) => `${basePath}${href}`;
@@ -31,9 +33,9 @@ export function Hero({ hero }: HeroProps) {
         initial="hidden"
         animate="show"
         variants={fadeUp}
-        className="grid items-center gap-10 px-6 py-16 md:grid-cols-2 md:px-10 md:py-24"
+        className="grid grid-cols-1 items-center gap-10 px-6 py-16 md:grid-cols-2 md:px-10 md:py-24"
       >
-        <div>
+        <div className="min-w-0">
           {hero.eyebrow && (
             <p className="mb-4 text-xs uppercase" style={{ ...bodyFont, color: 'var(--color-accent)', letterSpacing: 2 }}>
               {hero.eyebrow}
@@ -58,11 +60,9 @@ export function Hero({ hero }: HeroProps) {
             )}
           </div>
         </div>
-        <div className="relative h-72 md:h-96" style={{ backgroundColor: 'var(--color-surface)', border: '1px solid var(--color-border)' }}>
-          <div className="absolute inset-0 flex items-center justify-center" style={{ color: 'var(--color-border)' }}>
-            <Dumbbell size={90} strokeWidth={1} />
-          </div>
-          <div className="absolute inset-y-0 right-0 w-0.5" style={{ backgroundColor: 'var(--color-accent)' }} />
+        <div className="relative min-w-0 h-72 md:h-96" style={{ border: '1px solid var(--color-border)' }}>
+          <HeroCarousel images={gallery} className="h-full" rounded={false} />
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-0.5" style={{ backgroundColor: 'var(--color-accent)' }} />
         </div>
       </motion.section>
     );
@@ -92,6 +92,7 @@ export function Hero({ hero }: HeroProps) {
         >
           {hero.primaryCta.label}
         </Link>
+        <HeroCarousel images={gallery} className="mt-12 h-64 w-full md:h-80" />
       </motion.section>
     );
   }
@@ -123,6 +124,7 @@ export function Hero({ hero }: HeroProps) {
               {hero.primaryCta.label} →
             </Link>
           </div>
+          <HeroCarousel images={gallery} className="mt-10 h-72 w-full md:h-[26rem]" rounded={false} />
         </div>
       </motion.section>
     );
@@ -134,36 +136,39 @@ export function Hero({ hero }: HeroProps) {
         initial="hidden"
         animate="show"
         variants={fadeUp}
-        className="relative overflow-hidden px-6 pb-20 pt-14 md:px-10"
+        className="relative grid grid-cols-1 items-center gap-10 overflow-hidden px-6 pb-20 pt-14 md:grid-cols-2 md:px-10"
       >
         <div
           aria-hidden
           className="absolute -right-16 -top-16 h-72 w-72 rounded-full opacity-10"
           style={{ backgroundColor: 'var(--color-accent)' }}
         />
-        {hero.eyebrow && (
-          <p className="mb-3 text-sm font-bold uppercase" style={{ ...bodyFont, color: 'var(--color-accent)', letterSpacing: 1 }}>
-            {hero.eyebrow}
-          </p>
-        )}
-        <h1 style={{ ...displayFont, fontSize: 'clamp(3rem, 9vw, 6rem)', lineHeight: 0.92 }}>{hero.headline}</h1>
-        <p className="mt-5 max-w-lg text-lg" style={{ ...bodyFont, color: 'var(--color-muted)' }}>
-          {hero.subheadline}
-        </p>
-        <div className="mt-8 flex flex-wrap gap-3">
-          <Link href={withBase(hero.primaryCta.href)} className={buttonVariants({ variant: 'primary', size: 'pill' })} style={{ fontFamily: 'var(--font-body)' }}>
-            {hero.primaryCta.label}
-          </Link>
-          {hero.secondaryCta && (
-            <Link
-              href={withBase(hero.secondaryCta.href)}
-              className={buttonVariants({ size: 'pill' })}
-              style={{ backgroundColor: 'var(--color-surface-alt)', color: 'var(--color-accent)', fontFamily: 'var(--font-body)' }}
-            >
-              {hero.secondaryCta.label}
-            </Link>
+        <div className="min-w-0">
+          {hero.eyebrow && (
+            <p className="mb-3 text-sm font-bold uppercase" style={{ ...bodyFont, color: 'var(--color-accent)', letterSpacing: 1 }}>
+              {hero.eyebrow}
+            </p>
           )}
+          <h1 style={{ ...displayFont, fontSize: 'clamp(3rem, 9vw, 6rem)', lineHeight: 0.92 }}>{hero.headline}</h1>
+          <p className="mt-5 max-w-lg text-lg" style={{ ...bodyFont, color: 'var(--color-muted)' }}>
+            {hero.subheadline}
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href={withBase(hero.primaryCta.href)} className={buttonVariants({ variant: 'primary', size: 'pill' })} style={{ fontFamily: 'var(--font-body)' }}>
+              {hero.primaryCta.label}
+            </Link>
+            {hero.secondaryCta && (
+              <Link
+                href={withBase(hero.secondaryCta.href)}
+                className={buttonVariants({ size: 'pill' })}
+                style={{ backgroundColor: 'var(--color-surface-alt)', color: 'var(--color-accent)', fontFamily: 'var(--font-body)' }}
+              >
+                {hero.secondaryCta.label}
+              </Link>
+            )}
+          </div>
         </div>
+        <HeroCarousel images={gallery} className="relative min-w-0 h-64 md:h-96" />
       </motion.section>
     );
   }
@@ -174,14 +179,14 @@ export function Hero({ hero }: HeroProps) {
       initial="hidden"
       animate="show"
       variants={fadeUp}
-      className="relative overflow-hidden px-6 py-20 md:px-10 md:py-28"
+      className="relative grid grid-cols-1 items-center gap-10 overflow-hidden px-6 py-20 md:grid-cols-2 md:px-10 md:py-28"
       style={{
         backgroundImage:
           'linear-gradient(var(--color-surface-alt) 1px, transparent 1px), linear-gradient(90deg, var(--color-surface-alt) 1px, transparent 1px)',
         backgroundSize: '34px 34px',
       }}
     >
-      <div className="max-w-2xl">
+      <div className="min-w-0 max-w-2xl">
         <p className="mb-4 text-xs uppercase" style={{ ...bodyFont, color: 'var(--color-secondary)', letterSpacing: 3 }}>
           // system online
         </p>
@@ -212,6 +217,16 @@ export function Hero({ hero }: HeroProps) {
         >
           &gt; {hero.primaryCta.label}
         </Link>
+      </div>
+      <div
+        className="relative min-w-0"
+        style={{
+          border: '1px solid var(--color-accent)',
+          borderRadius: 'var(--radius-md)',
+          boxShadow: '0 0 26px color-mix(in srgb, var(--color-accent) 30%, transparent)',
+        }}
+      >
+        <HeroCarousel images={gallery} className="h-64 md:h-96" />
       </div>
     </motion.section>
   );

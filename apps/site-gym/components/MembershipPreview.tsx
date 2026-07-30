@@ -1,6 +1,7 @@
 'use client';
 
 import { Card } from '@locallaunch/ui';
+import { useTheme } from '@locallaunch/theme-engine';
 import { motion } from 'framer-motion';
 import { ArrowRight, Check, Star } from 'lucide-react';
 import Link from 'next/link';
@@ -9,6 +10,8 @@ import { useTemplateBasePath } from './TemplateBasePath';
 
 export function MembershipPreview({ plans }: { plans: MembershipPlan[] }) {
   const basePath = useTemplateBasePath();
+  const theme = useTheme();
+  const cardVariant = theme.key === 'gold' ? 'default' : 'plain';
 
   return (
     <section className="px-6 py-16 md:px-10">
@@ -18,7 +21,7 @@ export function MembershipPreview({ plans }: { plans: MembershipPlan[] }) {
       >
         Membership
       </h2>
-      <div className="mx-auto grid max-w-4xl gap-4 pt-3 sm:grid-cols-3">
+      <div className="mx-auto grid max-w-4xl grid-cols-1 gap-4 pt-3 sm:grid-cols-3">
         {plans.map((plan, index) => (
           <motion.div
             key={plan.name}
@@ -42,7 +45,7 @@ export function MembershipPreview({ plans }: { plans: MembershipPlan[] }) {
                 </span>
               )}
               <Card
-                variant="plain"
+                variant={cardVariant}
                 className="h-full text-center transition hover:-translate-y-1"
                 style={
                   plan.featured

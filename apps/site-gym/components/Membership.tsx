@@ -1,14 +1,18 @@
 'use client';
 
 import { Card } from '@locallaunch/ui';
+import { useTheme } from '@locallaunch/theme-engine';
 import { motion } from 'framer-motion';
 import { ChevronRight, Star } from 'lucide-react';
 import type { MembershipPlan } from '@locallaunch/config-schema';
 
 export function Membership({ plans }: { plans: MembershipPlan[] }) {
+  const theme = useTheme();
+  const cardVariant = theme.key === 'gold' ? 'default' : 'plain';
+
   return (
     <section className="px-6 pb-16 pt-3 md:px-10">
-      <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-3">
+      <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
         {plans.map((plan, index) => (
           <motion.div
             key={plan.name}
@@ -32,7 +36,7 @@ export function Membership({ plans }: { plans: MembershipPlan[] }) {
               </span>
             )}
             <Card
-              variant="plain"
+              variant={cardVariant}
               className="h-full"
               style={
                 plan.featured

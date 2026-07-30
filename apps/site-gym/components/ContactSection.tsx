@@ -6,7 +6,7 @@ import type { BusinessInfo } from '@locallaunch/config-schema';
 
 export function ContactSection({ business }: { business: BusinessInfo }) {
   return (
-    <section className="grid gap-6 px-6 pb-16 md:grid-cols-2 md:px-10">
+    <section className="grid grid-cols-1 gap-6 px-6 pb-16 md:grid-cols-2 md:px-10">
       <Card>
         <h2 className="mb-4 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
           Send us a message

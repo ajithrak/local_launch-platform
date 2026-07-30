@@ -4,7 +4,7 @@ import type { Program } from '@locallaunch/config-schema';
 
 export function ProgramDetail({ program }: { program: Program }) {
   return (
-    <section className="grid gap-8 px-6 pb-16 md:grid-cols-3 md:px-10">
+    <section className="grid grid-cols-1 gap-8 px-6 pb-16 md:grid-cols-3 md:px-10">
       <div className="md:col-span-2">
         <p style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }} className="leading-relaxed">
           {program.description}

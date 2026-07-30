@@ -20,7 +20,7 @@ export default function TemplateGalleryPage() {
           schedule, gallery, contact. What changes is the visual identity, layout, and feel.
         </p>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {TEMPLATE_SLUGS.map((slug) => {
             const meta = TEMPLATE_META[slug];
             const config = getTemplateConfig(slug);

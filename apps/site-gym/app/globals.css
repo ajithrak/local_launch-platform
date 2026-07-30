@@ -4,3 +4,11 @@
    that ship Tailwind classes need to be added explicitly or their utility
    classes silently never get generated. */
 @source "../../../packages/ui/src";
+
+/* Decorative absolutely-positioned elements (hero blobs, etc.) can push the
+   viewport wider than the screen on narrow devices; clip at the root instead
+   of chasing every offender individually. */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
