@@ -53,27 +53,39 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
   if (theme.key === 'minimal') {
     return (
       <section className="px-6 pb-16 md:px-10">
-        <div className="mx-auto max-w-3xl divide-y divide-[var(--color-border)]">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-10 sm:grid-cols-3">
           {trainers.map((trainer, index) => (
             <motion.div
               key={trainer.slug}
-              initial={{ opacity: 0, y: 12 }}
+              initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.4, delay: index * 0.06 }}
             >
-              <Link href={`${basePath}/trainers/${trainer.slug}`} className="block py-6 first:pt-0">
-                <div className="flex flex-wrap items-baseline justify-between gap-2">
-                  <span className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 17 }}>
-                    {trainer.name}
-                  </span>
-                  <span className="text-xs uppercase" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)', letterSpacing: 1.5 }}>
-                    {trainer.role}
-                  </span>
+              <Link href={`${basePath}/trainers/${trainer.slug}`} className="block">
+                <div
+                  className="mb-4 flex h-14 w-14 items-center justify-center text-lg font-semibold"
+                  style={{ border: '1px solid var(--color-border)', fontFamily: 'var(--font-display)' }}
+                >
+                  {trainer.name.charAt(0)}
                 </div>
-                <p className="mt-2 text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
+                <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 17 }}>
+                  {trainer.name}
+                </div>
+                <div
+                  className="mb-3 text-xs uppercase"
+                  style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)', letterSpacing: 1.5 }}
+                >
+                  {trainer.role}
+                </div>
+                <p className="mb-3 text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
                   {trainer.bio}
                 </p>
+                {trainer.specialties.length > 0 && (
+                  <p className="text-xs" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-accent)' }}>
+                    {trainer.specialties.slice(0, 2).join(' · ')}
+                  </p>
+                )}
               </Link>
             </motion.div>
           ))}

@@ -5,13 +5,14 @@ import { buttonVariants } from '@locallaunch/ui';
 import { motion } from 'framer-motion';
 import { Crown } from 'lucide-react';
 import Link from 'next/link';
-import type { GalleryImage, Hero as HeroConfig } from '@locallaunch/config-schema';
+import type { GalleryImage, Hero as HeroConfig, Stat } from '@locallaunch/config-schema';
 import { HeroCarousel } from './HeroCarousel';
 import { useTemplateBasePath } from './TemplateBasePath';
 
 interface HeroProps {
   hero: HeroConfig;
   gallery: GalleryImage[];
+  stats?: Stat[];
 }
 
 const fadeUp = {
@@ -19,7 +20,7 @@ const fadeUp = {
   show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] as const } },
 };
 
-export function Hero({ hero, gallery }: HeroProps) {
+export function Hero({ hero, gallery, stats = [] }: HeroProps) {
   const theme = useTheme();
   const basePath = useTemplateBasePath();
   const withBase = (href: string) => `${basePath}${href}`;
@@ -98,33 +99,66 @@ export function Hero({ hero, gallery }: HeroProps) {
   }
 
   if (theme.key === 'minimal') {
+    const badgeStat = stats[0];
     return (
       <motion.section
         initial="hidden"
         animate="show"
         variants={fadeUp}
-        className="px-6 py-16 md:px-10 md:py-28"
+        className="px-6 py-16 md:px-10 md:py-24"
       >
-        <div className="max-w-4xl">
-          <h1 style={{ ...displayFont, fontSize: 'clamp(2.6rem, 8vw, 5.5rem)', lineHeight: 1, fontWeight: 700 }}>
-            {hero.headline}
-          </h1>
-          <div
-            className="mt-8 flex flex-col justify-between gap-6 border-t pt-6 md:flex-row md:items-end"
-            style={{ borderColor: 'var(--color-border)' }}
-          >
-            <p className="max-w-sm" style={{ ...bodyFont, color: 'var(--color-muted)' }}>
+        <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-2 md:items-center md:gap-16">
+          <div className="min-w-0">
+            {hero.eyebrow && (
+              <div className="mb-5 flex items-center gap-2">
+                <span className="h-1.5 w-1.5 rounded-full" style={{ backgroundColor: 'var(--color-accent)' }} />
+                <span className="text-xs uppercase" style={{ ...bodyFont, color: 'var(--color-muted)', letterSpacing: 2 }}>
+                  {hero.eyebrow}
+                </span>
+              </div>
+            )}
+            <h1 style={{ ...displayFont, fontSize: 'clamp(2.6rem, 5.5vw, 4.2rem)', lineHeight: 1.05, fontWeight: 700 }}>
+              {hero.headline}
+            </h1>
+            <p className="mt-6 max-w-md text-lg" style={{ ...bodyFont, color: 'var(--color-muted)' }}>
               {hero.subheadline}
             </p>
-            <Link
-              href={withBase(hero.primaryCta.href)}
-              className={buttonVariants({ size: 'md' })}
-              style={{ borderRadius: 0, backgroundColor: 'var(--color-secondary)', fontFamily: 'var(--font-body)' }}
+            <div
+              className="mt-9 flex flex-wrap items-center gap-6 border-t pt-6"
+              style={{ borderColor: 'var(--color-border)' }}
             >
-              {hero.primaryCta.label} →
-            </Link>
+              <Link
+                href={withBase(hero.primaryCta.href)}
+                className={buttonVariants({ size: 'md' })}
+                style={{ borderRadius: 0, backgroundColor: 'var(--color-secondary)', fontFamily: 'var(--font-body)' }}
+              >
+                {hero.primaryCta.label} →
+              </Link>
+              {hero.secondaryCta && (
+                <Link
+                  href={withBase(hero.secondaryCta.href)}
+                  className="text-sm font-semibold underline-offset-4 hover:underline"
+                  style={{ ...bodyFont, color: 'var(--color-foreground)' }}
+                >
+                  {hero.secondaryCta.label}
+                </Link>
+              )}
+            </div>
           </div>
-          <HeroCarousel images={gallery} className="mt-10 h-72 w-full md:h-[26rem]" rounded={false} />
+          <div className="relative min-w-0">
+            <HeroCarousel images={gallery} className="h-72 md:h-[28rem]" rounded={false} />
+            {badgeStat && (
+              <div
+                className="absolute -top-6 -left-6 hidden p-4 sm:block"
+                style={{ backgroundColor: 'var(--color-surface)', border: '1px solid var(--color-border)' }}
+              >
+                <div style={{ ...displayFont, fontSize: 28, fontWeight: 700 }}>{badgeStat.value}</div>
+                <div className="text-xs uppercase" style={{ ...bodyFont, color: 'var(--color-muted)', letterSpacing: 1 }}>
+                  {badgeStat.label}
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </motion.section>
     );

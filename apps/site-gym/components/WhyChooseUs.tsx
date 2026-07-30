@@ -57,33 +57,50 @@ export function WhyChooseUs({ items }: { items: WhyChooseUsItem[] }) {
 
   if (theme.key === 'minimal') {
     return (
-      <section className="px-6 py-16 md:px-10">
-        <h2 className="mb-10 text-3xl" style={{ fontFamily: 'var(--font-display)', color: 'var(--color-foreground)' }}>
-          Why Choose Us
-        </h2>
-        <div className="mx-auto max-w-3xl divide-y divide-[var(--color-border)]">
-          {items.map((item, index) => (
-            <motion.div
-              key={item.title}
-              initial={{ opacity: 0, y: 12 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
-              transition={{ duration: 0.4, delay: index * 0.06 }}
-              className="flex items-start gap-6 py-6 first:pt-0"
-            >
-              <span style={{ fontFamily: 'var(--font-display)', fontSize: 20, color: 'var(--color-muted)' }}>
-                {String(index + 1).padStart(2, '0')}
-              </span>
-              <div>
-                <h3 className="mb-1 font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
-                  {item.title}
-                </h3>
-                <p className="text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
-                  {item.description}
-                </p>
-              </div>
-            </motion.div>
-          ))}
+      <section className="px-6 py-20 md:px-10">
+        <div className="mx-auto max-w-5xl">
+          <div
+            className="mb-14 flex flex-wrap items-end justify-between gap-4 border-b pb-6"
+            style={{ borderColor: 'var(--color-border)' }}
+          >
+            <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(1.8rem, 3vw, 2.5rem)', fontWeight: 700 }}>
+              Why Choose Us
+            </h2>
+            <span className="text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
+              {items.length} reasons to train here
+            </span>
+          </div>
+          <div className="grid gap-x-12 gap-y-10 sm:grid-cols-2">
+            {items.map((item, index) => {
+              const Icon = ICON_MAP[item.icon];
+              return (
+                <motion.div
+                  key={item.title}
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: '-60px' }}
+                  transition={{ duration: 0.4, delay: index * 0.06 }}
+                  className="border-t pt-6"
+                  style={{ borderColor: 'var(--color-border)' }}
+                >
+                  <div className="mb-4 flex items-center justify-between">
+                    <span
+                      style={{ fontFamily: 'var(--font-display)', fontSize: 13, color: 'var(--color-accent)', letterSpacing: 1 }}
+                    >
+                      {String(index + 1).padStart(2, '0')}
+                    </span>
+                    {Icon && <Icon size={18} style={{ color: 'var(--color-muted)' }} />}
+                  </div>
+                  <h3 className="mb-2 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
+                    {item.title}
+                  </h3>
+                  <p className="text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
+                    {item.description}
+                  </p>
+                </motion.div>
+              );
+            })}
+          </div>
         </div>
       </section>
     );
@@ -106,19 +123,21 @@ export function WhyChooseUs({ items }: { items: WhyChooseUsItem[] }) {
                 viewport={{ once: true, margin: '-60px' }}
                 transition={{ duration: 0.4, delay: index * 0.08 }}
               >
-                <Card variant="plain" className="relative h-full">
-                  <span
-                    aria-hidden
-                    className="absolute -right-1 -top-5 select-none"
-                    style={{ fontFamily: 'var(--font-display)', fontSize: 80, color: 'var(--color-border)', lineHeight: 1 }}
-                  >
-                    {String(index + 1).padStart(2, '0')}
-                  </span>
-                  {Icon && <Icon size={20} style={{ color: 'var(--color-accent)', marginBottom: 10 }} />}
-                  <h3 className="relative mb-1.5 text-base font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
+                <Card variant="plain" className="h-full">
+                  <div className="mb-3 flex items-start justify-between">
+                    {Icon && <Icon size={20} style={{ color: 'var(--color-accent)' }} />}
+                    <span
+                      aria-hidden
+                      className="select-none"
+                      style={{ fontFamily: 'var(--font-display)', fontSize: 32, color: 'var(--color-border)', lineHeight: 1 }}
+                    >
+                      {String(index + 1).padStart(2, '0')}
+                    </span>
+                  </div>
+                  <h3 className="mb-1.5 text-base font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
                     {item.title}
                   </h3>
-                  <p className="relative text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
+                  <p className="text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
                     {item.description}
                   </p>
                 </Card>
