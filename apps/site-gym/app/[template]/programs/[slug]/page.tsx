@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
-import { ProgramDetail } from '@/components/ProgramDetail';
-import { PageHeader } from '@/components/PageHeader';
+import { ProgramDetailPageContent } from '@locallaunch/gym-kit';
 import { isTemplateSlug, requireTemplateConfig } from '@/lib/templates';
 
 export function generateStaticParams({ params }: { params: { template: string } }) {
@@ -21,10 +20,5 @@ export default async function ProgramPage({
     notFound();
   }
 
-  return (
-    <>
-      <PageHeader eyebrow="Program" title={program.name} description={program.tagline} />
-      <ProgramDetail program={program} />
-    </>
-  );
+  return <ProgramDetailPageContent program={program} />;
 }

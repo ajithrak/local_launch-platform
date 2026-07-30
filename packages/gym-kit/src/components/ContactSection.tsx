@@ -4,12 +4,23 @@ import { Button, Card } from '@locallaunch/ui';
 import { Clock, Mail, MapPin, Phone } from 'lucide-react';
 import { useState, type FormEvent } from 'react';
 import type { BusinessInfo } from '@locallaunch/config-schema';
-import { APP_BASE_PATH } from '@/lib/basePath';
 import { MapEmbed } from './MapEmbed';
 
 type SubmitStatus = 'idle' | 'submitting' | 'success' | 'error';
 
-export function ContactSection({ business }: { business: BusinessInfo }) {
+interface ContactSectionProps {
+  business: BusinessInfo;
+  /**
+   * This app's Next.js `basePath`, if it has one (e.g. the multi-template
+   * demo app serves everything under '/gym'). fetch() to API routes does
+   * NOT get basePath auto-prepended the way <Link> does, so callers whose
+   * app config sets a basePath must pass it here. Standalone client sites
+   * deployed at their own domain have no basePath and can omit this.
+   */
+  apiBasePath?: string;
+}
+
+export function ContactSection({ business, apiBasePath = '' }: ContactSectionProps) {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -23,7 +34,7 @@ export function ContactSection({ business }: { business: BusinessInfo }) {
     setError(null);
 
     try {
-      const res = await fetch(`${APP_BASE_PATH}/api/contact`, {
+      const res = await fetch(`${apiBasePath}/api/contact`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, email, message, business: business.name, company }),

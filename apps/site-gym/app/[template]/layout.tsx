@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
-import { GymShell } from '@/components/GymShell';
+import { GymShell } from '@locallaunch/gym-kit';
 import { TEMPLATE_SLUGS, requireTemplateConfig } from '@/lib/templates';
 
 export function generateStaticParams() {

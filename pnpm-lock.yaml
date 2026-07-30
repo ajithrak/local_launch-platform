@@ -23,6 +23,9 @@ importers:
       '@locallaunch/config-schema':
         specifier: workspace:*
         version: link:../../packages/config-schema
+      '@locallaunch/gym-kit':
+        specifier: workspace:*
+        version: link:../../packages/gym-kit
       '@locallaunch/theme-engine':
         specifier: workspace:*
         version: link:../../packages/theme-engine
@@ -118,6 +121,55 @@ importers:
       typescript-eslint:
         specifier: ^8.20.0
         version: 8.65.0(eslint@9.39.5(jiti@2.7.0)(supports-color@7.2.0))(supports-color@7.2.0)(typescript@5.9.3)
+
+  packages/gym-kit:
+    dependencies:
+      '@locallaunch/config-schema':
+        specifier: workspace:*
+        version: link:../config-schema
+      '@locallaunch/theme-engine':
+        specifier: workspace:*
+        version: link:../theme-engine
+      '@locallaunch/ui':
+        specifier: workspace:*
+        version: link:../ui
+      framer-motion:
+        specifier: ^12.40.0
+        version: 12.42.2(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      lucide-react:
+        specifier: ^0.469.0
+        version: 0.469.0(react@19.2.8)
+      react:
+        specifier: ^19.0.0
+        version: 19.2.8
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.2.8(react@19.2.8)
+      zod:
+        specifier: ^3.24.1
+        version: 3.25.76
+    devDependencies:
+      '@locallaunch/eslint-config':
+        specifier: workspace:*
+        version: link:../eslint-config
+      '@locallaunch/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
+      '@types/react':
+        specifier: ^19.0.8
+        version: 19.2.17
+      '@types/react-dom':
+        specifier: ^19.0.3
+        version: 19.2.3(@types/react@19.2.17)
+      eslint:
+        specifier: ^9.18.0
+        version: 9.39.5(jiti@2.7.0)(supports-color@7.2.0)
+      next:
+        specifier: ^15.1.6
+        version: 15.5.22(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      typescript:
+        specifier: ^5.7.3
+        version: 5.9.3
 
   packages/theme-engine:
     dependencies:

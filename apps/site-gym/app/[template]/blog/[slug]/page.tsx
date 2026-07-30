@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
-import { BlogPostDetail } from '@/components/BlogPostDetail';
-import { PageHeader } from '@/components/PageHeader';
+import { BlogPostPageContent } from '@locallaunch/gym-kit';
 import { isTemplateSlug, requireTemplateConfig } from '@/lib/templates';
 
 export function generateStaticParams({ params }: { params: { template: string } }) {
@@ -21,10 +20,5 @@ export default async function BlogPostPage({
     notFound();
   }
 
-  return (
-    <>
-      <PageHeader eyebrow="Blog" title={post.title} />
-      <BlogPostDetail post={post} />
-    </>
-  );
+  return <BlogPostPageContent post={post} />;
 }

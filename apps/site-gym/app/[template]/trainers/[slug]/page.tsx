@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
-import { TrainerDetail } from '@/components/TrainerDetail';
-import { PageHeader } from '@/components/PageHeader';
+import { TrainerDetailPageContent } from '@locallaunch/gym-kit';
 import { isTemplateSlug, requireTemplateConfig } from '@/lib/templates';
 
 export function generateStaticParams({ params }: { params: { template: string } }) {
@@ -21,10 +20,5 @@ export default async function TrainerPage({
     notFound();
   }
 
-  return (
-    <>
-      <PageHeader eyebrow="Coach" title={trainer.name} description={trainer.role} />
-      <TrainerDetail trainer={trainer} />
-    </>
-  );
+  return <TrainerDetailPageContent trainer={trainer} />;
 }
