@@ -16,7 +16,7 @@ export function BlogList({ posts }: { posts: BlogPost[] }) {
             <p className="mb-2 text-xs" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
               {post.date} · {post.author}
             </p>
-            <h2 className="mb-2 text-lg font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+            <h2 className="mb-2 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
               {post.title}
             </h2>
             <p className="text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>

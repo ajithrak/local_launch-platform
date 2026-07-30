@@ -11,7 +11,7 @@ export const minimalTheme: ThemeTokens = {
     muted: '#6B6B6B',
     accent: '#2563EB',
     accentContrast: '#FFFFFF',
-    secondary: '#111111',
+    secondary: '#7C3AED',
     border: '#E5E5E5',
   },
   typography: {

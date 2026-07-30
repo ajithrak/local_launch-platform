@@ -9,7 +9,7 @@ export function ProgramDetail({ program }: { program: Program }) {
         <p style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }} className="leading-relaxed">
           {program.description}
         </p>
-        <h2 className="mb-4 mt-8 text-lg font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+        <h2 className="mb-4 mt-8 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
           What's included
         </h2>
         <ul className="space-y-3">
@@ -24,7 +24,7 @@ export function ProgramDetail({ program }: { program: Program }) {
         <p className="text-xs uppercase" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)', letterSpacing: 1 }}>
           Duration
         </p>
-        <p className="mb-4 text-lg font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+        <p className="mb-4 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
           {program.duration}
         </p>
         <Button className="w-full">Enquire about this program</Button>

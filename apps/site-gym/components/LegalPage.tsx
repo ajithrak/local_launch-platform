@@ -9,7 +9,7 @@ export function LegalPage({ legal }: { legal: LegalPageConfig }) {
       <div className="space-y-8">
         {legal.sections.map((section) => (
           <div key={section.heading}>
-            <h2 className="mb-2 text-lg font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+            <h2 className="mb-2 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
               {section.heading}
             </h2>
             <p className="leading-relaxed" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>

@@ -24,5 +24,5 @@ export const goldTheme: ThemeTokens = {
   card: { border: '1px solid #D8C79E', topBar: false, ornate: true },
   motion: { durationMs: 320, ease: 'cubic-bezier(0.16, 1, 0.3, 1)' },
   googleFontsHref:
-    'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:ital@0;1&display=swap',
+    'https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:ital,wght@0,400;0,700;1,400&display=swap',
 };

@@ -8,7 +8,7 @@ export function ContactSection({ business }: { business: BusinessInfo }) {
   return (
     <section className="grid gap-6 px-6 pb-16 md:grid-cols-2 md:px-10">
       <Card>
-        <h2 className="mb-4 text-lg font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+        <h2 className="mb-4 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
           Send us a message
         </h2>
         <form
@@ -56,7 +56,7 @@ export function ContactSection({ business }: { business: BusinessInfo }) {
 
       <div className="space-y-6">
         <Card>
-          <h2 className="mb-4 text-lg font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+          <h2 className="mb-4 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
             Visit or reach out
           </h2>
           <ul className="space-y-3 text-sm" style={{ fontFamily: 'var(--font-body)' }}>

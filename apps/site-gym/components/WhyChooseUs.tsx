@@ -31,12 +31,14 @@ export function WhyChooseUs({ items }: { items: WhyChooseUsItem[] }) {
                 {Icon && (
                   <div
                     className="mb-3 flex h-10 w-10 items-center justify-center rounded-full"
-                    style={{ backgroundColor: 'color-mix(in srgb, var(--color-accent) 15%, transparent)' }}
+                    style={{
+                      backgroundColor: `color-mix(in srgb, var(${index % 2 === 0 ? '--color-accent' : '--color-secondary'}) 15%, transparent)`,
+                    }}
                   >
-                    <Icon size={18} style={{ color: 'var(--color-accent)' }} />
+                    <Icon size={18} style={{ color: `var(${index % 2 === 0 ? '--color-accent' : '--color-secondary'})` }} />
                   </div>
                 )}
-                <h3 className="mb-1.5 font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+                <h3 className="mb-1.5 text-base font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
                   {item.title}
                 </h3>
                 <p className="text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
