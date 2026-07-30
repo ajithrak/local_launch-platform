@@ -82,8 +82,9 @@
     { "caption": "Member transformation", "category": "Results", "swatchClassName": "bg-amber-300" }
   ],
   "transformations": [
-    { "memberName": "Marcus T.", "duration": "16 weeks", "description": "Lost 22 lbs and added 30 lbs to his deadlift through the Weight Loss + Strength combo.", "beforeSwatchClassName": "bg-stone-300", "afterSwatchClassName": "bg-orange-300" },
-    { "memberName": "Lena K.", "duration": "12 weeks", "description": "Went from zero gym experience to finishing her first CrossFit competition.", "beforeSwatchClassName": "bg-stone-200", "afterSwatchClassName": "bg-amber-300" }
+    { "memberName": "Marcus T.", "duration": "16 weeks", "description": "Lost 22 lbs and added 30 lbs to his deadlift through the Weight Loss + Strength combo.", "statLabel": "-22 lbs", "beforeSwatchClassName": "bg-stone-300", "afterSwatchClassName": "bg-orange-300" },
+    { "memberName": "Lena K.", "duration": "12 weeks", "description": "Went from zero gym experience to finishing her first CrossFit competition.", "statLabel": "First CrossFit comp", "beforeSwatchClassName": "bg-stone-200", "afterSwatchClassName": "bg-amber-300" },
+    { "memberName": "Farhan A.", "duration": "20 weeks", "description": "Built consistency with the Strength program and hit a 315 lb squat for the first time.", "statLabel": "+95 lb squat", "beforeSwatchClassName": "bg-amber-200", "afterSwatchClassName": "bg-orange-200" }
   ],
   "testimonials": [
     { "quote": "Lost 22 lbs in 4 months. The coaches actually check your form here — best gym I've trained at.", "author": "Marcus T., Member since 2023", "rating": 5 },

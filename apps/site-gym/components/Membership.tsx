@@ -2,7 +2,7 @@
 
 import { Card } from '@locallaunch/ui';
 import { motion } from 'framer-motion';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Star } from 'lucide-react';
 import type { MembershipPlan } from '@locallaunch/config-schema';
 
 export function Membership({ plans }: { plans: MembershipPlan[] }) {
@@ -17,13 +17,26 @@ export function Membership({ plans }: { plans: MembershipPlan[] }) {
             viewport={{ once: true, margin: '-60px' }}
             transition={{ duration: 0.5, delay: index * 0.08 }}
             whileHover={{ y: -4 }}
+            className="relative"
           >
+            {plan.featured && (
+              <span
+                className="absolute -top-3 left-1/2 z-10 inline-flex -translate-x-1/2 items-center gap-1 rounded-full px-3 py-1 text-[10px] font-semibold uppercase tracking-wide"
+                style={{
+                  backgroundColor: 'var(--color-accent)',
+                  color: 'var(--color-accent-contrast)',
+                  fontFamily: 'var(--font-body)',
+                }}
+              >
+                <Star size={10} fill="currentColor" /> Most Popular
+              </span>
+            )}
             <Card
               className="h-full"
               style={plan.featured ? { borderColor: 'var(--color-accent)', borderWidth: 2 } : undefined}
             >
               <div className="mb-4" style={{ color: plan.featured ? 'var(--color-accent)' : 'var(--color-foreground)' }}>
-                <div style={{ fontFamily: 'var(--font-display)', fontSize: 22 }}>{plan.name}</div>
+                <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 20 }}>{plan.name}</div>
                 <div style={{ fontFamily: 'var(--font-display)', fontSize: 34 }}>
                   {plan.price}
                   <span className="text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>

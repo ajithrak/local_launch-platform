@@ -31,6 +31,8 @@ export const transformationSchema = z.object({
   memberName: z.string().min(1),
   duration: z.string().min(1),
   description: z.string().min(1),
+  /** Short punchy result callout, e.g. "-22 lbs" or "+80 lbs deadlift". */
+  statLabel: z.string().min(1),
   beforeSwatchClassName: z.string().min(1),
   afterSwatchClassName: z.string().min(1),
 });

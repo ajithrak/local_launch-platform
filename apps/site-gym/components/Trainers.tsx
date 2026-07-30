@@ -29,7 +29,7 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
                 >
                   <Users size={24} style={{ color: 'var(--color-accent)' }} />
                 </div>
-                <div style={{ fontFamily: 'var(--font-display)', fontSize: 19, color: 'var(--color-foreground)' }}>
+                <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 19, color: 'var(--color-foreground)' }}>
                   {trainer.name}
                 </div>
                 <div className="mb-2 text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-accent)' }}>

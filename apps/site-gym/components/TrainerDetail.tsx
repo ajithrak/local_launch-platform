@@ -14,7 +14,7 @@ export function TrainerDetail({ trainer }: { trainer: Trainer }) {
             <Users size={28} style={{ color: 'var(--color-accent)' }} />
           </div>
           <div>
-            <h1 style={{ fontFamily: 'var(--font-display)', fontSize: 26 }}>{trainer.name}</h1>
+            <h1 className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 26 }}>{trainer.name}</h1>
             <p style={{ fontFamily: 'var(--font-body)', color: 'var(--color-accent)' }}>{trainer.role}</p>
           </div>
         </div>

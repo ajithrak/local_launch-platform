@@ -74,7 +74,9 @@
     { "caption": "Member consultation", "category": "Results", "swatchClassName": "bg-amber-100" }
   ],
   "transformations": [
-    { "memberName": "Client, name withheld by request", "duration": "12 weeks", "description": "Completed the Composition & Wellness program ahead of a major public appearance.", "beforeSwatchClassName": "bg-yellow-50", "afterSwatchClassName": "bg-amber-100" }
+    { "memberName": "Member, name withheld by request", "duration": "12 weeks", "description": "Completed the Composition & Wellness program ahead of a major public appearance.", "statLabel": "Camera-ready in 12 weeks", "beforeSwatchClassName": "bg-yellow-50", "afterSwatchClassName": "bg-amber-100" },
+    { "memberName": "Member, name withheld by request", "duration": "20 weeks", "description": "Private Coaching rebuilt a golf swing around new mobility and rotational strength work.", "statLabel": "+18 yd drive distance", "beforeSwatchClassName": "bg-amber-50", "afterSwatchClassName": "bg-yellow-100" },
+    { "memberName": "Member, name withheld by request", "duration": "16 weeks", "description": "Bespoke nutrition and weekly private sessions brought sustainable, lasting results without extremes.", "statLabel": "-14 lbs, sustained", "beforeSwatchClassName": "bg-yellow-50", "afterSwatchClassName": "bg-amber-100" }
   ],
   "testimonials": [
     { "quote": "The level of attention is closer to a five-star hotel than a gym. Every detail is considered.", "author": "Member since 2022", "rating": 5 },

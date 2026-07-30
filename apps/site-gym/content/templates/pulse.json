@@ -76,7 +76,9 @@
     { "caption": "Member dashboard review", "category": "Results", "swatchClassName": "bg-emerald-100" }
   ],
   "transformations": [
-    { "memberName": "Devon S.", "duration": "10 weeks", "description": "Metabolic Reset dropped his resting heart rate by 8 bpm and improved his squat velocity by 15%.", "beforeSwatchClassName": "bg-cyan-100", "afterSwatchClassName": "bg-emerald-200" }
+    { "memberName": "Devon S.", "duration": "10 weeks", "description": "Metabolic Reset dropped his resting heart rate by 8 bpm and improved his squat velocity by 15%.", "statLabel": "-8 bpm resting HR", "beforeSwatchClassName": "bg-cyan-100", "afterSwatchClassName": "bg-emerald-200" },
+    { "memberName": "Priya N.", "duration": "12 weeks", "description": "Hybrid Training's weekly adjustments took her total load capacity up without any extra soreness.", "statLabel": "+18% load capacity", "beforeSwatchClassName": "bg-emerald-100", "afterSwatchClassName": "bg-cyan-200" },
+    { "memberName": "Sam O.", "duration": "8 weeks", "description": "Mobility Lab screening caught an asymmetry that was capping his lifts — fixed it in two months.", "statLabel": "+22° hip mobility", "beforeSwatchClassName": "bg-teal-100", "afterSwatchClassName": "bg-emerald-200" }
   ],
   "testimonials": [
     { "quote": "Seeing my actual numbers improve week over week keeps me way more motivated than a mirror ever did.", "author": "Devon S., Member since 2024", "rating": 5 },

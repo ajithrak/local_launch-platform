@@ -77,7 +77,9 @@
     { "caption": "Member PR", "category": "Results", "swatchClassName": "bg-neutral-600" }
   ],
   "transformations": [
-    { "memberName": "Cole B.", "duration": "20 weeks", "description": "Added 80 lbs to his deadlift and finished his first local strongman meet.", "beforeSwatchClassName": "bg-neutral-800", "afterSwatchClassName": "bg-neutral-600" }
+    { "memberName": "Cole B.", "duration": "20 weeks", "description": "Added 80 lbs to his deadlift and finished his first local strongman meet.", "statLabel": "+80 lb deadlift", "beforeSwatchClassName": "bg-neutral-800", "afterSwatchClassName": "bg-neutral-600" },
+    { "memberName": "Nina F.", "duration": "16 weeks", "description": "Went from her first CrossFit class to podium finish at a regional scaled competition.", "statLabel": "Regional podium finish", "beforeSwatchClassName": "bg-neutral-700", "afterSwatchClassName": "bg-neutral-500" },
+    { "memberName": "Reggie P.", "duration": "24 weeks", "description": "Dropped 30 lbs of fat through Conditioning while keeping every strength number climbing.", "statLabel": "-30 lbs, strength up", "beforeSwatchClassName": "bg-neutral-800", "afterSwatchClassName": "bg-neutral-600" }
   ],
   "testimonials": [
     { "quote": "This place doesn't coddle you, but it doesn't leave you alone either. Exactly what I needed.", "author": "Cole B., Member since 2022", "rating": 5 },

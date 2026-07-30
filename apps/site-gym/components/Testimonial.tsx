@@ -18,7 +18,7 @@ export function Testimonial({ testimonial }: { testimonial: TestimonialConfig })
           <Star key={i} size={16} fill="var(--color-accent)" color="var(--color-accent)" strokeWidth={0} />
         ))}
       </div>
-      <p style={{ fontFamily: 'var(--font-display)', fontSize: 22, color: 'var(--color-foreground)', lineHeight: 1.4 }}>
+      <p className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 22, color: 'var(--color-foreground)', lineHeight: 1.4 }}>
         "{testimonial.quote}"
       </p>
       <p className="mt-4 text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>

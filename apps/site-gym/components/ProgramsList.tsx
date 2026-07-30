@@ -25,7 +25,7 @@ export function ProgramsList({ programs }: { programs: Program[] }) {
               <p className="mb-1 text-xs font-semibold uppercase" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-accent)', letterSpacing: 1 }}>
                 {program.duration}
               </p>
-              <h2 className="mb-2 text-xl font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
+              <h2 className="mb-2 text-xl font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
                 {program.name}
               </h2>
               <p className="mb-4 text-sm" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>

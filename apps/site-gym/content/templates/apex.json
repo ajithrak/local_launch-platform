@@ -75,7 +75,9 @@
     { "caption": "Member progress review", "category": "Results", "swatchClassName": "bg-zinc-100" }
   ],
   "transformations": [
-    { "memberName": "Priya D.", "duration": "12 weeks", "description": "Completed the Composition program and reports the first plan she's actually kept up with long-term.", "beforeSwatchClassName": "bg-slate-200", "afterSwatchClassName": "bg-zinc-300" }
+    { "memberName": "Priya D.", "duration": "12 weeks", "description": "Completed the Composition program and reports the first plan she's actually kept up with long-term.", "statLabel": "First plan she's kept", "beforeSwatchClassName": "bg-slate-200", "afterSwatchClassName": "bg-zinc-300" },
+    { "memberName": "Alex R.", "duration": "16 weeks", "description": "Worked with Private Coaching to rebuild strength safely after a shoulder injury.", "statLabel": "Pain-free overhead press", "beforeSwatchClassName": "bg-slate-100", "afterSwatchClassName": "bg-slate-300" },
+    { "memberName": "Jordan M.", "duration": "10 weeks", "description": "Reduced body fat while maintaining strength numbers through the Composition program's measured approach.", "statLabel": "-6% body fat", "beforeSwatchClassName": "bg-zinc-200", "afterSwatchClassName": "bg-slate-200" }
   ],
   "testimonials": [
     { "quote": "It doesn't feel like a gym. It feels like a studio that happens to have weights in it.", "author": "Priya D., Member since 2023", "rating": 5 },
