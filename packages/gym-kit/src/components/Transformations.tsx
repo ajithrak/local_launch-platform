@@ -27,13 +27,19 @@ export function Transformations({ transformations }: { transformations: Transfor
             style={{ borderColor: 'var(--color-border)', backgroundColor: 'var(--color-surface)' }}
           >
             <div className="relative grid grid-cols-2">
-              <div className={`flex h-28 items-end justify-start p-3 ${item.beforeSwatchClassName}`}>
-                <span className="rounded-full bg-black/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-800">
+              <div className={`relative flex h-28 items-end justify-start overflow-hidden p-3 ${item.beforeSrc ? '' : item.beforeSwatchClassName}`}>
+                {item.beforeSrc && (
+                  <img src={item.beforeSrc} alt={`${item.memberName} before`} className="absolute inset-0 h-full w-full object-cover" />
+                )}
+                <span className="relative rounded-full bg-black/40 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
                   Before
                 </span>
               </div>
-              <div className={`flex h-28 items-end justify-end p-3 ${item.afterSwatchClassName}`}>
-                <span className="rounded-full bg-black/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-800">
+              <div className={`relative flex h-28 items-end justify-end overflow-hidden p-3 ${item.afterSrc ? '' : item.afterSwatchClassName}`}>
+                {item.afterSrc && (
+                  <img src={item.afterSrc} alt={`${item.memberName} after`} className="absolute inset-0 h-full w-full object-cover" />
+                )}
+                <span className="relative rounded-full bg-black/40 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
                   After
                 </span>
               </div>

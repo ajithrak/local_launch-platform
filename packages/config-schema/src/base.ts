@@ -23,6 +23,8 @@ export const businessInfoSchema = z.object({
   address: z.string().optional(),
   hours: z.string().min(1),
   socials: socialLinksSchema.default({}),
+  /** URL to a real logo image. Falls back to the styled business name text when absent. */
+  logo: z.string().optional(),
 });
 
 export const ctaSchema = z.object({
@@ -83,7 +85,10 @@ export const aboutSchema = z.object({
 export const galleryImageSchema = z.object({
   caption: z.string().min(1),
   category: z.string().min(1),
+  /** Tailwind class used as a color-block placeholder when `src` isn't provided. */
   swatchClassName: z.string().min(1),
+  /** URL to a real photo. When present, renders instead of the color-block placeholder. */
+  src: z.string().optional(),
 });
 
 export const blogPostSchema = z.object({

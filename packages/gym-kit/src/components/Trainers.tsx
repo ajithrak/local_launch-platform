@@ -27,10 +27,14 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
               <Link href={`${basePath}/trainers/${trainer.slug}`}>
                 <Card className="h-full transition hover:-translate-y-1">
                   <div
-                    className="mb-4 flex h-14 w-14 items-center justify-center rounded-full"
+                    className="mb-4 flex h-14 w-14 items-center justify-center overflow-hidden rounded-full"
                     style={{ backgroundColor: 'color-mix(in srgb, var(--color-accent) 15%, transparent)' }}
                   >
-                    <Users size={24} style={{ color: 'var(--color-accent)' }} />
+                    {trainer.photo ? (
+                      <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                    ) : (
+                      <Users size={24} style={{ color: 'var(--color-accent)' }} />
+                    )}
                   </div>
                   <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 19, color: 'var(--color-foreground)' }}>
                     {trainer.name}
@@ -64,10 +68,14 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
             >
               <Link href={`${basePath}/trainers/${trainer.slug}`} className="block">
                 <div
-                  className="mb-4 flex h-14 w-14 items-center justify-center text-lg font-semibold"
+                  className="mb-4 flex h-14 w-14 items-center justify-center overflow-hidden text-lg font-semibold"
                   style={{ border: '1px solid var(--color-border)', fontFamily: 'var(--font-display)' }}
                 >
-                  {trainer.name.charAt(0)}
+                  {trainer.photo ? (
+                    <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                  ) : (
+                    trainer.name.charAt(0)
+                  )}
                 </div>
                 <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 17 }}>
                   {trainer.name}
@@ -112,10 +120,14 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
                   style={{ backgroundColor: 'var(--color-surface)', border: '1px solid var(--color-border)' }}
                 >
                   <div
-                    className="flex w-20 flex-shrink-0 items-center justify-center sm:w-24"
+                    className="flex w-20 flex-shrink-0 items-center justify-center overflow-hidden sm:w-24"
                     style={{ backgroundColor: 'var(--color-surface-alt)' }}
                   >
-                    <Users size={30} style={{ color: 'var(--color-accent)' }} />
+                    {trainer.photo ? (
+                      <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                    ) : (
+                      <Users size={30} style={{ color: 'var(--color-accent)' }} />
+                    )}
                   </div>
                   <div className="flex-1 p-5">
                     <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 17 }}>
@@ -156,10 +168,14 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
                 >
                   <div className="mb-3 flex items-center gap-3">
                     <div
-                      className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-md"
+                      className="flex h-11 w-11 flex-shrink-0 items-center justify-center overflow-hidden rounded-md"
                       style={{ backgroundColor: 'color-mix(in srgb, var(--color-accent) 15%, transparent)' }}
                     >
-                      <Users size={20} style={{ color: 'var(--color-accent)' }} />
+                      {trainer.photo ? (
+                        <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                      ) : (
+                        <Users size={20} style={{ color: 'var(--color-accent)' }} />
+                      )}
                     </div>
                     <div>
                       <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 16 }}>
@@ -200,13 +216,17 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
             <Link href={`${basePath}/trainers/${trainer.slug}`}>
               <Card variant="plain" className="h-full text-center transition hover:-translate-y-1">
                 <div
-                  className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full border-2"
+                  className="mx-auto mb-4 flex h-20 w-20 items-center justify-center overflow-hidden rounded-full border-2"
                   style={{
                     borderColor: 'var(--color-accent)',
                     backgroundColor: 'color-mix(in srgb, var(--color-accent) 12%, transparent)',
                   }}
                 >
-                  <Users size={28} style={{ color: 'var(--color-accent)' }} />
+                  {trainer.photo ? (
+                    <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                  ) : (
+                    <Users size={28} style={{ color: 'var(--color-accent)' }} />
+                  )}
                 </div>
                 <div className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 19, color: 'var(--color-foreground)' }}>
                   {trainer.name}

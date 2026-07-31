@@ -5,6 +5,20 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import type { GalleryImage } from '@locallaunch/config-schema';
 
+/** Real photo (when provided) with a bottom scrim for caption legibility, else the color-block placeholder's own caption styling. */
+function GalleryTileContent({ image }: { image: GalleryImage }) {
+  if (image.src) {
+    return (
+      <>
+        <img src={image.src} alt={image.caption} className="absolute inset-0 h-full w-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+        <p className="relative text-sm font-medium text-white">{image.caption}</p>
+      </>
+    );
+  }
+  return <p className="text-sm font-medium text-slate-800">{image.caption}</p>;
+}
+
 export function Gallery({ images }: { images: GalleryImage[] }) {
   const theme = useTheme();
   const categories = Array.from(new Set(images.map((img) => img.category)));
@@ -44,10 +58,10 @@ export function Gallery({ images }: { images: GalleryImage[] }) {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true, margin: '-40px' }}
               transition={{ duration: 0.3, delay: index * 0.05 }}
-              className={`flex h-44 flex-col justify-end p-4 ${image.swatchClassName}`}
+              className={`relative flex h-44 flex-col justify-end overflow-hidden p-4 ${image.src ? '' : image.swatchClassName}`}
               style={{ backgroundColor: 'var(--color-background)' }}
             >
-              <p className="text-sm font-medium text-slate-800">{image.caption}</p>
+              <GalleryTileContent image={image} />
             </motion.div>
           ))}
         </div>
@@ -86,10 +100,10 @@ export function Gallery({ images }: { images: GalleryImage[] }) {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true, margin: '-40px' }}
               transition={{ duration: 0.3, delay: index * 0.05 }}
-              className={`flex h-44 flex-col justify-end border p-4 ${image.swatchClassName}`}
+              className={`relative flex h-44 flex-col justify-end overflow-hidden border p-4 ${image.src ? '' : image.swatchClassName}`}
               style={{ borderColor: 'var(--color-border)' }}
             >
-              <p className="text-sm font-medium text-slate-800">{image.caption}</p>
+              <GalleryTileContent image={image} />
             </motion.div>
           ))}
         </div>
@@ -128,10 +142,10 @@ export function Gallery({ images }: { images: GalleryImage[] }) {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: '-40px' }}
               transition={{ duration: 0.3, delay: index * 0.05 }}
-              className={`flex h-44 flex-col justify-end p-4 ${image.swatchClassName}`}
+              className={`relative flex h-44 flex-col justify-end overflow-hidden p-4 ${image.src ? '' : image.swatchClassName}`}
               style={{ borderRadius: 'var(--radius-md)', border: '1px solid var(--color-accent)' }}
             >
-              <p className="text-sm font-medium text-slate-800">{image.caption}</p>
+              <GalleryTileContent image={image} />
             </motion.div>
           ))}
         </div>
@@ -169,10 +183,10 @@ export function Gallery({ images }: { images: GalleryImage[] }) {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: '-40px' }}
               transition={{ duration: 0.3, delay: index * 0.05 }}
-              className={`flex h-40 flex-col justify-end p-4 ${image.swatchClassName}`}
+              className={`relative flex h-40 flex-col justify-end overflow-hidden p-4 ${image.src ? '' : image.swatchClassName}`}
               style={{ borderRadius: 'var(--radius-lg)' }}
             >
-              <p className="text-sm font-medium text-slate-800">{image.caption}</p>
+              <GalleryTileContent image={image} />
             </motion.div>
           ))}
         </div>
@@ -211,10 +225,10 @@ export function Gallery({ images }: { images: GalleryImage[] }) {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: '-40px' }}
             transition={{ duration: 0.3, delay: index * 0.05 }}
-            className={`flex h-44 flex-col justify-end p-4 transition hover:-translate-y-1 ${image.swatchClassName}`}
+            className={`relative flex h-44 flex-col justify-end overflow-hidden p-4 transition hover:-translate-y-1 ${image.src ? '' : image.swatchClassName}`}
             style={{ borderRadius: 'var(--radius-lg)' }}
           >
-            <p className="text-sm font-medium text-slate-800">{image.caption}</p>
+            <GalleryTileContent image={image} />
           </motion.div>
         ))}
       </div>

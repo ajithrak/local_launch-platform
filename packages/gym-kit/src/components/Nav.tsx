@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { useState, type CSSProperties } from 'react';
 import type { BusinessInfo } from '@locallaunch/config-schema';
 import { useTemplateBasePath } from './TemplateBasePath';
 
@@ -20,6 +20,14 @@ const NAV_LINKS = [
 
 interface NavProps {
   business: BusinessInfo;
+}
+
+/** Renders the real logo image when the client has one, else the business name in the theme's display font. */
+function BrandMark({ business, style }: { business: BusinessInfo; style?: CSSProperties }) {
+  if (business.logo) {
+    return <img src={business.logo} alt={business.name} className="h-9 w-auto object-contain" />;
+  }
+  return <span style={style}>{business.name}</span>;
 }
 
 export function Nav({ business }: NavProps) {
@@ -40,8 +48,8 @@ export function Nav({ business }: NavProps) {
         className="relative flex w-full items-center justify-between px-6 py-5 md:px-10"
         style={{ borderBottom: '1px solid var(--color-border)', color: 'var(--color-foreground)' }}
       >
-        <Link href={basePath} style={{ ...displayFont, fontSize: 22 }}>
-          {business.name}
+        <Link href={basePath}>
+          <BrandMark business={business} style={{ ...displayFont, fontSize: 22 }} />
         </Link>
         <div className="hidden gap-8 text-sm md:flex" style={bodyFont}>
           {NAV_LINKS.map((link) => (
@@ -58,8 +66,8 @@ export function Nav({ business }: NavProps) {
     return (
       <nav className="relative w-full px-6 py-5 md:px-10" style={{ color: 'var(--color-foreground)' }}>
         <div className="mb-3 flex justify-center">
-          <Link href={basePath} style={{ ...displayFont, fontSize: 24 }}>
-            {business.name}
+          <Link href={basePath}>
+            <BrandMark business={business} style={{ ...displayFont, fontSize: 24 }} />
           </Link>
         </div>
         <div
@@ -79,8 +87,8 @@ export function Nav({ business }: NavProps) {
   if (theme.key === 'minimal') {
     return (
       <nav className="relative flex w-full items-center justify-between px-6 py-6 md:px-10" style={{ color: 'var(--color-foreground)' }}>
-        <Link href={basePath} style={{ ...displayFont, fontSize: 18, fontWeight: 700 }}>
-          {business.name}
+        <Link href={basePath}>
+          <BrandMark business={business} style={{ ...displayFont, fontSize: 18, fontWeight: 700 }} />
         </Link>
         <div
           className="hidden items-center gap-1 rounded-full p-1 md:flex"
@@ -116,8 +124,8 @@ export function Nav({ business }: NavProps) {
         className="sticky top-0 z-30 flex w-full items-center justify-between px-6 py-4 backdrop-blur-md md:px-10"
         style={{ backgroundColor: 'color-mix(in srgb, var(--color-background) 85%, transparent)' }}
       >
-        <Link href={basePath} style={{ ...displayFont, fontSize: 22, color: 'var(--color-foreground)' }}>
-          {business.name}
+        <Link href={basePath}>
+          <BrandMark business={business} style={{ ...displayFont, fontSize: 22, color: 'var(--color-foreground)' }} />
         </Link>
         <div className="hidden items-center gap-6 text-sm md:flex" style={{ ...bodyFont, color: 'var(--color-foreground)' }}>
           {NAV_LINKS.slice(0, 5).map((link) => (
@@ -152,8 +160,8 @@ export function Nav({ business }: NavProps) {
         borderBottom: '1px solid var(--color-border)',
       }}
     >
-      <Link href={basePath} style={{ ...displayFont, fontSize: 16, color: 'var(--color-accent)' }}>
-        {business.name}
+      <Link href={basePath}>
+        <BrandMark business={business} style={{ ...displayFont, fontSize: 16, color: 'var(--color-accent)' }} />
       </Link>
       <div className="hidden gap-7 text-sm md:flex" style={{ ...bodyFont, color: 'var(--color-foreground)' }}>
         {NAV_LINKS.map((link) => (

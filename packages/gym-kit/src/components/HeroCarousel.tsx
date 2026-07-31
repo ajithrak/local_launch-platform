@@ -36,10 +36,20 @@ export function HeroCarousel({ images, className = '', intervalMs = 4200, rounde
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.7, ease: 'easeInOut' }}
-          className={`absolute inset-0 flex items-end justify-between gap-2 p-5 ${active.swatchClassName}`}
+          className={`absolute inset-0 flex items-end justify-between gap-2 p-5 ${active.src ? '' : active.swatchClassName}`}
         >
-          <p className="text-sm font-medium text-slate-800">{active.caption}</p>
-          <span className="rounded-full bg-black/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-slate-800">
+          {active.src && (
+            <>
+              <img src={active.src} alt={active.caption} className="absolute inset-0 -z-10 h-full w-full object-cover" />
+              <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+            </>
+          )}
+          <p className={`text-sm font-medium ${active.src ? 'text-white' : 'text-slate-800'}`}>{active.caption}</p>
+          <span
+            className={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
+              active.src ? 'bg-white/20 text-white' : 'bg-black/10 text-slate-800'
+            }`}
+          >
             {active.category}
           </span>
         </motion.div>

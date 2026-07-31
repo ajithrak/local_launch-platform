@@ -54,8 +54,8 @@
     { "slug": "weight-loss", "name": "Conditioning", "tagline": "Built to strip fat and build work capacity", "description": "A 10-week metabolic conditioning block for people who want intensity, not just steady-state cardio.", "duration": "10 weeks", "features": ["3 conditioning sessions per week", "Weekly benchmark workouts", "Nutrition check-ins", "Access to all classes"] }
   ],
   "trainers": [
-    { "slug": "coach-marcus", "name": "Marcus Webb", "role": "Head Coach", "bio": "Former regional CrossFit competitor, coaching Forge's programming since day one.", "certifications": ["CrossFit L3", "USAW Level 2"], "specialties": ["CrossFit", "Olympic lifting", "Competition prep"] },
-    { "slug": "coach-dana", "name": "Dana Ruiz", "role": "Strongman Coach", "bio": "Competitive strongman athlete, coaches our Strongman program and general strength classes.", "certifications": ["NSCA-CSCS"], "specialties": ["Strongman", "Strength training", "Powerlifting"] },
+    { "slug": "coach-marcus", "name": "Marcus Webb", "role": "Head Coach", "bio": "Former regional CrossFit competitor, coaching Forge's programming since day one.", "certifications": ["CrossFit L3", "USAW Level 2"], "specialties": ["CrossFit", "Olympic lifting", "Competition prep"], "photo": "/images/trainer-male.png" },
+    { "slug": "coach-dana", "name": "Dana Ruiz", "role": "Strongman Coach", "bio": "Competitive strongman athlete, coaches our Strongman program and general strength classes.", "certifications": ["NSCA-CSCS"], "specialties": ["Strongman", "Strength training", "Powerlifting"], "photo": "/images/trainer-female.png" },
     { "slug": "coach-theo", "name": "Theo Banks", "role": "Conditioning Coach", "bio": "Runs the Conditioning program with a focus on real work capacity, not just a sweat.", "certifications": ["CrossFit L2", "ACE-CPT"], "specialties": ["Conditioning", "Fat loss", "Group coaching"] }
   ],
   "classSchedule": [
@@ -67,17 +67,15 @@
     { "day": "Saturday", "time": "9:00 AM", "className": "Community WOD", "trainer": "Marcus Webb" }
   ],
   "gallery": [
-    { "caption": "The main rig", "category": "Facility", "swatchClassName": "bg-neutral-700" },
-    { "caption": "Strongman yard", "category": "Facility", "swatchClassName": "bg-neutral-800" },
-    { "caption": "Saturday Community WOD", "category": "Classes", "swatchClassName": "bg-neutral-600" },
-    { "caption": "Competition prep session", "category": "Classes", "swatchClassName": "bg-neutral-700" },
-    { "caption": "Member PR", "category": "Results", "swatchClassName": "bg-neutral-600" }
+    { "caption": "Training floor", "category": "Facility", "swatchClassName": "bg-neutral-800", "src": "/images/hero-banner.png" },
+    { "caption": "Group training session", "category": "Classes", "swatchClassName": "bg-neutral-700", "src": "/images/group-training.png" },
+    { "caption": "Free-weight floor", "category": "Facility", "swatchClassName": "bg-neutral-800", "src": "/images/weight-training.png" },
+    { "caption": "Cardio & conditioning zone", "category": "Classes", "swatchClassName": "bg-neutral-600", "src": "/images/cardio-zone.png" },
+    { "caption": "The main rig", "category": "Facility", "swatchClassName": "bg-neutral-700", "src": "/images/facility-rig.png" },
+    { "caption": "Front desk & lounge", "category": "Facility", "swatchClassName": "bg-neutral-600", "src": "/images/gym-interior.png" },
+    { "caption": "Post-workout", "category": "Results", "swatchClassName": "bg-neutral-600", "src": "/images/post-workout.png" }
   ],
-  "transformations": [
-    { "memberName": "Cole B.", "duration": "20 weeks", "description": "Added 80 lbs to his deadlift and finished his first local strongman meet.", "statLabel": "+80 lb deadlift", "beforeSwatchClassName": "bg-neutral-800", "afterSwatchClassName": "bg-neutral-600" },
-    { "memberName": "Nina F.", "duration": "16 weeks", "description": "Went from her first CrossFit class to podium finish at a regional scaled competition.", "statLabel": "Regional podium finish", "beforeSwatchClassName": "bg-neutral-700", "afterSwatchClassName": "bg-neutral-500" },
-    { "memberName": "Reggie P.", "duration": "24 weeks", "description": "Dropped 30 lbs of fat through Conditioning while keeping every strength number climbing.", "statLabel": "-30 lbs, strength up", "beforeSwatchClassName": "bg-neutral-800", "afterSwatchClassName": "bg-neutral-600" }
-  ],
+  "transformations": [],
   "testimonials": [
     { "quote": "This place doesn't coddle you, but it doesn't leave you alone either. Exactly what I needed.", "author": "Cole B., Member since 2022", "rating": 5 },
     { "quote": "Best coaching I've had. These people have actually competed, not just certified.", "author": "Nina F., Member since 2023", "rating": 5 },

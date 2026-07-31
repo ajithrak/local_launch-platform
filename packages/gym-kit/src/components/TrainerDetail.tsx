@@ -8,10 +8,14 @@ export function TrainerDetail({ trainer }: { trainer: Trainer }) {
       <div className="md:col-span-2">
         <div className="mb-6 flex items-center gap-4">
           <div
-            className="flex h-16 w-16 items-center justify-center rounded-full"
+            className="flex h-16 w-16 items-center justify-center overflow-hidden rounded-full"
             style={{ backgroundColor: 'color-mix(in srgb, var(--color-accent) 15%, transparent)' }}
           >
-            <Users size={28} style={{ color: 'var(--color-accent)' }} />
+            {trainer.photo ? (
+              <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+            ) : (
+              <Users size={28} style={{ color: 'var(--color-accent)' }} />
+            )}
           </div>
           <div>
             <h1 className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 26 }}>{trainer.name}</h1>

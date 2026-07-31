@@ -35,6 +35,9 @@ export const transformationSchema = z.object({
   statLabel: z.string().min(1),
   beforeSwatchClassName: z.string().min(1),
   afterSwatchClassName: z.string().min(1),
+  /** Real before/after photo URLs. When present, render instead of the color-block placeholders. */
+  beforeSrc: z.string().optional(),
+  afterSrc: z.string().optional(),
 });
 
 export const gymSiteConfigSchema = siteConfigBaseSchema.extend({
