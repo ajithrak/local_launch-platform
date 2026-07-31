@@ -11,7 +11,7 @@ interface HeroCarouselProps {
   rounded?: boolean;
 }
 
-export function HeroCarousel({ images, className = '', intervalMs = 4200, rounded = true }: HeroCarouselProps) {
+export function HeroCarousel({ images, className = '', intervalMs = 6000, rounded = true }: HeroCarouselProps) {
   const slides = images.slice(0, 5);
   const [index, setIndex] = useState(0);
 
@@ -32,10 +32,10 @@ export function HeroCarousel({ images, className = '', intervalMs = 4200, rounde
       <AnimatePresence mode="wait" initial={false}>
         <motion.div
           key={active.caption}
-          initial={{ opacity: 0, scale: 1.03 }}
+          initial={{ opacity: 0, scale: 1.015 }}
           animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 0.7, ease: 'easeInOut' }}
+          exit={{ opacity: 0, transition: { duration: 0.9, ease: 'easeInOut' } }}
+          transition={{ duration: 1.4, ease: 'easeInOut' }}
           className={`absolute inset-0 flex items-end justify-between gap-2 p-5 ${active.src ? '' : active.swatchClassName}`}
         >
           {active.src && (
