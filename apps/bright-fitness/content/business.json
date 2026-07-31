@@ -1,0 +1,117 @@
+{
+  "industry": "gym",
+  "theme": "orange",
+  "business": {
+    "name": "Bright Fitness",
+    "city": "Chennai",
+    "phone": "+91 87545 40313",
+    "whatsapp": "918754540313",
+    "address": "24, Reddy St, Abirami Nagar, Virugambakkam, Chennai, Tamil Nadu 600092",
+    "hours": "Mon–Sat · 6:00 AM – 10:00 PM",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Virugambakkam, Chennai",
+    "headline": "TRAIN HARD. STAY BRIGHT.",
+    "subheadline": "Budget-friendly training with real individual attention — safe, secure, and built to get you results if you commit.",
+    "primaryCta": { "label": "Join Now", "href": "/contact" },
+    "secondaryCta": { "label": "View Plans", "href": "/membership" }
+  },
+  "about": {
+    "title": "A gym that actually pays attention",
+    "body": [
+      "Bright Fitness has built its name in Virugambakkam on something simple: everyone who walks in gets real, individual attention — not just a keycard swipe and a floor to figure out alone.",
+      "The workouts are tough, the equipment is well-kept, and the space is safe and secure. Members who commit see results fast — that's the whole point."
+    ],
+    "highlights": [
+      "Individual attention for every member",
+      "Safe, secure, well-maintained facility",
+      "Budget-friendly membership options",
+      "Friendly, welcoming environment"
+    ]
+  },
+  "stats": [],
+  "whyChooseUs": [
+    { "icon": "Users", "title": "Individual Attention", "description": "Every member gets real coaching attention here — not just a keycard swipe and a floor to figure out alone." },
+    { "icon": "Award", "title": "Safe & Secure", "description": "A well-maintained, secure space members trust and keep coming back to." },
+    { "icon": "Dumbbell", "title": "Tough, Real Results", "description": "Workouts that are genuinely challenging — members who commit see results fast." },
+    { "icon": "Calendar", "title": "Budget-Friendly Membership", "description": "Full amenities without the premium price tag, with flexible month-to-month plans." }
+  ],
+  "plans": [
+    { "name": "Starter", "price": "₹899", "period": "/mo", "features": ["Full gym access", "Locker access", "Free trial session"], "featured": false },
+    { "name": "Standard", "price": "₹1,499", "period": "/mo", "features": ["Everything in Starter", "Group classes included", "Progress check-ins"], "featured": true },
+    { "name": "Premium", "price": "₹2,499", "period": "/mo", "features": ["Everything in Standard", "1 personal training session / month", "Priority class booking"], "featured": false }
+  ],
+  "programs": [
+    { "slug": "weight-loss", "name": "Weight Loss", "tagline": "Structured fat-loss coaching, not just a treadmill plan", "description": "A 12-week program combining metabolic conditioning, strength work, and weekly check-ins.", "duration": "12 weeks", "features": ["Weekly progress check-ins", "3 conditioning sessions per week", "Diet guidance from a coach", "Access to all group classes"] },
+    { "slug": "strength", "name": "Strength", "tagline": "Build real, measurable strength", "description": "A progressive strength program built around the big compound lifts, coached and adjusted regularly.", "duration": "Ongoing", "features": ["Squat, bench, deadlift progression", "Coached technique sessions", "Monthly max-out testing", "Individual attention on form"] },
+    { "slug": "yoga", "name": "Yoga", "tagline": "Mobility and recovery for lifters", "description": "A recovery-focused yoga program designed for people who train hard the rest of the week.", "duration": "Drop-in or ongoing", "features": ["Sessions through the week", "Mobility-focused sequencing", "Beginner friendly", "Included in all memberships"] },
+    { "slug": "personal-training", "name": "Personal Training", "tagline": "One-on-one coaching built around your goals", "description": "Fully individualized programming with a dedicated coach.", "duration": "Ongoing, billed monthly", "features": ["Private sessions each week", "Custom programming", "Direct coach access between sessions", "Includes full gym membership"] }
+  ],
+  "trainers": [
+    { "slug": "coach-arun", "name": "Coach Arun", "role": "Strength Coach", "bio": "Focuses on safe technique and steady strength progression for every member, beginner to advanced.", "certifications": ["Certified Strength Coach"], "specialties": ["Strength training", "Beginner coaching", "Form correction"] },
+    { "slug": "coach-priya", "name": "Coach Priya", "role": "Weight Loss Coach", "bio": "Specializes in sustainable fat-loss programming built around each member's schedule.", "certifications": ["Certified Personal Trainer"], "specialties": ["Fat loss", "Nutrition guidance", "Metabolic conditioning"] }
+  ],
+  "classSchedule": [
+    { "day": "Monday", "time": "6:00 AM", "className": "Yoga", "trainer": "Coach Priya" },
+    { "day": "Monday", "time": "6:00 PM", "className": "Strength", "trainer": "Coach Arun" },
+    { "day": "Wednesday", "time": "6:00 AM", "className": "Yoga", "trainer": "Coach Priya" },
+    { "day": "Friday", "time": "6:00 PM", "className": "Strength", "trainer": "Coach Arun" }
+  ],
+  "gallery": [
+    { "caption": "Main training floor", "category": "Facility", "swatchClassName": "bg-orange-200" },
+    { "caption": "Free weights area", "category": "Facility", "swatchClassName": "bg-stone-300" },
+    { "caption": "Group class", "category": "Classes", "swatchClassName": "bg-amber-200" },
+    { "caption": "Recovery zone", "category": "Facility", "swatchClassName": "bg-stone-200" }
+  ],
+  "transformations": [],
+  "testimonials": [
+    { "quote": "Great place to achieve your goal — everyone gets individual attention and the space is very safe and secure.", "author": "Member since 2023", "rating": 5 },
+    { "quote": "Budget friendly and has all the amenities. Friendly environment, average crowd.", "author": "Member since 2024", "rating": 5 },
+    { "quote": "Tough workouts, but they produce results quickly if you commit to it.", "author": "Member since 2022", "rating": 5 }
+  ],
+  "faqs": [
+    { "question": "What time does the gym open?", "answer": "Please call or WhatsApp us to confirm current opening hours." },
+    { "question": "Do you offer a free trial?", "answer": "Yes — ask at the front desk about a free trial session." },
+    { "question": "What should I bring to my first session?", "answer": "Just workout clothes and a water bottle — we provide all equipment." },
+    { "question": "Is there a cancellation fee?", "answer": "Memberships are flexible and month-to-month — ask us for current terms." },
+    { "question": "Do you offer personal training?", "answer": "Yes, one-on-one sessions are available — ask a coach for details." }
+  ],
+  "blogPosts": [
+    {
+      "slug": "how-to-lose-weight",
+      "title": "How to Lose Weight Without Losing Your Mind",
+      "excerpt": "The unglamorous, highly effective basics that actually move the needle — and why most fad plans fail.",
+      "author": "Coach Priya",
+      "date": "2026-06-12",
+      "content": [
+        "Most people don't fail at weight loss because they lack willpower — they fail because the plan they picked was never sustainable past week three.",
+        "Start with the boring fundamentals: a modest, consistent calorie deficit, protein at every meal, and 2–3 strength sessions a week to protect muscle mass while you lose fat.",
+        "Track weekly averages, not daily fluctuations — water weight and sodium will lie to you day-to-day, but a 7-day average rarely does.",
+        "Finally, pick a program you can still be doing in six months. The \"best\" diet is the one you actually stick to."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Information we collect", "body": "We collect the information you provide when you sign up for a membership or contact us — name, email, phone number, and billing details necessary to process payments." },
+      { "heading": "How we use it", "body": "Your information is used to manage your membership, communicate about classes and schedule changes, and process payments. We do not sell member data to third parties." },
+      { "heading": "Your rights", "body": "You can request a copy of the data we hold about you, or ask us to delete it, at any time by contacting us or asking at the front desk." }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Membership terms", "body": "Memberships are billed monthly on flexible, month-to-month terms." },
+      { "heading": "Facility use", "body": "Members are expected to re-rack weights, wipe down equipment after use, and follow posted class capacity limits." },
+      { "heading": "Liability", "body": "Exercise carries inherent risk. Members are responsible for training within their own physical limits and consulting a physician before starting a new program if needed." }
+    ]
+  },
+  "seo": {
+    "title": "Bright Fitness — Virugambakkam, Chennai",
+    "description": "Budget-friendly gym in Virugambakkam, Chennai offering individual attention, a safe and secure facility, and real results for members who commit."
+  }
+}
