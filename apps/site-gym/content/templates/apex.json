@@ -57,9 +57,9 @@
     { "slug": "personal-training", "name": "Private Coaching", "tagline": "One-on-one, fully considered", "description": "Individual programming with a dedicated coach who adjusts your plan as your goals evolve.", "duration": "Ongoing, billed monthly", "features": ["2–3 private sessions per week", "Programming reviewed monthly", "Direct messaging with your coach", "Includes full studio access"] }
   ],
   "trainers": [
-    { "slug": "coach-elena", "name": "Elena Ward", "role": "Head Coach", "bio": "Former physical therapist, now focused on strength programming that respects the body's limits.", "certifications": ["NSCA-CSCS", "DPT"], "specialties": ["Strength", "Injury-aware programming", "Mobility"] },
-    { "slug": "coach-sam", "name": "Sam Ochoa", "role": "Composition Coach", "bio": "Coaches the Composition program with a focus on sustainable, unglamorous consistency.", "certifications": ["Precision Nutrition L2"], "specialties": ["Nutrition coaching", "Body composition", "Habit building"] },
-    { "slug": "coach-mia", "name": "Mia Chen", "role": "Private Coach", "bio": "Works exclusively with private coaching clients on fully individualized programs.", "certifications": ["NSCA-CSCS", "USAW Level 1"], "specialties": ["Private coaching", "Olympic lifting", "Performance"] }
+    { "slug": "coach-elena", "name": "Elena Ward", "role": "Head Coach", "bio": "Former physical therapist, now focused on strength programming that respects the body's limits.", "certifications": ["NSCA-CSCS", "DPT"], "specialties": ["Strength", "Injury-aware programming", "Mobility"], "photo": "/images/apex/elena-ward.jpg" },
+    { "slug": "coach-sam", "name": "Sam Ochoa", "role": "Composition Coach", "bio": "Coaches the Composition program with a focus on sustainable, unglamorous consistency.", "certifications": ["Precision Nutrition L2"], "specialties": ["Nutrition coaching", "Body composition", "Habit building"], "photo": "/images/apex/sam-ochoa.jpg" },
+    { "slug": "coach-mia", "name": "Mia Chen", "role": "Private Coach", "bio": "Works exclusively with private coaching clients on fully individualized programs.", "certifications": ["NSCA-CSCS", "USAW Level 1"], "specialties": ["Private coaching", "Olympic lifting", "Performance"], "photo": "/images/apex/mia-chen.jpg" }
   ],
   "classSchedule": [
     { "day": "Monday", "time": "6:30 AM", "className": "Strength Fundamentals", "trainer": "Elena Ward" },
@@ -69,11 +69,11 @@
     { "day": "Saturday", "time": "9:00 AM", "className": "Open Studio", "trainer": "Mia Chen" }
   ],
   "gallery": [
-    { "caption": "Studio floor", "category": "Facility", "swatchClassName": "bg-slate-200" },
-    { "caption": "Private coaching room", "category": "Facility", "swatchClassName": "bg-zinc-200" },
-    { "caption": "Strength Fundamentals", "category": "Classes", "swatchClassName": "bg-stone-200" },
-    { "caption": "Mobility & Recovery", "category": "Classes", "swatchClassName": "bg-slate-100" },
-    { "caption": "Member progress review", "category": "Results", "swatchClassName": "bg-zinc-100" }
+    { "caption": "Studio floor", "category": "Facility", "swatchClassName": "bg-slate-200", "src": "/images/apex/studio-floor.jpg" },
+    { "caption": "Private coaching room", "category": "Facility", "swatchClassName": "bg-zinc-200", "src": "/images/apex/private-coaching-room.jpg" },
+    { "caption": "Strength Fundamentals", "category": "Classes", "swatchClassName": "bg-stone-200", "src": "/images/apex/strength-fundamentals.jpg" },
+    { "caption": "Mobility & Recovery", "category": "Classes", "swatchClassName": "bg-slate-100", "src": "/images/apex/mobility-recovery.jpg" },
+    { "caption": "Member progress review", "category": "Results", "swatchClassName": "bg-zinc-100", "src": "/images/apex/progress-review.jpg" }
   ],
   "transformations": [
     { "memberName": "Priya D.", "duration": "12 weeks", "description": "Completed the Composition program and reports the first plan she's actually kept up with long-term.", "statLabel": "First plan she's kept", "beforeSwatchClassName": "bg-slate-200", "afterSwatchClassName": "bg-zinc-300" },

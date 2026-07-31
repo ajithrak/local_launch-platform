@@ -1,8 +1,12 @@
+'use client';
+
 import { Card } from '@locallaunch/ui';
 import { Award, Target, Users } from 'lucide-react';
 import type { Trainer } from '@locallaunch/config-schema';
+import { useAssetBasePath } from './TemplateBasePath';
 
 export function TrainerDetail({ trainer }: { trainer: Trainer }) {
+  const assetBasePath = useAssetBasePath();
   return (
     <section className="grid grid-cols-1 gap-8 px-6 pb-16 md:grid-cols-3 md:px-10">
       <div className="md:col-span-2">
@@ -12,7 +16,7 @@ export function TrainerDetail({ trainer }: { trainer: Trainer }) {
             style={{ backgroundColor: 'color-mix(in srgb, var(--color-accent) 15%, transparent)' }}
           >
             {trainer.photo ? (
-              <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+              <img src={`${assetBasePath}${trainer.photo}`} alt={trainer.name} className="h-full w-full object-cover" />
             ) : (
               <Users size={28} style={{ color: 'var(--color-accent)' }} />
             )}

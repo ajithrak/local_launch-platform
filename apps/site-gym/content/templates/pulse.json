@@ -58,9 +58,9 @@
     { "slug": "mobility", "name": "Mobility Lab", "tagline": "Movement quality, measured", "description": "A mobility and movement-screening program that tracks joint range of motion over time.", "duration": "Ongoing", "features": ["Baseline movement screen", "Bi-weekly sessions", "Progress tracked on dashboard", "Included with Pro and above"] }
   ],
   "trainers": [
-    { "slug": "coach-riley", "name": "Riley Zhang", "role": "Head Coach", "bio": "Former biomechanics researcher, now designing Pulse's data-driven programming systems.", "certifications": ["NSCA-CSCS", "M.S. Kinesiology"], "specialties": ["Hybrid training", "Biomechanics", "Program design"] },
-    { "slug": "coach-noah", "name": "Noah Patel", "role": "Metabolic Coach", "bio": "Coaches the Metabolic Reset program and reviews member dashboards weekly.", "certifications": ["ACE-CPT", "Precision Nutrition L1"], "specialties": ["Fat loss", "Metabolic conditioning", "Nutrition tracking"] },
-    { "slug": "coach-ava", "name": "Ava Kim", "role": "Mobility Coach", "bio": "Runs the Mobility Lab program with a background in physical therapy.", "certifications": ["DPT", "FRC Mobility Specialist"], "specialties": ["Mobility", "Injury prevention", "Movement screening"] }
+    { "slug": "coach-riley", "name": "Riley Zhang", "role": "Head Coach", "bio": "Former biomechanics researcher, now designing Pulse's data-driven programming systems.", "certifications": ["NSCA-CSCS", "M.S. Kinesiology"], "specialties": ["Hybrid training", "Biomechanics", "Program design"], "photo": "/images/pulse/riley-zhang.jpg" },
+    { "slug": "coach-noah", "name": "Noah Patel", "role": "Metabolic Coach", "bio": "Coaches the Metabolic Reset program and reviews member dashboards weekly.", "certifications": ["ACE-CPT", "Precision Nutrition L1"], "specialties": ["Fat loss", "Metabolic conditioning", "Nutrition tracking"], "photo": "/images/pulse/noah-patel.jpg" },
+    { "slug": "coach-ava", "name": "Ava Kim", "role": "Mobility Coach", "bio": "Runs the Mobility Lab program with a background in physical therapy.", "certifications": ["DPT", "FRC Mobility Specialist"], "specialties": ["Mobility", "Injury prevention", "Movement screening"], "photo": "/images/pulse/ava-kim.jpg" }
   ],
   "classSchedule": [
     { "day": "Monday", "time": "6:00 AM", "className": "Hybrid Training", "trainer": "Riley Zhang" },
@@ -70,11 +70,11 @@
     { "day": "Saturday", "time": "10:00 AM", "className": "Open Lab", "trainer": "Noah Patel" }
   ],
   "gallery": [
-    { "caption": "Connected training floor", "category": "Facility", "swatchClassName": "bg-cyan-200" },
-    { "caption": "Data review station", "category": "Facility", "swatchClassName": "bg-emerald-200" },
-    { "caption": "Hybrid Training session", "category": "Classes", "swatchClassName": "bg-teal-200" },
-    { "caption": "Mobility Lab", "category": "Classes", "swatchClassName": "bg-cyan-100" },
-    { "caption": "Member dashboard review", "category": "Results", "swatchClassName": "bg-emerald-100" }
+    { "caption": "Connected training floor", "category": "Facility", "swatchClassName": "bg-cyan-200", "src": "/images/pulse/connected-floor.jpg" },
+    { "caption": "Data review station", "category": "Facility", "swatchClassName": "bg-emerald-200", "src": "/images/pulse/data-review.jpg" },
+    { "caption": "Hybrid Training session", "category": "Classes", "swatchClassName": "bg-teal-200", "src": "/images/pulse/hybrid-training.jpg" },
+    { "caption": "Mobility Lab", "category": "Classes", "swatchClassName": "bg-cyan-100", "src": "/images/pulse/mobility-lab.jpg" },
+    { "caption": "Member dashboard review", "category": "Results", "swatchClassName": "bg-emerald-100", "src": "/images/pulse/dashboard-review.jpg" }
   ],
   "transformations": [
     { "memberName": "Devon S.", "duration": "10 weeks", "description": "Metabolic Reset dropped his resting heart rate by 8 bpm and improved his squat velocity by 15%.", "statLabel": "-8 bpm resting HR", "beforeSwatchClassName": "bg-cyan-100", "afterSwatchClassName": "bg-emerald-200" },

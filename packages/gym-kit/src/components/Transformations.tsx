@@ -3,8 +3,10 @@
 import { motion } from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 import type { Transformation } from '@locallaunch/config-schema';
+import { useAssetBasePath } from './TemplateBasePath';
 
 export function Transformations({ transformations }: { transformations: Transformation[] }) {
+  const assetBasePath = useAssetBasePath();
   if (transformations.length === 0) return null;
 
   return (
@@ -29,7 +31,7 @@ export function Transformations({ transformations }: { transformations: Transfor
             <div className="relative grid grid-cols-2">
               <div className={`relative flex h-28 items-end justify-start overflow-hidden p-3 ${item.beforeSrc ? '' : item.beforeSwatchClassName}`}>
                 {item.beforeSrc && (
-                  <img src={item.beforeSrc} alt={`${item.memberName} before`} className="absolute inset-0 h-full w-full object-cover" />
+                  <img src={`${assetBasePath}${item.beforeSrc}`} alt={`${item.memberName} before`} className="absolute inset-0 h-full w-full object-cover" />
                 )}
                 <span className="relative rounded-full bg-black/40 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
                   Before
@@ -37,7 +39,7 @@ export function Transformations({ transformations }: { transformations: Transfor
               </div>
               <div className={`relative flex h-28 items-end justify-end overflow-hidden p-3 ${item.afterSrc ? '' : item.afterSwatchClassName}`}>
                 {item.afterSrc && (
-                  <img src={item.afterSrc} alt={`${item.memberName} after`} className="absolute inset-0 h-full w-full object-cover" />
+                  <img src={`${assetBasePath}${item.afterSrc}`} alt={`${item.memberName} after`} className="absolute inset-0 h-full w-full object-cover" />
                 )}
                 <span className="relative rounded-full bg-black/40 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
                   After

@@ -6,11 +6,12 @@ import { motion } from 'framer-motion';
 import { Users } from 'lucide-react';
 import Link from 'next/link';
 import type { Trainer } from '@locallaunch/config-schema';
-import { useTemplateBasePath } from './TemplateBasePath';
+import { useAssetBasePath, useTemplateBasePath } from './TemplateBasePath';
 
 export function Trainers({ trainers }: { trainers: Trainer[] }) {
   const theme = useTheme();
   const basePath = useTemplateBasePath();
+  const assetBasePath = useAssetBasePath();
 
   if (theme.key === 'gold') {
     return (
@@ -31,7 +32,7 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
                     style={{ backgroundColor: 'color-mix(in srgb, var(--color-accent) 15%, transparent)' }}
                   >
                     {trainer.photo ? (
-                      <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                      <img src={`${assetBasePath}${trainer.photo}`} alt={trainer.name} className="h-full w-full object-cover" />
                     ) : (
                       <Users size={24} style={{ color: 'var(--color-accent)' }} />
                     )}
@@ -72,7 +73,7 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
                   style={{ border: '1px solid var(--color-border)', fontFamily: 'var(--font-display)' }}
                 >
                   {trainer.photo ? (
-                    <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                    <img src={`${assetBasePath}${trainer.photo}`} alt={trainer.name} className="h-full w-full object-cover" />
                   ) : (
                     trainer.name.charAt(0)
                   )}
@@ -124,7 +125,7 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
                     style={{ backgroundColor: 'var(--color-surface-alt)' }}
                   >
                     {trainer.photo ? (
-                      <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                      <img src={`${assetBasePath}${trainer.photo}`} alt={trainer.name} className="h-full w-full object-cover" />
                     ) : (
                       <Users size={30} style={{ color: 'var(--color-accent)' }} />
                     )}
@@ -172,7 +173,7 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
                       style={{ backgroundColor: 'color-mix(in srgb, var(--color-accent) 15%, transparent)' }}
                     >
                       {trainer.photo ? (
-                        <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                        <img src={`${assetBasePath}${trainer.photo}`} alt={trainer.name} className="h-full w-full object-cover" />
                       ) : (
                         <Users size={20} style={{ color: 'var(--color-accent)' }} />
                       )}
@@ -223,7 +224,7 @@ export function Trainers({ trainers }: { trainers: Trainer[] }) {
                   }}
                 >
                   {trainer.photo ? (
-                    <img src={trainer.photo} alt={trainer.name} className="h-full w-full object-cover" />
+                    <img src={`${assetBasePath}${trainer.photo}`} alt={trainer.name} className="h-full w-full object-cover" />
                   ) : (
                     <Users size={28} style={{ color: 'var(--color-accent)' }} />
                   )}

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { GymShell } from '@locallaunch/gym-kit';
 import { TEMPLATE_SLUGS, requireTemplateConfig } from '@/lib/templates';
+import { APP_BASE_PATH } from '@/lib/basePath';
 
 export function generateStaticParams() {
   return TEMPLATE_SLUGS.map((template) => ({ template }));
@@ -28,7 +29,13 @@ export default async function TemplateLayout({
   const config = requireTemplateConfig(template);
 
   return (
-    <GymShell business={config.business} defaultTheme={config.theme} basePath={`/${template}`} showThemeSwitcher={false}>
+    <GymShell
+      business={config.business}
+      defaultTheme={config.theme}
+      basePath={`/${template}`}
+      assetBasePath={APP_BASE_PATH}
+      showThemeSwitcher={false}
+    >
       {children}
     </GymShell>
   );

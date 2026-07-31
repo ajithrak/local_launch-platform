@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, type CSSProperties } from 'react';
 import type { BusinessInfo } from '@locallaunch/config-schema';
-import { useTemplateBasePath } from './TemplateBasePath';
+import { useAssetBasePath, useTemplateBasePath } from './TemplateBasePath';
 
 const NAV_LINKS = [
   { label: 'About', href: '/about' },
@@ -24,8 +24,9 @@ interface NavProps {
 
 /** Renders the real logo image when the client has one, else the business name in the theme's display font. */
 function BrandMark({ business, style }: { business: BusinessInfo; style?: CSSProperties }) {
+  const assetBasePath = useAssetBasePath();
   if (business.logo) {
-    return <img src={business.logo} alt={business.name} className="h-9 w-auto object-contain" />;
+    return <img src={`${assetBasePath}${business.logo}`} alt={business.name} className="h-9 w-auto object-contain" />;
   }
   return <span style={style}>{business.name}</span>;
 }

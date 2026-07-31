@@ -8,13 +8,15 @@ import { Footer } from './Footer';
 import { WhatsAppButton } from './WhatsAppButton';
 import { CallNowButton } from './CallNowButton';
 import { ThemeSwitcher } from './ThemeSwitcher';
-import { TemplateBasePathProvider } from './TemplateBasePath';
+import { AssetBasePathProvider, TemplateBasePathProvider } from './TemplateBasePath';
 
 interface GymShellProps {
   business: BusinessInfo;
   defaultTheme: ThemeKey;
   /** e.g. "/titan" — every internal link within this template is built relative to this. */
   basePath: string;
+  /** e.g. "/gym" — Next's basePath config, when set. Empty for single-client apps. */
+  assetBasePath?: string;
   showThemeSwitcher?: boolean;
   children: ReactNode;
 }
@@ -24,20 +26,29 @@ interface GymShellProps {
  * across client-side page navigation within one template — only `children`
  * (the active route's page) swaps out.
  */
-export function GymShell({ business, defaultTheme, basePath, showThemeSwitcher = true, children }: GymShellProps) {
+export function GymShell({
+  business,
+  defaultTheme,
+  basePath,
+  assetBasePath = '',
+  showThemeSwitcher = true,
+  children,
+}: GymShellProps) {
   const [themeKey, setThemeKey] = useState<ThemeKey>(defaultTheme);
 
   return (
-    <TemplateBasePathProvider basePath={basePath}>
-      {showThemeSwitcher && <ThemeSwitcher active={themeKey} onChange={setThemeKey} />}
+    <AssetBasePathProvider assetBasePath={assetBasePath}>
+      <TemplateBasePathProvider basePath={basePath}>
+        {showThemeSwitcher && <ThemeSwitcher active={themeKey} onChange={setThemeKey} />}
 
-      <ThemeProvider themeKey={themeKey} className="flex min-h-screen flex-col">
-        <Nav business={business} />
-        <main className="flex-1">{children}</main>
-        <Footer business={business} />
-        <WhatsAppButton whatsapp={business.whatsapp} />
-        <CallNowButton phone={business.phone} />
-      </ThemeProvider>
-    </TemplateBasePathProvider>
+        <ThemeProvider themeKey={themeKey} className="flex min-h-screen flex-col">
+          <Nav business={business} />
+          <main className="flex-1">{children}</main>
+          <Footer business={business} />
+          <WhatsAppButton whatsapp={business.whatsapp} />
+          <CallNowButton phone={business.phone} />
+        </ThemeProvider>
+      </TemplateBasePathProvider>
+    </AssetBasePathProvider>
   );
 }

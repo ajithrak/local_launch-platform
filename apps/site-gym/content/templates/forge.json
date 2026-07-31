@@ -58,9 +58,9 @@
     { "slug": "weight-loss", "name": "Conditioning", "tagline": "Built to strip fat and build work capacity", "description": "A 10-week metabolic conditioning block for people who want intensity, not just steady-state cardio.", "duration": "10 weeks", "features": ["3 conditioning sessions per week", "Weekly benchmark workouts", "Nutrition check-ins", "Access to all classes"] }
   ],
   "trainers": [
-    { "slug": "coach-marcus", "name": "Marcus Webb", "role": "Head Coach", "bio": "Former regional CrossFit competitor, coaching Forge's programming since day one.", "certifications": ["CrossFit L3", "USAW Level 2"], "specialties": ["CrossFit", "Olympic lifting", "Competition prep"] },
-    { "slug": "coach-dana", "name": "Dana Ruiz", "role": "Strongman Coach", "bio": "Competitive strongman athlete, coaches our Strongman program and general strength classes.", "certifications": ["NSCA-CSCS"], "specialties": ["Strongman", "Strength training", "Powerlifting"] },
-    { "slug": "coach-theo", "name": "Theo Banks", "role": "Conditioning Coach", "bio": "Runs the Conditioning program with a focus on real work capacity, not just a sweat.", "certifications": ["CrossFit L2", "ACE-CPT"], "specialties": ["Conditioning", "Fat loss", "Group coaching"] }
+    { "slug": "coach-marcus", "name": "Marcus Webb", "role": "Head Coach", "bio": "Former regional CrossFit competitor, coaching Forge's programming since day one.", "certifications": ["CrossFit L3", "USAW Level 2"], "specialties": ["CrossFit", "Olympic lifting", "Competition prep"], "photo": "/images/forge/marcus-webb.jpg" },
+    { "slug": "coach-dana", "name": "Dana Ruiz", "role": "Strongman Coach", "bio": "Competitive strongman athlete, coaches our Strongman program and general strength classes.", "certifications": ["NSCA-CSCS"], "specialties": ["Strongman", "Strength training", "Powerlifting"], "photo": "/images/forge/dana-ruiz.jpg" },
+    { "slug": "coach-theo", "name": "Theo Banks", "role": "Conditioning Coach", "bio": "Runs the Conditioning program with a focus on real work capacity, not just a sweat.", "certifications": ["CrossFit L2", "ACE-CPT"], "specialties": ["Conditioning", "Fat loss", "Group coaching"], "photo": "/images/forge/theo-banks.jpg" }
   ],
   "classSchedule": [
     { "day": "Monday", "time": "6:00 AM", "className": "CrossFit", "trainer": "Marcus Webb" },
@@ -71,11 +71,11 @@
     { "day": "Saturday", "time": "9:00 AM", "className": "Community WOD", "trainer": "Marcus Webb" }
   ],
   "gallery": [
-    { "caption": "The main rig", "category": "Facility", "swatchClassName": "bg-neutral-700" },
-    { "caption": "Strongman yard", "category": "Facility", "swatchClassName": "bg-neutral-800" },
-    { "caption": "Saturday Community WOD", "category": "Classes", "swatchClassName": "bg-neutral-600" },
-    { "caption": "Competition prep session", "category": "Classes", "swatchClassName": "bg-neutral-700" },
-    { "caption": "Member PR", "category": "Results", "swatchClassName": "bg-neutral-600" }
+    { "caption": "The main rig", "category": "Facility", "swatchClassName": "bg-neutral-700", "src": "/images/forge/main-rig.jpg" },
+    { "caption": "Strongman yard", "category": "Facility", "swatchClassName": "bg-neutral-800", "src": "/images/forge/strongman-yard.jpg" },
+    { "caption": "Saturday Community WOD", "category": "Classes", "swatchClassName": "bg-neutral-600", "src": "/images/forge/community-wod.jpg" },
+    { "caption": "Competition prep session", "category": "Classes", "swatchClassName": "bg-neutral-700", "src": "/images/forge/competition-prep.jpg" },
+    { "caption": "Member PR", "category": "Results", "swatchClassName": "bg-neutral-600", "src": "/images/forge/member-pr.jpg" }
   ],
   "transformations": [
     { "memberName": "Cole B.", "duration": "20 weeks", "description": "Added 80 lbs to his deadlift and finished his first local strongman meet.", "statLabel": "+80 lb deadlift", "beforeSwatchClassName": "bg-neutral-800", "afterSwatchClassName": "bg-neutral-600" },

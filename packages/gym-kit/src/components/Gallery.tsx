@@ -4,13 +4,15 @@ import { useTheme } from '@locallaunch/theme-engine';
 import { motion } from 'framer-motion';
 import { useState } from 'react';
 import type { GalleryImage } from '@locallaunch/config-schema';
+import { useAssetBasePath } from './TemplateBasePath';
 
 /** Real photo (when provided) with a bottom scrim for caption legibility, else the color-block placeholder's own caption styling. */
 function GalleryTileContent({ image }: { image: GalleryImage }) {
+  const assetBasePath = useAssetBasePath();
   if (image.src) {
     return (
       <>
-        <img src={image.src} alt={image.caption} className="absolute inset-0 h-full w-full object-cover" />
+        <img src={`${assetBasePath}${image.src}`} alt={image.caption} className="absolute inset-0 h-full w-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
         <p className="relative text-sm font-medium text-white">{image.caption}</p>
       </>

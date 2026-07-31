@@ -56,9 +56,9 @@
     { "slug": "weight-loss", "name": "Composition & Wellness", "tagline": "A refined approach to body composition", "description": "A 12-week program combining private coaching with bespoke nutrition planning from our in-house nutritionist.", "duration": "12 weeks", "features": ["Weekly private sessions", "Dedicated nutritionist", "Bi-weekly progress consultations", "Access to all club amenities"] }
   ],
   "trainers": [
-    { "slug": "coach-alexandra", "name": "Alexandra Voss", "role": "Director of Coaching", "bio": "12 years coaching high-performance private clients across Europe and the US.", "certifications": ["NSCA-CSCS", "USAW Level 2"], "specialties": ["Private coaching", "Strength", "Executive performance"] },
-    { "slug": "coach-julian", "name": "Julian Ferreira", "role": "Performance Coach", "bio": "Works with members preparing for specific performance or aesthetic goals on a defined timeline.", "certifications": ["NASM-CPT", "Precision Nutrition L2"], "specialties": ["Body composition", "Nutrition coaching", "Performance"] },
-    { "slug": "coach-isabelle", "name": "Isabelle Laurent", "role": "Wellness Coach", "bio": "Oversees recovery and mobility programming for our Distinguished tier members.", "certifications": ["DPT", "FRC Mobility Specialist"], "specialties": ["Mobility", "Recovery", "Injury prevention"] }
+    { "slug": "coach-alexandra", "name": "Alexandra Voss", "role": "Director of Coaching", "bio": "12 years coaching high-performance private clients across Europe and the US.", "certifications": ["NSCA-CSCS", "USAW Level 2"], "specialties": ["Private coaching", "Strength", "Executive performance"], "photo": "/images/elite/alexandra-voss.jpg" },
+    { "slug": "coach-julian", "name": "Julian Ferreira", "role": "Performance Coach", "bio": "Works with members preparing for specific performance or aesthetic goals on a defined timeline.", "certifications": ["NASM-CPT", "Precision Nutrition L2"], "specialties": ["Body composition", "Nutrition coaching", "Performance"], "photo": "/images/elite/julian-ferreira.jpg" },
+    { "slug": "coach-isabelle", "name": "Isabelle Laurent", "role": "Wellness Coach", "bio": "Oversees recovery and mobility programming for our Distinguished tier members.", "certifications": ["DPT", "FRC Mobility Specialist"], "specialties": ["Mobility", "Recovery", "Injury prevention"], "photo": "/images/elite/isabelle-laurent.jpg" }
   ],
   "classSchedule": [
     { "day": "Monday", "time": "By appointment", "className": "Private Coaching", "trainer": "Alexandra Voss" },
@@ -68,11 +68,11 @@
     { "day": "Saturday", "time": "By appointment", "className": "Performance Session", "trainer": "Julian Ferreira" }
   ],
   "gallery": [
-    { "caption": "Private training suite", "category": "Facility", "swatchClassName": "bg-amber-100" },
-    { "caption": "Members' lounge", "category": "Facility", "swatchClassName": "bg-yellow-50" },
-    { "caption": "Recovery suite", "category": "Facility", "swatchClassName": "bg-amber-50" },
-    { "caption": "Private coaching session", "category": "Classes", "swatchClassName": "bg-yellow-100" },
-    { "caption": "Member consultation", "category": "Results", "swatchClassName": "bg-amber-100" }
+    { "caption": "Private training suite", "category": "Facility", "swatchClassName": "bg-amber-100", "src": "/images/elite/private-suite.jpg" },
+    { "caption": "Members' lounge", "category": "Facility", "swatchClassName": "bg-yellow-50", "src": "/images/elite/members-lounge.jpg" },
+    { "caption": "Recovery suite", "category": "Facility", "swatchClassName": "bg-amber-50", "src": "/images/elite/recovery-suite.jpg" },
+    { "caption": "Private coaching session", "category": "Classes", "swatchClassName": "bg-yellow-100", "src": "/images/elite/private-coaching-session.jpg" },
+    { "caption": "Member consultation", "category": "Results", "swatchClassName": "bg-amber-100", "src": "/images/elite/member-consultation.jpg" }
   ],
   "transformations": [
     { "memberName": "Member, name withheld by request", "duration": "12 weeks", "description": "Completed the Composition & Wellness program ahead of a major public appearance.", "statLabel": "Camera-ready in 12 weeks", "beforeSwatchClassName": "bg-yellow-50", "afterSwatchClassName": "bg-amber-100" },
