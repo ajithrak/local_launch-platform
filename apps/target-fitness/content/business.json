@@ -1,0 +1,130 @@
+{
+  "industry": "gym",
+  "theme": "dark",
+  "business": {
+    "name": "Target Fitness Center",
+    "city": "Chennai",
+    "phone": "+91 98843 31770",
+    "whatsapp": "919884331770",
+    "address": "7/116, Kundrathur Main Rd, Kovur, Dhanalakshmi Nagar, Tharapakkam, Chennai, Tamil Nadu 600128",
+    "hours": "Mon–Sat · 5:30 AM – 10:00 PM",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Kovur, Chennai",
+    "headline": "HIT YOUR TARGET.",
+    "subheadline": "Precision coaching, raw equipment, and a training community that keeps you accountable — every single session.",
+    "primaryCta": { "label": "Start Training", "href": "/contact" },
+    "secondaryCta": { "label": "See Membership", "href": "/membership" }
+  },
+  "about": {
+    "title": "Precision built, strength earned",
+    "body": [
+      "Target Fitness Center is built for people who train with purpose — chalk on the floor, plates that get loaded, coaching that actually corrects your form instead of just counting reps.",
+      "We don't do fluff. Every program here is built around getting measurably stronger, and every member is expected to put in real work — but never alone."
+    ],
+    "highlights": [
+      "Coached programming for every level",
+      "Modern equipment, no waiting around",
+      "A community that shows up for each other",
+      "First class is always free"
+    ]
+  },
+  "googleReviews": { "rating": 4.8, "reviewCount": 64 },
+  "stats": [
+    { "icon": "Users", "value": "200+", "label": "Members" },
+    { "icon": "Dumbbell", "value": "10", "label": "Coaches" },
+    { "icon": "Trophy", "value": "5", "label": "Years Running" },
+    { "icon": "Star", "value": "4.8★", "label": "Rating" }
+  ],
+  "whyChooseUs": [
+    { "icon": "Dumbbell", "title": "Raw Equipment", "description": "Bumper plates, rigs, and platforms built for real loads — not gym-showroom equipment." },
+    { "icon": "Award", "title": "Battle-Tested Coaches", "description": "Every coach has competed at a regional level or higher in strength or CrossFit." },
+    { "icon": "Apple", "title": "Fuel & Recovery", "description": "Programming that treats recovery and nutrition as part of training, not an afterthought." },
+    { "icon": "Calendar", "title": "No-Contract Membership", "description": "Month to month. No lock-ins, no cancellation fees, no fine print." }
+  ],
+  "plans": [
+    { "name": "Foundry", "price": "₹1,999", "period": "/mo", "features": ["Full gym access", "All group classes", "First class free"], "featured": false },
+    { "name": "Anvil", "price": "₹2,999", "period": "/mo", "features": ["Everything in Foundry", "1 coaching session / month", "Open gym access"], "featured": true },
+    { "name": "Steel", "price": "₹4,499", "period": "/mo", "features": ["Everything in Anvil", "Weekly coaching session", "Competition prep support"], "featured": false }
+  ],
+  "programs": [
+    { "slug": "crossfit", "name": "CrossFit", "tagline": "Daily WODs, scaled to you", "description": "High-intensity functional workouts, coached and scaled by level — from first-timers to competitors.", "duration": "Ongoing", "features": ["Daily WOD", "Scaled and RX tracks", "Olympic lifting technique work", "Community leaderboard"] },
+    { "slug": "strength", "name": "Strongman", "tagline": "Atlas stones, yokes, and real strength", "description": "Strongman-style programming for people who want strength that shows up outside the gym too.", "duration": "Ongoing", "features": ["Log press, yoke, stones", "Progressive loading", "Competition-style testing days", "Coached technique sessions"] },
+    { "slug": "weight-loss", "name": "Conditioning", "tagline": "Built to strip fat and build work capacity", "description": "A 10-week metabolic conditioning block for people who want intensity, not just steady-state cardio.", "duration": "10 weeks", "features": ["3 conditioning sessions per week", "Weekly benchmark workouts", "Nutrition check-ins", "Access to all classes"] }
+  ],
+  "trainers": [
+    { "slug": "coach-marcus", "name": "Marcus Webb", "role": "Head Coach", "bio": "Former regional CrossFit competitor, coaching Forge's programming since day one.", "certifications": ["CrossFit L3", "USAW Level 2"], "specialties": ["CrossFit", "Olympic lifting", "Competition prep"] },
+    { "slug": "coach-dana", "name": "Dana Ruiz", "role": "Strongman Coach", "bio": "Competitive strongman athlete, coaches our Strongman program and general strength classes.", "certifications": ["NSCA-CSCS"], "specialties": ["Strongman", "Strength training", "Powerlifting"] },
+    { "slug": "coach-theo", "name": "Theo Banks", "role": "Conditioning Coach", "bio": "Runs the Conditioning program with a focus on real work capacity, not just a sweat.", "certifications": ["CrossFit L2", "ACE-CPT"], "specialties": ["Conditioning", "Fat loss", "Group coaching"] }
+  ],
+  "classSchedule": [
+    { "day": "Monday", "time": "6:00 AM", "className": "CrossFit", "trainer": "Marcus Webb" },
+    { "day": "Monday", "time": "6:00 PM", "className": "Strongman", "trainer": "Dana Ruiz" },
+    { "day": "Tuesday", "time": "7:00 AM", "className": "Conditioning", "trainer": "Theo Banks" },
+    { "day": "Wednesday", "time": "6:00 PM", "className": "Strongman", "trainer": "Dana Ruiz" },
+    { "day": "Friday", "time": "6:00 AM", "className": "CrossFit", "trainer": "Marcus Webb" },
+    { "day": "Saturday", "time": "9:00 AM", "className": "Community WOD", "trainer": "Marcus Webb" }
+  ],
+  "gallery": [
+    { "caption": "The main rig", "category": "Facility", "swatchClassName": "bg-neutral-700" },
+    { "caption": "Strongman yard", "category": "Facility", "swatchClassName": "bg-neutral-800" },
+    { "caption": "Saturday Community WOD", "category": "Classes", "swatchClassName": "bg-neutral-600" },
+    { "caption": "Competition prep session", "category": "Classes", "swatchClassName": "bg-neutral-700" },
+    { "caption": "Member PR", "category": "Results", "swatchClassName": "bg-neutral-600" }
+  ],
+  "transformations": [
+    { "memberName": "Cole B.", "duration": "20 weeks", "description": "Added 80 lbs to his deadlift and finished his first local strongman meet.", "statLabel": "+80 lb deadlift", "beforeSwatchClassName": "bg-neutral-800", "afterSwatchClassName": "bg-neutral-600" },
+    { "memberName": "Nina F.", "duration": "16 weeks", "description": "Went from her first CrossFit class to podium finish at a regional scaled competition.", "statLabel": "Regional podium finish", "beforeSwatchClassName": "bg-neutral-700", "afterSwatchClassName": "bg-neutral-500" },
+    { "memberName": "Reggie P.", "duration": "24 weeks", "description": "Dropped 30 lbs of fat through Conditioning while keeping every strength number climbing.", "statLabel": "-30 lbs, strength up", "beforeSwatchClassName": "bg-neutral-800", "afterSwatchClassName": "bg-neutral-600" }
+  ],
+  "testimonials": [
+    { "quote": "This place doesn't coddle you, but it doesn't leave you alone either. Exactly what I needed.", "author": "Cole B., Member since 2022", "rating": 5 },
+    { "quote": "Best coaching I've had. These people have actually competed, not just certified.", "author": "Nina F., Member since 2023", "rating": 5 },
+    { "quote": "Community WOD on Saturdays is worth the membership alone.", "author": "Reggie P., Member since 2024", "rating": 4 }
+  ],
+  "faqs": [
+    { "question": "Is CrossFit scaled for beginners?", "answer": "Yes — every WOD has a scaled track, and your first class is always free." },
+    { "question": "Do you offer month-to-month membership?", "answer": "Yes, all memberships are month-to-month with no cancellation fees." },
+    { "question": "What gear do I need?", "answer": "Just gym clothes and shoes with a flat sole. Chalk, bands, and all barbells/plates are provided." },
+    { "question": "Is there a minimum age?", "answer": "Members must be 16 or older; 16-17 year olds need a parent or guardian to sign a waiver." },
+    { "question": "Can I drop in without a membership?", "answer": "Yes, single class drop-ins are available at the front desk for visiting athletes." }
+  ],
+  "blogPosts": [
+    {
+      "slug": "how-to-lose-weight",
+      "title": "Fat Loss Isn't Complicated, It's Just Uncomfortable",
+      "excerpt": "The blunt version of what actually works — and why intensity matters more than people admit.",
+      "author": "Theo Banks",
+      "date": "2026-06-12",
+      "content": [
+        "Nobody wants to hear this, but fat loss is mostly a consistency problem wearing a nutrition costume.",
+        "You need a real calorie deficit, enough protein to hold onto muscle, and enough intensity in training to make the deficit worth it.",
+        "Track your weekly average, not your daily number. One bad day doesn't undo a good week, and one good day doesn't fix a bad month.",
+        "Pick a program hard enough to respect and simple enough to actually finish. That's the whole secret."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Information we collect", "body": "We collect the information you provide when you sign up for membership or contact us — name, email, phone number, and billing details necessary to process payments." },
+      { "heading": "How we use it", "body": "Your information is used to manage your membership, communicate about classes and schedule changes, and process payments. We do not sell member data to third parties." },
+      { "heading": "Your rights", "body": "You can request a copy of the data we hold about you, or ask us to delete it, at any time." }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Membership terms", "body": "Memberships are billed monthly, month-to-month, with no cancellation fees." },
+      { "heading": "Facility use", "body": "Members are expected to re-rack plates, use chalk responsibly, and follow posted class capacity limits." },
+      { "heading": "Liability", "body": "Strength training and CrossFit carry inherent risk. Members are responsible for training within their own limits and consulting a physician before starting a new program if needed." }
+    ]
+  },
+  "seo": {
+    "title": "Target Fitness Center — Kovur, Chennai",
+    "description": "Strength and conditioning gym in Kovur, Chennai. Coached programming, raw equipment, and a community that shows up. First class is free."
+  }
+}
