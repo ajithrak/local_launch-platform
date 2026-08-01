@@ -49,8 +49,8 @@
     { "slug": "personal-training", "name": "Personal Training", "tagline": "One-on-one coaching built around your goals", "description": "Fully individualized programming with a dedicated coach.", "duration": "Ongoing, billed monthly", "features": ["Private sessions each week", "Custom programming", "Direct coach access between sessions", "Includes full gym membership"] }
   ],
   "trainers": [
-    { "slug": "coach-arun", "name": "Coach Arun", "role": "Strength Coach", "bio": "Focuses on safe technique and steady strength progression for every member, beginner to advanced.", "certifications": ["Certified Strength Coach"], "specialties": ["Strength training", "Beginner coaching", "Form correction"] },
-    { "slug": "coach-priya", "name": "Coach Priya", "role": "Weight Loss Coach", "bio": "Specializes in sustainable fat-loss programming built around each member's schedule.", "certifications": ["Certified Personal Trainer"], "specialties": ["Fat loss", "Nutrition guidance", "Metabolic conditioning"] }
+    { "slug": "coach-arun", "name": "Coach Arun", "role": "Strength Coach", "bio": "Focuses on safe technique and steady strength progression for every member, beginner to advanced.", "certifications": ["Certified Strength Coach"], "specialties": ["Strength training", "Beginner coaching", "Form correction"], "photo": "/images/coach-arun.jpg" },
+    { "slug": "coach-priya", "name": "Coach Priya", "role": "Weight Loss Coach", "bio": "Specializes in sustainable fat-loss programming built around each member's schedule.", "certifications": ["Certified Personal Trainer"], "specialties": ["Fat loss", "Nutrition guidance", "Metabolic conditioning"], "photo": "/images/coach-priya.jpg" }
   ],
   "classSchedule": [
     { "day": "Monday", "time": "6:00 AM", "className": "Yoga", "trainer": "Coach Priya" },
@@ -59,10 +59,10 @@
     { "day": "Friday", "time": "6:00 PM", "className": "Strength", "trainer": "Coach Arun" }
   ],
   "gallery": [
-    { "caption": "Main training floor", "category": "Facility", "swatchClassName": "bg-orange-200" },
-    { "caption": "Free weights area", "category": "Facility", "swatchClassName": "bg-stone-300" },
-    { "caption": "Group class", "category": "Classes", "swatchClassName": "bg-amber-200" },
-    { "caption": "Recovery zone", "category": "Facility", "swatchClassName": "bg-stone-200" }
+    { "caption": "Main training floor", "category": "Facility", "swatchClassName": "bg-orange-200", "src": "/images/main-training-floor.jpg" },
+    { "caption": "Free weights area", "category": "Facility", "swatchClassName": "bg-stone-300", "src": "/images/free-weights-area.jpg" },
+    { "caption": "Group class", "category": "Classes", "swatchClassName": "bg-amber-200", "src": "/images/group-class.jpg" },
+    { "caption": "Recovery zone", "category": "Facility", "swatchClassName": "bg-stone-200", "src": "/images/recovery-zone.jpg" }
   ],
   "transformations": [],
   "testimonials": [
