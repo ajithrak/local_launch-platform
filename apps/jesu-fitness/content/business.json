@@ -1,0 +1,121 @@
+{
+  "industry": "gym",
+  "theme": "minimal",
+  "business": {
+    "name": "Jesu Fitness",
+    "city": "Chennai",
+    "phone": "+91 98417 91799",
+    "whatsapp": "919841791799",
+    "address": "St.Thomas Heart Centre, 105, Defence Colony 1st Ave, Ramapuram, St.Thomas Mount, Chennai, Tamil Nadu 600016",
+    "hours": "Mon–Sat · 6:00 AM – 9:00 PM",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Ramapuram, Chennai",
+    "headline": "Precision Training.",
+    "subheadline": "Private lessons, real nutrition guidance, and coaching built around your actual goals — not a generic script.",
+    "primaryCta": { "label": "Book a Session", "href": "/contact" },
+    "secondaryCta": { "label": "See Membership", "href": "/membership" }
+  },
+  "about": {
+    "title": "Training, considered",
+    "body": [
+      "Jesu Fitness is built around real coaching, not a crowded floor and a generic timetable. Whether it's private lessons, weight training, or getting your nutrition sorted out, every program is built around your actual goals.",
+      "Cycling and cardio, strength work, and one-on-one attention — all under one roof, coached properly."
+    ],
+    "highlights": [
+      "Private lessons available",
+      "Nutrition consulting included",
+      "Weight training and cardio/cycling",
+      "Individual attention, not a generic script"
+    ]
+  },
+  "googleReviews": { "rating": 4.4, "reviewCount": 20 },
+  "stats": [],
+  "whyChooseUs": [
+    { "icon": "Dumbbell", "title": "Private Lessons", "description": "One-on-one sessions for members who want focused, individual coaching." },
+    { "icon": "Award", "title": "Real Coaching", "description": "Every program is built around your actual goals, not a generic template." },
+    { "icon": "Apple", "title": "Nutrition Consulting", "description": "Get real nutrition guidance built around your lifestyle, not a generic macro sheet." },
+    { "icon": "Calendar", "title": "Cycling & Cardio", "description": "Dedicated cycling and cardio programming alongside strength training." }
+  ],
+  "plans": [
+    { "name": "Essential", "price": "₹1,499", "period": "/mo", "features": ["Full gym access", "Locker access", "Free trial session"], "featured": false },
+    { "name": "Studio", "price": "₹2,499", "period": "/mo", "features": ["Everything in Essential", "Nutrition consulting", "Cycling & cardio classes"], "featured": true },
+    { "name": "Private", "price": "₹3,999", "period": "/mo", "features": ["Everything in Studio", "Weekly private lesson", "Priority scheduling"], "featured": false }
+  ],
+  "programs": [
+    { "slug": "private-lessons", "name": "Private Lessons", "tagline": "One-on-one, fully considered", "description": "Individual programming with a dedicated coach who adjusts your plan as your goals evolve.", "duration": "Ongoing, billed monthly", "features": ["Private sessions each week", "Programming reviewed regularly", "Direct coach access", "Includes full gym access"] },
+    { "slug": "weight-training", "name": "Weight Training", "tagline": "Build real, measurable strength", "description": "A progressive strength program built around the big compound lifts, coached and adjusted regularly.", "duration": "Ongoing", "features": ["Squat, bench, deadlift progression", "Coached technique sessions", "Form correction", "Individual attention"] },
+    { "slug": "nutrition-consulting", "name": "Nutrition Consulting", "tagline": "A plan built around your actual life", "description": "One-on-one nutrition guidance that fits your schedule and goals, not a generic macro sheet.", "duration": "Ongoing consulting", "features": ["Personalized nutrition plan", "Regular check-ins", "Built around your routine", "Included in Studio and above"] },
+    { "slug": "cycling-cardio", "name": "Cycling & Cardio", "tagline": "Structured cardio, not just a treadmill", "description": "Dedicated cycling and cardio sessions for conditioning and endurance.", "duration": "Ongoing", "features": ["Cycling sessions", "Cardio conditioning", "Beginner friendly", "Included in all memberships"] }
+  ],
+  "trainers": [
+    { "slug": "coach-elena", "name": "Elena Ward", "role": "Head Coach", "bio": "Former physical therapist, now focused on strength programming that respects the body's limits.", "certifications": ["NSCA-CSCS", "DPT"], "specialties": ["Strength", "Injury-aware programming", "Mobility"] },
+    { "slug": "coach-sam", "name": "Sam Ochoa", "role": "Nutrition Coach", "bio": "Handles nutrition consulting with a focus on sustainable, unglamorous consistency.", "certifications": ["Precision Nutrition L2"], "specialties": ["Nutrition coaching", "Body composition", "Habit building"] },
+    { "slug": "coach-mia", "name": "Mia Chen", "role": "Private Coach", "bio": "Works exclusively with private lesson clients on fully individualized programs.", "certifications": ["NSCA-CSCS", "USAW Level 1"], "specialties": ["Private coaching", "Cycling & cardio", "Performance"] }
+  ],
+  "classSchedule": [
+    { "day": "Monday", "time": "6:30 AM", "className": "Weight Training", "trainer": "Elena Ward" },
+    { "day": "Tuesday", "time": "6:00 PM", "className": "Cycling & Cardio", "trainer": "Mia Chen" },
+    { "day": "Wednesday", "time": "6:30 AM", "className": "Weight Training", "trainer": "Elena Ward" },
+    { "day": "Thursday", "time": "6:00 PM", "className": "Nutrition Consulting", "trainer": "Sam Ochoa" },
+    { "day": "Saturday", "time": "9:00 AM", "className": "Open Studio", "trainer": "Mia Chen" }
+  ],
+  "gallery": [
+    { "caption": "Studio floor", "category": "Facility", "swatchClassName": "bg-slate-200" },
+    { "caption": "Private coaching room", "category": "Facility", "swatchClassName": "bg-zinc-200" },
+    { "caption": "Weight training", "category": "Classes", "swatchClassName": "bg-stone-200" },
+    { "caption": "Cycling & cardio", "category": "Classes", "swatchClassName": "bg-slate-100" },
+    { "caption": "Nutrition consulting", "category": "Results", "swatchClassName": "bg-zinc-100" }
+  ],
+  "transformations": [],
+  "testimonials": [
+    { "quote": "Real coaching, not just a card swipe. Private lessons here actually make a difference.", "author": "Member since 2024", "rating": 5 },
+    { "quote": "The nutrition consulting was the missing piece — programming and diet finally working together.", "author": "Member since 2023", "rating": 4 },
+    { "quote": "Good mix of weight training and cardio, and the coaches actually pay attention.", "author": "Member since 2024", "rating": 5 }
+  ],
+  "faqs": [
+    { "question": "Do you offer private lessons?", "answer": "Yes — private lessons are available; ask at the front desk about scheduling." },
+    { "question": "Is nutrition consulting a separate service?", "answer": "Nutrition consulting is included from the Studio plan upward, or available as a standalone add-on." },
+    { "question": "Is there a free trial?", "answer": "Yes — ask at the front desk about a free trial session." },
+    { "question": "Is there a cancellation fee?", "answer": "Memberships are flexible and month-to-month — ask us for current terms." },
+    { "question": "What should I bring to my first session?", "answer": "Just workout clothes and a water bottle — we provide all equipment." }
+  ],
+  "blogPosts": [
+    {
+      "slug": "how-to-lose-weight",
+      "title": "On Changing Your Body Composition, Slowly",
+      "excerpt": "Why the least exciting approach to changing your body is usually the one that actually works.",
+      "author": "Sam Ochoa",
+      "date": "2026-06-12",
+      "content": [
+        "The most common mistake in body composition work isn't a bad diet — it's a good diet that's impossible to sustain for more than three weeks.",
+        "A modest, consistent deficit paired with adequate protein and two to three strength sessions a week will outperform almost any aggressive short-term plan over a year.",
+        "Measure progress in trends, not days. A single high-sodium meal will not undo a month of consistent work, and a single good week will not undo a month of inconsistency either.",
+        "The plan that works is the one you can still describe, calmly, six months from now."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Information we collect", "body": "We collect the information you provide when you join or contact us — name, email, phone number, and billing details necessary to process payments." },
+      { "heading": "How we use it", "body": "Your information is used to manage your membership, communicate about sessions and schedule changes, and process payments. We do not sell member data to third parties." },
+      { "heading": "Your rights", "body": "You can request a copy of the data we hold about you, or ask us to delete it, at any time." }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Membership terms", "body": "Memberships are billed monthly on flexible, month-to-month terms." },
+      { "heading": "Studio use", "body": "Members are expected to re-rack equipment and respect posted session capacity limits." },
+      { "heading": "Liability", "body": "Exercise carries inherent risk. Members are responsible for training within their own limits and consulting a physician before starting a new program if needed." }
+    ]
+  },
+  "seo": {
+    "title": "Jesu Fitness — Ramapuram, Chennai",
+    "description": "Private lessons, weight training, nutrition consulting, and cycling/cardio at Jesu Fitness in Ramapuram, Chennai."
+  }
+}

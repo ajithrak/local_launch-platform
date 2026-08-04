@@ -98,8 +98,22 @@ function main() {
   // client's starting point, not a live link to the demo (editing it here
   // never affects apps/site-gym's own copy).
   const templateJsonPath = join(repoRoot, 'apps', 'site-gym', 'content', 'templates', `${template}.json`);
-  const templateJson = readFileSync(templateJsonPath, 'utf8');
-  writeFileSync(join(targetDir, 'content', 'business.json'), templateJson);
+  const templateJson = JSON.parse(readFileSync(templateJsonPath, 'utf8'));
+
+  // The demo templates' image paths (e.g. "/images/titan/...") only resolve
+  // under site-gym's own /public folder and its "/gym" basePath — they'd
+  // 404 in a freshly generated client app, which has neither. Strip them so
+  // every new client starts from the clean swatch-placeholder look until
+  // real photos are sourced for that specific business.
+  delete templateJson.business?.logo;
+  for (const image of templateJson.gallery ?? []) delete image.src;
+  for (const trainer of templateJson.trainers ?? []) delete trainer.photo;
+  for (const item of templateJson.transformations ?? []) {
+    delete item.beforeSrc;
+    delete item.afterSrc;
+  }
+
+  writeFileSync(join(targetDir, 'content', 'business.json'), JSON.stringify(templateJson, null, 2) + '\n');
 
   console.log(`\nCreated apps/${slug} (${packageName}), seeded from the "${template}" template.\n`);
   console.log('Next steps:');
