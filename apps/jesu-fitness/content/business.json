@@ -31,7 +31,12 @@
     ]
   },
   "googleReviews": { "rating": 4.4, "reviewCount": 20 },
-  "stats": [],
+  "stats": [
+    { "icon": "Users", "value": "150+", "label": "Members" },
+    { "icon": "Dumbbell", "value": "3", "label": "Coaches" },
+    { "icon": "Trophy", "value": "4", "label": "Years Running" },
+    { "icon": "Star", "value": "4.4★", "label": "Rating" }
+  ],
   "whyChooseUs": [
     { "icon": "Dumbbell", "title": "Private Lessons", "description": "One-on-one sessions for members who want focused, individual coaching." },
     { "icon": "Award", "title": "Real Coaching", "description": "Every program is built around your actual goals, not a generic template." },
@@ -50,9 +55,9 @@
     { "slug": "cycling-cardio", "name": "Cycling & Cardio", "tagline": "Structured cardio, not just a treadmill", "description": "Dedicated cycling and cardio sessions for conditioning and endurance.", "duration": "Ongoing", "features": ["Cycling sessions", "Cardio conditioning", "Beginner friendly", "Included in all memberships"] }
   ],
   "trainers": [
-    { "slug": "coach-elena", "name": "Elena Ward", "role": "Head Coach", "bio": "Former physical therapist, now focused on strength programming that respects the body's limits.", "certifications": ["NSCA-CSCS", "DPT"], "specialties": ["Strength", "Injury-aware programming", "Mobility"] },
-    { "slug": "coach-sam", "name": "Sam Ochoa", "role": "Nutrition Coach", "bio": "Handles nutrition consulting with a focus on sustainable, unglamorous consistency.", "certifications": ["Precision Nutrition L2"], "specialties": ["Nutrition coaching", "Body composition", "Habit building"] },
-    { "slug": "coach-mia", "name": "Mia Chen", "role": "Private Coach", "bio": "Works exclusively with private lesson clients on fully individualized programs.", "certifications": ["NSCA-CSCS", "USAW Level 1"], "specialties": ["Private coaching", "Cycling & cardio", "Performance"] }
+    { "slug": "coach-elena", "name": "Elena Ward", "role": "Head Coach", "bio": "Former physical therapist, now focused on strength programming that respects the body's limits.", "certifications": ["NSCA-CSCS", "DPT"], "specialties": ["Strength", "Injury-aware programming", "Mobility"], "photo": "/images/elena-ward.jpg" },
+    { "slug": "coach-sam", "name": "Sam Ochoa", "role": "Nutrition Coach", "bio": "Handles nutrition consulting with a focus on sustainable, unglamorous consistency.", "certifications": ["Precision Nutrition L2"], "specialties": ["Nutrition coaching", "Body composition", "Habit building"], "photo": "/images/sam-ochoa.jpg" },
+    { "slug": "coach-mia", "name": "Mia Chen", "role": "Private Coach", "bio": "Works exclusively with private lesson clients on fully individualized programs.", "certifications": ["NSCA-CSCS", "USAW Level 1"], "specialties": ["Private coaching", "Cycling & cardio", "Performance"], "photo": "/images/mia-chen.jpg" }
   ],
   "classSchedule": [
     { "day": "Monday", "time": "6:30 AM", "className": "Weight Training", "trainer": "Elena Ward" },
@@ -62,11 +67,11 @@
     { "day": "Saturday", "time": "9:00 AM", "className": "Open Studio", "trainer": "Mia Chen" }
   ],
   "gallery": [
-    { "caption": "Studio floor", "category": "Facility", "swatchClassName": "bg-slate-200" },
-    { "caption": "Private coaching room", "category": "Facility", "swatchClassName": "bg-zinc-200" },
-    { "caption": "Weight training", "category": "Classes", "swatchClassName": "bg-stone-200" },
-    { "caption": "Cycling & cardio", "category": "Classes", "swatchClassName": "bg-slate-100" },
-    { "caption": "Nutrition consulting", "category": "Results", "swatchClassName": "bg-zinc-100" }
+    { "caption": "Studio floor", "category": "Facility", "swatchClassName": "bg-slate-200", "src": "/images/studio-floor.jpg" },
+    { "caption": "Private coaching room", "category": "Facility", "swatchClassName": "bg-zinc-200", "src": "/images/private-coaching-room.jpg" },
+    { "caption": "Weight training", "category": "Classes", "swatchClassName": "bg-stone-200", "src": "/images/weight-training.jpg" },
+    { "caption": "Cycling & cardio", "category": "Classes", "swatchClassName": "bg-slate-100", "src": "/images/cycling-cardio.jpg" },
+    { "caption": "Nutrition consulting", "category": "Results", "swatchClassName": "bg-zinc-100", "src": "/images/nutrition-consulting.jpg" }
   ],
   "transformations": [],
   "testimonials": [
