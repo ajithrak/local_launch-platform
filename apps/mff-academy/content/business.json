@@ -30,7 +30,12 @@
       "First class is always free"
     ]
   },
-  "stats": [],
+  "stats": [
+    { "icon": "Users", "value": "200+", "label": "Members" },
+    { "icon": "Dumbbell", "value": "3", "label": "Coaches" },
+    { "icon": "Trophy", "value": "5", "label": "Years Running" },
+    { "icon": "Star", "value": "4.5★", "label": "Rating" }
+  ],
   "whyChooseUs": [
     { "icon": "Dumbbell", "title": "Top-Notch Equipment", "description": "Well-maintained strength and cardio equipment across the floor." },
     { "icon": "Award", "title": "Great Trainers", "description": "Hands-on coaches who actually correct your form, not just count reps." },
@@ -48,9 +53,9 @@
     { "slug": "mobility-recovery", "name": "Mobility & Recovery", "tagline": "Move better, recover properly", "description": "A recovery-focused program designed for people who train hard the rest of the week.", "duration": "Ongoing", "features": ["Mobility-focused sequencing", "Beginner friendly", "Sessions through the week", "Included in all memberships"] }
   ],
   "trainers": [
-    { "slug": "coach-riley", "name": "Riley Zhang", "role": "Head Coach", "bio": "Experienced strength coach leading MFF Academy's overall programming.", "certifications": ["NSCA-CSCS"], "specialties": ["Strength & conditioning", "Program design", "Beginner coaching"] },
-    { "slug": "coach-noah", "name": "Noah Patel", "role": "Fat Loss Coach", "bio": "Coaches the Fat Loss Program with a focus on sustainable results.", "certifications": ["ACE-CPT"], "specialties": ["Fat loss", "Metabolic conditioning", "Nutrition guidance"] },
-    { "slug": "coach-ava", "name": "Ava Kim", "role": "Mobility Coach", "bio": "Runs the Mobility & Recovery program for members training hard through the week.", "certifications": ["FRC Mobility Specialist"], "specialties": ["Mobility", "Injury prevention", "Recovery"] }
+    { "slug": "coach-riley", "name": "Riley Zhang", "role": "Head Coach", "bio": "Experienced strength coach leading MFF Academy's overall programming.", "certifications": ["NSCA-CSCS"], "specialties": ["Strength & conditioning", "Program design", "Beginner coaching"], "photo": "/images/riley-zhang.jpg" },
+    { "slug": "coach-noah", "name": "Noah Patel", "role": "Fat Loss Coach", "bio": "Coaches the Fat Loss Program with a focus on sustainable results.", "certifications": ["ACE-CPT"], "specialties": ["Fat loss", "Metabolic conditioning", "Nutrition guidance"], "photo": "/images/noah-patel.jpg" },
+    { "slug": "coach-ava", "name": "Ava Kim", "role": "Mobility Coach", "bio": "Runs the Mobility & Recovery program for members training hard through the week.", "certifications": ["FRC Mobility Specialist"], "specialties": ["Mobility", "Injury prevention", "Recovery"], "photo": "/images/ava-kim.jpg" }
   ],
   "classSchedule": [
     { "day": "Monday", "time": "6:00 AM", "className": "Strength & Conditioning", "trainer": "Riley Zhang" },
@@ -60,10 +65,10 @@
     { "day": "Saturday", "time": "9:00 AM", "className": "Open Gym", "trainer": "Noah Patel" }
   ],
   "gallery": [
-    { "caption": "Training floor", "category": "Facility", "swatchClassName": "bg-cyan-200" },
-    { "caption": "Equipment area", "category": "Facility", "swatchClassName": "bg-emerald-200" },
-    { "caption": "Group session", "category": "Classes", "swatchClassName": "bg-teal-200" },
-    { "caption": "Mobility & recovery", "category": "Classes", "swatchClassName": "bg-cyan-100" }
+    { "caption": "Training floor", "category": "Facility", "swatchClassName": "bg-cyan-200", "src": "/images/training-floor.jpg" },
+    { "caption": "Equipment area", "category": "Facility", "swatchClassName": "bg-emerald-200", "src": "/images/equipment-area.jpg" },
+    { "caption": "Group session", "category": "Classes", "swatchClassName": "bg-teal-200", "src": "/images/group-session.jpg" },
+    { "caption": "Mobility & recovery", "category": "Classes", "swatchClassName": "bg-cyan-100", "src": "/images/mobility-recovery.jpg" }
   ],
   "transformations": [],
   "testimonials": [
