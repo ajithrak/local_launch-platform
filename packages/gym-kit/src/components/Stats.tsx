@@ -9,6 +9,8 @@ import { ICON_MAP } from './icon-map';
 export function Stats({ stats }: { stats: Stat[] }) {
   const theme = useTheme();
 
+  if (stats.length === 0) return null;
+
   if (theme.key === 'gold') {
     return (
       <section className="px-6 py-16 md:px-10" style={{ backgroundColor: 'var(--color-surface-alt)' }}>
