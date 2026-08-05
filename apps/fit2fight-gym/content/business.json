@@ -1,0 +1,124 @@
+{
+  "industry": "gym",
+  "theme": "gold",
+  "business": {
+    "name": "Fit 2 Fight Unisex Gym",
+    "city": "Chennai",
+    "phone": "+91 87786 41739",
+    "whatsapp": "918778641739",
+    "address": "1/119, Periyapancheri Service Road, Jothi Nagar, Paraniputhur, Kolathuvancheri, Chennai, Tamil Nadu 600122",
+    "hours": "Mon–Sat · 6:00 AM – 9:00 PM",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Paraniputhur, Chennai",
+    "headline": "Strength, By Design.",
+    "subheadline": "A considered approach to training — real coaching, a well-kept space, and programs built around your goals.",
+    "primaryCta": { "label": "Join Now", "href": "/contact" },
+    "secondaryCta": { "label": "View Membership", "href": "/membership" }
+  },
+  "about": {
+    "title": "Where training is taken seriously",
+    "body": [
+      "Fit 2 Fight Unisex Gym is built for members who want more than a card swipe and a crowded floor — real coaching, well-maintained equipment, and a space kept the way it should be.",
+      "Every program here is built around your actual goals, with coaches who pay attention to form and progress, not just headcount."
+    ],
+    "highlights": [
+      "Real, individual coaching attention",
+      "Well-maintained equipment and facility",
+      "Programs built around your goals",
+      "Complimentary consultation for new members"
+    ]
+  },
+  "stats": [
+    { "icon": "Users", "value": "150+", "label": "Members" },
+    { "icon": "Dumbbell", "value": "5", "label": "Coaches" },
+    { "icon": "Trophy", "value": "4", "label": "Years Running" },
+    { "icon": "Star", "value": "4.6★", "label": "Rating" }
+  ],
+  "whyChooseUs": [
+    { "icon": "Dumbbell", "title": "Dedicated Training Space", "description": "A well-kept floor with equipment for strength, conditioning, and functional training." },
+    { "icon": "Award", "title": "Experienced Coaching Staff", "description": "Every coach is selected for both technical expertise and client care." },
+    { "icon": "Apple", "title": "Nutrition Guidance", "description": "A nutrition plan built around your lifestyle, not a template." },
+    { "icon": "Calendar", "title": "Flexible Membership", "description": "No lock-in contracts. Month to month, no fine print." }
+  ],
+  "plans": [
+    { "name": "Essential", "price": "₹1,499", "period": "/mo", "features": ["Full gym access", "Locker access", "Complimentary consultation"], "featured": false },
+    { "name": "Advanced", "price": "₹2,499", "period": "/mo", "features": ["Everything in Essential", "2 coaching sessions / month", "Quarterly progress review"], "featured": true },
+    { "name": "Performance", "price": "₹3,999", "period": "/mo", "features": ["Everything in Advanced", "Weekly coaching session", "Priority scheduling"], "featured": false }
+  ],
+  "programs": [
+    { "slug": "personal-training", "name": "Private Coaching", "tagline": "Fully individualized training", "description": "One-on-one programming with a coach dedicated to your goals and schedule.", "duration": "Ongoing, billed monthly", "features": ["Private sessions each week", "Programming reviewed regularly", "Direct coach access", "Includes full gym membership"] },
+    { "slug": "weight-loss", "name": "Composition & Wellness", "tagline": "A measured approach to body composition", "description": "A 12-week program combining coaching with nutrition planning.", "duration": "12 weeks", "features": ["Weekly sessions", "Nutrition guidance", "Bi-weekly progress check-ins", "Access to all facility amenities"] },
+    { "slug": "combat-fitness", "name": "Combat Fitness", "tagline": "Boxing and functional conditioning", "description": "A high-intensity program pairing boxing fundamentals with functional strength work.", "duration": "Ongoing", "features": ["Pad work and technique sessions", "Functional conditioning circuits", "Coached for all levels", "Community sparring sessions"] }
+  ],
+  "trainers": [
+    { "slug": "coach-arvind", "name": "Coach Arvind", "role": "Head Coach", "bio": "Years of experience coaching clients across a range of goals, from general fitness to combat conditioning.", "certifications": ["Certified Strength Coach"], "specialties": ["Private coaching", "Strength", "Combat fitness"], "photo": "/images/coach-arvind.jpg" },
+    { "slug": "coach-meera", "name": "Coach Meera", "role": "Wellness Coach", "bio": "Works with members preparing for specific performance or body-composition goals on a defined timeline.", "certifications": ["Certified Personal Trainer"], "specialties": ["Body composition", "Nutrition coaching", "Group training"], "photo": "/images/coach-meera.jpg" },
+    { "slug": "coach-ragul", "name": "Coach Ragul", "role": "Combat Fitness Coach", "bio": "Runs the Combat Fitness program with a focus on technique before intensity.", "certifications": ["Boxing Coaching Certificate"], "specialties": ["Boxing", "Functional conditioning", "Beginner coaching"], "photo": "/images/coach-ragul.jpg" }
+  ],
+  "classSchedule": [
+    { "day": "Monday", "time": "6:00 AM", "className": "Private Coaching", "trainer": "Coach Arvind" },
+    { "day": "Tuesday", "time": "6:00 PM", "className": "Composition & Wellness", "trainer": "Coach Meera" },
+    { "day": "Wednesday", "time": "6:00 PM", "className": "Combat Fitness", "trainer": "Coach Ragul" },
+    { "day": "Thursday", "time": "6:00 AM", "className": "Private Coaching", "trainer": "Coach Arvind" },
+    { "day": "Saturday", "time": "9:00 AM", "className": "Combat Fitness", "trainer": "Coach Ragul" }
+  ],
+  "gallery": [
+    { "caption": "Training floor", "category": "Facility", "swatchClassName": "bg-amber-100", "src": "/images/training-floor.jpg" },
+    { "caption": "Free weights area", "category": "Facility", "swatchClassName": "bg-yellow-50", "src": "/images/free-weights-area.jpg" },
+    { "caption": "Combat Fitness class", "category": "Classes", "swatchClassName": "bg-amber-50", "src": "/images/combat-fitness-class.jpg" },
+    { "caption": "Coaching session", "category": "Classes", "swatchClassName": "bg-yellow-100", "src": "/images/coaching-session.jpg" },
+    { "caption": "Member consultation", "category": "Results", "swatchClassName": "bg-amber-100", "src": "/images/member-consultation.jpg" }
+  ],
+  "transformations": [],
+  "testimonials": [
+    { "quote": "The level of attention here is well above what you'd expect — every detail is considered.", "author": "Member since 2023", "rating": 5 },
+    { "quote": "My coach actually pays attention to my goals, not just my membership fee.", "author": "Member since 2024", "rating": 5 },
+    { "quote": "Well worth it for the coaching quality alone. No compromises here.", "author": "Member since 2024", "rating": 5 }
+  ],
+  "faqs": [
+    { "question": "What time does the gym open?", "answer": "Please call or WhatsApp us to confirm current opening hours." },
+    { "question": "Is there a complimentary consultation?", "answer": "Yes, every new member gets a complimentary consultation before starting." },
+    { "question": "Is the gym open to both men and women?", "answer": "Yes — Fit 2 Fight is a unisex gym, open to all members." },
+    { "question": "What is the cancellation policy?", "answer": "Memberships are billed monthly with 30 days notice for cancellation." },
+    { "question": "Is nutrition coaching included?", "answer": "A complimentary consultation is included with every plan; ongoing nutrition guidance is included from Advanced upward." }
+  ],
+  "blogPosts": [
+    {
+      "slug": "how-to-lose-weight",
+      "title": "The Discipline of Doing Less, Better",
+      "excerpt": "On why the most effective body composition plans are often the most restrained.",
+      "author": "Coach Meera",
+      "date": "2026-06-12",
+      "content": [
+        "The clients who see the most refined results rarely follow the most aggressive plans — they follow the most consistent ones.",
+        "A measured caloric deficit, adequate protein, and two to three well-coached strength sessions a week will outperform an extreme regimen followed for three weeks and abandoned.",
+        "We review progress in trends over weeks, not days, and we adjust deliberately rather than reactively.",
+        "The goal is never a dramatic before-and-after. It's a plan refined enough to become simply how you live."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Information we collect", "body": "We collect the information provided when you join or contact us — name, email, phone number, and billing details necessary to process payments." },
+      { "heading": "How we use it", "body": "Your information is used to manage your membership, communicate about sessions and schedule changes, and process payments. We do not sell member data to third parties." },
+      { "heading": "Your rights", "body": "You may request a copy of the data we hold about you, or ask us to delete it, at any time." }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      { "heading": "Membership terms", "body": "Memberships are billed monthly and may be cancelled with 30 days notice." },
+      { "heading": "Facility use", "body": "Members are expected to re-rack equipment and follow posted class capacity limits." },
+      { "heading": "Liability", "body": "Exercise carries inherent risk. Members are responsible for training within their own limits and consulting a physician before starting a new program if needed." }
+    ]
+  },
+  "seo": {
+    "title": "Fit 2 Fight Unisex Gym — Paraniputhur, Chennai",
+    "description": "A considered strength and conditioning gym in Paraniputhur, Chennai offering private coaching, combat fitness classes, and a well-kept facility."
+  }
+}
