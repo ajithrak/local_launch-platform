@@ -390,6 +390,128 @@ importers:
         specifier: ^5.7.3
         version: 5.9.3
 
+  apps/sk-hightech-fitness:
+    dependencies:
+      '@locallaunch/config-schema':
+        specifier: workspace:*
+        version: link:../../packages/config-schema
+      '@locallaunch/gym-kit':
+        specifier: workspace:*
+        version: link:../../packages/gym-kit
+      '@locallaunch/theme-engine':
+        specifier: workspace:*
+        version: link:../../packages/theme-engine
+      '@locallaunch/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      framer-motion:
+        specifier: ^12.40.0
+        version: 12.42.2(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      lucide-react:
+        specifier: ^0.469.0
+        version: 0.469.0(react@19.2.8)
+      next:
+        specifier: ^15.1.6
+        version: 15.5.22(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      react:
+        specifier: ^19.0.0
+        version: 19.2.8
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.2.8(react@19.2.8)
+      zod:
+        specifier: ^3.24.1
+        version: 3.25.76
+    devDependencies:
+      '@locallaunch/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@locallaunch/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@tailwindcss/postcss':
+        specifier: ^4.0.0
+        version: 4.3.3
+      '@types/node':
+        specifier: ^22.10.7
+        version: 22.20.1
+      '@types/react':
+        specifier: ^19.0.8
+        version: 19.2.17
+      '@types/react-dom':
+        specifier: ^19.0.3
+        version: 19.2.3(@types/react@19.2.17)
+      eslint:
+        specifier: ^9.18.0
+        version: 9.39.5(jiti@2.7.0)(supports-color@7.2.0)
+      tailwindcss:
+        specifier: ^4.0.0
+        version: 4.3.3
+      typescript:
+        specifier: ^5.7.3
+        version: 5.9.3
+
+  apps/sr-gym-fitness:
+    dependencies:
+      '@locallaunch/config-schema':
+        specifier: workspace:*
+        version: link:../../packages/config-schema
+      '@locallaunch/gym-kit':
+        specifier: workspace:*
+        version: link:../../packages/gym-kit
+      '@locallaunch/theme-engine':
+        specifier: workspace:*
+        version: link:../../packages/theme-engine
+      '@locallaunch/ui':
+        specifier: workspace:*
+        version: link:../../packages/ui
+      framer-motion:
+        specifier: ^12.40.0
+        version: 12.42.2(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      lucide-react:
+        specifier: ^0.469.0
+        version: 0.469.0(react@19.2.8)
+      next:
+        specifier: ^15.1.6
+        version: 15.5.22(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+      react:
+        specifier: ^19.0.0
+        version: 19.2.8
+      react-dom:
+        specifier: ^19.0.0
+        version: 19.2.8(react@19.2.8)
+      zod:
+        specifier: ^3.24.1
+        version: 3.25.76
+    devDependencies:
+      '@locallaunch/eslint-config':
+        specifier: workspace:*
+        version: link:../../packages/eslint-config
+      '@locallaunch/tsconfig':
+        specifier: workspace:*
+        version: link:../../packages/tsconfig
+      '@tailwindcss/postcss':
+        specifier: ^4.0.0
+        version: 4.3.3
+      '@types/node':
+        specifier: ^22.10.7
+        version: 22.20.1
+      '@types/react':
+        specifier: ^19.0.8
+        version: 19.2.17
+      '@types/react-dom':
+        specifier: ^19.0.3
+        version: 19.2.3(@types/react@19.2.17)
+      eslint:
+        specifier: ^9.18.0
+        version: 9.39.5(jiti@2.7.0)(supports-color@7.2.0)
+      tailwindcss:
+        specifier: ^4.0.0
+        version: 4.3.3
+      typescript:
+        specifier: ^5.7.3
+        version: 5.9.3
+
   apps/target-fitness:
     dependencies:
       '@locallaunch/config-schema':
