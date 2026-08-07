@@ -1,0 +1,426 @@
+{
+  "industry": "healthcare",
+  "clinicType": "multi-speciality",
+  "theme": "mednova",
+  "business": {
+    "name": "NovaCare Hospital",
+    "city": "San Francisco, CA",
+    "phone": "+1 415 555 0188",
+    "whatsapp": "14155550188",
+    "email": "care@novacarehospital.com",
+    "address": "480 Marina Blvd, San Francisco, CA",
+    "hours": "Mon–Sun · 7:00 AM – 9:00 PM · Emergency 24/7",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "JCI-Accredited Multi-Speciality Hospital",
+    "headline": "Advanced Care, Delivered With Warmth.",
+    "subheadline": "State-of-the-art diagnostics, specialists across every major department, and a patient experience built around comfort, not just treatment.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Medicine, practiced with precision and presence",
+    "body": [
+      "NovaCare Hospital was founded on the belief that advanced medicine and genuine patient care aren't a trade-off — they're both non-negotiable.",
+      "Our specialists work across cardiology, IVF, cosmetic surgery, and general medicine under one roof, backed by diagnostic imaging and a lab that turns results around fast."
+    ],
+    "highlights": [
+      "JCI-accredited facility and protocols",
+      "40+ specialists across 12 departments",
+      "24/7 emergency and diagnostic services",
+      "Dedicated IVF and fertility wing"
+    ],
+    "image": "/images/mednova/main-reception.jpg"
+  },
+  "googleReviews": {
+    "rating": 4.8,
+    "reviewCount": 612
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "40+",
+      "label": "Specialists"
+    },
+    {
+      "icon": "Award",
+      "value": "18",
+      "label": "Years of Care"
+    },
+    {
+      "icon": "HeartPulse",
+      "value": "50k+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Star",
+      "value": "4.8★",
+      "label": "Patient Rating"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "ShieldCheck",
+      "title": "JCI-Accredited Standards",
+      "description": "Every protocol here meets international accreditation benchmarks, not just local minimums."
+    },
+    {
+      "icon": "Microscope",
+      "title": "In-House Diagnostics",
+      "description": "Full imaging and lab services on-site, so results come back in hours, not days."
+    },
+    {
+      "icon": "HeartPulse",
+      "title": "Coordinated Specialist Care",
+      "description": "Your specialists actually talk to each other — care plans are coordinated, not siloed."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "A Genuinely Calm Experience",
+      "description": "Private consultation suites and a care team that explains everything before it happens."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-aparna-rao",
+      "name": "Dr. Aparna Rao",
+      "role": "Director, IVF & Reproductive Medicine",
+      "qualification": "MBBS, MD, DNB (Reproductive Medicine)",
+      "registrationNumber": "CA-MED-88213",
+      "experienceYears": 16,
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "availability": "Mon, Wed, Fri · 10:00 AM – 2:00 PM",
+      "bio": "Dr. Rao has led NovaCare's fertility program since 2014, with a focus on personalized IVF protocols and minimally invasive fertility surgery.",
+      "education": [
+        "MBBS — University of California, San Francisco",
+        "MD, Obstetrics & Gynecology — Stanford University",
+        "Fellowship, Reproductive Medicine — Johns Hopkins"
+      ],
+      "awards": [
+        "Top Fertility Specialist, Bay Area Health Awards 2023"
+      ],
+      "specialties": [
+        "IVF",
+        "Fertility preservation",
+        "Minimally invasive surgery"
+      ],
+      "photo": "/images/mednova/dr-aparna-rao.jpg"
+    },
+    {
+      "slug": "dr-marcus-lin",
+      "name": "Dr. Marcus Lin",
+      "role": "Chief of Cardiology",
+      "qualification": "MBBS, MD, DM (Cardiology)",
+      "registrationNumber": "CA-MED-77042",
+      "experienceYears": 21,
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "availability": "Tue, Thu · 9:00 AM – 1:00 PM",
+      "bio": "Dr. Lin oversees NovaCare's cardiology department, specializing in interventional procedures and long-term cardiac risk management.",
+      "education": [
+        "MBBS — UCLA",
+        "DM Cardiology — Cleveland Clinic"
+      ],
+      "awards": [
+        "Excellence in Interventional Cardiology, 2021"
+      ],
+      "specialties": [
+        "Interventional cardiology",
+        "Preventive cardiology",
+        "Cardiac imaging"
+      ],
+      "photo": "/images/mednova/dr-marcus-lin.jpg"
+    },
+    {
+      "slug": "dr-sofia-alvarez",
+      "name": "Dr. Sofia Alvarez",
+      "role": "Consultant, Cosmetic & Reconstructive Surgery",
+      "qualification": "MBBS, MS, MCh (Plastic Surgery)",
+      "registrationNumber": "CA-MED-91455",
+      "experienceYears": 12,
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "availability": "Mon–Fri · By appointment",
+      "bio": "Dr. Alvarez combines reconstructive surgical training with an aesthetic-focused cosmetic practice, known for conservative, natural-looking outcomes.",
+      "education": [
+        "MBBS — UC San Diego",
+        "MCh Plastic Surgery — NYU Langone"
+      ],
+      "awards": [],
+      "specialties": [
+        "Facial rejuvenation",
+        "Reconstructive surgery",
+        "Body contouring"
+      ],
+      "photo": "/images/mednova/dr-sofia-alvarez.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "ivf-fertility-treatment",
+      "name": "IVF & Fertility Treatment",
+      "tagline": "Personalized fertility care, from diagnosis to delivery",
+      "overview": "Our fertility program combines advanced reproductive technology with individualized protocols — every treatment plan is built around your specific diagnosis, not a standard track.",
+      "symptoms": [
+        "Difficulty conceiving after 12 months of trying",
+        "Irregular or absent ovulation",
+        "Recurrent pregnancy loss"
+      ],
+      "procedure": [
+        "Initial fertility assessment and hormone panel",
+        "Personalized stimulation protocol",
+        "Egg retrieval and fertilization",
+        "Embryo transfer and monitoring"
+      ],
+      "benefits": [
+        "Individualized protocols, not one-size-fits-all",
+        "On-site embryology lab",
+        "Transparent success-rate reporting"
+      ],
+      "recovery": "Most patients resume normal activity within 24–48 hours of egg retrieval; embryo transfer requires minimal downtime.",
+      "faqs": [
+        {
+          "question": "What is the success rate for IVF at NovaCare?",
+          "answer": "Success rates vary by age and diagnosis — we review your specific projected outcomes during your first consultation."
+        },
+        {
+          "question": "How long does one IVF cycle take?",
+          "answer": "A full cycle, from stimulation to transfer, typically takes 4–6 weeks."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "fertility-preservation"
+      ]
+    },
+    {
+      "slug": "cardiac-care",
+      "name": "Cardiac Care",
+      "tagline": "Prevention, diagnostics, and intervention under one roof",
+      "overview": "From routine risk screening to interventional procedures, our cardiology team manages the full spectrum of heart health with in-house imaging and a dedicated cath lab.",
+      "symptoms": [
+        "Chest pain or tightness",
+        "Shortness of breath on exertion",
+        "Irregular heartbeat or palpitations"
+      ],
+      "procedure": [
+        "Comprehensive cardiac risk assessment",
+        "Echocardiogram and stress testing",
+        "Angiography where indicated",
+        "Ongoing risk management plan"
+      ],
+      "benefits": [
+        "Same-day imaging results",
+        "Dedicated interventional cath lab",
+        "Long-term risk management, not just one-time treatment"
+      ],
+      "recovery": "Recovery timelines depend on the procedure — diagnostic visits require no downtime; interventional procedures are discussed in detail beforehand.",
+      "faqs": [
+        {
+          "question": "Do I need a referral to see a cardiologist?",
+          "answer": "No referral is required — you can book directly through our appointment page."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "cosmetic-reconstructive-surgery",
+      "name": "Cosmetic & Reconstructive Surgery",
+      "tagline": "Conservative, natural-looking results",
+      "overview": "Our cosmetic and reconstructive surgery practice is built on a reconstructive-surgery foundation, favoring natural, proportionate outcomes over dramatic change.",
+      "symptoms": [],
+      "procedure": [
+        "In-depth consultation and goal-setting",
+        "Pre-operative planning and imaging",
+        "Surgical procedure",
+        "Structured post-operative follow-up"
+      ],
+      "benefits": [
+        "Reconstructive-trained surgical team",
+        "Conservative, natural-result philosophy",
+        "Structured aftercare program"
+      ],
+      "recovery": "Recovery time varies by procedure and is discussed in detail during your consultation, typically ranging from 1–4 weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [
+    {
+      "name": "Fertility & IVF",
+      "doctorSlugs": [
+        "dr-aparna-rao"
+      ]
+    },
+    {
+      "name": "Cardiology",
+      "doctorSlugs": [
+        "dr-marcus-lin"
+      ]
+    },
+    {
+      "name": "Cosmetic Surgery",
+      "doctorSlugs": [
+        "dr-sofia-alvarez"
+      ]
+    }
+  ],
+  "insurancePartners": [
+    {
+      "name": "Blue Shield"
+    },
+    {
+      "name": "Aetna"
+    },
+    {
+      "name": "Cigna"
+    },
+    {
+      "name": "UnitedHealthcare"
+    }
+  ],
+  "emergencyPhone": "+1 415 555 0199",
+  "gallery": [
+    {
+      "caption": "Main reception",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/mednova/main-reception.jpg"
+    },
+    {
+      "caption": "Private consultation suite",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/mednova/private-consultation-suite.jpg"
+    },
+    {
+      "caption": "IVF laboratory",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/mednova/ivf-laboratory.jpg"
+    },
+    {
+      "caption": "Cardiac diagnostics suite",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/mednova/cardiac-diagnostics-suite.jpg"
+    },
+    {
+      "caption": "Patient recovery lounge",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/mednova/patient-recovery-lounge.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "After two failed IVF rounds elsewhere, Dr. Rao's team got it right on the first try here. The communication throughout was extraordinary.",
+      "author": "Patient, Fertility Program",
+      "rating": 5
+    },
+    {
+      "quote": "Same-day cardiac imaging results and a doctor who actually walked me through what they meant. Rare to find both.",
+      "author": "Patient, Cardiology",
+      "rating": 5
+    },
+    {
+      "quote": "The whole facility feels more like a boutique hotel than a hospital, without compromising on the medicine.",
+      "author": "Patient, General Consultation",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "Walk-ins are accepted for urgent care and our emergency department; all specialist consultations require an appointment."
+    },
+    {
+      "question": "Is parking available on-site?",
+      "answer": "Yes, complimentary valet parking is available for all patients and visitors."
+    },
+    {
+      "question": "Do you offer second opinions?",
+      "answer": "Yes — second-opinion consultations are available across all departments, including with existing imaging and records."
+    },
+    {
+      "question": "What insurance do you accept?",
+      "answer": "We're in-network with most major insurers; our billing team can verify your specific coverage before your visit."
+    },
+    {
+      "question": "Can I access my records online?",
+      "answer": "Yes, all patients receive access to a secure patient portal for records, results, and appointment scheduling."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "understanding-ivf-success-rates",
+      "title": "Understanding IVF Success Rates: What the Numbers Actually Mean",
+      "excerpt": "Success rates get quoted constantly in fertility care — here's how to actually read them for your situation.",
+      "author": "Dr. Aparna Rao",
+      "date": "2026-05-14",
+      "content": [
+        "Published IVF success rates are almost always reported as clinic averages across all ages and diagnoses — which makes them close to meaningless for any individual patient.",
+        "The number that actually matters is your projected success rate, based on your age, ovarian reserve, and specific diagnosis, which your fertility specialist calculates during your initial workup.",
+        "Ask your clinic for their live-birth rate per embryo transfer for your age bracket specifically — that's the number with real predictive value.",
+        "Success also compounds across cycles. A 35% per-cycle rate can mean a much higher cumulative chance of success across two or three cycles, which is part of why treatment planning looks further ahead than one attempt."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care, schedule appointments, and process insurance claims, in compliance with HIPAA."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to deliver and coordinate your care. We do not sell patient data, and access is restricted to your care team and billing staff."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to, or correction of, your medical records at any time through the patient portal or by contacting our records office."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Appointments may be rescheduled or cancelled up to 24 hours in advance without charge."
+      },
+      {
+        "heading": "Billing",
+        "body": "Patients are responsible for co-pays and any charges not covered by insurance, disclosed prior to treatment where possible."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace a consultation with a licensed physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "NovaCare Hospital — San Francisco",
+    "description": "JCI-accredited multi-speciality hospital in San Francisco offering IVF, cardiology, and cosmetic surgery with 24/7 emergency care."
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "smilecraft",
+  "business": {
+    "name": "SmileCraft Dental Studio",
+    "city": "Miami, FL",
+    "phone": "+1 305 555 0144",
+    "whatsapp": "13055550144",
+    "email": "hello@smilecraftdental.com",
+    "address": "88 Brickell Ave, Miami, FL",
+    "hours": "Mon–Sat · 8:00 AM – 6:00 PM",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Cosmetic & Restorative Dentistry",
+    "headline": "A Smile You Actually Love.",
+    "subheadline": "From routine cleanings to full smile makeovers, SmileCraft pairs cosmetic artistry with genuinely painless technique.",
+    "primaryCta": {
+      "label": "Book Smile Consult",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "Dentistry, designed like a studio",
+    "body": [
+      "SmileCraft was built around a simple idea: a dental visit should feel considered, not clinical — from the waiting room down to how a procedure is explained.",
+      "Dr. Naveen Kumar and the team pair modern cosmetic technique with a genuinely gentle approach, for patients who've avoided the dentist for years and finally want to fix that."
+    ],
+    "highlights": [
+      "Same-week appointments for most procedures",
+      "In-house digital smile design",
+      "Sedation options for anxious patients",
+      "Complimentary consultation for cosmetic cases"
+    ],
+    "image": "/images/smilecraft/reception-lounge.jpg"
+  },
+  "googleReviews": {
+    "rating": 4.9,
+    "reviewCount": 421
+  },
+  "stats": [
+    {
+      "icon": "Smile",
+      "value": "6,500+",
+      "label": "Smiles Treated"
+    },
+    {
+      "icon": "Users",
+      "value": "4",
+      "label": "Dental Specialists"
+    },
+    {
+      "icon": "Award",
+      "value": "9",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Star",
+      "value": "4.9★",
+      "label": "Patient Rating"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Smile",
+      "title": "Digital Smile Design",
+      "description": "See your projected result before treatment even begins, using 3D digital imaging."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Genuinely Gentle Technique",
+      "description": "Modern, minimally invasive methods built for patients who've had bad experiences before."
+    },
+    {
+      "icon": "Clock",
+      "title": "Same-Week Availability",
+      "description": "Most procedures, including cosmetic consultations, are booked within the same week."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Sedation Options Available",
+      "description": "For anxious patients, multiple sedation options are available to make treatment comfortable."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-naveen-kumar",
+      "name": "Dr. Naveen Kumar",
+      "role": "Cosmetic & Restorative Dentist",
+      "qualification": "DDS, Advanced Cosmetic Dentistry Certification",
+      "registrationNumber": "FL-DDS-22190",
+      "experienceYears": 13,
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "availability": "Mon–Fri · 8:00 AM – 5:00 PM",
+      "bio": "Dr. Kumar leads SmileCraft's cosmetic practice, specializing in veneers, full smile makeovers, and digital smile design.",
+      "education": [
+        "DDS — University of Florida College of Dentistry",
+        "Certification, Cosmetic Dentistry — Las Vegas Institute"
+      ],
+      "awards": [
+        "Top Cosmetic Dentist, Miami Dental Society, 2023"
+      ],
+      "specialties": [
+        "Veneers",
+        "Smile makeovers",
+        "Digital smile design"
+      ],
+      "photo": "/images/smilecraft/dr-naveen-kumar.jpg"
+    },
+    {
+      "slug": "dr-elena-cruz",
+      "name": "Dr. Elena Cruz",
+      "role": "Orthodontist",
+      "qualification": "DDS, MS Orthodontics",
+      "registrationNumber": "FL-DDS-30871",
+      "experienceYears": 10,
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "availability": "Tue, Thu, Sat · 9:00 AM – 4:00 PM",
+      "bio": "Dr. Cruz manages SmileCraft's orthodontic program, including Invisalign and traditional braces for teens and adults.",
+      "education": [
+        "DDS — Nova Southeastern University",
+        "MS Orthodontics — University of Florida"
+      ],
+      "awards": [],
+      "specialties": [
+        "Invisalign",
+        "Braces",
+        "Bite correction"
+      ],
+      "photo": "/images/smilecraft/dr-elena-cruz.jpg"
+    },
+    {
+      "slug": "dr-felix-omar",
+      "name": "Dr. Felix Omar",
+      "role": "General & Restorative Dentist",
+      "qualification": "DDS",
+      "registrationNumber": "FL-DDS-19453",
+      "experienceYears": 8,
+      "languages": [
+        "English"
+      ],
+      "availability": "Mon, Wed, Fri · 8:00 AM – 5:00 PM",
+      "bio": "Dr. Omar handles general dentistry and restorative work, from routine cleanings to crowns and root canals.",
+      "education": [
+        "DDS — University of Florida College of Dentistry"
+      ],
+      "awards": [],
+      "specialties": [
+        "Root canals",
+        "Crowns",
+        "Preventive care"
+      ],
+      "photo": "/images/smilecraft/dr-felix-omar.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "veneers-smile-makeover",
+      "name": "Veneers & Smile Makeover",
+      "tagline": "See your new smile before treatment even starts",
+      "overview": "Using digital smile design, we show you a preview of your projected result before any irreversible work begins — so there are no surprises.",
+      "symptoms": [],
+      "procedure": [
+        "Digital smile design consultation",
+        "Tooth preparation (minimal for most cases)",
+        "Temporary veneer fitting",
+        "Final veneer placement"
+      ],
+      "benefits": [
+        "See your result before committing",
+        "Minimally invasive preparation techniques",
+        "Natural-looking, durable materials"
+      ],
+      "recovery": "No downtime required — most patients return to normal activity immediately after placement.",
+      "faqs": [
+        {
+          "question": "How long do veneers last?",
+          "answer": "With proper care, veneers typically last 10–15 years before needing replacement."
+        },
+        {
+          "question": "Is the procedure painful?",
+          "answer": "Most patients report minimal discomfort — local anesthesia is used for tooth preparation."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "teeth-whitening"
+      ]
+    },
+    {
+      "slug": "invisalign-orthodontics",
+      "name": "Invisalign & Orthodontics",
+      "tagline": "Straighten your teeth without traditional braces",
+      "overview": "Dr. Cruz's orthodontic program offers both Invisalign clear aligners and traditional braces, matched to your specific bite correction needs.",
+      "symptoms": [
+        "Crowded or crooked teeth",
+        "Bite misalignment",
+        "Gaps between teeth"
+      ],
+      "procedure": [
+        "Orthodontic assessment and 3D scan",
+        "Custom treatment plan",
+        "Aligner or bracket fitting",
+        "Regular progress check-ins"
+      ],
+      "benefits": [
+        "Nearly invisible treatment option available",
+        "Custom-fitted for comfort",
+        "Regular progress tracking"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How long does Invisalign treatment take?",
+          "answer": "Most cases take 12–18 months, depending on complexity."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "tagline": "Professional-grade whitening, done right",
+      "overview": "In-office and take-home whitening options, using professional-strength treatment that's both more effective and gentler than over-the-counter kits.",
+      "symptoms": [],
+      "procedure": [
+        "Shade assessment",
+        "Custom whitening tray fitting (for take-home) or in-office treatment",
+        "Follow-up shade check"
+      ],
+      "benefits": [
+        "Professional-strength results",
+        "Reduced sensitivity compared to OTC kits",
+        "In-office or take-home options"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "veneers-smile-makeover"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "Cosmetic Dentistry",
+      "doctorSlugs": [
+        "dr-naveen-kumar"
+      ]
+    },
+    {
+      "name": "Orthodontics",
+      "doctorSlugs": [
+        "dr-elena-cruz"
+      ]
+    },
+    {
+      "name": "General Dentistry",
+      "doctorSlugs": [
+        "dr-felix-omar"
+      ]
+    }
+  ],
+  "insurancePartners": [
+    {
+      "name": "Delta Dental"
+    },
+    {
+      "name": "Cigna Dental"
+    },
+    {
+      "name": "MetLife"
+    }
+  ],
+  "gallery": [
+    {
+      "caption": "Reception lounge",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/smilecraft/reception-lounge.jpg"
+    },
+    {
+      "caption": "Treatment suite",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/smilecraft/treatment-suite.jpg"
+    },
+    {
+      "caption": "Digital smile design station",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/smilecraft/digital-smile-design-station.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/smilecraft/consultation-room.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I hadn't been to a dentist in six years because of anxiety. The team here made it genuinely fine — no judgment, just care.",
+      "author": "Patient, general dentistry",
+      "rating": 5
+    },
+    {
+      "quote": "Seeing my projected smile before starting the veneers made the whole decision so much easier.",
+      "author": "Patient, cosmetic dentistry",
+      "rating": 5
+    },
+    {
+      "quote": "Invisalign results exceeded what I expected — Dr. Cruz adjusted the plan twice to get the bite exactly right.",
+      "author": "Patient, orthodontics",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you treat anxious or nervous patients?",
+      "answer": "Yes — we offer sedation options and take extra time to walk through every step beforehand."
+    },
+    {
+      "question": "Is the cosmetic consultation free?",
+      "answer": "Yes, initial cosmetic consultations are complimentary."
+    },
+    {
+      "question": "Do you accept dental insurance?",
+      "answer": "Yes, we're in-network with most major dental insurers."
+    },
+    {
+      "question": "How soon can I get an appointment?",
+      "answer": "Most patients are seen within the same week, including for cosmetic consultations."
+    },
+    {
+      "question": "Do you treat children?",
+      "answer": "We currently focus on teen and adult patients; ask us for a pediatric dentist referral if needed."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "veneers-vs-whitening-whats-right-for-you",
+      "title": "Veneers vs. Whitening: What's Actually Right for Your Smile",
+      "excerpt": "Two very different treatments that solve two very different problems — here's how to tell which one you need.",
+      "author": "Dr. Naveen Kumar",
+      "date": "2026-02-20",
+      "content": [
+        "Whitening changes the color of your existing teeth; veneers change their shape, size, and alignment as well as color — they solve different problems.",
+        "If your teeth are healthy and well-aligned but discolored, whitening is almost always the better first step — it's less invasive and reversible.",
+        "Veneers make sense when there's chipping, gaps, or shape issues that whitening alone can't fix, or when whitening has already reached its limit.",
+        "A good consultation should walk you through both options honestly, including trying whitening first before recommending anything irreversible."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, dental, contact, and billing information necessary to provide treatment, in compliance with HIPAA."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and deliver your treatment. We do not sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your dental records at any time through our office."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment."
+      },
+      {
+        "heading": "Billing",
+        "body": "Co-pays and any charges not covered by insurance are due at time of treatment."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person dental evaluation."
+      }
+    ]
+  },
+  "seo": {
+    "title": "SmileCraft Dental Studio — Miami, FL",
+    "description": "Cosmetic and restorative dental studio in Miami offering veneers, Invisalign, and general dentistry with same-week appointments."
+  }
+}

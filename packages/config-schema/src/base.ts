@@ -6,7 +6,18 @@ import { z } from 'zod';
  * here) so adding a new industry never requires touching this file.
  */
 
-export const themeKeySchema = z.enum(['dark', 'gold', 'minimal', 'orange', 'neon']);
+export const themeKeySchema = z.enum([
+  'dark',
+  'gold',
+  'minimal',
+  'orange',
+  'neon',
+  'mednova',
+  'careplus',
+  'orthoedge',
+  'smilecraft',
+  'mothercare',
+]);
 
 export const socialLinksSchema = z.object({
   instagram: z.string().url().optional(),
@@ -80,6 +91,8 @@ export const aboutSchema = z.object({
   title: z.string().min(1),
   body: z.array(z.string().min(1)).min(1),
   highlights: z.array(z.string().min(1)).default([]),
+  /** Supporting photo for the About page. Falls back to no image when absent. */
+  image: z.string().optional(),
 });
 
 export const galleryImageSchema = z.object({

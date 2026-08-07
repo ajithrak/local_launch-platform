@@ -3,6 +3,7 @@
 import { useTheme } from '@locallaunch/theme-engine';
 import { Card } from '@locallaunch/ui';
 import { motion } from 'framer-motion';
+import { Clock, User } from 'lucide-react';
 import { useState } from 'react';
 import type { ClassScheduleItem } from '@locallaunch/config-schema';
 
@@ -38,20 +39,25 @@ export function ScheduleTable({ schedule }: { schedule: ClassScheduleItem[] }) {
       </div>
 
       <Card className="overflow-hidden p-0">
-        <table className="w-full text-sm">
+        <div className="overflow-x-auto">
+          <table className="w-full min-w-[420px] text-sm">
           <thead>
             <tr className="text-left" style={{ borderBottom: '1px solid var(--color-border)' }}>
               <th className="px-5 py-3 font-medium" style={{ color: 'var(--color-muted)' }}>
                 Day
               </th>
               <th className="px-5 py-3 font-medium" style={{ color: 'var(--color-muted)' }}>
-                Time
+                <span className="flex items-center gap-1.5">
+                  <Clock size={13} /> Time
+                </span>
               </th>
               <th className="px-5 py-3 font-medium" style={{ color: 'var(--color-muted)' }}>
                 Class
               </th>
               <th className="px-5 py-3 font-medium" style={{ color: 'var(--color-muted)' }}>
-                Trainer
+                <span className="flex items-center gap-1.5">
+                  <User size={13} /> Trainer
+                </span>
               </th>
             </tr>
           </thead>
@@ -80,6 +86,7 @@ export function ScheduleTable({ schedule }: { schedule: ClassScheduleItem[] }) {
             ))}
           </tbody>
         </table>
+        </div>
       </Card>
 
       {theme.card.ornate && (

@@ -18,8 +18,14 @@
     "eyebrow": "Data-Driven Training, Seattle",
     "headline": "TRAIN SMARTER.",
     "subheadline": "Track it, beat it, feel it — training programmed around your actual numbers, not guesswork.",
-    "primaryCta": { "label": "Start Free Trial", "href": "/contact" },
-    "secondaryCta": { "label": "See Membership", "href": "/membership" }
+    "primaryCta": {
+      "label": "Start Free Trial",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "label": "See Membership",
+      "href": "/membership"
+    }
   },
   "about": {
     "title": "Fitness, instrumented",
@@ -32,66 +38,311 @@
       "410+ active members",
       "11 coaches, all data-certified",
       "Free baseline assessment for new members"
-    ]
+    ],
+    "image": "/images/pulse/connected-floor.jpg"
   },
-  "googleReviews": { "rating": 4.9, "reviewCount": 142 },
+  "googleReviews": {
+    "rating": 4.9,
+    "reviewCount": 142
+  },
   "stats": [
-    { "icon": "Users", "value": "410+", "label": "Members" },
-    { "icon": "Dumbbell", "value": "11", "label": "Certified Coaches" },
-    { "icon": "Trophy", "value": "4", "label": "Years Running" },
-    { "icon": "Star", "value": "4.9★", "label": "Rating" }
+    {
+      "icon": "Users",
+      "value": "410+",
+      "label": "Members"
+    },
+    {
+      "icon": "Dumbbell",
+      "value": "11",
+      "label": "Certified Coaches"
+    },
+    {
+      "icon": "Trophy",
+      "value": "4",
+      "label": "Years Running"
+    },
+    {
+      "icon": "Star",
+      "value": "4.9★",
+      "label": "Rating"
+    }
   ],
   "whyChooseUs": [
-    { "icon": "Dumbbell", "title": "Smart Equipment", "description": "Connected machines that log your reps, load, and velocity automatically." },
-    { "icon": "Award", "title": "Data-Driven Coaching", "description": "Your coach reviews your weekly numbers before every session to adjust your plan." },
-    { "icon": "Apple", "title": "Personalized Plans", "description": "Programming generated from your baseline assessment, not a one-size template." },
-    { "icon": "Calendar", "title": "Flexible Access", "description": "24/7 badge access plus scheduled coaching — train on your own clock." }
+    {
+      "icon": "Dumbbell",
+      "title": "Smart Equipment",
+      "description": "Connected machines that log your reps, load, and velocity automatically."
+    },
+    {
+      "icon": "Award",
+      "title": "Data-Driven Coaching",
+      "description": "Your coach reviews your weekly numbers before every session to adjust your plan."
+    },
+    {
+      "icon": "Apple",
+      "title": "Personalized Plans",
+      "description": "Programming generated from your baseline assessment, not a one-size template."
+    },
+    {
+      "icon": "Calendar",
+      "title": "Flexible Access",
+      "description": "24/7 badge access plus scheduled coaching — train on your own clock."
+    }
   ],
   "plans": [
-    { "name": "Starter", "price": "$79", "period": "/mo", "features": ["24/7 badge access", "Progress dashboard", "Free baseline assessment"], "featured": false },
-    { "name": "Pro", "price": "$159", "period": "/mo", "features": ["Everything in Starter", "1 coaching session / month", "Monthly re-assessment"], "featured": true },
-    { "name": "Performance", "price": "$249", "period": "/mo", "features": ["Everything in Pro", "Weekly coaching session", "Priority equipment booking"], "featured": false }
+    {
+      "name": "Starter",
+      "price": "$79",
+      "period": "/mo",
+      "features": [
+        "24/7 badge access",
+        "Progress dashboard",
+        "Free baseline assessment"
+      ],
+      "featured": false
+    },
+    {
+      "name": "Pro",
+      "price": "$159",
+      "period": "/mo",
+      "features": [
+        "Everything in Starter",
+        "1 coaching session / month",
+        "Monthly re-assessment"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Performance",
+      "price": "$249",
+      "period": "/mo",
+      "features": [
+        "Everything in Pro",
+        "Weekly coaching session",
+        "Priority equipment booking"
+      ],
+      "featured": false
+    }
   ],
   "programs": [
-    { "slug": "hybrid-training", "name": "Hybrid Training", "tagline": "Strength and conditioning, balanced by your data", "description": "A program that adjusts your strength-to-conditioning ratio weekly based on your recovery metrics.", "duration": "Ongoing", "features": ["Weekly programming adjustments", "Recovery-based load management", "Connected equipment tracking", "Monthly progress dashboard review"] },
-    { "slug": "weight-loss", "name": "Metabolic Reset", "tagline": "Fat loss, tracked properly", "description": "A 10-week metabolic conditioning block with weekly data reviews so your plan adjusts to what's actually working.", "duration": "10 weeks", "features": ["Weekly metrics review", "3 sessions per week", "Nutrition tracking integration", "Access to all classes"] },
-    { "slug": "mobility", "name": "Mobility Lab", "tagline": "Movement quality, measured", "description": "A mobility and movement-screening program that tracks joint range of motion over time.", "duration": "Ongoing", "features": ["Baseline movement screen", "Bi-weekly sessions", "Progress tracked on dashboard", "Included with Pro and above"] }
+    {
+      "slug": "hybrid-training",
+      "name": "Hybrid Training",
+      "tagline": "Strength and conditioning, balanced by your data",
+      "description": "A program that adjusts your strength-to-conditioning ratio weekly based on your recovery metrics.",
+      "duration": "Ongoing",
+      "features": [
+        "Weekly programming adjustments",
+        "Recovery-based load management",
+        "Connected equipment tracking",
+        "Monthly progress dashboard review"
+      ]
+    },
+    {
+      "slug": "weight-loss",
+      "name": "Metabolic Reset",
+      "tagline": "Fat loss, tracked properly",
+      "description": "A 10-week metabolic conditioning block with weekly data reviews so your plan adjusts to what's actually working.",
+      "duration": "10 weeks",
+      "features": [
+        "Weekly metrics review",
+        "3 sessions per week",
+        "Nutrition tracking integration",
+        "Access to all classes"
+      ]
+    },
+    {
+      "slug": "mobility",
+      "name": "Mobility Lab",
+      "tagline": "Movement quality, measured",
+      "description": "A mobility and movement-screening program that tracks joint range of motion over time.",
+      "duration": "Ongoing",
+      "features": [
+        "Baseline movement screen",
+        "Bi-weekly sessions",
+        "Progress tracked on dashboard",
+        "Included with Pro and above"
+      ]
+    }
   ],
   "trainers": [
-    { "slug": "coach-riley", "name": "Riley Zhang", "role": "Head Coach", "bio": "Former biomechanics researcher, now designing Pulse's data-driven programming systems.", "certifications": ["NSCA-CSCS", "M.S. Kinesiology"], "specialties": ["Hybrid training", "Biomechanics", "Program design"], "photo": "/images/pulse/riley-zhang.jpg" },
-    { "slug": "coach-noah", "name": "Noah Patel", "role": "Metabolic Coach", "bio": "Coaches the Metabolic Reset program and reviews member dashboards weekly.", "certifications": ["ACE-CPT", "Precision Nutrition L1"], "specialties": ["Fat loss", "Metabolic conditioning", "Nutrition tracking"], "photo": "/images/pulse/noah-patel.jpg" },
-    { "slug": "coach-ava", "name": "Ava Kim", "role": "Mobility Coach", "bio": "Runs the Mobility Lab program with a background in physical therapy.", "certifications": ["DPT", "FRC Mobility Specialist"], "specialties": ["Mobility", "Injury prevention", "Movement screening"], "photo": "/images/pulse/ava-kim.jpg" }
+    {
+      "slug": "coach-riley",
+      "name": "Riley Zhang",
+      "role": "Head Coach",
+      "bio": "Former biomechanics researcher, now designing Pulse's data-driven programming systems.",
+      "certifications": [
+        "NSCA-CSCS",
+        "M.S. Kinesiology"
+      ],
+      "specialties": [
+        "Hybrid training",
+        "Biomechanics",
+        "Program design"
+      ],
+      "photo": "/images/pulse/riley-zhang.jpg"
+    },
+    {
+      "slug": "coach-noah",
+      "name": "Noah Patel",
+      "role": "Metabolic Coach",
+      "bio": "Coaches the Metabolic Reset program and reviews member dashboards weekly.",
+      "certifications": [
+        "ACE-CPT",
+        "Precision Nutrition L1"
+      ],
+      "specialties": [
+        "Fat loss",
+        "Metabolic conditioning",
+        "Nutrition tracking"
+      ],
+      "photo": "/images/pulse/noah-patel.jpg"
+    },
+    {
+      "slug": "coach-ava",
+      "name": "Ava Kim",
+      "role": "Mobility Coach",
+      "bio": "Runs the Mobility Lab program with a background in physical therapy.",
+      "certifications": [
+        "DPT",
+        "FRC Mobility Specialist"
+      ],
+      "specialties": [
+        "Mobility",
+        "Injury prevention",
+        "Movement screening"
+      ],
+      "photo": "/images/pulse/ava-kim.jpg"
+    }
   ],
   "classSchedule": [
-    { "day": "Monday", "time": "6:00 AM", "className": "Hybrid Training", "trainer": "Riley Zhang" },
-    { "day": "Tuesday", "time": "7:00 AM", "className": "Metabolic Reset", "trainer": "Noah Patel" },
-    { "day": "Wednesday", "time": "6:00 PM", "className": "Mobility Lab", "trainer": "Ava Kim" },
-    { "day": "Thursday", "time": "6:00 AM", "className": "Hybrid Training", "trainer": "Riley Zhang" },
-    { "day": "Saturday", "time": "10:00 AM", "className": "Open Lab", "trainer": "Noah Patel" }
+    {
+      "day": "Monday",
+      "time": "6:00 AM",
+      "className": "Hybrid Training",
+      "trainer": "Riley Zhang"
+    },
+    {
+      "day": "Tuesday",
+      "time": "7:00 AM",
+      "className": "Metabolic Reset",
+      "trainer": "Noah Patel"
+    },
+    {
+      "day": "Wednesday",
+      "time": "6:00 PM",
+      "className": "Mobility Lab",
+      "trainer": "Ava Kim"
+    },
+    {
+      "day": "Thursday",
+      "time": "6:00 AM",
+      "className": "Hybrid Training",
+      "trainer": "Riley Zhang"
+    },
+    {
+      "day": "Saturday",
+      "time": "10:00 AM",
+      "className": "Open Lab",
+      "trainer": "Noah Patel"
+    }
   ],
   "gallery": [
-    { "caption": "Connected training floor", "category": "Facility", "swatchClassName": "bg-cyan-200", "src": "/images/pulse/connected-floor.jpg" },
-    { "caption": "Data review station", "category": "Facility", "swatchClassName": "bg-emerald-200", "src": "/images/pulse/data-review.jpg" },
-    { "caption": "Hybrid Training session", "category": "Classes", "swatchClassName": "bg-teal-200", "src": "/images/pulse/hybrid-training.jpg" },
-    { "caption": "Mobility Lab", "category": "Classes", "swatchClassName": "bg-cyan-100", "src": "/images/pulse/mobility-lab.jpg" },
-    { "caption": "Member dashboard review", "category": "Results", "swatchClassName": "bg-emerald-100", "src": "/images/pulse/dashboard-review.jpg" }
+    {
+      "caption": "Connected training floor",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-200",
+      "src": "/images/pulse/connected-floor.jpg"
+    },
+    {
+      "caption": "Data review station",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-200",
+      "src": "/images/pulse/data-review.jpg"
+    },
+    {
+      "caption": "Hybrid Training session",
+      "category": "Classes",
+      "swatchClassName": "bg-teal-200",
+      "src": "/images/pulse/hybrid-training.jpg"
+    },
+    {
+      "caption": "Mobility Lab",
+      "category": "Classes",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/pulse/mobility-lab.jpg"
+    },
+    {
+      "caption": "Member dashboard review",
+      "category": "Results",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/pulse/dashboard-review.jpg"
+    }
   ],
   "transformations": [
-    { "memberName": "Devon S.", "duration": "10 weeks", "description": "Metabolic Reset dropped his resting heart rate by 8 bpm and improved his squat velocity by 15%.", "statLabel": "-8 bpm resting HR", "beforeSwatchClassName": "bg-cyan-100", "afterSwatchClassName": "bg-emerald-200" },
-    { "memberName": "Priya N.", "duration": "12 weeks", "description": "Hybrid Training's weekly adjustments took her total load capacity up without any extra soreness.", "statLabel": "+18% load capacity", "beforeSwatchClassName": "bg-emerald-100", "afterSwatchClassName": "bg-cyan-200" },
-    { "memberName": "Sam O.", "duration": "8 weeks", "description": "Mobility Lab screening caught an asymmetry that was capping his lifts — fixed it in two months.", "statLabel": "+22° hip mobility", "beforeSwatchClassName": "bg-teal-100", "afterSwatchClassName": "bg-emerald-200" }
+    {
+      "memberName": "Devon S.",
+      "duration": "10 weeks",
+      "description": "Metabolic Reset dropped his resting heart rate by 8 bpm and improved his squat velocity by 15%.",
+      "statLabel": "-8 bpm resting HR",
+      "beforeSwatchClassName": "bg-cyan-100",
+      "afterSwatchClassName": "bg-emerald-200"
+    },
+    {
+      "memberName": "Priya N.",
+      "duration": "12 weeks",
+      "description": "Hybrid Training's weekly adjustments took her total load capacity up without any extra soreness.",
+      "statLabel": "+18% load capacity",
+      "beforeSwatchClassName": "bg-emerald-100",
+      "afterSwatchClassName": "bg-cyan-200"
+    },
+    {
+      "memberName": "Sam O.",
+      "duration": "8 weeks",
+      "description": "Mobility Lab screening caught an asymmetry that was capping his lifts — fixed it in two months.",
+      "statLabel": "+22° hip mobility",
+      "beforeSwatchClassName": "bg-teal-100",
+      "afterSwatchClassName": "bg-emerald-200"
+    }
   ],
   "testimonials": [
-    { "quote": "Seeing my actual numbers improve week over week keeps me way more motivated than a mirror ever did.", "author": "Devon S., Member since 2024", "rating": 5 },
-    { "quote": "The connected equipment is genuinely useful, not a gimmick. My coach knows exactly where I'm at before I show up.", "author": "Priya N., Member since 2023", "rating": 5 },
-    { "quote": "Finally a gym that talks to me like an engineer, not a drill sergeant.", "author": "Sam O., Member since 2024", "rating": 5 }
+    {
+      "quote": "Seeing my actual numbers improve week over week keeps me way more motivated than a mirror ever did.",
+      "author": "Devon S., Member since 2024",
+      "rating": 5
+    },
+    {
+      "quote": "The connected equipment is genuinely useful, not a gimmick. My coach knows exactly where I'm at before I show up.",
+      "author": "Priya N., Member since 2023",
+      "rating": 5
+    },
+    {
+      "quote": "Finally a gym that talks to me like an engineer, not a drill sergeant.",
+      "author": "Sam O., Member since 2024",
+      "rating": 5
+    }
   ],
   "faqs": [
-    { "question": "Do I need to be tech-savvy to train here?", "answer": "Not at all — the dashboard is designed to be simple, and your coach walks you through it in your first session." },
-    { "question": "Is the baseline assessment free?", "answer": "Yes, every new member gets a free baseline assessment before starting any program." },
-    { "question": "What happens to my training data?", "answer": "It's used only to power your dashboard and inform your coach's programming — never sold, and exportable or deletable anytime." },
-    { "question": "Can I cancel anytime?", "answer": "Yes, all plans are month-to-month with no cancellation fees." },
-    { "question": "Do I need my own wearable device?", "answer": "No — our connected equipment logs your training automatically. A wearable is optional, not required." }
+    {
+      "question": "Do I need to be tech-savvy to train here?",
+      "answer": "Not at all — the dashboard is designed to be simple, and your coach walks you through it in your first session."
+    },
+    {
+      "question": "Is the baseline assessment free?",
+      "answer": "Yes, every new member gets a free baseline assessment before starting any program."
+    },
+    {
+      "question": "What happens to my training data?",
+      "answer": "It's used only to power your dashboard and inform your coach's programming — never sold, and exportable or deletable anytime."
+    },
+    {
+      "question": "Can I cancel anytime?",
+      "answer": "Yes, all plans are month-to-month with no cancellation fees."
+    },
+    {
+      "question": "Do I need my own wearable device?",
+      "answer": "No — our connected equipment logs your training automatically. A wearable is optional, not required."
+    }
   ],
   "blogPosts": [
     {
@@ -112,18 +363,36 @@
     "title": "Privacy Policy",
     "lastUpdated": "January 2026",
     "sections": [
-      { "heading": "Information we collect", "body": "We collect account information, membership details, and training data captured by connected equipment during your sessions." },
-      { "heading": "How we use it", "body": "Your training data is used solely to power your progress dashboard and inform your coach's programming. We do not sell member data to third parties." },
-      { "heading": "Your rights", "body": "You can export or delete your training data at any time from your dashboard settings, or by asking a coach." }
+      {
+        "heading": "Information we collect",
+        "body": "We collect account information, membership details, and training data captured by connected equipment during your sessions."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your training data is used solely to power your progress dashboard and inform your coach's programming. We do not sell member data to third parties."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You can export or delete your training data at any time from your dashboard settings, or by asking a coach."
+      }
     ]
   },
   "termsAndConditions": {
     "title": "Terms & Conditions",
     "lastUpdated": "January 2026",
     "sections": [
-      { "heading": "Membership terms", "body": "Memberships are billed monthly and can be cancelled with 30 days notice." },
-      { "heading": "Equipment use", "body": "Connected equipment logs training data automatically; members may opt out of data logging for individual sessions at the front desk." },
-      { "heading": "Liability", "body": "Exercise carries inherent risk. Members are responsible for training within their own limits and consulting a physician before starting a new program if needed." }
+      {
+        "heading": "Membership terms",
+        "body": "Memberships are billed monthly and can be cancelled with 30 days notice."
+      },
+      {
+        "heading": "Equipment use",
+        "body": "Connected equipment logs training data automatically; members may opt out of data logging for individual sessions at the front desk."
+      },
+      {
+        "heading": "Liability",
+        "body": "Exercise carries inherent risk. Members are responsible for training within their own limits and consulting a physician before starting a new program if needed."
+      }
     ]
   },
   "seo": {

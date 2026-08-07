@@ -2,7 +2,7 @@
 
 import { Card } from '@locallaunch/ui';
 import { useTheme } from '@locallaunch/theme-engine';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Calendar } from 'lucide-react';
 import Link from 'next/link';
 import type { BlogPost } from '@locallaunch/config-schema';
 import { useTemplateBasePath } from './TemplateBasePath';
@@ -24,7 +24,7 @@ export function BlogList({ posts }: { posts: BlogPost[] }) {
             >
               <div>
                 <p className="mb-1 text-xs uppercase" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)', letterSpacing: 1.5 }}>
-                  {post.date} · {post.author}
+                  <Calendar size={11} className="mr-1 inline align-[-1px]" />{post.date} · {post.author}
                 </p>
                 <h2 className="text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
                   {post.title}
@@ -59,7 +59,7 @@ export function BlogList({ posts }: { posts: BlogPost[] }) {
             </div>
             <div className="flex-1 p-4">
               <p className="mb-1 text-xs uppercase" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-accent)', letterSpacing: 1 }}>
-                {post.date} · {post.author}
+                <Calendar size={11} className="mr-1 inline align-[-1px]" />{post.date} · {post.author}
               </p>
               <h2 className="font-semibold" style={{ fontFamily: 'var(--font-body)', fontSize: 17 }}>
                 {post.title}
@@ -109,7 +109,7 @@ export function BlogList({ posts }: { posts: BlogPost[] }) {
           <Link key={post.slug} href={`${basePath}/blog/${post.slug}`}>
             <Card className="h-full transition hover:-translate-y-1">
               <p className="mb-2 text-xs" style={{ fontFamily: 'var(--font-body)', color: 'var(--color-muted)' }}>
-                {post.date} · {post.author}
+                <Calendar size={11} className="mr-1 inline align-[-1px]" />{post.date} · {post.author}
               </p>
               <h2 className="mb-2 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
                 {post.title}
@@ -133,7 +133,7 @@ export function BlogList({ posts }: { posts: BlogPost[] }) {
           <Link key={post.slug} href={`${basePath}/blog/${post.slug}`}>
             <Card variant="plain" className="h-full transition hover:-translate-y-1" style={{ borderLeft: `3px solid var(${tint})` }}>
               <p className="mb-2 text-xs font-semibold uppercase" style={{ fontFamily: 'var(--font-body)', color: `var(${tint})`, letterSpacing: 1 }}>
-                {post.date} · {post.author}
+                <Calendar size={11} className="mr-1 inline align-[-1px]" />{post.date} · {post.author}
               </p>
               <h2 className="mb-2 text-lg font-semibold" style={{ fontFamily: 'var(--font-body)' }}>
                 {post.title}

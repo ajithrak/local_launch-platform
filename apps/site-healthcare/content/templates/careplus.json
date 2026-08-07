@@ -1,0 +1,393 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "careplus",
+  "business": {
+    "name": "CarePlus Family Clinic",
+    "city": "Austin, TX",
+    "phone": "+1 512 555 0177",
+    "whatsapp": "15125550177",
+    "email": "hello@careplusfamily.com",
+    "address": "1180 Guadalupe St, Austin, TX",
+    "hours": "Mon–Sat · 8:00 AM – 7:00 PM",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Family & Pediatric Care, Downtown Austin",
+    "headline": "Healthcare That Feels Like Home.",
+    "subheadline": "From newborn checkups to family flu season, CarePlus is the clinic your whole family actually looks forward to visiting.",
+    "primaryCta": {
+      "label": "Book a Visit",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Built for busy families",
+    "body": [
+      "CarePlus was started by two pediatricians who were tired of 10-minute rushed visits and wanted to build a clinic where kids weren't scared and parents didn't feel dismissed.",
+      "Today we see the whole family — from newborn checkups through adult primary care — with same-week appointments and doctors who actually remember your name."
+    ],
+    "highlights": [
+      "Same-week appointments, most weeks same-day",
+      "Dedicated pediatric play area",
+      "Full family care under one roof",
+      "Free first visit for new patients under 2"
+    ],
+    "image": "/images/careplus/front-desk-waiting-area.jpg"
+  },
+  "googleReviews": {
+    "rating": 4.9,
+    "reviewCount": 340
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "8,000+",
+      "label": "Families Cared For"
+    },
+    {
+      "icon": "Baby",
+      "value": "3",
+      "label": "Pediatricians"
+    },
+    {
+      "icon": "Award",
+      "value": "11",
+      "label": "Years Serving Austin"
+    },
+    {
+      "icon": "Star",
+      "value": "4.9★",
+      "label": "Parent Rating"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Baby",
+      "title": "Kid-Friendly, Always",
+      "description": "A dedicated play area, patient staff, and doctors trained to make visits genuinely not scary."
+    },
+    {
+      "icon": "Clock",
+      "title": "Same-Week Appointments",
+      "description": "We keep same-day and next-day slots open every day — sick visits don't wait a month."
+    },
+    {
+      "icon": "Users",
+      "title": "One Clinic, Whole Family",
+      "description": "Book pediatric and adult appointments together, with shared records across the family."
+    },
+    {
+      "icon": "HeartPulse",
+      "title": "Doctors Who Know You",
+      "description": "Small enough that your doctor remembers your history without checking the chart first."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-meenal-shah",
+      "name": "Dr. Meenal Shah",
+      "role": "Pediatrician & Co-Founder",
+      "qualification": "MD, Pediatrics",
+      "registrationNumber": "TX-MED-45213",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Hindi",
+        "Gujarati"
+      ],
+      "availability": "Mon, Tue, Thu · 9:00 AM – 4:00 PM",
+      "bio": "Dr. Shah co-founded CarePlus after years in a high-volume pediatric practice, wanting to build a clinic with real time for each family.",
+      "education": [
+        "MD — Baylor College of Medicine",
+        "Residency, Pediatrics — Texas Children's Hospital"
+      ],
+      "awards": [],
+      "specialties": [
+        "Newborn care",
+        "Childhood immunizations",
+        "Developmental checkups"
+      ],
+      "photo": "/images/careplus/dr-meenal-shah.jpg"
+    },
+    {
+      "slug": "dr-james-carter",
+      "name": "Dr. James Carter",
+      "role": "Family Medicine Physician",
+      "qualification": "MD, Family Medicine",
+      "registrationNumber": "TX-MED-51092",
+      "experienceYears": 10,
+      "languages": [
+        "English"
+      ],
+      "availability": "Mon–Fri · 8:00 AM – 5:00 PM",
+      "bio": "Dr. Carter sees patients across every age group, with a particular focus on chronic condition management and preventive care.",
+      "education": [
+        "MD — UT Southwestern",
+        "Residency, Family Medicine — Dell Medical School"
+      ],
+      "awards": [],
+      "specialties": [
+        "Preventive care",
+        "Chronic disease management",
+        "Adult wellness exams"
+      ],
+      "photo": "/images/careplus/dr-james-carter.jpg"
+    },
+    {
+      "slug": "dr-priya-nathan",
+      "name": "Dr. Priya Nathan",
+      "role": "Pediatrician",
+      "qualification": "MD, Pediatrics",
+      "registrationNumber": "TX-MED-58877",
+      "experienceYears": 8,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Wed, Fri, Sat · 9:00 AM – 3:00 PM",
+      "bio": "Dr. Nathan focuses on early childhood development and works closely with families navigating first-time parenting questions.",
+      "education": [
+        "MD — University of Texas Medical Branch"
+      ],
+      "awards": [],
+      "specialties": [
+        "Newborn care",
+        "Behavioral pediatrics",
+        "Nutrition counseling"
+      ],
+      "photo": "/images/careplus/dr-priya-nathan.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "pediatric-checkups",
+      "name": "Pediatric Checkups",
+      "tagline": "From newborn visits through the teenage years",
+      "overview": "Regular well-child visits track growth, development, and immunizations, catching anything that needs attention early — and giving parents a real chance to ask questions.",
+      "symptoms": [],
+      "procedure": [
+        "Growth and development screening",
+        "Age-appropriate immunizations",
+        "Vision and hearing checks",
+        "Open time for parent questions"
+      ],
+      "benefits": [
+        "Same doctor across visits when possible",
+        "Dedicated play area to ease visit anxiety",
+        "Unhurried appointment times"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should my child have a checkup?",
+          "answer": "We follow the standard well-child visit schedule — more frequent in the first two years, then annually after."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "immunizations"
+      ]
+    },
+    {
+      "slug": "immunizations",
+      "name": "Immunizations",
+      "tagline": "On-schedule, stocked, and explained clearly",
+      "overview": "We keep the full recommended childhood and adult immunization schedule in stock, and take time to answer questions rather than rushing through the shot.",
+      "symptoms": [],
+      "procedure": [
+        "Review of current immunization record",
+        "Age-appropriate vaccine administration",
+        "Post-vaccine monitoring"
+      ],
+      "benefits": [
+        "Full recommended schedule always in stock",
+        "Time to answer parent questions",
+        "Digital immunization record access"
+      ],
+      "recovery": "Mild soreness or low fever is common for 24–48 hours; our team provides clear guidance on what's normal.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "pediatric-checkups"
+      ]
+    },
+    {
+      "slug": "adult-primary-care",
+      "name": "Adult Primary Care",
+      "tagline": "Preventive care and chronic condition management",
+      "overview": "From annual physicals to ongoing management of conditions like diabetes and hypertension, our family medicine team handles adult care with the same unhurried approach.",
+      "symptoms": [
+        "Fatigue or unexplained weight change",
+        "High blood pressure readings",
+        "General wellness check needed"
+      ],
+      "procedure": [
+        "Comprehensive health history review",
+        "Physical examination",
+        "Lab work as needed",
+        "Personalized care plan"
+      ],
+      "benefits": [
+        "Continuity of care with one physician",
+        "Coordinated referrals when specialists are needed",
+        "Same-week follow-up availability"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [
+    {
+      "name": "Pediatrics",
+      "doctorSlugs": [
+        "dr-meenal-shah",
+        "dr-priya-nathan"
+      ]
+    },
+    {
+      "name": "Family Medicine",
+      "doctorSlugs": [
+        "dr-james-carter"
+      ]
+    }
+  ],
+  "insurancePartners": [
+    {
+      "name": "Blue Cross Blue Shield"
+    },
+    {
+      "name": "Aetna"
+    },
+    {
+      "name": "Humana"
+    }
+  ],
+  "gallery": [
+    {
+      "caption": "Front desk & waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/careplus/front-desk-waiting-area.jpg"
+    },
+    {
+      "caption": "Kids' play corner",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/careplus/kids-play-corner.jpg"
+    },
+    {
+      "caption": "Exam room",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/careplus/exam-room.jpg"
+    },
+    {
+      "caption": "Checkup in progress",
+      "category": "Care",
+      "swatchClassName": "bg-emerald-50",
+      "src": "/images/careplus/checkup-in-progress.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "My daughter used to cry at every doctor visit. Now she asks when we get to go back. That says everything.",
+      "author": "Parent, CarePlus patient",
+      "rating": 5
+    },
+    {
+      "quote": "Got a same-day appointment when my son spiked a fever on a Sunday evening call. That responsiveness matters.",
+      "author": "Parent, CarePlus patient",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Carter actually remembers our conversation from six months ago without looking at his notes first.",
+      "author": "Adult patient",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "We hold same-day slots for urgent visits — call ahead and we'll fit you in when we can."
+    },
+    {
+      "question": "Is the first visit free for infants?",
+      "answer": "Yes, new patients under 2 years old receive a complimentary first visit."
+    },
+    {
+      "question": "Do you see adults too?",
+      "answer": "Yes — CarePlus offers full family medicine alongside pediatric care."
+    },
+    {
+      "question": "What should I bring to my first visit?",
+      "answer": "Please bring photo ID, insurance card, and any prior immunization or medical records if available."
+    },
+    {
+      "question": "Do you offer telehealth visits?",
+      "answer": "Yes, telehealth is available for follow-ups and non-urgent consultations."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "first-year-immunization-schedule-explained",
+      "title": "Your Baby's First-Year Immunization Schedule, Explained Simply",
+      "excerpt": "A plain-language walkthrough of what shots happen when, and why the schedule is built the way it is.",
+      "author": "Dr. Meenal Shah",
+      "date": "2026-04-02",
+      "content": [
+        "The first-year immunization schedule can look overwhelming on paper, but it's built around one simple principle: protecting your baby right when they're most vulnerable to each specific disease.",
+        "Most vaccines are given in a series, not a single dose, because the immune response builds over multiple exposures — spacing isn't arbitrary.",
+        "It's normal for your baby to be fussy or have a mild fever for a day after certain vaccines; this is the immune system doing exactly what it's supposed to do.",
+        "If you're ever unsure about a specific vaccine, ask at the visit — we'd rather spend five extra minutes explaining than have you leave with questions."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments, in compliance with HIPAA."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your family's information is used only to deliver and coordinate care. We never sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your family's medical records at any time through our office."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment."
+      },
+      {
+        "heading": "Billing",
+        "body": "Co-pays are due at time of visit; we'll verify your specific coverage before your appointment where possible."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace a consultation with your physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "CarePlus Family Clinic — Austin, TX",
+    "description": "Friendly family and pediatric clinic in downtown Austin offering same-week appointments for the whole family."
+  }
+}

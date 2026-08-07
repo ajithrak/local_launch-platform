@@ -21,7 +21,7 @@ export const minimalTheme: ThemeTokens = {
   },
   radius: { sm: '0px', md: '0px', lg: '0px' },
   shadow: { card: 'none', glow: null },
-  card: { border: '1px solid #E5E5E5', topBar: false, ornate: false },
+  card: { border: '1px solid #E5E5E5', topBar: false, ornate: false, glass: false },
   motion: { durationMs: 180, ease: 'cubic-bezier(0.4, 0, 0.2, 1)' },
   googleFontsHref:
     'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap',

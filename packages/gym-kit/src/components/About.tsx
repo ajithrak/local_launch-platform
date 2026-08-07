@@ -2,11 +2,26 @@
 
 import { motion } from 'framer-motion';
 import type { About as AboutConfig } from '@locallaunch/config-schema';
+import { useAssetBasePath } from './TemplateBasePath';
 
 export function About({ about }: { about: AboutConfig }) {
+  const assetBasePath = useAssetBasePath();
+
   return (
     <section className="grid grid-cols-1 gap-10 px-6 pb-16 md:grid-cols-3 md:px-10">
       <div className="md:col-span-2 space-y-4">
+        {about.image && (
+          <motion.img
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-60px' }}
+            transition={{ duration: 0.5 }}
+            src={`${assetBasePath}${about.image}`}
+            alt={about.title}
+            className="mb-6 h-56 w-full object-cover sm:h-72"
+            style={{ borderRadius: 'var(--radius-lg)' }}
+          />
+        )}
         {about.body.map((paragraph, index) => (
           <motion.p
             key={index}

@@ -1,0 +1,405 @@
+{
+  "industry": "healthcare",
+  "clinicType": "orthopedic",
+  "theme": "orthoedge",
+  "business": {
+    "name": "OrthoEdge Sports Medicine",
+    "city": "Denver, CO",
+    "phone": "+1 303 555 0166",
+    "whatsapp": "13035550166",
+    "email": "info@orthoedgesports.com",
+    "address": "2200 Blake St, Denver, CO",
+    "hours": "Mon–Sat · 7:00 AM – 6:00 PM",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Orthopedic & Sports Medicine",
+    "headline": "Get Back To Full Strength.",
+    "subheadline": "From ACL repair to shoulder rehab, OrthoEdge treats athletes and active people who want a real recovery timeline — not just a diagnosis.",
+    "primaryCta": {
+      "label": "Book Assessment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "Built for people who won't sit still",
+    "body": [
+      "OrthoEdge was founded by two former college athletes turned orthopedic surgeons who were frustrated by how little emphasis mainstream ortho practices put on getting back to actual performance, not just pain-free daily life.",
+      "Every treatment plan here includes a rehab and return-to-sport timeline from day one — not just a surgery date."
+    ],
+    "highlights": [
+      "On-site physical therapy and imaging",
+      "Team physicians for 6 local sports programs",
+      "Same-week evaluation for acute injuries",
+      "Return-to-sport testing before clearance"
+    ],
+    "image": "/images/orthoedge/on-site-imaging-suite.jpg"
+  },
+  "googleReviews": {
+    "rating": 4.7,
+    "reviewCount": 289
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "12,000+",
+      "label": "Athletes Treated"
+    },
+    {
+      "icon": "Bone",
+      "value": "6",
+      "label": "Team Physician Roles"
+    },
+    {
+      "icon": "Award",
+      "value": "15",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Star",
+      "value": "4.7★",
+      "label": "Patient Rating"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Activity",
+      "title": "Sport-Specific Rehab",
+      "description": "Recovery plans built around your actual sport's movement demands, not a generic protocol."
+    },
+    {
+      "icon": "Microscope",
+      "title": "On-Site Imaging",
+      "description": "X-ray and MRI on-site means same-visit diagnosis for most acute injuries."
+    },
+    {
+      "icon": "Bone",
+      "title": "Surgical & Non-Surgical Paths",
+      "description": "Every case gets a real conversation about non-surgical options before surgery is recommended."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "Return-to-Sport Testing",
+      "description": "We test performance benchmarks before clearing you, not just pain levels."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-karthik-iyer",
+      "name": "Dr. Karthik Iyer",
+      "role": "Sports Orthopedic Surgeon",
+      "qualification": "MD, Orthopedic Surgery, Sports Medicine Fellowship",
+      "registrationNumber": "CO-MED-33210",
+      "experienceYears": 15,
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "availability": "Mon, Wed, Fri · 8:00 AM – 3:00 PM",
+      "bio": "Dr. Iyer specializes in ACL reconstruction and shoulder surgery, serving as team physician for two Denver-area college sports programs.",
+      "education": [
+        "MD — University of Colorado School of Medicine",
+        "Fellowship, Sports Medicine — Andrews Institute"
+      ],
+      "awards": [
+        "Team Physician of the Year, Colorado Athletic Trainers Association, 2022"
+      ],
+      "specialties": [
+        "ACL reconstruction",
+        "Shoulder surgery",
+        "Sports injury"
+      ],
+      "photo": "/images/orthoedge/dr-karthik-iyer.jpg"
+    },
+    {
+      "slug": "dr-lena-brooks",
+      "name": "Dr. Lena Brooks",
+      "role": "Physiatrist & Non-Surgical Sports Medicine",
+      "qualification": "MD, Physical Medicine & Rehabilitation",
+      "registrationNumber": "CO-MED-40187",
+      "experienceYears": 11,
+      "languages": [
+        "English"
+      ],
+      "availability": "Tue, Thu · 9:00 AM – 4:00 PM",
+      "bio": "Dr. Brooks manages non-surgical treatment paths, including injections, regenerative medicine, and rehab-first protocols for overuse injuries.",
+      "education": [
+        "MD — University of Utah",
+        "Residency, PM&R — Mayo Clinic"
+      ],
+      "awards": [],
+      "specialties": [
+        "Non-surgical orthopedics",
+        "Regenerative medicine",
+        "Overuse injury"
+      ],
+      "photo": "/images/orthoedge/dr-lena-brooks.jpg"
+    },
+    {
+      "slug": "dr-owen-mackay",
+      "name": "Dr. Owen Mackay",
+      "role": "Physical Therapist, Director of Rehab",
+      "qualification": "DPT, Sports Certified Specialist",
+      "registrationNumber": "CO-PT-19045",
+      "experienceYears": 9,
+      "languages": [
+        "English"
+      ],
+      "availability": "Mon–Fri · 7:00 AM – 5:00 PM",
+      "bio": "Dr. Mackay leads OrthoEdge's on-site rehab program, designing return-to-sport protocols alongside the surgical and non-surgical teams.",
+      "education": [
+        "DPT — University of Denver"
+      ],
+      "awards": [],
+      "specialties": [
+        "Post-surgical rehab",
+        "Return-to-sport testing",
+        "Movement assessment"
+      ],
+      "photo": "/images/orthoedge/dr-owen-mackay.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "acl-reconstruction",
+      "name": "ACL Reconstruction",
+      "tagline": "Surgical repair with a real return-to-sport timeline",
+      "overview": "ACL reconstruction here comes with a structured, sport-specific rehab plan from the day of diagnosis, not just a surgical date.",
+      "symptoms": [
+        "A popping sensation at time of injury",
+        "Knee instability or giving way",
+        "Swelling within hours of injury"
+      ],
+      "procedure": [
+        "MRI confirmation and surgical planning",
+        "Arthroscopic ACL reconstruction",
+        "Structured phase-based rehab",
+        "Return-to-sport performance testing"
+      ],
+      "benefits": [
+        "Sport-specific rehab protocol",
+        "On-site physical therapy team",
+        "Objective return-to-sport testing, not just time-based clearance"
+      ],
+      "recovery": "Typical return-to-sport timeline is 6–9 months, depending on sport and individual recovery progress.",
+      "faqs": [
+        {
+          "question": "How soon after injury should I get evaluated?",
+          "answer": "As soon as possible — early evaluation helps determine the best surgical timing and prevents further damage."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "sports-physical-therapy"
+      ]
+    },
+    {
+      "slug": "sports-physical-therapy",
+      "name": "Sports Physical Therapy",
+      "tagline": "Rehab built around your sport's actual movement demands",
+      "overview": "Whether recovering from surgery or managing an overuse injury, our PT team designs rehab protocols specific to your sport, not a generic recovery plan.",
+      "symptoms": [
+        "Persistent pain during specific movements",
+        "Reduced range of motion",
+        "Post-surgical recovery needs"
+      ],
+      "procedure": [
+        "Movement and strength assessment",
+        "Sport-specific rehab programming",
+        "Progressive loading and testing",
+        "Return-to-play clearance"
+      ],
+      "benefits": [
+        "On-site, coordinated with your physician",
+        "Sport-specific movement testing",
+        "Progress tracked against objective benchmarks"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "acl-reconstruction"
+      ]
+    },
+    {
+      "slug": "regenerative-medicine",
+      "name": "Regenerative Medicine",
+      "tagline": "Non-surgical options for chronic and overuse injuries",
+      "overview": "PRP and other regenerative treatments offer a non-surgical path for tendon and joint issues that haven't responded to conservative treatment alone.",
+      "symptoms": [
+        "Chronic tendon pain",
+        "Joint pain not responding to rest",
+        "Overuse injuries in endurance athletes"
+      ],
+      "procedure": [
+        "Diagnostic imaging and assessment",
+        "Regenerative treatment (PRP or similar)",
+        "Guided rehab follow-up"
+      ],
+      "benefits": [
+        "Non-surgical alternative for eligible cases",
+        "Minimal downtime",
+        "Coordinated with rehab team"
+      ],
+      "recovery": "Most patients return to light activity within days; full response to treatment is typically assessed over 6–8 weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [
+    {
+      "name": "Surgical Orthopedics",
+      "doctorSlugs": [
+        "dr-karthik-iyer"
+      ]
+    },
+    {
+      "name": "Non-Surgical Sports Medicine",
+      "doctorSlugs": [
+        "dr-lena-brooks"
+      ]
+    },
+    {
+      "name": "Rehabilitation",
+      "doctorSlugs": [
+        "dr-owen-mackay"
+      ]
+    }
+  ],
+  "insurancePartners": [
+    {
+      "name": "Anthem"
+    },
+    {
+      "name": "Cigna"
+    },
+    {
+      "name": "UnitedHealthcare"
+    }
+  ],
+  "gallery": [
+    {
+      "caption": "On-site imaging suite",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/orthoedge/on-site-imaging-suite.jpg"
+    },
+    {
+      "caption": "Rehab and training floor",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/orthoedge/rehab-and-training-floor.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-50",
+      "src": "/images/orthoedge/consultation-room.jpg"
+    },
+    {
+      "caption": "Return-to-sport testing",
+      "category": "Care",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/orthoedge/return-to-sport-testing.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Every other clinic gave me a generic 6-month timeline. OrthoEdge actually tested my performance before clearing me to play.",
+      "author": "Club soccer player",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Brooks got my shoulder pain under control without surgery when two other doctors said surgery was the only option.",
+      "author": "Recreational climber",
+      "rating": 5
+    },
+    {
+      "quote": "The rehab team and surgeon were in constant sync — never felt like I was bouncing between two disconnected teams.",
+      "author": "College athlete",
+      "rating": 4
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need a referral to be seen?",
+      "answer": "No referral is required for most evaluations — you can book directly."
+    },
+    {
+      "question": "Is imaging available on the same visit?",
+      "answer": "Yes, X-ray is available on-site same-day; MRI is typically scheduled within 24–48 hours."
+    },
+    {
+      "question": "Do you treat non-athletes too?",
+      "answer": "Yes — while our focus is sports medicine, we treat any active adult with an orthopedic injury."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Please give at least 24 hours notice to reschedule an appointment."
+    },
+    {
+      "question": "Do you offer telehealth consultations?",
+      "answer": "Yes, for follow-up visits and initial injury triage."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "return-to-sport-more-than-just-time",
+      "title": "Return to Sport Should Be a Test, Not Just a Calendar Date",
+      "excerpt": "Why time-based clearance after an injury misses the point — and what objective testing actually looks like.",
+      "author": "Dr. Owen Mackay",
+      "date": "2026-03-18",
+      "content": [
+        "\"Six months post-ACL surgery\" is a starting point for a conversation about return to sport, not an answer — recovery speed varies enormously between individuals.",
+        "Objective testing — strength symmetry, hop tests, movement quality under fatigue — tells you far more about re-injury risk than a date on a calendar.",
+        "Athletes cleared purely on a time-based schedule have meaningfully higher re-injury rates than those cleared based on performance benchmarks.",
+        "If your clinic hasn't tested your actual performance before clearing you to play, it's worth asking why."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to evaluate and treat your injury, in compliance with HIPAA."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to coordinate your care across our surgical, non-surgical, and rehab teams."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your records at any time through our front office."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule."
+      },
+      {
+        "heading": "Billing",
+        "body": "Co-pays are due at time of visit; our billing team can verify coverage in advance where possible."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person evaluation."
+      }
+    ]
+  },
+  "seo": {
+    "title": "OrthoEdge Sports Medicine — Denver, CO",
+    "description": "Orthopedic and sports medicine clinic in Denver offering ACL surgery, sports physical therapy, and regenerative medicine."
+  }
+}

@@ -21,7 +21,7 @@ export const darkTheme: ThemeTokens = {
   },
   radius: { sm: '0px', md: '0px', lg: '0px' },
   shadow: { card: 'none', glow: null },
-  card: { border: '1px solid #2A2A2E', topBar: false, ornate: false },
+  card: { border: '1px solid #2A2A2E', topBar: false, ornate: false, glass: false },
   motion: { durationMs: 220, ease: 'cubic-bezier(0.4, 0, 0.2, 1)' },
   googleFontsHref:
     'https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap',

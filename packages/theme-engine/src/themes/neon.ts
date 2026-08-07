@@ -21,7 +21,7 @@ export const neonTheme: ThemeTokens = {
   },
   radius: { sm: '6px', md: '8px', lg: '10px' },
   shadow: { card: '0 0 24px -8px #39FF8855', glow: '0 0 28px -4px #39FF88AA, 0 0 4px #39FF8866' },
-  card: { border: '1px solid #22D3EE55', topBar: false, ornate: false },
+  card: { border: '1px solid #22D3EE55', topBar: false, ornate: false, glass: false },
   motion: { durationMs: 150, ease: 'cubic-bezier(0.4, 0, 0.2, 1)' },
   googleFontsHref:
     'https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Rajdhani:wght@500;600&display=swap',

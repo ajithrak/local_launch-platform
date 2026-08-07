@@ -31,10 +31,11 @@ export function Card({ className, children, style, variant = 'default', ...props
         'relative overflow-hidden p-6 transition-all duration-[var(--motion-duration)] ease-[var(--motion-ease)]',
         'shadow-[var(--shadow-card)] hover:-translate-y-1',
         hasGlow ? 'hover:shadow-[var(--shadow-glow)]' : 'hover:shadow-xl',
+        theme.card.glass && 'backdrop-blur-xl',
         className
       )}
       style={{
-        backgroundColor: 'var(--color-surface)',
+        backgroundColor: theme.card.glass ? 'color-mix(in srgb, var(--color-surface) 68%, transparent)' : 'var(--color-surface)',
         border: theme.card.border,
         borderRadius: 'var(--radius-lg)',
         ...style,

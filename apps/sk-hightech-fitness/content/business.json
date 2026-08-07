@@ -14,8 +14,14 @@
     "eyebrow": "Moulivakkam, Chennai",
     "headline": "TRAIN HARD. TRAIN SMART.",
     "subheadline": "Raw equipment, real coaching, and a floor built for people who take training seriously.",
-    "primaryCta": { "label": "Start Training", "href": "/contact" },
-    "secondaryCta": { "label": "See Membership", "href": "/membership" }
+    "primaryCta": {
+      "label": "Start Training",
+      "href": "/contact"
+    },
+    "secondaryCta": {
+      "label": "See Membership",
+      "href": "/membership"
+    }
   },
   "about": {
     "title": "Built for people who show up",
@@ -28,62 +34,287 @@
       "Modern equipment, no waiting around",
       "A community that shows up for each other",
       "First class is always free"
-    ]
+    ],
+    "image": "/images/main-rig.jpg"
   },
   "stats": [
-    { "icon": "Users", "value": "200+", "label": "Members" },
-    { "icon": "Dumbbell", "value": "6", "label": "Coaches" },
-    { "icon": "Trophy", "value": "5", "label": "Years Running" },
-    { "icon": "Star", "value": "4.5★", "label": "Rating" }
+    {
+      "icon": "Users",
+      "value": "200+",
+      "label": "Members"
+    },
+    {
+      "icon": "Dumbbell",
+      "value": "6",
+      "label": "Coaches"
+    },
+    {
+      "icon": "Trophy",
+      "value": "5",
+      "label": "Years Running"
+    },
+    {
+      "icon": "Star",
+      "value": "4.5★",
+      "label": "Rating"
+    }
   ],
   "whyChooseUs": [
-    { "icon": "Dumbbell", "title": "Raw Equipment", "description": "Bumper plates, rigs, and platforms built for real loads — not gym-showroom equipment." },
-    { "icon": "Award", "title": "Battle-Tested Coaches", "description": "Every coach has competed at a regional level or higher in strength or CrossFit." },
-    { "icon": "Apple", "title": "Fuel & Recovery", "description": "Programming that treats recovery and nutrition as part of training, not an afterthought." },
-    { "icon": "Calendar", "title": "No-Contract Membership", "description": "Month to month. No lock-ins, no cancellation fees, no fine print." }
+    {
+      "icon": "Dumbbell",
+      "title": "Raw Equipment",
+      "description": "Bumper plates, rigs, and platforms built for real loads — not gym-showroom equipment."
+    },
+    {
+      "icon": "Award",
+      "title": "Battle-Tested Coaches",
+      "description": "Every coach has competed at a regional level or higher in strength or CrossFit."
+    },
+    {
+      "icon": "Apple",
+      "title": "Fuel & Recovery",
+      "description": "Programming that treats recovery and nutrition as part of training, not an afterthought."
+    },
+    {
+      "icon": "Calendar",
+      "title": "No-Contract Membership",
+      "description": "Month to month. No lock-ins, no cancellation fees, no fine print."
+    }
   ],
   "plans": [
-    { "name": "Foundry", "price": "₹1,499", "period": "/mo", "features": ["Full gym access", "All group classes", "First class free"], "featured": false },
-    { "name": "Anvil", "price": "₹2,499", "period": "/mo", "features": ["Everything in Foundry", "1 coaching session / month", "Open gym access"], "featured": true },
-    { "name": "Steel", "price": "₹3,999", "period": "/mo", "features": ["Everything in Anvil", "Weekly coaching session", "Competition prep support"], "featured": false }
+    {
+      "name": "Foundry",
+      "price": "₹1,499",
+      "period": "/mo",
+      "features": [
+        "Full gym access",
+        "All group classes",
+        "First class free"
+      ],
+      "featured": false
+    },
+    {
+      "name": "Anvil",
+      "price": "₹2,499",
+      "period": "/mo",
+      "features": [
+        "Everything in Foundry",
+        "1 coaching session / month",
+        "Open gym access"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Steel",
+      "price": "₹3,999",
+      "period": "/mo",
+      "features": [
+        "Everything in Anvil",
+        "Weekly coaching session",
+        "Competition prep support"
+      ],
+      "featured": false
+    }
   ],
   "programs": [
-    { "slug": "crossfit", "name": "CrossFit", "tagline": "Daily WODs, scaled to you", "description": "High-intensity functional workouts, coached and scaled by level — from first-timers to competitors.", "duration": "Ongoing", "features": ["Daily WOD", "Scaled and RX tracks", "Olympic lifting technique work", "Community leaderboard"] },
-    { "slug": "strength", "name": "Strongman", "tagline": "Atlas stones, yokes, and real strength", "description": "Strongman-style programming for people who want strength that shows up outside the gym too.", "duration": "Ongoing", "features": ["Log press, yoke, stones", "Progressive loading", "Competition-style testing days", "Coached technique sessions"] },
-    { "slug": "weight-loss", "name": "Conditioning", "tagline": "Built to strip fat and build work capacity", "description": "A 10-week metabolic conditioning block for people who want intensity, not just steady-state cardio.", "duration": "10 weeks", "features": ["3 conditioning sessions per week", "Weekly benchmark workouts", "Nutrition check-ins", "Access to all classes"] }
+    {
+      "slug": "crossfit",
+      "name": "CrossFit",
+      "tagline": "Daily WODs, scaled to you",
+      "description": "High-intensity functional workouts, coached and scaled by level — from first-timers to competitors.",
+      "duration": "Ongoing",
+      "features": [
+        "Daily WOD",
+        "Scaled and RX tracks",
+        "Olympic lifting technique work",
+        "Community leaderboard"
+      ]
+    },
+    {
+      "slug": "strength",
+      "name": "Strongman",
+      "tagline": "Atlas stones, yokes, and real strength",
+      "description": "Strongman-style programming for people who want strength that shows up outside the gym too.",
+      "duration": "Ongoing",
+      "features": [
+        "Log press, yoke, stones",
+        "Progressive loading",
+        "Competition-style testing days",
+        "Coached technique sessions"
+      ]
+    },
+    {
+      "slug": "weight-loss",
+      "name": "Conditioning",
+      "tagline": "Built to strip fat and build work capacity",
+      "description": "A 10-week metabolic conditioning block for people who want intensity, not just steady-state cardio.",
+      "duration": "10 weeks",
+      "features": [
+        "3 conditioning sessions per week",
+        "Weekly benchmark workouts",
+        "Nutrition check-ins",
+        "Access to all classes"
+      ]
+    }
   ],
   "trainers": [
-    { "slug": "coach-marcus", "name": "Marcus Webb", "role": "Head Coach", "bio": "Former regional CrossFit competitor, coaching the gym's programming since day one.", "certifications": ["CrossFit L3", "USAW Level 2"], "specialties": ["CrossFit", "Olympic lifting", "Competition prep"], "photo": "/images/marcus-webb.jpg" },
-    { "slug": "coach-dana", "name": "Dana Ruiz", "role": "Strongman Coach", "bio": "Competitive strongman athlete, coaches the Strongman program and general strength classes.", "certifications": ["NSCA-CSCS"], "specialties": ["Strongman", "Strength training", "Powerlifting"], "photo": "/images/dana-ruiz.jpg" },
-    { "slug": "coach-theo", "name": "Theo Banks", "role": "Conditioning Coach", "bio": "Runs the Conditioning program with a focus on real work capacity, not just a sweat.", "certifications": ["CrossFit L2", "ACE-CPT"], "specialties": ["Conditioning", "Fat loss", "Group coaching"], "photo": "/images/theo-banks.jpg" }
+    {
+      "slug": "coach-marcus",
+      "name": "Marcus Webb",
+      "role": "Head Coach",
+      "bio": "Former regional CrossFit competitor, coaching the gym's programming since day one.",
+      "certifications": [
+        "CrossFit L3",
+        "USAW Level 2"
+      ],
+      "specialties": [
+        "CrossFit",
+        "Olympic lifting",
+        "Competition prep"
+      ],
+      "photo": "/images/marcus-webb.jpg"
+    },
+    {
+      "slug": "coach-dana",
+      "name": "Dana Ruiz",
+      "role": "Strongman Coach",
+      "bio": "Competitive strongman athlete, coaches the Strongman program and general strength classes.",
+      "certifications": [
+        "NSCA-CSCS"
+      ],
+      "specialties": [
+        "Strongman",
+        "Strength training",
+        "Powerlifting"
+      ],
+      "photo": "/images/dana-ruiz.jpg"
+    },
+    {
+      "slug": "coach-theo",
+      "name": "Theo Banks",
+      "role": "Conditioning Coach",
+      "bio": "Runs the Conditioning program with a focus on real work capacity, not just a sweat.",
+      "certifications": [
+        "CrossFit L2",
+        "ACE-CPT"
+      ],
+      "specialties": [
+        "Conditioning",
+        "Fat loss",
+        "Group coaching"
+      ],
+      "photo": "/images/theo-banks.jpg"
+    }
   ],
   "classSchedule": [
-    { "day": "Monday", "time": "6:00 AM", "className": "CrossFit", "trainer": "Marcus Webb" },
-    { "day": "Monday", "time": "6:00 PM", "className": "Strongman", "trainer": "Dana Ruiz" },
-    { "day": "Tuesday", "time": "7:00 AM", "className": "Conditioning", "trainer": "Theo Banks" },
-    { "day": "Wednesday", "time": "6:00 PM", "className": "Strongman", "trainer": "Dana Ruiz" },
-    { "day": "Friday", "time": "6:00 AM", "className": "CrossFit", "trainer": "Marcus Webb" },
-    { "day": "Saturday", "time": "9:00 AM", "className": "Community WOD", "trainer": "Marcus Webb" }
+    {
+      "day": "Monday",
+      "time": "6:00 AM",
+      "className": "CrossFit",
+      "trainer": "Marcus Webb"
+    },
+    {
+      "day": "Monday",
+      "time": "6:00 PM",
+      "className": "Strongman",
+      "trainer": "Dana Ruiz"
+    },
+    {
+      "day": "Tuesday",
+      "time": "7:00 AM",
+      "className": "Conditioning",
+      "trainer": "Theo Banks"
+    },
+    {
+      "day": "Wednesday",
+      "time": "6:00 PM",
+      "className": "Strongman",
+      "trainer": "Dana Ruiz"
+    },
+    {
+      "day": "Friday",
+      "time": "6:00 AM",
+      "className": "CrossFit",
+      "trainer": "Marcus Webb"
+    },
+    {
+      "day": "Saturday",
+      "time": "9:00 AM",
+      "className": "Community WOD",
+      "trainer": "Marcus Webb"
+    }
   ],
   "gallery": [
-    { "caption": "The main rig", "category": "Facility", "swatchClassName": "bg-neutral-700", "src": "/images/main-rig.jpg" },
-    { "caption": "Strongman yard", "category": "Facility", "swatchClassName": "bg-neutral-800", "src": "/images/strongman-yard.jpg" },
-    { "caption": "Saturday Community WOD", "category": "Classes", "swatchClassName": "bg-neutral-600", "src": "/images/community-wod.jpg" },
-    { "caption": "Competition prep session", "category": "Classes", "swatchClassName": "bg-neutral-700", "src": "/images/competition-prep.jpg" },
-    { "caption": "Member PR", "category": "Results", "swatchClassName": "bg-neutral-600", "src": "/images/member-pr.jpg" }
+    {
+      "caption": "The main rig",
+      "category": "Facility",
+      "swatchClassName": "bg-neutral-700",
+      "src": "/images/main-rig.jpg"
+    },
+    {
+      "caption": "Strongman yard",
+      "category": "Facility",
+      "swatchClassName": "bg-neutral-800",
+      "src": "/images/strongman-yard.jpg"
+    },
+    {
+      "caption": "Saturday Community WOD",
+      "category": "Classes",
+      "swatchClassName": "bg-neutral-600",
+      "src": "/images/community-wod.jpg"
+    },
+    {
+      "caption": "Competition prep session",
+      "category": "Classes",
+      "swatchClassName": "bg-neutral-700",
+      "src": "/images/competition-prep.jpg"
+    },
+    {
+      "caption": "Member PR",
+      "category": "Results",
+      "swatchClassName": "bg-neutral-600",
+      "src": "/images/member-pr.jpg"
+    }
   ],
   "transformations": [],
   "testimonials": [
-    { "quote": "This place doesn't coddle you, but it doesn't leave you alone either. Exactly what I needed.", "author": "Member since 2023", "rating": 5 },
-    { "quote": "Best coaching I've had. These people have actually competed, not just certified.", "author": "Member since 2022", "rating": 5 },
-    { "quote": "Community WOD on Saturdays is worth the membership alone.", "author": "Member since 2024", "rating": 4 }
+    {
+      "quote": "This place doesn't coddle you, but it doesn't leave you alone either. Exactly what I needed.",
+      "author": "Member since 2023",
+      "rating": 5
+    },
+    {
+      "quote": "Best coaching I've had. These people have actually competed, not just certified.",
+      "author": "Member since 2022",
+      "rating": 5
+    },
+    {
+      "quote": "Community WOD on Saturdays is worth the membership alone.",
+      "author": "Member since 2024",
+      "rating": 4
+    }
   ],
   "faqs": [
-    { "question": "Is CrossFit scaled for beginners?", "answer": "Yes — every WOD has a scaled track, and your first class is always free." },
-    { "question": "Do you offer month-to-month membership?", "answer": "Yes, all memberships are month-to-month with no cancellation fees." },
-    { "question": "What gear do I need?", "answer": "Just gym clothes and shoes with a flat sole. Chalk, bands, and all barbells/plates are provided." },
-    { "question": "Is there a minimum age?", "answer": "Members must be 16 or older; 16-17 year olds need a parent or guardian to sign a waiver." },
-    { "question": "Can I drop in without a membership?", "answer": "Yes, single class drop-ins are available at the front desk for visiting athletes." }
+    {
+      "question": "Is CrossFit scaled for beginners?",
+      "answer": "Yes — every WOD has a scaled track, and your first class is always free."
+    },
+    {
+      "question": "Do you offer month-to-month membership?",
+      "answer": "Yes, all memberships are month-to-month with no cancellation fees."
+    },
+    {
+      "question": "What gear do I need?",
+      "answer": "Just gym clothes and shoes with a flat sole. Chalk, bands, and all barbells/plates are provided."
+    },
+    {
+      "question": "Is there a minimum age?",
+      "answer": "Members must be 16 or older; 16-17 year olds need a parent or guardian to sign a waiver."
+    },
+    {
+      "question": "Can I drop in without a membership?",
+      "answer": "Yes, single class drop-ins are available at the front desk for visiting athletes."
+    }
   ],
   "blogPosts": [
     {
@@ -104,18 +335,36 @@
     "title": "Privacy Policy",
     "lastUpdated": "January 2026",
     "sections": [
-      { "heading": "Information we collect", "body": "We collect the information you provide when you sign up for membership or contact us — name, email, phone number, and billing details necessary to process payments." },
-      { "heading": "How we use it", "body": "Your information is used to manage your membership, communicate about classes and schedule changes, and process payments. We do not sell member data to third parties." },
-      { "heading": "Your rights", "body": "You can request a copy of the data we hold about you, or ask us to delete it, at any time." }
+      {
+        "heading": "Information we collect",
+        "body": "We collect the information you provide when you sign up for membership or contact us — name, email, phone number, and billing details necessary to process payments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used to manage your membership, communicate about classes and schedule changes, and process payments. We do not sell member data to third parties."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You can request a copy of the data we hold about you, or ask us to delete it, at any time."
+      }
     ]
   },
   "termsAndConditions": {
     "title": "Terms & Conditions",
     "lastUpdated": "January 2026",
     "sections": [
-      { "heading": "Membership terms", "body": "Memberships are billed monthly, month-to-month, with no cancellation fees." },
-      { "heading": "Facility use", "body": "Members are expected to re-rack plates, use chalk responsibly, and follow posted class capacity limits." },
-      { "heading": "Liability", "body": "Strength training and CrossFit carry inherent risk. Members are responsible for training within their own limits and consulting a physician before starting a new program if needed." }
+      {
+        "heading": "Membership terms",
+        "body": "Memberships are billed monthly, month-to-month, with no cancellation fees."
+      },
+      {
+        "heading": "Facility use",
+        "body": "Members are expected to re-rack plates, use chalk responsibly, and follow posted class capacity limits."
+      },
+      {
+        "heading": "Liability",
+        "body": "Strength training and CrossFit carry inherent risk. Members are responsible for training within their own limits and consulting a physician before starting a new program if needed."
+      }
     ]
   },
   "seo": {

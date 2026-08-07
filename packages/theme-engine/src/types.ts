@@ -44,6 +44,8 @@ export interface ThemeTokens {
     topBar: boolean;
     /** Renders corner brackets on cards (luxury/editorial themes). */
     ornate: boolean;
+    /** Translucent, backdrop-blurred surface instead of a solid fill (glassmorphic themes). */
+    glass: boolean;
   };
 
   motion: {
@@ -55,4 +57,14 @@ export interface ThemeTokens {
   googleFontsHref: string;
 }
 
-export type ThemeKey = 'dark' | 'gold' | 'minimal' | 'orange' | 'neon';
+export type ThemeKey =
+  | 'dark'
+  | 'gold'
+  | 'minimal'
+  | 'orange'
+  | 'neon'
+  | 'mednova'
+  | 'careplus'
+  | 'orthoedge'
+  | 'smilecraft'
+  | 'mothercare';

@@ -1,0 +1,395 @@
+{
+  "industry": "healthcare",
+  "clinicType": "gynecology",
+  "theme": "mothercare",
+  "business": {
+    "name": "MotherCare Women's Wellness",
+    "city": "Seattle, WA",
+    "phone": "+1 206 555 0133",
+    "whatsapp": "12065550133",
+    "email": "hello@mothercarewellness.com",
+    "address": "410 Pine St, Seattle, WA",
+    "hours": "Mon–Fri · 8:00 AM – 5:00 PM · Sat by appointment",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Gynecology, Pregnancy & Fertility Care",
+    "headline": "Care That Meets You Where You Are.",
+    "subheadline": "From routine wellness visits to pregnancy and fertility support, MotherCare offers calm, unhurried care for every stage of women's health.",
+    "primaryCta": {
+      "label": "Book a Consultation",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Women's health, without the rush",
+    "body": [
+      "MotherCare was founded by Dr. Priya Nair after years of watching patients get 10-minute appointments for conversations that deserved much longer.",
+      "Every visit here — whether it's an annual exam, a pregnancy check-in, or a difficult fertility conversation — gets the time and care it actually needs."
+    ],
+    "highlights": [
+      "Unhurried appointment times, always",
+      "Dedicated fertility and pregnancy support",
+      "A calm, private clinic environment",
+      "Same-week appointments for urgent concerns"
+    ],
+    "image": "/images/mothercare/reception-waiting-lounge.jpg"
+  },
+  "googleReviews": {
+    "rating": 4.9,
+    "reviewCount": 268
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "5,200+",
+      "label": "Patients Cared For"
+    },
+    {
+      "icon": "Baby",
+      "value": "900+",
+      "label": "Deliveries Supported"
+    },
+    {
+      "icon": "Award",
+      "value": "12",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Star",
+      "value": "4.9★",
+      "label": "Patient Rating"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "HeartPulse",
+      "title": "Unhurried Appointments",
+      "description": "Every visit is scheduled with real time for questions — never a rushed 10-minute slot."
+    },
+    {
+      "icon": "Baby",
+      "title": "Full Pregnancy Support",
+      "description": "From preconception through postpartum, cared for by the same familiar team."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "A Private, Calm Environment",
+      "description": "A clinic designed to feel safe for conversations that are often difficult to have elsewhere."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Fertility Care, Without Judgment",
+      "description": "Compassionate, evidence-based fertility support at whatever stage you're at."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-priya-nair",
+      "name": "Dr. Priya Nair",
+      "role": "Gynecologist & Fertility Specialist",
+      "qualification": "MD, Obstetrics & Gynecology",
+      "registrationNumber": "WA-MED-27810",
+      "experienceYears": 15,
+      "languages": [
+        "English",
+        "Malayalam",
+        "Hindi"
+      ],
+      "availability": "Mon, Wed, Fri · 9:00 AM – 4:00 PM",
+      "bio": "Dr. Nair founded MotherCare to build the kind of unhurried, judgment-free women's health practice she wished existed earlier in her career.",
+      "education": [
+        "MD — University of Washington School of Medicine",
+        "Residency, OB/GYN — Swedish Medical Center"
+      ],
+      "awards": [
+        "Patient Choice Award, Seattle Women's Health, 2023"
+      ],
+      "specialties": [
+        "Fertility care",
+        "High-risk pregnancy",
+        "Minimally invasive gynecologic surgery"
+      ],
+      "photo": "/images/mothercare/dr-priya-nair.jpg"
+    },
+    {
+      "slug": "dr-hannah-oyelaran",
+      "name": "Dr. Hannah Oyelaran",
+      "role": "Obstetrician",
+      "qualification": "MD, Obstetrics & Gynecology",
+      "registrationNumber": "WA-MED-35502",
+      "experienceYears": 9,
+      "languages": [
+        "English"
+      ],
+      "availability": "Tue, Thu · 8:00 AM – 3:00 PM",
+      "bio": "Dr. Oyelaran focuses on pregnancy care and delivery, supporting patients through both low-risk and complicated pregnancies.",
+      "education": [
+        "MD — University of Washington",
+        "Residency, OB/GYN — Virginia Mason"
+      ],
+      "awards": [],
+      "specialties": [
+        "Prenatal care",
+        "Labor & delivery",
+        "Postpartum support"
+      ],
+      "photo": "/images/mothercare/dr-hannah-oyelaran.jpg"
+    },
+    {
+      "slug": "dr-simone-castillo",
+      "name": "Dr. Simone Castillo",
+      "role": "Reproductive Endocrinologist",
+      "qualification": "MD, Reproductive Endocrinology & Infertility",
+      "registrationNumber": "WA-MED-41267",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "availability": "Mon, Thu · 10:00 AM – 3:00 PM",
+      "bio": "Dr. Castillo works with patients navigating fertility challenges, from initial evaluation through treatment and ongoing support.",
+      "education": [
+        "MD — Oregon Health & Science University",
+        "Fellowship, Reproductive Endocrinology — UCSF"
+      ],
+      "awards": [],
+      "specialties": [
+        "Fertility evaluation",
+        "IUI & ovulation induction",
+        "PCOS management"
+      ],
+      "photo": "/images/mothercare/dr-simone-castillo.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "prenatal-pregnancy-care",
+      "name": "Prenatal & Pregnancy Care",
+      "tagline": "From the first appointment through delivery",
+      "overview": "Consistent, unhurried prenatal visits with a team that gets to know you across your entire pregnancy, not a rotating cast of providers.",
+      "symptoms": [],
+      "procedure": [
+        "Initial prenatal visit and history review",
+        "Regular monitoring visits by trimester",
+        "Screening and diagnostic testing as needed",
+        "Delivery planning and postpartum follow-up"
+      ],
+      "benefits": [
+        "Consistent care team across your pregnancy",
+        "Unhurried visit times for questions",
+        "Coordinated high-risk care when needed"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "When should I schedule my first prenatal visit?",
+          "answer": "We recommend scheduling as soon as you have a positive pregnancy test, typically around 6–8 weeks."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "fertility-evaluation"
+      ]
+    },
+    {
+      "slug": "fertility-evaluation",
+      "name": "Fertility Evaluation & Treatment",
+      "tagline": "Compassionate, evidence-based fertility support",
+      "overview": "A thorough fertility workup and personalized treatment plan, delivered without judgment, at whatever pace feels right for you.",
+      "symptoms": [
+        "Difficulty conceiving after 12 months of trying",
+        "Irregular menstrual cycles",
+        "Known conditions like PCOS or endometriosis"
+      ],
+      "procedure": [
+        "Comprehensive fertility evaluation",
+        "Hormonal and diagnostic testing",
+        "Personalized treatment plan",
+        "Ongoing monitoring and support"
+      ],
+      "benefits": [
+        "Evidence-based, personalized treatment",
+        "Judgment-free, unhurried consultations",
+        "Coordinated care through to pregnancy or next steps"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "prenatal-pregnancy-care"
+      ]
+    },
+    {
+      "slug": "annual-wellness-exams",
+      "name": "Annual Wellness Exams",
+      "tagline": "Routine care that never feels rushed",
+      "overview": "Yearly wellness exams, screenings, and open time to discuss anything on your mind — from birth control to menopause and everything between.",
+      "symptoms": [],
+      "procedure": [
+        "Comprehensive health history review",
+        "Physical examination and screenings",
+        "Open discussion time for any concerns"
+      ],
+      "benefits": [
+        "Real time for questions and concerns",
+        "Consistent provider across visits",
+        "Screenings kept current and tracked"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [
+    {
+      "name": "Gynecology & Fertility",
+      "doctorSlugs": [
+        "dr-priya-nair",
+        "dr-simone-castillo"
+      ]
+    },
+    {
+      "name": "Obstetrics",
+      "doctorSlugs": [
+        "dr-hannah-oyelaran"
+      ]
+    }
+  ],
+  "insurancePartners": [
+    {
+      "name": "Premera Blue Cross"
+    },
+    {
+      "name": "Aetna"
+    },
+    {
+      "name": "Kaiser Permanente"
+    }
+  ],
+  "gallery": [
+    {
+      "caption": "Reception & waiting lounge",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/mothercare/reception-waiting-lounge.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/mothercare/consultation-room.jpg"
+    },
+    {
+      "caption": "Ultrasound suite",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-50",
+      "src": "/images/mothercare/ultrasound-suite.jpg"
+    },
+    {
+      "caption": "Private exam room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/mothercare/private-exam-room.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "After years of feeling rushed at every OB visit, MotherCare actually let me ask every question I had. It changed how I felt about my whole pregnancy.",
+      "author": "Patient, prenatal care",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Castillo never once made our fertility journey feel clinical or cold. We felt supported the entire time.",
+      "author": "Patient, fertility care",
+      "rating": 5
+    },
+    {
+      "quote": "My annual exam usually feels like a formality elsewhere. Here it actually felt like my doctor was listening.",
+      "author": "Patient, annual wellness",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept new obstetric patients?",
+      "answer": "Yes, we welcome new prenatal patients — please book as early in pregnancy as possible."
+    },
+    {
+      "question": "Is a referral needed for a fertility evaluation?",
+      "answer": "No referral is needed — you can book a fertility consultation directly."
+    },
+    {
+      "question": "Do you offer weekend appointments?",
+      "answer": "Saturday appointments are available by request for select visit types."
+    },
+    {
+      "question": "What insurance do you accept?",
+      "answer": "We're in-network with most major insurers — our team can verify your specific coverage before your visit."
+    },
+    {
+      "question": "Can I bring a partner to appointments?",
+      "answer": "Absolutely — partners and support people are always welcome at appointments."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "what-to-expect-first-prenatal-visit",
+      "title": "What to Actually Expect at Your First Prenatal Visit",
+      "excerpt": "A calm, honest walkthrough of what happens at your first appointment — and why it's longer than you might expect.",
+      "author": "Dr. Hannah Oyelaran",
+      "date": "2026-01-22",
+      "content": [
+        "Your first prenatal visit is typically longer than any other appointment in your pregnancy — usually 45 minutes to an hour — because there's a full history to cover.",
+        "Expect a detailed conversation about your health history, family history, and any medications, alongside initial bloodwork and, often, your first ultrasound.",
+        "This is also the visit to ask every question you've been holding onto — due date estimation, what to expect trimester by trimester, and anything you're anxious about.",
+        "There's no such thing as too small a question at this visit. If something feels worth asking, it's worth asking."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care, in compliance with HIPAA."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate and deliver your care. We do not sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your medical records at any time through our office."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment."
+      },
+      {
+        "heading": "Billing",
+        "body": "Co-pays and charges not covered by insurance are due at time of visit, disclosed in advance where possible."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace a consultation with your physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "MotherCare Women's Wellness — Seattle, WA",
+    "description": "Gynecology, pregnancy, and fertility clinic in Seattle offering unhurried, compassionate women's health care."
+  }
+}
