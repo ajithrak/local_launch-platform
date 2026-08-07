@@ -1,0 +1,490 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "orthoedge",
+  "business": {
+    "name": "V Smile Dental Clinic",
+    "city": "Chennai, Tamil Nadu",
+    "phone": "+91 78100 81366",
+    "whatsapp": "917810081366",
+    "email": "hello@vsmiledental.in",
+    "address": "3/98, Mugalivakkam Main Rd, Ramya Nagar, Madhanandapuram, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 6:00 PM–9:30 PM · Sunday 11:00 AM–9:30 PM",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Multi-Specialty Dental Care",
+    "headline": "Precision Dental Care, On Your Schedule.",
+    "subheadline": "From root canals to braces to oral surgery, V Smile brings specialist-level dentistry to Madhanandapuram — with evening and Sunday appointments built for people who can't take time off during the day.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Dentists",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Specialist dentistry, not just checkups",
+    "body": [
+      "V Smile Dental Clinic was built around a simple idea: patients in Madhanandapuram shouldn't have to travel across Chennai to see a specialist for a root canal, a wisdom tooth extraction, or braces. Our team covers endodontics, oral surgery, orthodontics, and pediatric dentistry under one roof, so referrals to a different clinic are rarely necessary.",
+      "We also know most people can't take a weekday afternoon off for a dental visit. That's why V Smile runs as an evening and weekend-focused clinic — open until 9:30 PM every day, including Sundays — so working professionals and families can get specialist care without missing work or school."
+    ],
+    "highlights": [
+      "Endodontic, orthodontic, and oral surgery specialists on-site",
+      "Open evenings and all day Sunday for working patients",
+      "Modern sterilized equipment and single-use instruments",
+      "Rated 4.9★ by 83 patients on Google"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "googleReviews": {
+    "rating": 4.9,
+    "reviewCount": 83
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "4,500+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Award",
+      "value": "8",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "3",
+      "label": "Specialist Dentists"
+    },
+    {
+      "icon": "Star",
+      "value": "4.9★",
+      "label": "Patient Rating"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "BadgeCheck",
+      "title": "True Multi-Specialty Team",
+      "description": "Orthodontics, oral surgery, root canal, and pediatric dentistry handled in-house — not referred out to another clinic."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening & Sunday Appointments",
+      "description": "Open until 9:30 PM daily and all day Sunday, so a dental visit never means missing work or school."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Modern, Sterilized Equipment",
+      "description": "Autoclave sterilization and single-use instruments for every patient, every visit."
+    },
+    {
+      "icon": "Smile",
+      "title": "Comfortable, Painless Procedures",
+      "description": "Modern anesthesia techniques and a gentle chairside approach, especially for anxious and first-time patients."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-priya-venkataraman",
+      "name": "Dr. Priya Venkataraman",
+      "role": "General & Orthodontic Dentist",
+      "qualification": "BDS, MDS (Orthodontics)",
+      "registrationNumber": "TNDC-A-18234",
+      "experienceYears": 10,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 6:00 PM–9:30 PM",
+      "bio": "Dr. Priya leads general dentistry and orthodontic care at V Smile, with a decade of experience straightening smiles using both traditional braces and clear aligners.",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS Orthodontics — Tamil Nadu Government Dental College"
+      ],
+      "awards": [
+        "Best Young Orthodontist, Chennai Dental Association, 2021"
+      ],
+      "specialties": [
+        "Braces & clear aligners",
+        "General dentistry",
+        "Smile design"
+      ],
+      "photo": "/images/dr-priya-venkataraman.jpg"
+    },
+    {
+      "slug": "dr-arvind-shanmugam",
+      "name": "Dr. Arvind Shanmugam",
+      "role": "Oral Surgeon & Endodontist",
+      "qualification": "BDS, MDS (Oral & Maxillofacial Surgery)",
+      "registrationNumber": "TNDC-A-15672",
+      "experienceYears": 12,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon–Sat · 6:00 PM–9:30 PM, Sun · 11:00 AM–9:30 PM",
+      "bio": "Dr. Arvind handles complex extractions, wisdom tooth surgery, and root canal treatments, with a particular focus on making procedures as painless as possible.",
+      "education": [
+        "BDS — SRM Dental College, Chennai",
+        "MDS Oral & Maxillofacial Surgery — Meenakshi Ammal Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Wisdom tooth extraction",
+        "Root canal treatment",
+        "Dental implants"
+      ],
+      "photo": "/images/dr-arvind-shanmugam.jpg"
+    },
+    {
+      "slug": "dr-meera-krishnan",
+      "name": "Dr. Meera Krishnan",
+      "role": "Pediatric Dentist",
+      "qualification": "BDS, MDS (Pediatric & Preventive Dentistry)",
+      "registrationNumber": "TNDC-A-20981",
+      "experienceYears": 7,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Tue, Thu, Sat · 6:00 PM–9:30 PM, Sun · 11:00 AM–9:30 PM",
+      "bio": "Dr. Meera specializes in gentle dental care for children, from first checkups to cavity treatment and denture care guidance for elderly patients.",
+      "education": [
+        "BDS — Sri Ramachandra Dental College, Chennai",
+        "MDS Pediatric & Preventive Dentistry — Ragas Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Pediatric dentistry",
+        "Preventive care",
+        "Denture care"
+      ],
+      "photo": "/images/dr-meera-krishnan.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the natural tooth, without the dread",
+      "overview": "Our endodontic team treats infected or badly decayed teeth with modern, low-pain root canal techniques, usually completed in one to two visits.",
+      "symptoms": [
+        "Persistent tooth pain, especially with hot or cold",
+        "Swelling or tenderness in the gums",
+        "A darkened or cracked tooth"
+      ],
+      "procedure": [
+        "Diagnosis with digital X-ray",
+        "Local anesthesia and pulp removal",
+        "Cleaning and shaping of the root canal",
+        "Filling and permanent crown placement"
+      ],
+      "benefits": [
+        "Saves your natural tooth instead of extraction",
+        "Modern anesthesia keeps the procedure comfortable",
+        "Usually completed in 1–2 evening visits"
+      ],
+      "recovery": "Most patients return to normal eating within a day or two, once the permanent crown is placed.",
+      "faqs": [
+        {
+          "question": "Is a root canal painful?",
+          "answer": "With modern anesthesia, the procedure itself is largely painless — most patients report far less discomfort than they expected. Mild soreness for a day or two afterward is normal."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "oral-surgery-tooth-extraction"
+      ]
+    },
+    {
+      "slug": "braces-orthodontic-treatment",
+      "name": "Braces & Orthodontic Treatment",
+      "tagline": "Straighter teeth with a timeline that fits your life",
+      "overview": "From traditional metal braces to clear aligners, we design orthodontic treatment plans around your bite, budget, and how fast you want results.",
+      "symptoms": [
+        "Crowded or crooked teeth",
+        "Visible gaps between teeth",
+        "Bite misalignment or jaw discomfort"
+      ],
+      "procedure": [
+        "Bite assessment and digital scans",
+        "Treatment plan and appliance selection",
+        "Regular adjustment visits",
+        "Retainer fitting after treatment"
+      ],
+      "benefits": [
+        "Choice of metal braces or clear aligners",
+        "Evening adjustment appointments so treatment doesn't disrupt work or school",
+        "Transparent, staged pricing discussed upfront"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How long does orthodontic treatment take?",
+          "answer": "Most cases run 12–24 months depending on complexity and the type of appliance chosen. Dr. Priya will give you a personalized timeline at your first consultation."
+        },
+        {
+          "question": "How much do braces cost?",
+          "answer": "Cost depends on the type of appliance and case complexity. We provide a clear, staged cost breakdown at your consultation before treatment begins."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "oral-surgery-tooth-extraction",
+      "name": "Oral Surgery & Tooth Extraction",
+      "tagline": "Wisdom teeth and complex extractions, handled in-house",
+      "overview": "Dr. Arvind performs simple and surgical extractions, including impacted wisdom teeth, without needing a referral to an outside oral surgeon.",
+      "symptoms": [
+        "Impacted or painful wisdom teeth",
+        "Severely damaged or decayed teeth",
+        "Overcrowding requiring extraction before braces"
+      ],
+      "procedure": [
+        "Clinical exam and X-ray assessment",
+        "Local anesthesia (sedation options available)",
+        "Extraction or surgical removal",
+        "Post-operative care instructions"
+      ],
+      "benefits": [
+        "In-house oral surgeon — no external referral needed",
+        "Sedation options for anxious patients",
+        "Clear post-op guidance to speed healing"
+      ],
+      "recovery": "Most patients recover within 3–5 days for simple extractions; surgical wisdom tooth removal may take up to a week.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "root-canal-treatment"
+      ]
+    },
+    {
+      "slug": "dentures-denture-care",
+      "name": "Dentures & Denture Care",
+      "tagline": "Custom-fit dentures for comfortable, natural function",
+      "overview": "We design and fit full and partial dentures, plus provide ongoing adjustment and repair for existing dentures.",
+      "symptoms": [
+        "Missing multiple teeth",
+        "Ill-fitting existing dentures",
+        "Difficulty chewing or speaking clearly"
+      ],
+      "procedure": [
+        "Impressions and bite measurement",
+        "Custom denture fabrication",
+        "Fitting and adjustment",
+        "Follow-up checks for comfort"
+      ],
+      "benefits": [
+        "Custom fit for natural comfort",
+        "Repair and relining services for existing dentures",
+        "Evening fitting appointments available"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "pediatric-dentistry",
+      "name": "Pediatric Dentistry",
+      "tagline": "Gentle dental care built for kids",
+      "overview": "Dr. Meera creates a calm, friendly environment for children's first dental visits, routine checkups, and cavity treatment.",
+      "symptoms": [
+        "First tooth eruption checkups",
+        "Cavities in baby or permanent teeth",
+        "Thumb-sucking or bite development concerns"
+      ],
+      "procedure": [
+        "Child-friendly initial exam",
+        "Preventive cleaning and fluoride treatment",
+        "Cavity treatment if needed",
+        "Guidance for parents on home care"
+      ],
+      "benefits": [
+        "Calm, patient approach for first-time young patients",
+        "Preventive focus to avoid future cavities",
+        "Weekend appointments that fit around school"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "cosmetic-dentistry-teeth-whitening",
+      "name": "Cosmetic Dentistry & Teeth Whitening",
+      "tagline": "Brighter, more confident smiles",
+      "overview": "In-clinic teeth whitening, veneers, and smile design consultations to improve the appearance of your smile.",
+      "symptoms": [
+        "Stained or discolored teeth",
+        "Chipped or uneven front teeth",
+        "General interest in smile improvement"
+      ],
+      "procedure": [
+        "Smile assessment and consultation",
+        "In-clinic whitening or veneer preparation",
+        "Application and shade matching",
+        "Aftercare guidance"
+      ],
+      "benefits": [
+        "Visible results in a single evening visit for whitening",
+        "Natural-looking veneer shade matching",
+        "Consultation-first approach, no pressure"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [
+    {
+      "name": "Orthodontics",
+      "doctorSlugs": [
+        "dr-priya-venkataraman"
+      ]
+    },
+    {
+      "name": "Oral Surgery & Endodontics",
+      "doctorSlugs": [
+        "dr-arvind-shanmugam"
+      ]
+    },
+    {
+      "name": "Pediatric Dentistry",
+      "doctorSlugs": [
+        "dr-meera-krishnan"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception & waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-lime-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Treatment chair & operatory",
+      "category": "Facility",
+      "swatchClassName": "bg-zinc-100",
+      "src": "/images/gallery-treatment-chair.jpg"
+    },
+    {
+      "caption": "Sterilization equipment",
+      "category": "Facility",
+      "swatchClassName": "bg-lime-50",
+      "src": "/images/gallery-sterilization.jpg"
+    },
+    {
+      "caption": "Orthodontic consultation",
+      "category": "Care",
+      "swatchClassName": "bg-zinc-50",
+      "src": "/images/gallery-orthodontic-consultation.jpg"
+    },
+    {
+      "caption": "Procedure in progress",
+      "category": "Care",
+      "swatchClassName": "bg-lime-100",
+      "src": "/images/gallery-procedure.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I was dreading my root canal but Dr. Arvind made it completely painless. I barely felt anything and was back to normal the next day.",
+      "author": "Patient, V Smile Dental Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "My daughter's braces treatment with Dr. Priya went exactly as planned, and being able to come in after school every time made it so much easier.",
+      "author": "Patient, V Smile Dental Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Being able to book a Sunday appointment saved me from taking leave from work. The clinic is spotless and the staff are genuinely caring.",
+      "author": "Patient, V Smile Dental Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you take appointments in the evening and on Sundays?",
+      "answer": "Yes — we're open Monday to Saturday from 6:00 PM to 9:30 PM, and Sunday from 11:00 AM to 9:30 PM, specifically so working patients don't have to miss office hours."
+    },
+    {
+      "question": "Can I walk in without an appointment?",
+      "answer": "We recommend booking ahead to avoid waiting, but we do accommodate walk-ins for urgent dental pain whenever a chair is free."
+    },
+    {
+      "question": "Is a root canal really as painful as people say?",
+      "answer": "No — with modern anesthesia and technique, most patients find the procedure far more comfortable than expected. It relieves pain rather than causing it."
+    },
+    {
+      "question": "How long do braces take and what do they cost?",
+      "answer": "Treatment typically takes 12–24 months depending on your case. We give you a clear, staged cost breakdown at your first consultation before any commitment."
+    },
+    {
+      "question": "What payment options do you accept?",
+      "answer": "We accept cash, UPI, and all major cards. Speak to our front desk about staged payment plans for longer treatments like orthodontics."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "root-canal-myths-debunked",
+      "title": "Root Canal Myths, Debunked by a Dentist",
+      "excerpt": "Root canals have a reputation they don't deserve. Here's what the procedure is actually like, from someone who performs them every week.",
+      "author": "Dr. Arvind Shanmugam",
+      "date": "2026-07-14",
+      "content": [
+        "Ask most people what they think of when they hear \"root canal\" and you'll get a wince. It's one of the most feared phrases in dentistry — and almost entirely undeserved. As someone who performs root canal treatment regularly, I want to clear up a few persistent myths.",
+        "Myth one: root canals are extremely painful. In reality, the procedure is done under local anesthesia, and the pain patients associate with root canals is usually the infection that made the treatment necessary in the first place — not the treatment itself. Most patients tell me it feels similar to getting a filling.",
+        "Myth two: it's better to just pull the tooth. Extraction might seem simpler, but a root canal preserves your natural tooth, which keeps your bite, jawbone, and neighboring teeth healthier long-term. Replacing an extracted tooth with an implant or bridge is usually more expensive and more involved than the root canal would have been.",
+        "Myth three: recovery takes a long time. Most patients are back to normal eating within a day or two once the permanent crown is placed. There may be mild soreness immediately after, easily managed with over-the-counter pain relief.",
+        "If you're putting off a root canal out of fear, my advice is simple: come in for a consultation and let's talk through exactly what your specific case involves. Waiting usually makes the underlying problem worse, not better."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical history, contact details, and treatment records necessary to diagnose and treat you safely and effectively."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate your care across our dental team and is never sold or shared with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your dental records at any time by contacting our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "We request at least 24 hours notice to cancel or reschedule an appointment so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Payment is due at the time of treatment. Staged payment plans are available for longer treatments such as orthodontics — please ask our front desk."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is for informational purposes only and does not replace an in-person dental evaluation."
+      }
+    ]
+  },
+  "seo": {
+    "title": "V Smile Dental Clinic — Madhanandapuram, Chennai",
+    "description": "Multi-specialty dental clinic in Madhanandapuram, Chennai offering root canal treatment, braces, oral surgery, dentures, and pediatric dentistry with evening and Sunday appointments."
+  }
+}

@@ -1,0 +1,462 @@
+{
+  "industry": "healthcare",
+  "clinicType": "multi-speciality",
+  "theme": "mednova",
+  "business": {
+    "name": "AR Medical and Dental Center",
+    "city": "Chennai, Tamil Nadu",
+    "phone": "+91 72006 44850",
+    "whatsapp": "917200644850",
+    "email": "hello@armedicaldental.in",
+    "address": "1, Ramakrishna Nagar Main Rd, Ranganathan Nagar, Porur, Chennai, Tamil Nadu 600116",
+    "hours": "Mon–Thu, Sat · 9:30 AM–1:00 PM, 5:00–9:00 PM · Fri · 9:30 AM–1:30 PM, 5:00–9:00 PM · Sunday Closed",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Multi-Speciality Clinic in Porur, Chennai",
+    "headline": "One Clinic. Three Specialities. Every Member Of Your Family.",
+    "subheadline": "General medicine, dental care, and pediatric care under one roof in Porur — the kind of neighborhood clinic where the same team sees your whole family, visit after visit.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "A real neighborhood clinic, built for the whole family",
+    "body": [
+      "AR Medical and Dental Center was set up on a simple idea: a family shouldn't need three different clinics across town for a fever, a toothache, and a child's vaccination. We brought general medicine, dental care, and pediatric care together under one roof in Ranganathan Nagar, Porur, so the same trusted clinic can see every member of your household.",
+      "We keep things straightforward — clear consultations, honest advice, and evening hours that actually work for people who are at work during the day. It's a small, genuinely local clinic, and we've built our reputation the slow way: one careful visit at a time."
+    ],
+    "highlights": [
+      "General medicine, dental, and pediatric care in one clinic",
+      "Evening hours on every working day for busy families",
+      "5.0★ rating across 78 Google reviews",
+      "Conveniently located on Ramakrishna Nagar Main Road, Porur"
+    ],
+    "image": "/images/reception-lobby-about.jpg"
+  },
+  "googleReviews": {
+    "rating": 5.0,
+    "reviewCount": 78
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "6,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Award",
+      "value": "8+",
+      "label": "Years Serving Porur"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "3",
+      "label": "Specialities Under One Roof"
+    },
+    {
+      "icon": "Star",
+      "value": "5.0★",
+      "label": "Google Rating"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Stethoscope",
+      "title": "Three Specialities, One Visit",
+      "description": "General medicine, dental care, and pediatric care in a single clinic — no shuttling between different addresses across the city."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours For Working Families",
+      "description": "Open until 9:00 PM every day we're open, so you don't have to take time off work to see a doctor or dentist."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "An Experienced, Steady Team",
+      "description": "Our general physician, dentist, and pediatrician have years of practice between them and know our patients by name."
+    },
+    {
+      "icon": "Building2",
+      "title": "Right In The Neighborhood",
+      "description": "Located on Ramakrishna Nagar Main Road in Porur, easy to reach and easy to return to."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-arun-ramesh",
+      "name": "Dr. Arun Ramesh",
+      "role": "General Practitioner",
+      "qualification": "MBBS",
+      "registrationNumber": "TN-MC-58214",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Thu, Sat · 9:30 AM–1:00 PM & 5:00–9:00 PM",
+      "bio": "Dr. Ramesh has practiced general medicine in Porur for over a decade, focusing on everyday illnesses, chronic disease management, and preventive health checkups for the whole family.",
+      "education": [
+        "MBBS — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General medicine",
+        "Chronic disease management",
+        "Preventive health checkups"
+      ],
+      "photo": "/images/dr-arun-ramesh.jpg"
+    },
+    {
+      "slug": "dr-priya-sundaram",
+      "name": "Dr. Priya Sundaram",
+      "role": "Dental Surgeon",
+      "qualification": "BDS, MDS (Prosthodontics)",
+      "registrationNumber": "TN-DC-31567",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 9:30 AM–1:00 PM & 5:00–9:00 PM",
+      "bio": "Dr. Sundaram leads dental care at AR Medical and Dental Center, with a practice covering everything from routine checkups to root canals and cosmetic dentistry.",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS, Prosthodontics — Meenakshi Ammal Dental College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Root canal treatment",
+        "Cosmetic dentistry",
+        "Dental implants"
+      ],
+      "photo": "/images/dr-priya-sundaram.jpg"
+    },
+    {
+      "slug": "dr-karthik-iyer",
+      "name": "Dr. Karthik Iyer",
+      "role": "Pediatrician",
+      "qualification": "MBBS, MD (Pediatrics)",
+      "registrationNumber": "TN-MC-64980",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Tue, Thu, Sat · 9:30 AM–1:00 PM & 5:00–9:00 PM",
+      "bio": "Dr. Iyer cares for infants, children, and adolescents, with a particular focus on vaccination schedules, newborn care, and everyday childhood illnesses.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD, Pediatrics — Kilpauk Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Child vaccination",
+        "Newborn care",
+        "Pediatric nutrition"
+      ],
+      "photo": "/images/dr-karthik-iyer.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "Everyday illnesses and ongoing health, looked after properly",
+      "overview": "From fevers and infections to diabetes and blood pressure management, our general physician provides thorough consultations and follow-up care for the whole family.",
+      "symptoms": [
+        "Fever, cold, or persistent cough",
+        "Fatigue or unexplained weight change",
+        "High blood pressure or blood sugar concerns"
+      ],
+      "procedure": [
+        "Consultation and symptom review",
+        "Physical examination and vitals check",
+        "Diagnosis and, where needed, lab referrals",
+        "Treatment plan and follow-up scheduling"
+      ],
+      "benefits": [
+        "Same clinic for one-off illness and ongoing management",
+        "Evening slots that fit around work",
+        "Straightforward, honest advice"
+      ],
+      "recovery": "Most general consultations require no downtime; follow-up is scheduled based on your specific condition.",
+      "faqs": [
+        {
+          "question": "Do I need an appointment for a general consultation?",
+          "answer": "Walk-ins are welcome, but booking ahead through our appointment page helps you avoid waiting."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "dental-checkup-treatment",
+      "name": "Dental Checkup & Treatment",
+      "tagline": "Routine care through to root canals, handled in-house",
+      "overview": "Our dental team handles routine checkups and cleanings alongside more involved treatment like root canals, fillings, and cosmetic work, all in one dental chair.",
+      "symptoms": [
+        "Toothache or sensitivity",
+        "Bleeding or swollen gums",
+        "Discoloured or chipped teeth"
+      ],
+      "procedure": [
+        "Oral examination and, if needed, X-ray",
+        "Cleaning, filling, or root canal as required",
+        "Post-treatment care instructions",
+        "Follow-up review appointment"
+      ],
+      "benefits": [
+        "Routine and advanced dental care under one dentist",
+        "Modern, hygienic treatment room",
+        "Clear explanation of treatment and costs before starting"
+      ],
+      "recovery": "Routine checkups and cleanings need no downtime; root canal or extraction patients are given specific aftercare instructions.",
+      "faqs": [
+        {
+          "question": "Do you treat dental emergencies like a broken tooth?",
+          "answer": "Yes — call ahead and we'll do our best to fit you in the same day during clinic hours."
+        },
+        {
+          "question": "Do you offer cosmetic dental treatments?",
+          "answer": "Yes, Dr. Sundaram offers cosmetic dentistry including whitening and smile correction options."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "child-vaccination-pediatric-care",
+      "name": "Child Vaccinations & Pediatric Care",
+      "tagline": "From newborn checkups to school-age vaccinations",
+      "overview": "Dr. Iyer manages routine pediatric care, growth monitoring, and the full childhood vaccination schedule, so parents have one dependable place for their child's health.",
+      "symptoms": [
+        "Upcoming or due vaccination",
+        "Fever or infection in an infant or child",
+        "Concerns about growth or feeding"
+      ],
+      "procedure": [
+        "Growth and development check",
+        "Vaccination as per due schedule",
+        "Discussion of feeding, sleep, or behavioural concerns",
+        "Record of vaccination in the child's health card"
+      ],
+      "benefits": [
+        "Dedicated pediatrician, not a general consultation",
+        "Vaccination records maintained for you",
+        "Evening and Saturday slots for working parents"
+      ],
+      "recovery": "Most vaccinations involve only mild, short-lived side effects; our team will explain what's normal and what to watch for.",
+      "faqs": [
+        {
+          "question": "Do you follow the standard Indian immunization schedule?",
+          "answer": "Yes, we follow the recommended national immunization schedule and can advise on additional optional vaccines."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures",
+      "tagline": "Small procedures, done safely, without a hospital visit",
+      "overview": "For minor cuts, dressings, injections, and small outpatient procedures, our clinic offers a safe and convenient alternative to a hospital trip.",
+      "symptoms": [
+        "Minor cuts or wounds needing dressing",
+        "Injections or IV fluids prescribed by a doctor",
+        "Minor skin procedures"
+      ],
+      "procedure": [
+        "Assessment by the treating doctor",
+        "Procedure carried out in our treatment room",
+        "Dressing or aftercare as needed",
+        "Follow-up if required"
+      ],
+      "benefits": [
+        "Avoids unnecessary hospital visits for minor care",
+        "Quick turnaround during clinic hours",
+        "Same team follows up on healing"
+      ],
+      "recovery": "Recovery depends on the procedure; our team will walk you through aftercare before you leave.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "Simple preventive checkups for every age",
+      "overview": "Our basic health checkup packages cover routine screening for adults and children, so small issues are caught early rather than becoming bigger ones.",
+      "symptoms": [],
+      "procedure": [
+        "Consultation to understand your health history",
+        "Basic vitals and screening",
+        "Lab referrals where indicated",
+        "Review of results with the doctor"
+      ],
+      "benefits": [
+        "Affordable preventive screening",
+        "Results reviewed in person, not just handed over",
+        "Suitable for adults, seniors, and children"
+      ],
+      "recovery": "No downtime — checkups are completed within a single visit, with results discussed at a follow-up if labs are involved.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Medicine",
+      "doctorSlugs": [
+        "dr-arun-ramesh"
+      ]
+    },
+    {
+      "name": "Dental Care",
+      "doctorSlugs": [
+        "dr-priya-sundaram"
+      ]
+    },
+    {
+      "name": "Pediatrics",
+      "doctorSlugs": [
+        "dr-karthik-iyer"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/reception.jpg"
+    },
+    {
+      "caption": "General consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/consultation-room.jpg"
+    },
+    {
+      "caption": "Dental treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/dental-room.jpg"
+    },
+    {
+      "caption": "Pediatric care area",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/pediatric-area.jpg"
+    },
+    {
+      "caption": "Patient waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/waiting-area.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Having a GP, dentist, and pediatrician in the same clinic has been a lifesaver — I don't need three different appointments across the city anymore.",
+      "author": "Patient, AR Medical and Dental Center",
+      "rating": 5
+    },
+    {
+      "quote": "Took my daughter for her vaccination in the evening after work and the doctor still spent time answering all my questions. Never felt rushed.",
+      "author": "Patient, AR Medical and Dental Center",
+      "rating": 5
+    },
+    {
+      "quote": "Got a root canal done here after putting it off for months. Painless, well explained, and much more affordable than I expected.",
+      "author": "Patient, AR Medical and Dental Center",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "Yes, walk-ins are welcome for general medicine, dental, and pediatric consultations, though booking ahead through our appointment page helps you avoid waiting."
+    },
+    {
+      "question": "Which specialities are available at your clinic?",
+      "answer": "We offer general medicine, dental care, and pediatric care — all three under one roof at our Porur clinic."
+    },
+    {
+      "question": "What should I bring for my first visit?",
+      "answer": "Please bring any previous prescriptions, test reports, or your child's vaccination card, if relevant, along with a valid ID."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and major debit and credit cards at the clinic."
+    },
+    {
+      "question": "What if I have a medical emergency outside your clinic hours?",
+      "answer": "For emergencies outside our clinic hours, please head to the nearest hospital emergency department, as we do not provide 24-hour emergency services."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "one-clinic-for-every-age-group",
+      "title": "Why Your Family Should Have One Clinic for Every Age Group",
+      "excerpt": "From a toddler's vaccination to a grandparent's blood pressure check, here's why keeping care under one roof actually matters.",
+      "author": "Dr. Arun Ramesh",
+      "date": "2026-07-15",
+      "content": [
+        "Most families end up scattered across three or four different clinics — a pediatrician for the kids, a dentist somewhere else, and a general physician for everyone else. It works, but it means nobody actually has the full picture of your family's health.",
+        "When one clinic sees your whole household, patterns become easier to catch. A GP who has treated your child's recurring cough over a few visits notices things a one-off consultation would miss. The same goes for dental health — a dentist who has seen your family for years knows which habits to watch for.",
+        "There's also the simple, practical side of it. Evening appointments after work, a dental checkup booked right after a child's vaccination, a parent's routine health screening done on the same visit as their teenager's — it all adds up to fewer trips, not more.",
+        "At AR Medical and Dental Center, that's exactly what we set out to build: a genuine multi-speciality clinic in Porur where general medicine, dental care, and pediatric care sit under one roof, so your family's care doesn't have to be scattered across the city."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and appointment information necessary to provide care and schedule your visits at AR Medical and Dental Center."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to deliver and coordinate your treatment. We do not sell or share patient data with third parties, and access is limited to your treating doctors and clinic staff."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to, or correction of, your medical records at any time by contacting our clinic reception directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Appointments can be rescheduled or cancelled by contacting the clinic ahead of your scheduled time; walk-ins are accommodated where possible."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and treatment charges are payable at the time of your visit; costs for any procedure are discussed with you beforehand."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational only and does not replace an in-person consultation with a licensed physician or dentist."
+      }
+    ]
+  },
+  "seo": {
+    "title": "AR Medical and Dental Center — Porur, Chennai",
+    "description": "Multi-speciality clinic in Porur, Chennai offering general medicine, dental care, and pediatric care under one roof. 5.0★ rated, evening appointments available."
+  }
+}

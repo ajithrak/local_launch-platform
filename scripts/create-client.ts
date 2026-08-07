@@ -1,14 +1,15 @@
 #!/usr/bin/env node
 /**
  * Scaffolds a new standalone client app under apps/<slug>, seeded from one
- * of the gym demo templates in apps/site-gym/content/templates/*.json.
+ * of the gym or healthcare demo templates.
  *
  * Usage:
  *   pnpm create-client <client-slug> --template <titan|apex|forge|pulse|elite>
+ *   pnpm create-client <client-slug> --industry healthcare --template <mednova|careplus|orthoedge|smilecraft|mothercare>
  *
  * The generated app is a thin Next.js app that imports all of its actual
- * rendering from @locallaunch/gym-kit (see packages/gym-kit) — it has no
- * basePath and no multi-template registry, since it serves exactly one
+ * rendering from @locallaunch/gym-kit or @locallaunch/healthcare-kit — it has
+ * no basePath and no multi-template registry, since it serves exactly one
  * business at its own root domain. Onboarding a new client is: run this,
  * edit the generated content/business.json, deploy.
  */
@@ -16,8 +17,18 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSy
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const TEMPLATE_SLUGS = ['titan', 'apex', 'forge', 'pulse', 'elite'] as const;
-type TemplateSlug = (typeof TEMPLATE_SLUGS)[number];
+const INDUSTRIES = ['gym', 'healthcare'] as const;
+type Industry = (typeof INDUSTRIES)[number];
+
+const TEMPLATE_SLUGS: Record<Industry, readonly string[]> = {
+  gym: ['titan', 'apex', 'forge', 'pulse', 'elite'],
+  healthcare: ['mednova', 'careplus', 'orthoedge', 'smilecraft', 'mothercare'],
+};
+
+const SCAFFOLD_DIR: Record<Industry, string> = {
+  gym: 'client-app',
+  healthcare: 'client-app-healthcare',
+};
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const repoRoot = join(__dirname, '..');
@@ -26,30 +37,38 @@ function printUsageAndExit(message?: string): never {
   if (message) console.error(`\n${message}`);
   console.error(`
 Usage:
-  pnpm create-client <client-slug> --template <${TEMPLATE_SLUGS.join('|')}>
+  pnpm create-client <client-slug> --template <${TEMPLATE_SLUGS.gym.join('|')}>
+  pnpm create-client <client-slug> --industry healthcare --template <${TEMPLATE_SLUGS.healthcare.join('|')}>
 
 Example:
   pnpm create-client fitzone-fitness --template titan
+  pnpm create-client diyas-dental --industry healthcare --template smilecraft
 
-(--template only accepts the gym demo templates today — a future industry
-would ship its own kit package and its own set of template names.)
+(--industry defaults to "gym" when omitted.)
 `);
   process.exit(1);
 }
 
-function parseArgs(argv: string[]): { slug: string; template: TemplateSlug } {
+function parseArgs(argv: string[]): { slug: string; industry: Industry; template: string } {
   const [slug, ...rest] = argv;
   if (!slug || slug.startsWith('-')) {
     printUsageAndExit('Missing client slug.');
   }
 
-  const flagIndex = rest.indexOf('--template');
-  const template = flagIndex !== -1 ? rest[flagIndex + 1] : undefined;
-  if (!template || !(TEMPLATE_SLUGS as readonly string[]).includes(template)) {
-    printUsageAndExit(`Missing or invalid --template. Choose one of: ${TEMPLATE_SLUGS.join(', ')}`);
+  const industryFlagIndex = rest.indexOf('--industry');
+  const industryArg = industryFlagIndex !== -1 ? rest[industryFlagIndex + 1] : 'gym';
+  if (!(INDUSTRIES as readonly string[]).includes(industryArg)) {
+    printUsageAndExit(`Invalid --industry. Choose one of: ${INDUSTRIES.join(', ')}`);
+  }
+  const industry = industryArg as Industry;
+
+  const templateFlagIndex = rest.indexOf('--template');
+  const template = templateFlagIndex !== -1 ? rest[templateFlagIndex + 1] : undefined;
+  if (!template || !TEMPLATE_SLUGS[industry].includes(template)) {
+    printUsageAndExit(`Missing or invalid --template for industry "${industry}". Choose one of: ${TEMPLATE_SLUGS[industry].join(', ')}`);
   }
 
-  return { slug, template: template as TemplateSlug };
+  return { slug, industry, template };
 }
 
 function isValidSlug(slug: string): boolean {
@@ -74,37 +93,7 @@ function copyRecursive(src: string, dest: string, replacements: Record<string, s
   writeFileSync(dest, replaced);
 }
 
-function main() {
-  const { slug, template } = parseArgs(process.argv.slice(2));
-
-  if (!isValidSlug(slug)) {
-    printUsageAndExit('Client slug must be lowercase letters, numbers, and hyphens, and start with a letter (e.g. "fitzone-fitness").');
-  }
-  if (slug === 'site-gym') {
-    printUsageAndExit('"site-gym" is reserved for the multi-template sales demo.');
-  }
-
-  const targetDir = join(repoRoot, 'apps', slug);
-  if (existsSync(targetDir)) {
-    printUsageAndExit(`apps/${slug} already exists — pick a different slug, or remove it first if this was a mistake.`);
-  }
-
-  const scaffoldDir = join(repoRoot, 'scripts', 'scaffold', 'client-app');
-  const packageName = `@locallaunch/${slug}`;
-
-  copyRecursive(scaffoldDir, targetDir, { __PACKAGE_NAME__: packageName });
-
-  // Seed content/business.json from the chosen demo template — this is the
-  // client's starting point, not a live link to the demo (editing it here
-  // never affects apps/site-gym's own copy).
-  const templateJsonPath = join(repoRoot, 'apps', 'site-gym', 'content', 'templates', `${template}.json`);
-  const templateJson = JSON.parse(readFileSync(templateJsonPath, 'utf8'));
-
-  // The demo templates' image paths (e.g. "/images/titan/...") only resolve
-  // under site-gym's own /public folder and its "/gym" basePath — they'd
-  // 404 in a freshly generated client app, which has neither. Strip them so
-  // every new client starts from the clean swatch-placeholder look until
-  // real photos are sourced for that specific business.
+function stripGymImages(templateJson: any) {
   delete templateJson.business?.logo;
   for (const image of templateJson.gallery ?? []) delete image.src;
   for (const trainer of templateJson.trainers ?? []) delete trainer.photo;
@@ -112,10 +101,57 @@ function main() {
     delete item.beforeSrc;
     delete item.afterSrc;
   }
+}
 
+function stripHealthcareImages(templateJson: any) {
+  delete templateJson.business?.logo;
+  delete templateJson.about?.image;
+  for (const image of templateJson.gallery ?? []) delete image.src;
+  for (const doctor of templateJson.doctors ?? []) delete doctor.photo;
+}
+
+function main() {
+  const { slug, industry, template } = parseArgs(process.argv.slice(2));
+
+  if (!isValidSlug(slug)) {
+    printUsageAndExit('Client slug must be lowercase letters, numbers, and hyphens, and start with a letter (e.g. "fitzone-fitness").');
+  }
+  if (slug === 'site-gym' || slug === 'site-healthcare') {
+    printUsageAndExit(`"${slug}" is reserved for the multi-template sales demo.`);
+  }
+
+  const targetDir = join(repoRoot, 'apps', slug);
+  if (existsSync(targetDir)) {
+    printUsageAndExit(`apps/${slug} already exists — pick a different slug, or remove it first if this was a mistake.`);
+  }
+
+  const scaffoldDir = join(repoRoot, 'scripts', 'scaffold', SCAFFOLD_DIR[industry]);
+  const packageName = `@locallaunch/${slug}`;
+
+  copyRecursive(scaffoldDir, targetDir, { __PACKAGE_NAME__: packageName });
+
+  // Seed content/business.json from the chosen demo template — this is the
+  // client's starting point, not a live link to the demo (editing it here
+  // never affects the source app's own copy).
+  const demoApp = industry === 'gym' ? 'site-gym' : 'site-healthcare';
+  const templateJsonPath = join(repoRoot, 'apps', demoApp, 'content', 'templates', `${template}.json`);
+  const templateJson = JSON.parse(readFileSync(templateJsonPath, 'utf8'));
+
+  // The demo templates' image paths (e.g. "/images/titan/...") only resolve
+  // under the demo app's own /public folder and its basePath — they'd 404 in
+  // a freshly generated client app, which has neither. Strip them so every
+  // new client starts from the clean swatch-placeholder look until real
+  // photos are sourced for that specific business.
+  if (industry === 'gym') {
+    stripGymImages(templateJson);
+  } else {
+    stripHealthcareImages(templateJson);
+  }
+
+  mkdirSync(join(targetDir, 'content'), { recursive: true });
   writeFileSync(join(targetDir, 'content', 'business.json'), JSON.stringify(templateJson, null, 2) + '\n');
 
-  console.log(`\nCreated apps/${slug} (${packageName}), seeded from the "${template}" template.\n`);
+  console.log(`\nCreated apps/${slug} (${packageName}), seeded from the "${template}" ${industry} template.\n`);
   console.log('Next steps:');
   console.log('  1. pnpm install');
   console.log(`  2. Edit apps/${slug}/content/business.json with the client's real business details`);

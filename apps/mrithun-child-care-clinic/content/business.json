@@ -1,0 +1,412 @@
+{
+  "industry": "healthcare",
+  "clinicType": "pediatric",
+  "theme": "careplus",
+  "business": {
+    "name": "Mrithun Child Care Clinic",
+    "city": "Chennai, Tamil Nadu",
+    "phone": "+91 98400 36862",
+    "whatsapp": "919840036862",
+    "email": "hello@mrithunchildcare.in",
+    "address": "Anusha Garden, B-Block, G-1, Mugalivakkam Main Rd, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 10:00 AM–1:30 PM, 3:30–6:30 PM · Sunday 10:00 AM–12:30 PM",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Pediatric & Child Care, Mugalivakkam",
+    "headline": "Gentle, Caring Healthcare for Your Little Ones.",
+    "subheadline": "From newborn checkups to childhood immunizations, Mrithun Child Care Clinic gives Mugalivakkam families a warm, unhurried place to keep their children healthy.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Child care rooted in the neighborhood",
+    "body": [
+      "Mrithun Child Care Clinic was built around a simple idea — that a visit to the doctor shouldn't be something a child dreads. Our team takes the time to explain, reassure, and involve parents in every step, whether it's a routine growth checkup or a worrying fever at odd hours.",
+      "Located on Mugalivakkam Main Road, we've become a trusted neighborhood clinic for families across the area, offering everything from newborn care and vaccination tracking to guidance on nutrition and everyday childhood illnesses — all under one familiar roof."
+    ],
+    "highlights": [
+      "Kid-friendly waiting area and play corner",
+      "Complete childhood immunization tracking",
+      "Unhurried appointments with real time for parent questions",
+      "Conveniently located on Mugalivakkam Main Road"
+    ],
+    "image": "/images/about-clinic.jpg"
+  },
+  "googleReviews": {
+    "rating": 3.7,
+    "reviewCount": 43
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "3,000+",
+      "label": "Children Cared For"
+    },
+    {
+      "icon": "Baby",
+      "value": "2",
+      "label": "Pediatricians"
+    },
+    {
+      "icon": "Award",
+      "value": "8",
+      "label": "Years Serving Mugalivakkam"
+    },
+    {
+      "icon": "Star",
+      "value": "3.7★",
+      "label": "Google Rating"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Baby",
+      "title": "Kid-Friendly Environment",
+      "description": "A colorful play corner and a patient, calm approach that helps children feel at ease from the moment they walk in."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced Pediatric Care",
+      "description": "Our doctors focus exclusively on children's health, from newborn care through the teenage years."
+    },
+    {
+      "icon": "Syringe",
+      "title": "Vaccination Tracking",
+      "description": "We maintain your child's immunization record and remind you when the next dose is due."
+    },
+    {
+      "icon": "Building2",
+      "title": "Easy to Reach",
+      "description": "Conveniently located on Mugalivakkam Main Road with straightforward access for families across the area."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-arun-kumar",
+      "name": "Dr. Arun Kumar",
+      "role": "Pediatrician & Clinic Head",
+      "qualification": "MBBS, MD (Pediatrics)",
+      "registrationNumber": "TNMC-45213",
+      "experienceYears": 12,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 10:00 AM–1:30 PM, 3:30–6:30 PM",
+      "bio": "Dr. Arun Kumar heads Mrithun Child Care Clinic and has spent over a decade caring for children in and around Mugalivakkam, with a focus on newborn care and timely immunizations.",
+      "photo": "/images/dr-arun-kumar.jpg",
+      "education": [
+        "MBBS — Madras Medical College",
+        "MD (Pediatrics) — Stanley Medical College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Newborn care",
+        "Childhood immunizations",
+        "Growth and development monitoring"
+      ]
+    },
+    {
+      "slug": "dr-kavitha-raman",
+      "name": "Dr. Kavitha Raman",
+      "role": "Pediatrician",
+      "qualification": "MBBS, MD (Pediatrics)",
+      "registrationNumber": "TNMC-51987",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon–Sat · 10:00 AM–1:30 PM, 3:30–6:30 PM · Sunday 10:00 AM–12:30 PM",
+      "bio": "Dr. Kavitha Raman works closely with first-time parents on everything from feeding and nutrition to common childhood illnesses, taking extra time to answer questions during every visit.",
+      "photo": "/images/dr-kavitha-raman.jpg",
+      "education": [
+        "MBBS — Kilpauk Medical College",
+        "MD (Pediatrics) — Sri Ramachandra Medical College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Nutrition counseling",
+        "Common childhood illness treatment",
+        "Behavioral and developmental checkups"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "newborn-infant-checkups",
+      "name": "Newborn & Infant Checkups",
+      "tagline": "Careful, unhurried care from day one",
+      "overview": "Regular newborn and infant checkups track your baby's growth, feeding, and early development, giving parents a chance to ask questions and catch anything that needs attention early.",
+      "symptoms": [],
+      "procedure": [
+        "Weight, length, and head circumference tracking",
+        "Feeding and sleep pattern review",
+        "Physical examination",
+        "Open time for parent questions"
+      ],
+      "benefits": [
+        "Same doctor across visits when possible",
+        "Unhurried appointment times",
+        "Clear guidance for new parents"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should my newborn be checked in the first year?",
+          "answer": "We recommend visits at 1, 2, 4, 6, 9, and 12 months, with additional visits if anything comes up in between."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "childhood-immunizations",
+        "growth-development-monitoring"
+      ]
+    },
+    {
+      "slug": "childhood-immunizations",
+      "name": "Childhood Immunizations",
+      "tagline": "On-schedule, tracked, and explained clearly",
+      "overview": "We follow the recommended childhood immunization schedule and maintain a record for every child, so parents never have to guess what's due next.",
+      "symptoms": [],
+      "procedure": [
+        "Review of current immunization record",
+        "Age-appropriate vaccine administration",
+        "Post-vaccine monitoring",
+        "Reminder for the next due date"
+      ],
+      "benefits": [
+        "Full recommended schedule maintained in-house",
+        "Time to answer parent questions",
+        "Immunization record maintained for each child"
+      ],
+      "recovery": "Mild soreness or a low fever is common for 24–48 hours after a vaccine; our team explains what's normal before you leave.",
+      "faqs": [
+        {
+          "question": "Do you remind us when the next vaccine is due?",
+          "answer": "Yes, we track each child's immunization record and let you know when the next dose is coming up."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "newborn-infant-checkups"
+      ]
+    },
+    {
+      "slug": "growth-development-monitoring",
+      "name": "Growth & Development Monitoring",
+      "tagline": "Tracking milestones at every age",
+      "overview": "We monitor your child's physical growth and developmental milestones over time, flagging early any concerns around growth, speech, or motor development.",
+      "symptoms": [],
+      "procedure": [
+        "Growth chart tracking (height, weight, BMI)",
+        "Developmental milestone screening",
+        "Vision and hearing checks",
+        "Referral guidance when needed"
+      ],
+      "benefits": [
+        "Early identification of growth or developmental concerns",
+        "Consistent tracking visit to visit",
+        "Clear explanations parents can act on"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "newborn-infant-checkups"
+      ]
+    },
+    {
+      "slug": "common-childhood-illness-treatment",
+      "name": "Common Childhood Illness Treatment",
+      "tagline": "Fevers, colds, and everyday concerns, handled promptly",
+      "overview": "From fevers and coughs to stomach upsets and skin rashes, we treat the everyday illnesses that come up during childhood, with same-day slots kept open for urgent visits.",
+      "symptoms": [
+        "Fever",
+        "Cough or cold",
+        "Stomach upset",
+        "Skin rash or allergy"
+      ],
+      "procedure": [
+        "Physical examination and symptom review",
+        "On-site diagnosis where possible",
+        "Prescription and home-care guidance",
+        "Follow-up if symptoms persist"
+      ],
+      "benefits": [
+        "Same-day slots for urgent concerns",
+        "Clear home-care instructions",
+        "Follow-up support until your child recovers"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "nutrition-counseling",
+      "name": "Nutrition Counseling",
+      "tagline": "Practical feeding guidance for every age",
+      "overview": "From breastfeeding and weaning support to picky-eating concerns in older children, we help parents build feeding routines that support healthy growth.",
+      "symptoms": [],
+      "procedure": [
+        "Feeding history and growth review",
+        "Age-appropriate nutrition plan",
+        "Practical tips for common feeding challenges",
+        "Follow-up review of progress"
+      ],
+      "benefits": [
+        "Personalized, practical guidance",
+        "Support through weaning and picky-eating phases",
+        "Growth tracked alongside nutrition advice"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "growth-development-monitoring"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "Pediatrics",
+      "doctorSlugs": [
+        "dr-arun-kumar",
+        "dr-kavitha-raman"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception and waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/waiting-area.jpg"
+    },
+    {
+      "caption": "Kids' play corner",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/play-corner.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/consultation-room.jpg"
+    },
+    {
+      "caption": "Vaccination in progress",
+      "category": "Care",
+      "swatchClassName": "bg-emerald-50",
+      "src": "/images/vaccination.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-amber-50",
+      "src": "/images/clinic-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "The doctors are very patient with kids. My son was scared of injections but the staff calmed him down so well that he wasn't even crying by the end.",
+      "author": "Parent, Mrithun Child Care patient",
+      "rating": 5
+    },
+    {
+      "quote": "We've been coming here since my daughter was born. They keep track of every vaccination and always remind us of the next visit.",
+      "author": "Parent, Mrithun Child Care patient",
+      "rating": 5
+    },
+    {
+      "quote": "Good clinic close to home. Sometimes the waiting time is a bit long on weekends, but the doctors do spend proper time with each child.",
+      "author": "Parent, Mrithun Child Care patient",
+      "rating": 4
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "Yes, we accept walk-ins during clinic hours, though booking an appointment in advance helps reduce your waiting time."
+    },
+    {
+      "question": "How do you track my child's vaccination schedule?",
+      "answer": "We maintain an immunization record for every child and let you know when the next dose is due at each visit."
+    },
+    {
+      "question": "What should I bring to my child's first visit?",
+      "answer": "Please bring any prior medical or immunization records, along with a photo ID for the parent or guardian."
+    },
+    {
+      "question": "What are your payment options?",
+      "answer": "We accept cash and standard digital payment methods (UPI, cards) at the clinic."
+    },
+    {
+      "question": "What if my child needs urgent care outside clinic hours?",
+      "answer": "For urgent concerns outside our listed hours, please call the clinic directly at +91 98400 36862 and we will guide you on the next steps."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "first-year-immunization-schedule-explained",
+      "title": "Your Child's First-Year Immunization Schedule, Explained Simply",
+      "excerpt": "A plain-language walkthrough of what shots happen when, and why the schedule is built the way it is.",
+      "author": "Dr. Arun Kumar",
+      "date": "2026-07-10",
+      "content": [
+        "The first-year immunization schedule can look overwhelming on paper, but it's built around one simple principle: protecting your baby right when they're most vulnerable to each specific disease.",
+        "Most vaccines are given in a series, not a single dose, because the immune response builds over multiple exposures — the spacing between doses isn't arbitrary, it's designed to build the strongest possible protection.",
+        "It's normal for your baby to be fussy or run a mild fever for a day after certain vaccines. This is usually just the immune system doing exactly what it's supposed to do, and it settles on its own within a day or two.",
+        "We maintain a record of your child's immunizations at the clinic and will remind you at each visit when the next dose is due, so you never have to keep track of the schedule on your own.",
+        "If you're ever unsure about a specific vaccine or worried about a reaction, call us or ask at the visit — we'd always rather spend a few extra minutes explaining than have you leave with questions."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments for your child."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your child's information is used only to deliver and coordinate care, including immunization tracking and appointment reminders. We never sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your child's medical records at any time through our clinic office."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least a few hours notice to cancel or reschedule an appointment where possible."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation fees are due at the time of visit. Please check with our front desk for current fees."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace a consultation with your child's doctor."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Mrithun Child Care Clinic — Mugalivakkam, Chennai",
+    "description": "Trusted pediatric clinic in Mugalivakkam, Chennai offering newborn checkups, childhood immunizations, and caring, unhurried treatment for children."
+  }
+}

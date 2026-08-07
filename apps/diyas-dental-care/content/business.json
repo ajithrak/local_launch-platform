@@ -1,0 +1,439 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "smilecraft",
+  "business": {
+    "name": "Diya's Dental Care",
+    "city": "Chennai, Tamil Nadu",
+    "phone": "+91 89252 06957",
+    "whatsapp": "918925206957",
+    "email": "hello@diyasdentalcare.in",
+    "address": "Plot No. 77, 1st Main Rd, Royal Garden, Kattupakkam, Chennai, Tamil Nadu 600056",
+    "hours": "Mon–Sat · 9:30 AM–1:30 PM, 4:00–8:30 PM · Sunday Closed",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "General & Cosmetic Dentistry in Kattupakkam",
+    "headline": "Healthy Smiles, Right Here in Kattupakkam.",
+    "subheadline": "Diya's Dental Care brings gentle, modern dentistry to Royal Garden, Kattupakkam — from routine cleanings to root canals and smile makeovers, all under one roof.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Dentists",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Neighbourhood dentistry, done properly",
+    "body": [
+      "Diya's Dental Care was started with a simple goal — give Kattupakkam and the wider Chennai west-side a dental clinic that's genuinely comfortable to visit, not just a place you go when something hurts. Every treatment room is built around patient comfort, from clear explanations before any procedure to sterilized instruments for every single patient.",
+      "Our dentists handle everything from a routine scaling and cleaning to root canals, extractions, braces, and cosmetic work like whitening — so most families don't need to be referred elsewhere. We keep evening hours specifically so working patients and students don't have to take time off to see us."
+    ],
+    "highlights": [
+      "Evening slots until 8:30 PM, Monday to Saturday",
+      "Modern, sterilized equipment for every patient",
+      "General, cosmetic, and pediatric dentistry under one roof",
+      "Clear, upfront explanation before any treatment begins"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "googleReviews": {
+    "rating": 4.9,
+    "reviewCount": 64
+  },
+  "stats": [
+    {
+      "icon": "Smile",
+      "value": "5,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Users",
+      "value": "2",
+      "label": "Experienced Dentists"
+    },
+    {
+      "icon": "Award",
+      "value": "6",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Star",
+      "value": "4.9★",
+      "label": "Google Rating"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "ShieldCheck",
+      "title": "Hygienic, Sterilized Care",
+      "description": "Every instrument is sterilized per patient using modern autoclave equipment — no shortcuts on hygiene."
+    },
+    {
+      "icon": "Smile",
+      "title": "Painless, Modern Technique",
+      "description": "Modern equipment and a gentle chairside manner, built for patients who dread the dentist's chair."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours That Work",
+      "description": "Open until 8:30 PM on weekdays and Saturdays, so you don't need to miss work or school for an appointment."
+    },
+    {
+      "icon": "Users",
+      "title": "Experienced, Friendly Dentists",
+      "description": "Our dentists take the time to explain every step, so you always know what's happening and why."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-arjun-krishnan",
+      "name": "Dr. Arjun Krishnan",
+      "role": "General & Restorative Dentist",
+      "qualification": "BDS, MDS (Conservative Dentistry & Endodontics)",
+      "registrationNumber": "TNDC-48213",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:30 AM–1:30 PM, 4:00–8:30 PM",
+      "bio": "Dr. Arjun leads general and restorative dentistry at Diya's Dental Care, with a particular focus on root canal treatment and pain-free extractions. He believes most dental anxiety comes from not knowing what to expect, so he walks every patient through the procedure before starting.",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS Conservative Dentistry & Endodontics — Meenakshi Ammal Dental College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Root canal treatment",
+        "Tooth extraction & oral surgery",
+        "Dental implants",
+        "Preventive care"
+      ],
+      "photo": "/images/dr-arjun-krishnan.jpg"
+    },
+    {
+      "slug": "dr-divya-raman",
+      "name": "Dr. Divya Raman",
+      "role": "Cosmetic & Pediatric Dentist",
+      "qualification": "BDS, MDS (Orthodontics & Dentofacial Orthopedics)",
+      "registrationNumber": "TNDC-51907",
+      "experienceYears": 7,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon–Sat · 9:30 AM–1:30 PM, 4:00–8:30 PM",
+      "bio": "Dr. Divya handles cosmetic dentistry, braces, and children's dental care at the clinic. She's especially known among local families for how patiently she handles first-time child patients — turning a nervous first visit into a routine one.",
+      "education": [
+        "BDS — Sree Balaji Dental College, Chennai",
+        "MDS Orthodontics & Dentofacial Orthopedics — Tamil Nadu Government Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Braces & orthodontics",
+        "Teeth whitening & cosmetic dentistry",
+        "Pediatric dentistry",
+        "Smile makeovers"
+      ],
+      "photo": "/images/dr-divya-raman.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the tooth, stop the pain",
+      "overview": "Modern, largely painless root canal treatment to remove infection and save teeth that would otherwise need extraction, using local anesthesia and rotary instruments for a faster procedure.",
+      "symptoms": [
+        "Persistent tooth pain, especially with hot or cold",
+        "Swelling or tenderness in the gums",
+        "Pain while chewing"
+      ],
+      "procedure": [
+        "Diagnosis and X-ray to confirm infection",
+        "Local anesthesia",
+        "Removal of infected pulp and cleaning of canals",
+        "Filling and sealing the tooth",
+        "Crown placement for long-term protection"
+      ],
+      "benefits": [
+        "Saves the natural tooth instead of extraction",
+        "Relieves pain caused by infection",
+        "Completed in 1–2 visits for most cases"
+      ],
+      "recovery": "Mild sensitivity for a day or two is normal; most patients return to normal eating within 24 hours.",
+      "faqs": [
+        {
+          "question": "Is root canal treatment painful?",
+          "answer": "With modern local anesthesia, the procedure itself is largely painless — most patients feel far less discomfort than they expect."
+        },
+        {
+          "question": "How many visits does it take?",
+          "answer": "Most root canals are completed in 1–2 visits, depending on the tooth and extent of infection."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "tooth-extraction-oral-surgery"
+      ]
+    },
+    {
+      "slug": "teeth-whitening-cosmetic-dentistry",
+      "name": "Teeth Whitening & Cosmetic Dentistry",
+      "tagline": "A brighter, more confident smile",
+      "overview": "In-clinic teeth whitening and cosmetic treatments including veneers and smile makeovers, tailored to your natural tooth shape and shade.",
+      "symptoms": [],
+      "procedure": [
+        "Shade assessment and consultation",
+        "Cleaning and preparation",
+        "In-clinic whitening application",
+        "Follow-up shade check"
+      ],
+      "benefits": [
+        "Visible results in a single sitting",
+        "Safe, dentist-supervised whitening agents",
+        "Custom options for veneers and smile design"
+      ],
+      "recovery": "No downtime — most patients resume normal activity immediately.",
+      "faqs": [
+        {
+          "question": "How long do whitening results last?",
+          "answer": "With good oral care and avoiding heavy staining foods, results typically last 6–12 months before a touch-up is needed."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "braces-orthodontics",
+      "name": "Braces & Orthodontics",
+      "tagline": "Straighter teeth for teens and adults",
+      "overview": "Traditional braces and orthodontic treatment to correct crowding, gaps, and bite issues, managed by Dr. Divya from initial assessment through to retention.",
+      "symptoms": [
+        "Crowded or crooked teeth",
+        "Gaps between teeth",
+        "Bite misalignment"
+      ],
+      "procedure": [
+        "Orthodontic assessment and X-ray",
+        "Custom treatment plan",
+        "Braces fitting",
+        "Monthly adjustment visits",
+        "Retainer fitting after braces removal"
+      ],
+      "benefits": [
+        "Corrects both alignment and bite issues",
+        "Suitable for teens and adults",
+        "Regular monitoring throughout treatment"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How long does braces treatment take?",
+          "answer": "Most cases take 12–24 months depending on the extent of correction needed."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "dental-implants",
+      "name": "Dental Implants",
+      "tagline": "A permanent solution for missing teeth",
+      "overview": "Dental implants to replace missing teeth with a fixed, natural-looking solution — a durable alternative to bridges and dentures.",
+      "symptoms": [
+        "One or more missing teeth",
+        "Difficulty chewing due to gaps",
+        "Loose or failing dentures"
+      ],
+      "procedure": [
+        "Consultation and 3D imaging",
+        "Implant placement surgery",
+        "Healing period for osseointegration",
+        "Crown placement on the implant"
+      ],
+      "benefits": [
+        "Functions and looks like a natural tooth",
+        "Doesn't affect neighbouring teeth",
+        "Long-lasting with proper care"
+      ],
+      "recovery": "Initial healing takes 1–2 weeks; full integration before crown placement typically takes 2–4 months.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "tooth-extraction-oral-surgery"
+      ]
+    },
+    {
+      "slug": "tooth-extraction-oral-surgery",
+      "name": "Tooth Extraction & Oral Surgery",
+      "tagline": "Safe, gentle removal when a tooth can't be saved",
+      "overview": "Simple and surgical tooth extractions, including wisdom teeth, performed with local anesthesia and clear aftercare guidance.",
+      "symptoms": [
+        "Severely decayed or fractured tooth",
+        "Impacted wisdom tooth pain",
+        "Overcrowding requiring extraction before braces"
+      ],
+      "procedure": [
+        "X-ray and assessment",
+        "Local anesthesia",
+        "Extraction",
+        "Aftercare instructions and, if needed, follow-up review"
+      ],
+      "benefits": [
+        "Resolves pain from damaged or impacted teeth",
+        "Prevents further infection or crowding issues",
+        "Clear aftercare support"
+      ],
+      "recovery": "Most patients recover within 2–3 days; wisdom tooth extractions may take up to a week.",
+      "faqs": [
+        {
+          "question": "Will I be in pain after extraction?",
+          "answer": "Some soreness is normal for a day or two — we provide pain management guidance and medication as needed."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "dental-implants",
+        "root-canal-treatment"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General & Cosmetic Dentistry",
+      "doctorSlugs": [
+        "dr-arjun-krishnan",
+        "dr-divya-raman"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception & waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/reception-waiting-area.jpg"
+    },
+    {
+      "caption": "Treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/treatment-room.jpg"
+    },
+    {
+      "caption": "Sterilization area",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/sterilization-area.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/consultation-room.jpg"
+    },
+    {
+      "caption": "Procedure in progress",
+      "category": "Treatment",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/procedure-in-progress.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I'd been putting off a root canal for months out of fear, but Dr. Arjun explained every step before starting and it was honestly nowhere near as bad as I expected.",
+      "author": "Patient, Diya's Dental Care",
+      "rating": 5
+    },
+    {
+      "quote": "Took my daughter here for the first time and she wasn't scared at all — Dr. Divya was so patient with her. We're regulars now.",
+      "author": "Patient, Diya's Dental Care",
+      "rating": 5
+    },
+    {
+      "quote": "The evening slots are a lifesaver — I could get my scaling done after work without taking leave. Clean clinic, friendly staff.",
+      "author": "Patient, Diya's Dental Care",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need an appointment or can I walk in?",
+      "answer": "Walk-ins are welcome, but we recommend booking an appointment so we can minimize your waiting time, especially in the evening slots."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "Your first visit includes a full oral examination, an X-ray if needed, and a clear discussion of any recommended treatment and its cost before we proceed."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and all major debit and credit cards."
+    },
+    {
+      "question": "Do you handle dental emergencies?",
+      "answer": "Yes — call us at +91 89252 06957 and we'll do our best to fit you in the same day for urgent issues like severe pain or a broken tooth."
+    },
+    {
+      "question": "Do you treat children?",
+      "answer": "Yes, Dr. Divya specializes in pediatric dentistry and regularly treats children, including first-time nervous visitors."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "5-signs-you-shouldnt-ignore-before-your-next-dental-checkup",
+      "title": "5 Signs You Shouldn't Ignore Before Your Next Dental Checkup",
+      "excerpt": "Most dental problems are painless in the early stages — here's what to watch for before it becomes an emergency.",
+      "author": "Dr. Arjun Krishnan",
+      "date": "2026-07",
+      "content": [
+        "Dental problems rarely start with pain — by the time something hurts, the underlying issue has usually been developing for weeks or months. Catching the early signs can be the difference between a simple filling and a root canal.",
+        "Bleeding gums during brushing or flossing is one of the most commonly ignored signs. It's often written off as brushing too hard, but persistent bleeding usually points to early gum disease that's easily treated if caught in time.",
+        "Sensitivity to hot or cold that lingers for more than a few seconds after the trigger is removed is different from ordinary sensitivity — it often signals decay reaching closer to the nerve, and is worth getting checked before it turns into a root canal situation.",
+        "Persistent bad breath despite regular brushing can point to bacteria buildup below the gumline or an underlying cavity, not just something you ate.",
+        "Finally, a clicking or popping jaw, or pain while chewing, can indicate bite issues or TMJ problems that are worth addressing early. If any of these sound familiar, it's worth booking a checkup rather than waiting for pain to force the issue."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect the medical, dental, contact, and billing information necessary to provide safe and accurate treatment."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and deliver your treatment and to contact you regarding appointments. We do not sell or share patient data with third parties."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your dental records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "We request at least a few hours' notice to cancel or reschedule an appointment wherever possible, so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Treatment costs are discussed and agreed upon before any procedure begins. Payment is due at the time of treatment."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person dental evaluation and diagnosis."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Diya's Dental Care — Kattupakkam, Chennai",
+    "description": "Diya's Dental Care in Kattupakkam, Chennai offers general and cosmetic dentistry — root canals, braces, implants, and teeth whitening, with evening appointments and a 4.9★ Google rating."
+  }
+}
