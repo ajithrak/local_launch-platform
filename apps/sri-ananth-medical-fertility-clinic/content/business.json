@@ -1,0 +1,414 @@
+{
+  "industry": "healthcare",
+  "clinicType": "ivf",
+  "theme": "mothercare",
+  "business": {
+    "name": "Sri Ananth Medical Centre & Fertility Clinic",
+    "city": "Porur, Chennai",
+    "phone": "+91 91503 08039",
+    "whatsapp": "919150308039",
+    "email": "hello@sriananthfertility.in",
+    "address": "21b, Sakthi Nagar Main Rd, Sakthi Nagar, Porur, Chennai, Tamil Nadu 600116",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Fertility & Women's Reproductive Health",
+    "headline": "Your Path to Parenthood, Cared For Every Step of the Way.",
+    "subheadline": "Sri Ananth Medical Centre & Fertility Clinic offers private, unhurried fertility consultations and gynecological care in Porur, Chennai — because this journey deserves patience, not a clock.",
+    "primaryCta": {
+      "label": "Book a Consultation",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Specialists",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "A quieter place to talk about starting a family",
+    "body": [
+      "Sri Ananth Medical Centre & Fertility Clinic was started with a simple belief: conversations about fertility and reproductive health deserve time, privacy, and a team that listens before it advises.",
+      "We know that many patients arrive here after a long and often difficult journey. Our clinic in Porur is built around that reality — calm consultation rooms, evening hours for working patients, and a team that explains every option clearly, without pressure or false promises.",
+      "Whether you're at the very first stage of wondering if something's wrong, or actively pursuing IUI or IVF elsewhere and want a second opinion, we're here to walk through it with you, one honest conversation at a time."
+    ],
+    "highlights": [
+      "Private, unhurried fertility consultations",
+      "Evening appointment hours for working patients",
+      "Judgment-free conversations about reproductive health",
+      "Personalized treatment plans, not one-size-fits-all protocols"
+    ],
+    "image": "/images/about-consultation-room.jpg"
+  },
+  "stats": [
+    {
+      "icon": "MapPin",
+      "value": "10+",
+      "label": "Years Serving Porur"
+    },
+    {
+      "icon": "Users",
+      "value": "3,000+",
+      "label": "Patients Counseled"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "Fertility Specialists on Staff"
+    },
+    {
+      "icon": "Clock",
+      "value": "7",
+      "label": "Days a Week Reachable"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "HeartPulse",
+      "title": "Private, Unhurried Consultations",
+      "description": "Every appointment is scheduled with real time set aside — no rushed conversations about something this personal."
+    },
+    {
+      "icon": "GraduationCap",
+      "title": "Experienced Fertility Specialists",
+      "description": "Our doctors bring years of dedicated experience in reproductive medicine and women's health."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours Available",
+      "description": "Appointments in the evenings and on Saturdays, designed around working patients' schedules."
+    },
+    {
+      "icon": "ClipboardList",
+      "title": "Personalized Treatment Plans",
+      "description": "No standard protocol — every plan is built around your specific history, diagnosis, and comfort level."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-kavitha-ramaswamy",
+      "name": "Dr. Kavitha Ramaswamy",
+      "role": "Fertility Specialist & Gynecologist",
+      "qualification": "MBBS, MD (Obstetrics & Gynaecology), Fellowship in Reproductive Medicine",
+      "registrationNumber": "TNMC-58214",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Tamil",
+        "Telugu"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 9:00 AM – 1:00 PM",
+      "bio": "Dr. Ramaswamy has spent over a decade helping patients navigate fertility evaluations and treatment planning. Her approach centers on clear communication — making sure every patient understands their diagnosis and options before deciding on next steps.",
+      "photo": "/images/dr-kavitha-ramaswamy.jpg",
+      "education": [
+        "MBBS — Madras Medical College",
+        "MD, Obstetrics & Gynaecology — Kilpauk Medical College",
+        "Fellowship in Reproductive Medicine — Institute of Reproductive Medicine, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Fertility assessment & counseling",
+        "IUI (Intrauterine Insemination)",
+        "PCOS/PCOD-related infertility",
+        "IVF consultation & coordination"
+      ]
+    },
+    {
+      "slug": "dr-arvind-natarajan",
+      "name": "Dr. Arvind Natarajan",
+      "role": "Reproductive Medicine Consultant",
+      "qualification": "MBBS, MD (Obstetrics & Gynaecology), Fellowship in Reproductive Medicine",
+      "registrationNumber": "TNMC-61937",
+      "experienceYears": 10,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Tue, Thu, Sat · 5:00 PM – 8:00 PM",
+      "bio": "Dr. Natarajan works closely with couples and individuals facing infertility, including cases involving male-factor infertility, coordinating referrals where needed. He believes in laying out every option plainly, including the uncertainties, so patients can decide what feels right for them.",
+      "photo": "/images/dr-arvind-natarajan.jpg",
+      "education": [
+        "MBBS — Stanley Medical College",
+        "MD, Obstetrics & Gynaecology — Madras Medical College",
+        "Fellowship in Reproductive Medicine — Chennai Institute of Reproductive Medicine"
+      ],
+      "awards": [],
+      "specialties": [
+        "Male infertility counseling & referrals",
+        "IVF consultation & coordination",
+        "Gynecological health checkups",
+        "Ovulation & cycle disorders"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "fertility-assessment-counseling",
+      "name": "Fertility Assessment & Counseling",
+      "tagline": "A clear starting point for your fertility questions",
+      "overview": "A private, comprehensive fertility assessment for individuals or couples, followed by an honest conversation about what your results mean and what options are available to you.",
+      "symptoms": [
+        "Difficulty conceiving after 12 months of trying",
+        "Irregular or absent menstrual cycles",
+        "Wanting to understand fertility health before trying to conceive"
+      ],
+      "procedure": [
+        "Detailed history and lifestyle review",
+        "Relevant hormonal and diagnostic testing",
+        "One-on-one review of results and options",
+        "Referral coordination if specialized treatment is needed"
+      ],
+      "benefits": [
+        "Clear, judgment-free explanation of your results",
+        "No pressure toward any specific treatment path",
+        "A private setting to ask every question you have"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How long does an initial fertility assessment take?",
+          "answer": "Initial consultations are typically scheduled for 30–45 minutes to allow time for a full history and unhurried discussion."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "iui-intrauterine-insemination",
+        "ivf-consultation-coordination"
+      ]
+    },
+    {
+      "slug": "iui-intrauterine-insemination",
+      "name": "IUI (Intrauterine Insemination)",
+      "tagline": "A guided, lower-intervention fertility treatment option",
+      "overview": "Intrauterine insemination is often one of the earlier treatment steps recommended for certain types of infertility. We walk you through whether it's a suitable option for your situation and support you through the cycle.",
+      "symptoms": [],
+      "procedure": [
+        "Cycle monitoring and ovulation tracking",
+        "Timing assessment and preparation",
+        "The insemination procedure itself",
+        "Follow-up monitoring after the procedure"
+      ],
+      "benefits": [
+        "A less invasive first-line option for many patients",
+        "Closely monitored cycle for accurate timing",
+        "Clear guidance at every stage of the process"
+      ],
+      "recovery": "Most patients resume normal activity the same day; our team will guide you on any specific precautions for your cycle.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "fertility-assessment-counseling",
+        "ivf-consultation-coordination"
+      ]
+    },
+    {
+      "slug": "ivf-consultation-coordination",
+      "name": "IVF Consultation & Coordination",
+      "tagline": "Guidance through one of the bigger decisions in this journey",
+      "overview": "For patients considering or already pursuing IVF, we offer thorough consultations to explain the process, coordinate with specialized IVF centers where needed, and support you through decision-making at a pace that feels manageable.",
+      "symptoms": [],
+      "procedure": [
+        "Review of prior fertility workup and history",
+        "Discussion of IVF as an option, including realistic expectations",
+        "Coordination with partner IVF centers for procedures as needed",
+        "Ongoing consultation support through the process"
+      ],
+      "benefits": [
+        "Honest, pressure-free conversations about IVF as an option",
+        "Coordinated care so you're not navigating referrals alone",
+        "Continued support for questions that come up along the way"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do you perform IVF procedures at this clinic?",
+          "answer": "We provide IVF consultation, evaluation, and coordination. Certain procedures may be coordinated with partner reproductive medicine centers — we'll explain exactly what applies to your care during your consultation."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "fertility-assessment-counseling"
+      ]
+    },
+    {
+      "slug": "pcos-pcod-management",
+      "name": "PCOS/PCOD Management",
+      "tagline": "Ongoing care for hormonal and cycle-related conditions",
+      "overview": "Polycystic ovary syndrome and related conditions are managed with a combination of monitoring, lifestyle guidance, and treatment tailored to whether you're planning a pregnancy now or in the future.",
+      "symptoms": [
+        "Irregular periods",
+        "Difficulty conceiving",
+        "Symptoms associated with hormonal imbalance"
+      ],
+      "procedure": [
+        "Diagnostic evaluation including ultrasound and bloodwork",
+        "Personalized management plan",
+        "Regular follow-up and monitoring",
+        "Fertility-focused planning when relevant"
+      ],
+      "benefits": [
+        "A management plan built around your goals, not a standard checklist",
+        "Ongoing monitoring rather than a one-time visit",
+        "Coordination with fertility care when you're ready to conceive"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "fertility-assessment-counseling",
+        "gynecological-health-checkups"
+      ]
+    },
+    {
+      "slug": "gynecological-health-checkups",
+      "name": "Gynecological Health Checkups",
+      "tagline": "Routine care for every stage of reproductive health",
+      "overview": "Regular gynecological checkups, screenings, and open conversations about reproductive health — whether or not fertility is currently a concern for you.",
+      "symptoms": [],
+      "procedure": [
+        "Health history review",
+        "Physical examination and relevant screenings",
+        "Open discussion time for any concerns"
+      ],
+      "benefits": [
+        "A private setting for routine and sensitive concerns alike",
+        "Consistent care from a familiar provider",
+        "Screenings tracked and kept current"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "pcos-pcod-management"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception and welcome area",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Private waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Examination room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-exam-room.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I walked in nervous about even having the conversation. The team here made it feel safe to ask everything I'd been too embarrassed to ask elsewhere.",
+      "author": "Patient, Sri Ananth Medical Centre & Fertility Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "What I appreciated most was that no one rushed us or made us feel like just another appointment. We felt genuinely supported through a hard time.",
+      "author": "Patient, Sri Ananth Medical Centre & Fertility Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "The evening slots meant I didn't have to take time off work for every visit, and the doctor always explained things in a way I actually understood.",
+      "author": "Patient, Sri Ananth Medical Centre & Fertility Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What happens at my first visit?",
+      "answer": "Your first visit is mainly a conversation — we review your history, discuss any concerns, and talk through what next steps, if any, make sense. Testing is only done with your understanding of why it's being suggested."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us directly to schedule a consultation, or use the booking option on this website."
+    },
+    {
+      "question": "Is fertility treatment covered by insurance?",
+      "answer": "Coverage varies widely by insurer and policy. We recommend checking directly with your insurance provider about what fertility-related consultations and treatments are covered before your visit."
+    },
+    {
+      "question": "Will my visit be kept private?",
+      "answer": "Yes. All consultations are conducted privately, and your medical information is handled in confidence, discussed only with your care team."
+    },
+    {
+      "question": "When should I consider a fertility consultation?",
+      "answer": "Generally, if you've been trying to conceive for over a year (or six months if you're over 35) without success, or if you have irregular cycles or a known condition like PCOS, it's a reasonable time to talk to a specialist. If something simply feels off to you, that's reason enough to come in and ask."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "when-should-you-see-a-fertility-specialist",
+      "title": "When Should You See a Fertility Specialist?",
+      "excerpt": "There's no single right moment to seek fertility care — here's a calm, honest guide to help you decide if now is the time.",
+      "author": "Dr. Kavitha Ramaswamy",
+      "date": "2026-02-10",
+      "content": [
+        "One of the most common questions we hear is some version of: 'Is it too early for me to come in?' The honest answer is that it's rarely too early to simply talk to someone.",
+        "As a general guideline, doctors often suggest a fertility consultation after 12 months of trying to conceive without success if you're under 35, or after 6 months if you're over 35. These are guidelines, not hard rules — they exist to help you decide when to seek support, not to make you feel like you've waited too long or come in too soon.",
+        "There are also situations where it makes sense to come in sooner: irregular or absent periods, a history of conditions like PCOS or endometriosis, previous pregnancy loss, or simply wanting to understand your reproductive health before you start trying.",
+        "A first consultation isn't a commitment to any particular treatment. It's a conversation — a chance to ask questions, understand your options, and decide what feels right for you at your own pace.",
+        "If you've been holding off on booking that first appointment, know that the goal of that visit is simply to listen and help you understand where things stand. There's no such thing as coming in with 'not enough of a reason.'"
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care. Fertility and reproductive health information is treated with the same confidentiality as all other medical records."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate and deliver your care, including any referrals to partner specialists or centers you consent to. We do not sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your medical records at any time through our office, and may ask questions about how your information is used or shared."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation charges and any fees not covered by insurance are due at time of visit, disclosed in advance where possible."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational only and does not replace a consultation with your physician. It does not guarantee any specific treatment outcome."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Sri Ananth Medical Centre & Fertility Clinic — Porur, Chennai",
+    "description": "Private, compassionate fertility and gynecological care in Porur, Chennai. Book a fertility consultation, IUI, IVF coordination, PCOS management, and more."
+  }
+}

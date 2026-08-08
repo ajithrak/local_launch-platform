@@ -1,0 +1,455 @@
+{
+  "industry": "healthcare",
+  "clinicType": "multi-speciality",
+  "theme": "careplus",
+  "business": {
+    "name": "Crown Multispeciality Clinic",
+    "city": "Moulivakkam, Chennai",
+    "phone": "+91 94447 88808",
+    "whatsapp": "919444788808",
+    "email": "hello@crownmultispeciality.in",
+    "address": "No 58, Santhoshpuram Extension, Sai Mantra Apartment, Plot No- 3/308, Mugalivakkam Rd, Guruswamy Nagar, Madanandapuram, Moulivakkam, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Multi-Speciality Care in Moulivakkam",
+    "headline": "One Clinic. Every Speciality Your Family Needs.",
+    "subheadline": "Crown Multispeciality Clinic brings general medicine, paediatrics, and women's health together under one roof in Moulivakkam, with evening hours that actually fit around your day.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "A neighbourhood clinic built for every member of the family",
+    "body": [
+      "Crown Multispeciality Clinic was set up to solve a simple problem for families around Mugalivakkam Road and Moulivakkam — having to travel to different parts of the city for a general check-up, a child's vaccination, or a women's health consultation.",
+      "Under one roof, our team covers general medicine, paediatric care, and women's health, so most families can get the care they need without hopping between clinics. We keep both morning and evening slots open, because most working families in this area need appointments after office hours, not just before."
+    ],
+    "highlights": [
+      "General medicine, paediatrics & women's health under one roof",
+      "Evening appointments until 9 PM, six days a week",
+      "Family-friendly care for every age group",
+      "Experienced, multi-disciplinary doctor team"
+    ],
+    "image": "/images/about-clinic-consultation.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Calendar",
+      "value": "5+",
+      "label": "Years Serving Moulivakkam"
+    },
+    {
+      "icon": "Users",
+      "value": "12,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "3",
+      "label": "Specialities Under One Roof"
+    },
+    {
+      "icon": "UserRound",
+      "value": "3",
+      "label": "Experienced Doctors"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Stethoscope",
+      "title": "Multiple Specialities, One Visit",
+      "description": "General medicine, paediatrics, and women's health are all available at the same clinic, so your family doesn't need to travel between different places for different needs."
+    },
+    {
+      "icon": "Users",
+      "title": "Care For Every Age",
+      "description": "From a newborn's vaccination schedule to a grandparent's routine check-up, our team is set up to see the whole family comfortably."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours That Fit Real Schedules",
+      "description": "We're open until 9 PM most evenings, because most working families in Moulivakkam can't make an appointment during office hours."
+    },
+    {
+      "icon": "HeartPulse",
+      "title": "Experienced Multi-Disciplinary Team",
+      "description": "Our doctors bring years of hospital and clinical experience across their specialities, so you get considered advice, not rushed guesswork."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-arun-kumar",
+      "name": "Dr. Arun Kumar",
+      "role": "General Physician & Clinic Head",
+      "qualification": "MBBS, MD (General Medicine)",
+      "registrationNumber": "TNMC-88214",
+      "experienceYears": 16,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Arun Kumar heads Crown Multispeciality Clinic and sees patients across general medicine, from everyday fevers and infections to long-term management of diabetes and hypertension. He believes most families just need a doctor who listens carefully and explains things in plain language.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD, General Medicine — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Diabetes & hypertension management",
+        "Fever & infection care",
+        "Preventive health check-ups"
+      ],
+      "photo": "/images/doctor-arun-kumar.jpg"
+    },
+    {
+      "slug": "dr-priya-raghunathan",
+      "name": "Dr. Priya Raghunathan",
+      "role": "Paediatrician",
+      "qualification": "MBBS, MD (Paediatrics)",
+      "registrationNumber": "TNMC-91527",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 5:00 PM – 9:00 PM",
+      "bio": "Dr. Priya Raghunathan focuses on newborn care, growth monitoring, and childhood vaccinations. She spends extra time with first-time parents, answering the small questions that often go unasked in a rushed visit.",
+      "education": [
+        "MBBS — Sri Ramachandra Medical College, Chennai",
+        "MD, Paediatrics — Kilpauk Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Newborn & infant care",
+        "Childhood vaccinations",
+        "Growth & nutrition monitoring"
+      ],
+      "photo": "/images/doctor-priya-raghunathan.jpg"
+    },
+    {
+      "slug": "dr-lakshmi-narasimhan",
+      "name": "Dr. Lakshmi Narasimhan",
+      "role": "Gynecologist & Obstetrician",
+      "qualification": "MBBS, MS (Obstetrics & Gynecology)",
+      "registrationNumber": "TNMC-79643",
+      "experienceYears": 13,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Tue, Thu, Sat · 10:00 AM – 1:00 PM",
+      "bio": "Dr. Lakshmi Narasimhan sees women through every stage of life — from routine gynaecological check-ups and PCOS management to prenatal care — with a calm, unhurried approach that puts patients at ease.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MS, Obstetrics & Gynecology — Government Kilpauk Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Prenatal & postnatal care",
+        "PCOS & menstrual health",
+        "Routine gynaecological check-ups"
+      ],
+      "photo": "/images/doctor-lakshmi-narasimhan.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "For everyday illness and ongoing conditions",
+      "overview": "Whether it's a sudden fever, a persistent cough, or managing a long-term condition like diabetes or hypertension, our general medicine consultations cover the everyday healthcare needs of every age group.",
+      "symptoms": [
+        "Fever, cold, cough or body ache",
+        "High blood pressure or blood sugar readings",
+        "General fatigue or unexplained weight change"
+      ],
+      "procedure": [
+        "Detailed history and symptom review",
+        "Physical examination",
+        "Lab tests arranged if needed",
+        "Personalised treatment or management plan"
+      ],
+      "benefits": [
+        "Same-day appointments for urgent concerns",
+        "Ongoing management for chronic conditions",
+        "Clear explanations, not rushed prescriptions"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Can I walk in without an appointment for a fever or cold?",
+          "answer": "Yes, we accommodate walk-ins for urgent concerns whenever possible, though calling ahead helps us plan for you."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "pediatric-care-vaccinations",
+      "name": "Pediatric Care & Vaccinations",
+      "tagline": "From newborn visits through the school years",
+      "overview": "Our paediatric care covers routine growth checks, common childhood illnesses, and the full recommended vaccination schedule, with time set aside to answer the questions every parent has.",
+      "symptoms": [
+        "Missed or upcoming vaccination due",
+        "Fever, cold or stomach upset in a child",
+        "Concerns about growth or development"
+      ],
+      "procedure": [
+        "Growth and development check",
+        "Age-appropriate vaccination as per schedule",
+        "Review of feeding and nutrition",
+        "Open time for parent questions"
+      ],
+      "benefits": [
+        "Full recommended vaccination schedule available",
+        "Unhurried visits for first-time parents",
+        "Consistent care from the same paediatrician"
+      ],
+      "recovery": "Mild soreness or a low fever after vaccination is common for a day or two; our team explains what to expect before you leave.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "womens-health-checkups",
+      "name": "Women's Health Checkups",
+      "tagline": "Gynaecological care and prenatal check-ups",
+      "overview": "From routine gynaecological consultations and PCOS management to prenatal check-ups, our women's health services are handled with privacy and care at every stage of life.",
+      "symptoms": [
+        "Irregular periods or PCOS symptoms",
+        "Routine prenatal check-up",
+        "General gynaecological concerns"
+      ],
+      "procedure": [
+        "Private consultation and history review",
+        "Examination as required",
+        "Lab or scan referrals if needed",
+        "Personalised care plan"
+      ],
+      "benefits": [
+        "Consistent care with one gynaecologist",
+        "Comfortable, private consultation rooms",
+        "Weekend appointment slots available"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures",
+      "tagline": "Dressing, injections & small procedures, done locally",
+      "overview": "For everyday needs like wound dressing, injections, minor cuts, and small outpatient procedures, our clinic offers a clean, well-equipped space so you don't need to go to a larger hospital for routine care.",
+      "symptoms": [
+        "Minor cuts or wounds needing dressing",
+        "Prescribed injections or IV fluids",
+        "Small skin procedures"
+      ],
+      "procedure": [
+        "Assessment by the attending doctor",
+        "Procedure performed under sterile conditions",
+        "Aftercare instructions provided"
+      ],
+      "benefits": [
+        "No need to travel to a larger hospital for minor care",
+        "Quick turnaround, minimal waiting",
+        "Follow-up care available at the same clinic"
+      ],
+      "recovery": "Most minor procedures need only basic aftercare at home; our team will explain any precautions specific to your case.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "Preventive screening for individuals and families",
+      "overview": "Our health checkup packages combine essential screenings — blood work, blood pressure, blood sugar and general examination — so families can catch issues early instead of waiting for symptoms.",
+      "symptoms": [],
+      "procedure": [
+        "Pre-checkup consultation",
+        "Screening tests as per package",
+        "Doctor review of results",
+        "Follow-up recommendations if needed"
+      ],
+      "benefits": [
+        "Early detection of common lifestyle conditions",
+        "Packages suited for different age groups",
+        "Results explained in person, not just handed over"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I get a general health checkup?",
+          "answer": "For most healthy adults, an annual checkup is a good baseline; your doctor may recommend more frequent screening depending on your health history."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Medicine",
+      "doctorSlugs": [
+        "dr-arun-kumar"
+      ]
+    },
+    {
+      "name": "Paediatrics",
+      "doctorSlugs": [
+        "dr-priya-raghunathan"
+      ]
+    },
+    {
+      "name": "Obstetrics & Gynecology",
+      "doctorSlugs": [
+        "dr-lakshmi-narasimhan"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-reception-area.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Paediatric care area",
+      "category": "Care",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/gallery-pediatric-area.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-slate-100",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "We used to go to three different places for my parents, my son, and myself. Now everything happens at Crown, and the evening timing means my husband can come along after work.",
+      "author": "Patient, Crown Multispeciality Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Priya was patient with all our first-time-parent questions about my daughter's vaccination schedule. Never felt rushed, even during a busy evening.",
+      "author": "Patient, Crown Multispeciality Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Good to have a proper gynaecologist so close to Mugalivakkam Road. Dr. Lakshmi explained everything clearly and the clinic itself is clean and comfortable.",
+      "author": "Patient, Crown Multispeciality Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which specialities are available at Crown Multispeciality Clinic?",
+      "answer": "We currently offer General Medicine, Paediatrics, and Obstetrics & Gynecology, along with minor procedures and health checkup packages, all at the same location."
+    },
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "Yes, we accommodate walk-ins where possible, especially for urgent general medicine concerns. Booking ahead for paediatric and gynaecology visits is recommended since those doctors keep specific hours."
+    },
+    {
+      "question": "What should I bring for my first visit?",
+      "answer": "Please bring a photo ID and any previous prescriptions, test reports, or vaccination records relevant to your visit."
+    },
+    {
+      "question": "What payment options are accepted?",
+      "answer": "We accept cash, UPI, and major debit and credit cards at the clinic."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us at +91 94447 88808, or use the appointment form on this website, and our front desk will confirm a slot with the right doctor."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-a-multi-speciality-clinic-makes-sense-for-busy-families",
+      "title": "Why a Multi-Speciality Clinic Makes Sense for Busy Families",
+      "excerpt": "Between a child's vaccination, a parent's blood pressure check, and your own annual physical, most families juggle more clinics than they'd like. Here's why one address can be enough.",
+      "author": "Dr. Arun Kumar",
+      "date": "2026-05-14",
+      "content": [
+        "It's a familiar pattern for families in growing neighbourhoods like Moulivakkam: one clinic for the kids, another for general check-ups, and a separate specialist across town for anything else. Each trip means new paperwork, a new doctor learning your history from scratch, and time that busy families simply don't have.",
+        "A multi-speciality clinic solves this by keeping general medicine, paediatric care, and women's health under a single roof. When your child needs a vaccination and you need a routine blood pressure check, both can often happen in the same visit, at the same address.",
+        "There's also a continuity benefit that's easy to underestimate. When one clinic holds your family's records across specialities, a doctor treating your child can quickly reference a relevant family history, and vice versa — something that's much harder when care is scattered across unconnected clinics.",
+        "Evening hours matter just as much as the range of specialities. Most working parents can't take time off during the day for a routine visit, which is why we keep the clinic open until 9 PM on most days — so care fits around your schedule, not the other way around."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments at Crown Multispeciality Clinic."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care and that of your family members. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time by contacting our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "We recommend booking appointments in advance for paediatric and gynaecology consultations. Please inform us as early as possible if you need to reschedule or cancel."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation fees are payable at the time of visit. We accept cash, UPI, and card payments."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person consultation with a qualified doctor."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Crown Multispeciality Clinic — Moulivakkam, Chennai",
+    "description": "Crown Multispeciality Clinic in Moulivakkam, Chennai offers general medicine, paediatric care, and women's health under one roof, with evening appointments six days a week."
+  }
+}

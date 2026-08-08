@@ -1,0 +1,424 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dermatology",
+  "theme": "smilecraft",
+  "business": {
+    "name": "Maiga Skin Clinic",
+    "city": "Porur, Chennai",
+    "phone": "+91 90801 47473",
+    "whatsapp": "919080147473",
+    "email": "hello@maigaskinclinic.in",
+    "address": "TNEB office, 31/57, Kundrathur Main Rd, near Porur, Ramanatheswarar Nagar, Porur, Chennai, Tamil Nadu 600116",
+    "hours": "Mon–Sat · 10:00 AM – 1:00 PM, 5:00 PM – 8:30 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Medical & Cosmetic Dermatology",
+    "headline": "Healthy Skin, Backed by Real Dermatology.",
+    "subheadline": "Maiga Skin Clinic treats acne, hair loss, and skin allergies with proper medical care — and offers cosmetic treatments for patients who want more.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "A skin clinic built around diagnosis, not guesswork",
+    "body": [
+      "Maiga Skin Clinic was started to give Porur and the wider Chennai west a proper dermatology option — one where acne, allergies, and hair loss are actually diagnosed before they're treated, instead of handed a generic cream.",
+      "Our dermatologists see both medical cases and cosmetic requests, so whether you're dealing with a persistent rash or want to explore a chemical peel, you're seeing the same qualified team either way."
+    ],
+    "highlights": [
+      "Evening appointment slots for working professionals",
+      "Medical dermatology and cosmetic treatments under one roof",
+      "Modern diagnostic and treatment equipment",
+      "Clear explanations before any treatment begins"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "5,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Sparkles",
+      "value": "2",
+      "label": "Consultant Dermatologists"
+    },
+    {
+      "icon": "Award",
+      "value": "7",
+      "label": "Years Serving Porur"
+    },
+    {
+      "icon": "Clock",
+      "value": "7",
+      "label": "Days a Week Support"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced Dermatologists",
+      "description": "Our consultants are MD-qualified in Dermatology, Venereology & Leprosy, with years of clinical experience treating Chennai patients."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Modern Equipment",
+      "description": "Diagnostic and treatment equipment for everything from acne scarring to laser hair removal, maintained to current clinical standards."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours Available",
+      "description": "Appointments run into the evening on most days, so you don't have to take time off work to see a dermatologist."
+    },
+    {
+      "icon": "HeartPulse",
+      "title": "Medical & Cosmetic, One Roof",
+      "description": "From allergy management to cosmetic peels, the same qualified team handles both — no separate referral needed."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-priyanka-raman",
+      "name": "Dr. Priyanka Raman",
+      "role": "Consultant Dermatologist",
+      "qualification": "MBBS, MD (Dermatology, Venereology & Leprosy)",
+      "registrationNumber": "TNMC-88214",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 10:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Priyanka leads the medical dermatology practice at Maiga Skin Clinic, focusing on acne, chronic skin allergies, and hair loss management. She spends the first visit understanding the actual cause before recommending treatment.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD (Dermatology, Venereology & Leprosy) — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Acne & acne scarring",
+        "Skin allergies & eczema",
+        "Hair loss & scalp disorders"
+      ],
+      "photo": "/images/dr-priyanka-raman.jpg"
+    },
+    {
+      "slug": "dr-arvind-selvam",
+      "name": "Dr. Arvind Selvam",
+      "role": "Consultant Dermatologist & Cosmetic Physician",
+      "qualification": "MBBS, DDVL",
+      "registrationNumber": "TNMC-91537",
+      "experienceYears": 8,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 10:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Arvind manages the clinic's cosmetic dermatology services, including chemical peels, laser hair removal, and skin rejuvenation, alongside general dermatology consultations.",
+      "education": [
+        "MBBS — Sri Ramachandra Medical College, Chennai",
+        "DDVL — Tamil Nadu Dr. MGR Medical University"
+      ],
+      "awards": [],
+      "specialties": [
+        "Chemical peels",
+        "Laser hair removal",
+        "Cosmetic dermatology"
+      ],
+      "photo": "/images/dr-arvind-selvam.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "acne-scar-treatment",
+      "name": "Acne & Scar Treatment",
+      "tagline": "Treating the cause, not just the breakout",
+      "overview": "A structured approach to active acne and existing scarring, starting with identifying what's driving the breakouts — hormonal, bacterial, or lifestyle-related — before building a treatment plan.",
+      "symptoms": [
+        "Persistent or recurring breakouts",
+        "Painful cystic acne",
+        "Post-acne marks or pitted scarring"
+      ],
+      "procedure": [
+        "Skin assessment and history review",
+        "Topical and/or oral medication as needed",
+        "In-clinic procedures for scarring, where suitable",
+        "Follow-up review to adjust the plan"
+      ],
+      "benefits": [
+        "Treatment plan matched to the actual cause",
+        "Options for both active acne and old scarring",
+        "Regular follow-up to track progress"
+      ],
+      "recovery": "Most in-clinic procedures involve mild redness for a day or two; oral or topical treatment plans have no downtime.",
+      "faqs": [
+        {
+          "question": "How long before I see results?",
+          "answer": "Most patients see visible improvement in active acne within 4–6 weeks; scar treatment typically takes longer and is discussed at consultation."
+        },
+        {
+          "question": "Will the scarring fully go away?",
+          "answer": "Results vary by scar type and depth — we'll give you a realistic expectation during your assessment rather than overpromise."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "chemical-peels-skin-rejuvenation"
+      ]
+    },
+    {
+      "slug": "skin-allergy-rash-treatment",
+      "name": "Skin Allergy & Rash Treatment",
+      "tagline": "Proper diagnosis for itching, rashes, and reactions",
+      "overview": "Skin allergies and rashes can come from dozens of different causes. We assess your history and symptoms to identify triggers, rather than just prescribing a generic steroid cream.",
+      "symptoms": [
+        "Persistent itching or rashes",
+        "Redness or swelling after contact with certain products",
+        "Recurring hives or skin reactions"
+      ],
+      "procedure": [
+        "Detailed history and trigger review",
+        "Physical examination of affected areas",
+        "Targeted medication and, where needed, patch testing referral",
+        "Guidance on avoiding triggers going forward"
+      ],
+      "benefits": [
+        "Focus on identifying the actual trigger",
+        "Relief for both acute and chronic cases",
+        "Practical guidance for avoiding recurrence"
+      ],
+      "recovery": "No downtime — most patients notice symptom relief within a few days of starting treatment.",
+      "faqs": [
+        {
+          "question": "Do I need a referral for patch testing?",
+          "answer": "No — if patch testing looks necessary, we'll arrange it directly through our network."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "hair-loss-treatment",
+      "name": "Hair Loss Treatment",
+      "tagline": "Medical evaluation before any hair loss plan",
+      "overview": "Hair loss has many possible causes — hormonal, nutritional, hereditary, or stress-related. We evaluate before recommending any treatment plan, medical or topical.",
+      "symptoms": [
+        "Increased hair shedding",
+        "Thinning at the crown or hairline",
+        "Patchy hair loss"
+      ],
+      "procedure": [
+        "Scalp and hair examination",
+        "Relevant blood work, where indicated",
+        "Personalized treatment plan (medication, topical, or procedural)",
+        "Periodic review to track regrowth"
+      ],
+      "benefits": [
+        "Plan based on your actual cause of hair loss",
+        "Options ranging from medical to procedural",
+        "Ongoing monitoring, not a one-time fix"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How soon will I see regrowth?",
+          "answer": "Hair growth cycles are slow — most patients need 3–6 months of consistent treatment before seeing meaningful change."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "chemical-peels-skin-rejuvenation",
+      "name": "Chemical Peels & Skin Rejuvenation",
+      "tagline": "Refresh skin texture and tone with a guided peel program",
+      "overview": "Medical-grade chemical peels to address dullness, uneven tone, and fine texture concerns, chosen and applied based on your skin type.",
+      "symptoms": [],
+      "procedure": [
+        "Skin type and concern assessment",
+        "Peel selection matched to your skin",
+        "In-clinic peel application",
+        "Aftercare guidance for the following days"
+      ],
+      "benefits": [
+        "Improved skin texture and tone over a course of sessions",
+        "Peel strength matched to your skin's tolerance",
+        "Guided aftercare to protect results"
+      ],
+      "recovery": "Mild peeling or redness for 2–4 days depending on peel strength; sun protection is required during recovery.",
+      "faqs": [
+        {
+          "question": "How many sessions will I need?",
+          "answer": "Most rejuvenation programs involve 4–6 sessions spaced a few weeks apart, depending on your goals."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "acne-scar-treatment"
+      ]
+    },
+    {
+      "slug": "laser-hair-removal",
+      "name": "Laser Hair Removal",
+      "tagline": "Long-term hair reduction with clinic-grade lasers",
+      "overview": "Laser hair reduction for face and body, performed with clinic-grade equipment and a session plan matched to your hair and skin type.",
+      "symptoms": [],
+      "procedure": [
+        "Skin and hair type assessment",
+        "Patch test session",
+        "Scheduled laser sessions per treatment area",
+        "Maintenance sessions as needed"
+      ],
+      "benefits": [
+        "Noticeable long-term hair reduction",
+        "Session plan matched to treatment area",
+        "Patch test before full sessions begin"
+      ],
+      "recovery": "Mild redness for a few hours after each session; sun protection is advised between sessions.",
+      "faqs": [
+        {
+          "question": "How many sessions are typically needed?",
+          "answer": "Most areas need 6–8 sessions spaced 4–6 weeks apart for lasting reduction."
+        }
+      ],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-treatment-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I'd tried so many creams on my own before coming in. Getting an actual diagnosis instead of guessing made all the difference.",
+      "author": "Patient, Maiga Skin Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "The evening slots meant I could come straight from work. No rushing, and the doctor actually explained what was happening with my skin.",
+      "author": "Patient, Maiga Skin Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Started hair loss treatment a few months ago and I'm finally seeing a difference. Appreciated that they set realistic expectations from day one.",
+      "author": "Patient, Maiga Skin Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need an appointment, or can I walk in?",
+      "answer": "Walk-ins are welcome when slots are available, but booking ahead is recommended, especially for evening slots, to avoid waiting."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "Your first visit includes a detailed history, a physical skin examination, and a discussion of a treatment plan — most first consultations take about 20–30 minutes."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and major cards. Consultation and treatment charges are shared upfront before any procedure."
+    },
+    {
+      "question": "Is this clinic just for cosmetic treatments?",
+      "answer": "No — we handle both medical dermatology (acne, allergies, rashes, hair loss) and cosmetic treatments (peels, laser hair removal). Most patients start with a medical concern."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us directly, or use the appointment form on this website and we'll confirm a slot."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "5-common-skin-concerns-a-dermatologist-can-help-with",
+      "title": "5 Common Skin Concerns a Dermatologist Can Actually Help With",
+      "excerpt": "From stubborn acne to unexplained rashes — here's when it's worth seeing a dermatologist instead of self-treating.",
+      "author": "Dr. Priyanka Raman",
+      "date": "2026-03-10",
+      "content": [
+        "It's easy to try to solve skin issues with whatever product is trending, but a lot of common concerns respond much better to an actual diagnosis first.",
+        "Persistent acne that doesn't improve with over-the-counter products often has a hormonal or bacterial component that needs targeted treatment, not just a stronger cleanser.",
+        "Unexplained rashes or itching are frequently allergic reactions to something specific — a product, fabric, or even food — and identifying the trigger matters more than treating the symptom.",
+        "Hair thinning is often written off as stress, but it can also be nutritional, hereditary, or hormonal, and each cause needs a different treatment approach.",
+        "Dull or uneven skin tone can sometimes be more than cosmetic — sun damage and certain skin conditions present this way too, so it's worth a proper look.",
+        "If something on your skin has lasted more than a few weeks or keeps coming back, it's usually worth a consultation rather than more self-treatment."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "March 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical history, contact details, and treatment records necessary to provide dermatological care and follow-up."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and deliver your treatment and to contact you about appointments. We do not sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or correction of your medical records at any time by contacting the clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "March 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least a few hours' notice to cancel or reschedule an appointment so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and treatment charges are payable at the time of visit unless otherwise agreed in advance."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational only and does not replace an in-person dermatological evaluation."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Maiga Skin Clinic — Porur, Chennai",
+    "description": "Medical and cosmetic dermatology clinic in Porur, Chennai. Acne, skin allergy, hair loss, chemical peel, and laser hair removal treatment with evening appointment slots."
+  }
+}

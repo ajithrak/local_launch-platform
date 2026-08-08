@@ -1,0 +1,416 @@
+{
+  "industry": "healthcare",
+  "clinicType": "physiotherapy",
+  "theme": "orthoedge",
+  "business": {
+    "name": "Shree Shanmuga Physiotherapy Centre",
+    "city": "Porur, Chennai",
+    "phone": "+91 80565 81665",
+    "whatsapp": "918056581665",
+    "email": "hello@shreeshanmugaphysio.in",
+    "address": "43, Jayabharathi Nagar Main Rd, Jayabharathi Nagar, Porur, Chennai, Tamil Nadu 600116",
+    "hours": "Mon–Sat · 8:00 AM – 12:00 PM, 4:30 PM – 8:30 PM · Sunday Closed"
+  },
+  "hero": {
+    "eyebrow": "Sports Injury, Post-Surgical & Manual Therapy Specialists",
+    "headline": "Recover Strong. Move Without Limits.",
+    "subheadline": "Shree Shanmuga Physiotherapy Centre in Porur treats sports injuries and post-surgical recovery with hands-on manual therapy — not a generic set of stretches handed out on day one.",
+    "primaryCta": {
+      "label": "Book Assessment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "Hands-on therapy, not a hand-out sheet",
+    "body": [
+      "Shree Shanmuga Physiotherapy Centre was built around one idea: recovery happens through skilled, hands-on work between therapist and patient, not by handing someone a printed exercise sheet and a follow-up date. Based in Porur, we work with athletes carrying sports injuries, patients recovering from orthopedic surgery, and anyone dealing with joint stiffness or chronic pain that hasn't responded to rest alone.",
+      "Every plan starts with a manual assessment of how you actually move, followed by a mix of joint mobilization, soft-tissue work, and progressive loading — reviewed and adjusted session by session rather than locked in on day one."
+    ],
+    "highlights": [
+      "Manual therapy and joint mobilization on every visit",
+      "Dedicated sports injury and post-surgical recovery tracks",
+      "Evening slots for working patients",
+      "Progress reviewed and adjusted every session, not just monthly"
+    ],
+    "image": "/images/about-manual-therapy-assessment.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "4,500+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Dumbbell",
+      "value": "1,200+",
+      "label": "Sports Injuries Treated"
+    },
+    {
+      "icon": "Award",
+      "value": "9",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Activity",
+      "value": "15,000+",
+      "label": "Therapy Sessions Delivered"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Hand",
+      "title": "Hands-On Manual Therapy",
+      "description": "Every session includes hands-on joint mobilization and soft-tissue work, not just supervised exercise sets."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "Experienced Physiotherapists",
+      "description": "Our therapists hold BPT and MPT qualifications with focused training in sports and orthopedic rehabilitation."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours",
+      "description": "Slots run until 8:30 PM so treatment doesn't mean cutting into your workday."
+    },
+    {
+      "icon": "Target",
+      "title": "Personalized Recovery Plans",
+      "description": "Your plan is built around your specific injury and reviewed every session, not fixed at the first visit."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "vignesh-raman",
+      "name": "Vignesh Raman",
+      "role": "Lead Physiotherapist",
+      "qualification": "MPT (Sports Physiotherapy), BPT",
+      "registrationNumber": "IAPTN-2091",
+      "experienceYears": 12,
+      "languages": [
+        "Tamil",
+        "English",
+        "Telugu"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 8:00 AM – 12:00 PM, 4:30 PM – 8:30 PM",
+      "bio": "Vignesh leads the sports injury and post-surgical recovery programs at the centre, working with athletes and post-operative patients to rebuild strength and range of motion through hands-on manual therapy and progressive loading.",
+      "education": [
+        "MPT (Sports Physiotherapy) — Dr. MGR Medical University",
+        "BPT — KMCH College of Physiotherapy"
+      ],
+      "awards": [],
+      "specialties": [
+        "Sports injury rehabilitation",
+        "Post-surgical recovery",
+        "Manual therapy"
+      ],
+      "photo": "/images/doctor-vignesh-raman.jpg"
+    },
+    {
+      "slug": "deepika-chandrasekaran",
+      "name": "Deepika Chandrasekaran",
+      "role": "Physiotherapist, Manual Therapy",
+      "qualification": "MPT (Orthopedic Rehabilitation), BPT",
+      "registrationNumber": "IAPTN-3387",
+      "experienceYears": 7,
+      "languages": [
+        "Tamil",
+        "English",
+        "Hindi"
+      ],
+      "availability": "Tue, Thu, Sat · 8:00 AM – 12:00 PM, 4:30 PM – 8:30 PM",
+      "bio": "Deepika specializes in manual therapy and joint mobilization for chronic back, neck, and joint pain, along with neurological rehabilitation for patients regaining movement after a stroke or nerve injury.",
+      "education": [
+        "MPT (Orthopedic Rehabilitation) — Dr. MGR Medical University",
+        "BPT — Madha College of Physiotherapy"
+      ],
+      "awards": [],
+      "specialties": [
+        "Manual therapy and joint mobilization",
+        "Chronic back and neck pain",
+        "Neurological rehabilitation"
+      ],
+      "photo": "/images/doctor-deepika-chandrasekaran.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "sports-injury-rehabilitation",
+      "name": "Sports Injury Rehabilitation",
+      "tagline": "Built around getting back to your sport, not just off the sidelines",
+      "overview": "From ligament sprains to muscle strains and overuse injuries, we combine hands-on manual therapy with progressive strengthening so you return to your sport with confidence, not just clearance.",
+      "symptoms": [
+        "Pain or instability during sport-specific movement",
+        "Swelling or stiffness after activity",
+        "Reduced strength or confidence in the injured area"
+      ],
+      "procedure": [
+        "Movement and strength assessment",
+        "Hands-on manual therapy for pain and mobility",
+        "Sport-specific strengthening and loading",
+        "Return-to-play readiness check"
+      ],
+      "benefits": [
+        "Rehab tailored to your specific sport and position",
+        "Hands-on treatment at every visit, not just exercise handouts",
+        "Progress tracked against clear strength and mobility benchmarks"
+      ],
+      "recovery": "Recovery timelines typically run 3–14 weeks depending on injury severity and sport demands.",
+      "faqs": [
+        {
+          "question": "Can I keep training while I recover?",
+          "answer": "In most cases yes — we build modified training into your plan wherever it's safe to keep you moving."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "post-surgical-physiotherapy",
+        "manual-therapy-joint-mobilization"
+      ]
+    },
+    {
+      "slug": "post-surgical-physiotherapy",
+      "name": "Post-Surgical Physiotherapy",
+      "tagline": "Structured, phase-based recovery from the day you're cleared for therapy",
+      "overview": "Whether you've had knee, hip, shoulder, or spine surgery, our post-surgical program restores strength and range of motion in structured phases, coordinated with your surgeon's protocol.",
+      "symptoms": [
+        "Stiffness and reduced range of motion after surgery",
+        "Weakness around the operated joint",
+        "Difficulty bearing weight or resuming daily activity"
+      ],
+      "procedure": [
+        "Initial assessment and surgical-report review",
+        "Phase-based mobility and strengthening plan",
+        "Manual therapy alongside progressive loading",
+        "Functional testing before discharge"
+      ],
+      "benefits": [
+        "Faster, safer return to daily activity",
+        "Reduced risk of stiffness and re-injury",
+        "Plan coordinated with your surgeon's recovery protocol"
+      ],
+      "recovery": "Typical programs run 6–12 weeks depending on the surgery, with progress reviewed every session.",
+      "faqs": [
+        {
+          "question": "How soon after surgery should I start?",
+          "answer": "Most surgeons clear patients for physiotherapy within 1–2 weeks post-surgery — we coordinate with your surgeon's specific protocol before starting."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "sports-injury-rehabilitation",
+        "manual-therapy-joint-mobilization"
+      ]
+    },
+    {
+      "slug": "manual-therapy-joint-mobilization",
+      "name": "Manual Therapy & Joint Mobilization",
+      "tagline": "Hands-on treatment for stiff, painful, or restricted joints",
+      "overview": "Manual therapy is the core of how we treat at Shree Shanmuga Physiotherapy — hands-on joint mobilization and soft-tissue release to restore movement that exercise alone often can't reach.",
+      "symptoms": [
+        "Joint stiffness limiting daily movement",
+        "Muscle tightness that doesn't ease with stretching",
+        "Restricted range of motion after injury or inactivity"
+      ],
+      "procedure": [
+        "Manual assessment of joint and soft-tissue restriction",
+        "Hands-on joint mobilization",
+        "Soft-tissue and myofascial release",
+        "Guided movement to maintain gained range"
+      ],
+      "benefits": [
+        "Often faster relief than exercise alone for restricted joints",
+        "Addresses the specific joint or tissue that's actually restricted",
+        "Complements every other program we run"
+      ],
+      "recovery": "Most patients notice improved range of motion within 2–4 sessions.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "chronic-back-neck-pain-treatment"
+      ]
+    },
+    {
+      "slug": "chronic-back-neck-pain-treatment",
+      "name": "Chronic Back & Neck Pain Treatment",
+      "tagline": "Relief that addresses the cause, not just the symptom",
+      "overview": "Long-standing back and neck pain is often driven by posture, muscle imbalance, or an old injury pattern. We assess the root cause and treat it with manual therapy, posture correction, and targeted strengthening.",
+      "symptoms": [
+        "Persistent lower back or neck pain",
+        "Pain that worsens with sitting or desk work",
+        "Stiffness or reduced flexibility through the spine"
+      ],
+      "procedure": [
+        "Postural and movement assessment",
+        "Manual therapy for pain relief",
+        "Core and postural strengthening program",
+        "Ergonomic and lifestyle guidance"
+      ],
+      "benefits": [
+        "Addresses the root cause, not just the pain flare-up",
+        "Practical guidance for desk-job patients",
+        "Long-term relief instead of repeat short-term treatment"
+      ],
+      "recovery": "Most patients see meaningful improvement within 4–6 weeks of consistent therapy.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "manual-therapy-joint-mobilization"
+      ]
+    },
+    {
+      "slug": "neurological-rehabilitation",
+      "name": "Neurological Rehabilitation",
+      "tagline": "Rebuilding movement and independence after a neurological event",
+      "overview": "For patients recovering from stroke, nerve injury, or other neurological conditions, our therapists focus on restoring movement, balance, and functional independence through patient-paced, hands-on rehabilitation.",
+      "symptoms": [
+        "Weakness or reduced coordination on one side of the body",
+        "Balance difficulty or falls",
+        "Reduced independence in daily activities"
+      ],
+      "procedure": [
+        "Neurological and functional assessment",
+        "Balance and coordination retraining",
+        "Task-specific functional training",
+        "Caregiver guidance for home practice"
+      ],
+      "benefits": [
+        "Improved balance and functional independence",
+        "Patient-paced, closely supervised sessions",
+        "Guidance for family caregivers"
+      ],
+      "recovery": "Neurological rehab is typically a longer-term program, reviewed and adjusted every 4 weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Therapy and treatment floor",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-therapy-floor.jpg"
+    },
+    {
+      "caption": "Rehab equipment and machines",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-rehab-equipment.jpg"
+    },
+    {
+      "caption": "One-on-one manual therapy session",
+      "category": "Care",
+      "swatchClassName": "bg-blue-50",
+      "src": "/images/gallery-manual-therapy-session.jpg"
+    },
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Clinic exterior, Porur",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Tore my ACL playing weekend football and Vignesh had me back on the field in under five months with a plan that actually tested me before clearing me, not just a date on a calendar.",
+      "author": "Patient, Shree Shanmuga Physiotherapy Centre",
+      "rating": 5
+    },
+    {
+      "quote": "After my knee replacement I could barely bend it. The manual therapy sessions here got my range of motion back faster than I expected.",
+      "author": "Patient, Shree Shanmuga Physiotherapy Centre",
+      "rating": 5
+    },
+    {
+      "quote": "Years of neck pain from desk work, finally treated properly with hands-on work and a real strengthening plan instead of just a heating pad and advice to sit up straight.",
+      "author": "Patient, Shree Shanmuga Physiotherapy Centre",
+      "rating": 4
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Can I walk in without an appointment?",
+      "answer": "Walk-ins are welcome when a therapist is free, but booking ahead guarantees your slot, especially during evening hours."
+    },
+    {
+      "question": "What happens in the first session?",
+      "answer": "Your first visit is a hands-on assessment of the injured area and your overall movement, followed by an initial manual therapy session and a written recovery plan."
+    },
+    {
+      "question": "Do you accept insurance or is it pay-per-visit?",
+      "answer": "We operate on direct pay-per-visit billing. We can provide receipts and reports for patients seeking insurance reimbursement separately."
+    },
+    {
+      "question": "How many sessions will I need?",
+      "answer": "It depends on the injury — sports strains often resolve in 3–6 sessions, while post-surgical and chronic conditions typically run 6–12 weeks with progress reviewed each visit."
+    },
+    {
+      "question": "Do I need a doctor's referral to book an appointment?",
+      "answer": "No referral is required — you can book an assessment directly, though we're glad to coordinate with your surgeon or physician if you have one."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "manual-therapy-vs-exercise-based-rehab",
+      "title": "Manual Therapy vs. Exercise-Based Rehab: What's the Difference?",
+      "excerpt": "Exercise sheets and hands-on manual therapy aren't interchangeable. Here's what each one actually does — and why most real recovery plans need both.",
+      "author": "Vignesh Raman",
+      "date": "2026-05-14",
+      "content": [
+        "A printed exercise sheet and a hands-on manual therapy session are treating two different problems, even though both get filed under \"physiotherapy.\"",
+        "Exercise-based rehab builds strength and endurance over time — it's essential, but it can't do much for a joint that's mechanically restricted or a muscle that's locked in spasm.",
+        "Manual therapy — joint mobilization, soft-tissue release, hands-on stretching — addresses restriction directly, often producing a change in range of motion within a single session that exercise alone would take weeks to reach.",
+        "The two aren't competing approaches. Most of our recovery plans use manual therapy to unlock movement early, then layer in progressive exercise to make that movement strong and durable.",
+        "If your current plan is exercise sheets only, ask whether hands-on treatment is part of it — for a lot of injuries, it should be."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to assess and treat you, and hold it in confidence as part of your care."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and deliver your treatment at our centre, including coordination with any referring surgeon or physician you name."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your treatment records at any time through our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment."
+      },
+      {
+        "heading": "Payments",
+        "body": "Payment is due at the time of each session unless a package arrangement has been agreed in advance."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person assessment by a qualified physiotherapist."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Shree Shanmuga Physiotherapy Centre — Porur, Chennai",
+    "description": "Physiotherapy centre in Porur, Chennai specializing in sports injury rehabilitation, post-surgical recovery, and hands-on manual therapy for chronic pain and neurological conditions."
+  }
+}

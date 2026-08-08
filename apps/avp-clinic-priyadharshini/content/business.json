@@ -1,0 +1,405 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "mednova",
+  "business": {
+    "name": "AVP Clinic",
+    "city": "Porur, Chennai",
+    "phone": "+91 97896 19953",
+    "whatsapp": "919789619953",
+    "email": "hello@avpclinic.in",
+    "address": "4th floor, 21A, Sakthi Nagar Main Rd, Somasundaram Avenue, Porur, Chennai, Tamil Nadu 600116",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:00 PM · Sunday Closed",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Consultant Physician & Diabetologist, Porur",
+    "headline": "Expert Diabetes Care, Close to Home.",
+    "subheadline": "AVP Clinic — Dr. Priyadharshini V, Consultant Physician & Diabetologist, offers personalized diabetes management and general internal medicine care for families across Porur, Chennai.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Dr. Priyadharshini",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Focused, attentive care for diabetes and everyday health",
+    "body": [
+      "AVP Clinic was started with a simple goal — to give patients in Porur a place where diabetes and other chronic conditions are managed with real continuity of care, not rushed, one-off consultations.",
+      "Led by Dr. Priyadharshini V, Consultant Physician and Diabetologist, the clinic focuses on internal medicine and long-term diabetes management, with evening hours designed around working professionals and families.",
+      "Every visit includes time to actually discuss your reports, adjust your plan, and answer questions — because managing a chronic condition well depends on that ongoing relationship, not a single prescription."
+    ],
+    "highlights": [
+      "Dedicated diabetes management program",
+      "Evening consultation hours for working professionals",
+      "Personalized, long-term treatment plans",
+      "General internal medicine under one roof"
+    ],
+    "image": "/images/about-physician-desk.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Award",
+      "value": "12+",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Users",
+      "value": "5,000+",
+      "label": "Patients Managed"
+    },
+    {
+      "icon": "HeartPulse",
+      "value": "3,000+",
+      "label": "Diabetes Follow-Ups"
+    },
+    {
+      "icon": "Clock",
+      "value": "Evening",
+      "label": "Slots Available"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Stethoscope",
+      "title": "Specialist Diabetes Care",
+      "description": "Dedicated focus on diabetes management, not a general checklist — your plan is built around your specific blood sugar patterns and lifestyle."
+    },
+    {
+      "icon": "ClipboardList",
+      "title": "Personalized, Long-Term Plans",
+      "description": "Treatment plans are reviewed and adjusted at every visit, so your care evolves with you instead of staying static."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours for Working Professionals",
+      "description": "Consultation slots in the evening mean you don't have to take time off work to manage a chronic condition."
+    },
+    {
+      "icon": "GraduationCap",
+      "title": "Experienced Consultant Physician",
+      "description": "Dr. Priyadharshini V brings years of focused experience in general medicine and diabetology to every consultation."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-priyadharshini-v",
+      "name": "Dr. Priyadharshini V",
+      "role": "Consultant Physician & Diabetologist",
+      "qualification": "MBBS, MD (General Medicine), Fellowship in Diabetology",
+      "registrationNumber": "TNMC-58214",
+      "experienceYears": 12,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:00 PM",
+      "bio": "Dr. Priyadharshini V is a Consultant Physician and Diabetologist practicing at AVP Clinic, Porur. Her practice centers on diabetes management and general internal medicine, with an emphasis on building long-term treatment relationships rather than one-time consultations. She works closely with patients to manage blood sugar, blood pressure, and thyroid conditions through personalized, sustainable plans.",
+      "photo": "/images/doctor-priyadharshini-v.jpg",
+      "education": [
+        "MBBS",
+        "MD — General Medicine",
+        "Fellowship in Diabetology"
+      ],
+      "awards": [],
+      "specialties": [
+        "Diabetes management",
+        "Hypertension",
+        "Thyroid disorders",
+        "General health checkups"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "diabetes-management-monitoring",
+      "name": "Diabetes Management & Monitoring",
+      "tagline": "Personalized, ongoing care to keep your blood sugar in range",
+      "overview": "Our diabetes management program focuses on continuous monitoring and plan adjustment — not a one-time prescription. Dr. Priyadharshini works with you to build a sustainable plan covering medication, diet, and lifestyle.",
+      "symptoms": [
+        "Frequent thirst or urination",
+        "Unexplained fatigue",
+        "Slow-healing wounds",
+        "Blurred vision"
+      ],
+      "procedure": [
+        "Initial blood sugar and HbA1c assessment",
+        "Personalized medication and lifestyle plan",
+        "Scheduled follow-up monitoring",
+        "Ongoing plan adjustments based on trends"
+      ],
+      "benefits": [
+        "Continuity of care with the same physician every visit",
+        "Plans built around your reports, not templates",
+        "Evening slots for easy follow-up scheduling"
+      ],
+      "recovery": "Diabetes management is an ongoing process rather than a one-time treatment; most patients follow a monthly or quarterly review schedule depending on control.",
+      "faqs": [
+        {
+          "question": "How often should I get my diabetes monitored?",
+          "answer": "This depends on how well-controlled your sugar levels are — typically every 4–12 weeks. Dr. Priyadharshini will set a schedule based on your HbA1c and overall trend."
+        },
+        {
+          "question": "Do I need to fast before my visit?",
+          "answer": "If blood tests are planned, we'll let you know in advance whether fasting is required."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "thyroid-disorder-treatment",
+        "hypertension-cardiac-risk-management"
+      ]
+    },
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "Whole-person internal medicine care for everyday health concerns",
+      "overview": "From fevers and infections to unexplained symptoms, our general consultation service covers the full range of internal medicine concerns with a focus on getting to an actual explanation, not just a prescription.",
+      "symptoms": [
+        "Fever or infection",
+        "Persistent cough or cold",
+        "Fatigue or weakness",
+        "Digestive discomfort"
+      ],
+      "procedure": [
+        "Detailed history and physical examination",
+        "Diagnostic tests as needed",
+        "Treatment plan and prescription",
+        "Follow-up if symptoms persist"
+      ],
+      "benefits": [
+        "Same-day appointments where possible",
+        "Clear explanation of diagnosis and treatment",
+        "Coordinated care if referral is needed"
+      ],
+      "recovery": "Most acute conditions resolve within a few days to a week with the prescribed treatment plan.",
+      "faqs": [
+        {
+          "question": "Do you accept walk-in patients?",
+          "answer": "Yes, walk-ins are welcome, though booking an appointment in advance helps reduce your wait time."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "executive-health-checkups"
+      ]
+    },
+    {
+      "slug": "hypertension-cardiac-risk-management",
+      "name": "Hypertension & Cardiac Risk Management",
+      "tagline": "Keeping blood pressure and cardiac risk factors under control",
+      "overview": "High blood pressure and related cardiac risk factors are managed through regular monitoring, medication review, and lifestyle guidance, often alongside diabetes care for patients managing both.",
+      "symptoms": [
+        "Frequent headaches",
+        "Dizziness",
+        "Chest discomfort",
+        "Shortness of breath on exertion"
+      ],
+      "procedure": [
+        "Blood pressure assessment and history review",
+        "Baseline cardiac risk screening",
+        "Medication and lifestyle plan",
+        "Scheduled follow-up monitoring"
+      ],
+      "benefits": [
+        "Integrated care if you're also managing diabetes",
+        "Regular monitoring to catch issues early",
+        "Practical lifestyle guidance, not generic advice"
+      ],
+      "recovery": "Ongoing management with periodic review; most patients are seen every 4–8 weeks depending on control.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "diabetes-management-monitoring"
+      ]
+    },
+    {
+      "slug": "thyroid-disorder-treatment",
+      "name": "Thyroid Disorder Treatment",
+      "tagline": "Diagnosis and management of thyroid imbalances",
+      "overview": "Thyroid conditions are diagnosed through targeted blood work and managed with medication and regular monitoring, often in patients who are also being seen for diabetes or general health checkups.",
+      "symptoms": [
+        "Unexplained weight change",
+        "Fatigue",
+        "Sensitivity to cold or heat",
+        "Hair thinning"
+      ],
+      "procedure": [
+        "Thyroid function blood panel",
+        "Diagnosis and medication plan",
+        "Follow-up testing to confirm levels",
+        "Ongoing dosage adjustment as needed"
+      ],
+      "benefits": [
+        "Testing and consultation coordinated in one visit",
+        "Dosage adjusted based on follow-up levels",
+        "Combined care if managing other chronic conditions"
+      ],
+      "recovery": "Thyroid levels typically stabilize within 6–8 weeks of starting or adjusting treatment, with periodic monitoring after.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "diabetes-management-monitoring"
+      ]
+    },
+    {
+      "slug": "executive-health-checkups",
+      "name": "Executive Health Checkups",
+      "tagline": "Comprehensive screening for early detection and prevention",
+      "overview": "A structured checkup covering blood work, blood pressure, and risk screening for diabetes, thyroid, and cardiac conditions — designed for professionals who want a clear picture of their health without multiple separate visits.",
+      "symptoms": [],
+      "procedure": [
+        "Comprehensive blood work and vitals",
+        "Diabetes, thyroid, and cardiac risk screening",
+        "Consultation to review results",
+        "Personalized recommendations"
+      ],
+      "benefits": [
+        "One consolidated visit instead of multiple appointments",
+        "Clear, plain-language review of your results",
+        "Early detection of risk factors before symptoms appear"
+      ],
+      "recovery": "No downtime required; results are typically reviewed in a follow-up consultation within a few days.",
+      "faqs": [
+        {
+          "question": "How long does an executive checkup take?",
+          "answer": "Plan for about 45–60 minutes for testing, with a separate follow-up visit to review results in detail."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Clinic reception",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Health checkup & diagnostics corner",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-diagnostics-corner.jpg"
+    },
+    {
+      "caption": "Patient waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I've been coming to AVP Clinic for my diabetes management for over two years now. Dr. Priyadharshini actually remembers my history and adjusts my plan every visit instead of just renewing the same prescription.",
+      "author": "Patient, AVP Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "The evening slots make it so much easier to keep up with follow-ups without missing work. My blood pressure has been well controlled since I started coming here.",
+      "author": "Patient, AVP Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Finally a doctor who takes time to explain my reports instead of rushing through the visit. My thyroid levels are finally stable after months of trial and error elsewhere.",
+      "author": "Patient, AVP Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "Yes, walk-ins are welcome, though we recommend booking an appointment in advance to minimize your wait time, especially during evening hours."
+    },
+    {
+      "question": "What should I bring for my first visit?",
+      "answer": "Please bring any previous medical records, current medications or prescriptions, and recent lab reports if you have them. If you're managing diabetes, your recent blood sugar readings are helpful too."
+    },
+    {
+      "question": "How often should diabetes be monitored?",
+      "answer": "This varies by patient, but most people on a stable plan are reviewed every 4–12 weeks, with more frequent monitoring if levels are still being brought under control."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and major cards. Please contact the clinic directly for guidance on insurance claim documentation."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book directly through our appointment page on this site, or call the clinic to schedule a slot that works for you."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "5-early-warning-signs-of-type-2-diabetes",
+      "title": "5 Early Warning Signs of Type 2 Diabetes You Shouldn't Ignore",
+      "excerpt": "Type 2 diabetes often develops quietly. Here are five early signs worth getting checked, before it progresses further.",
+      "author": "Dr. Priyadharshini V",
+      "date": "2026-06-10",
+      "content": [
+        "Type 2 diabetes rarely announces itself with a single dramatic symptom — it tends to show up as a handful of small, easy-to-dismiss changes that build up over months.",
+        "Frequent thirst and urination are among the earliest signs, caused by excess sugar pulling fluid out of your tissues and into your bloodstream, which your kidneys then work overtime to filter out.",
+        "Unexplained fatigue is another common early marker. When your cells can't efficiently use glucose for energy, you end up feeling tired even after adequate rest.",
+        "Slow-healing cuts or frequent infections can also signal elevated blood sugar, since high glucose levels affect circulation and your body's ability to fight infection.",
+        "Blurred vision, though often temporary, happens when fluid shifts affect the lens of the eye — it's frequently one of the first things patients notice and dismiss as eye strain.",
+        "If you're experiencing two or more of these signs, a simple blood sugar and HbA1c test can clarify where you stand. Catching prediabetes or early type 2 diabetes gives you far more room to manage it through lifestyle changes alone, before medication becomes necessary."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "July 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care, schedule appointments, and maintain accurate patient records."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to deliver and coordinate your care. We do not sell or share patient data with third parties, and access is restricted to your treating physician and clinic staff."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to, or correction of, your medical records at any time by contacting the clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "July 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Appointments may be rescheduled or cancelled by contacting the clinic ahead of your scheduled time. Walk-ins are accommodated based on availability."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and treatment charges are payable at the time of visit. Patients should confirm applicable charges with clinic staff before treatment where possible."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person consultation with a licensed physician. Always consult Dr. Priyadharshini V or another qualified doctor for diagnosis and treatment."
+      }
+    ]
+  },
+  "seo": {
+    "title": "AVP Clinic — Dr. Priyadharshini V, Porur, Chennai",
+    "description": "AVP Clinic in Porur, Chennai offers specialist diabetes management and general internal medicine care led by Dr. Priyadharshini V, Consultant Physician & Diabetologist."
+  }
+}
