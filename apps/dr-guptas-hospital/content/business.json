@@ -1,0 +1,459 @@
+{
+  "industry": "healthcare",
+  "clinicType": "multi-speciality",
+  "theme": "mednova",
+  "business": {
+    "name": "Dr Gupta's Hospital",
+    "city": "Madhanandapuram, Chennai",
+    "phone": "+91 98414 78255",
+    "whatsapp": "919841478255",
+    "email": "hello@drguptashospital.in",
+    "address": "3/568, Kundrathur Main Rd, Himachal Nagar, Ponni Nagar, Madhanandapuram, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sun · 9:00 AM – 9:00 PM · Emergency 24/7",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Multi-Speciality Hospital · Main Branch",
+    "headline": "Trusted Family Healthcare, Close to Home.",
+    "subheadline": "Dr Gupta's Hospital brings general medicine, surgery, and emergency care together under one roof in Madhanandapuram — the same trusted care our patients have relied on for years, now closer than ever.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Established care, now serving Madhanandapuram",
+    "body": [
+      "Dr Gupta's Hospital (Main Branch) was built on a simple idea — a neighborhood hospital shouldn't feel like a maze. Patients should be able to walk in, be seen quickly, and trust the people treating them.",
+      "As our main branch, we bring together general medicine, surgery, pediatrics, and obstetric care under one roof, backed by an in-house pharmacy, diagnostic support, and a team that knows most of its patients by name."
+    ],
+    "highlights": [
+      "Multi-speciality care across general medicine, surgery, pediatrics and obstetrics",
+      "In-house pharmacy and diagnostic support",
+      "Inpatient beds for round-the-clock monitoring",
+      "Experienced team led by our founding doctor"
+    ],
+    "image": "/images/hospital-exterior-signage.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Award",
+      "value": "12+",
+      "label": "Years of Care"
+    },
+    {
+      "icon": "Users",
+      "value": "15,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "4",
+      "label": "Specialities"
+    },
+    {
+      "icon": "Activity",
+      "value": "20",
+      "label": "Inpatient Beds"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Building2",
+      "title": "An Established, Multi-Branch Practice",
+      "description": "This is our main branch — part of a growing, trusted practice with a track record of consistent, patient-first care."
+    },
+    {
+      "icon": "Clock",
+      "title": "Round-the-Clock Availability",
+      "description": "Our emergency and inpatient teams are on duty every hour of every day, so care is never far away when you need it most."
+    },
+    {
+      "icon": "Users",
+      "title": "An Experienced Multi-Speciality Team",
+      "description": "From general medicine to surgery, pediatrics and obstetrics, our doctors coordinate closely so nothing falls through the cracks."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "A Modern, Comfortable Facility",
+      "description": "Clean, well-equipped consultation rooms, wards, and a calm patient experience from the moment you walk in."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-rajesh-gupta",
+      "name": "Dr. Rajesh Gupta",
+      "role": "Founder & Chief Medical Officer",
+      "qualification": "MBBS, MD (General Medicine)",
+      "registrationNumber": "TNMC-48213",
+      "experienceYears": 22,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 10:00 AM – 1:00 PM",
+      "bio": "Dr. Gupta founded this hospital with the goal of bringing dependable, multi-speciality care to Madhanandapuram. He continues to see patients directly, focusing on general medicine, chronic disease management, and coordinating complex cases across departments.",
+      "photo": "/images/doctor-rajesh-gupta.jpg",
+      "education": [
+        "MBBS — Madras Medical College",
+        "MD, General Medicine — Stanley Medical College"
+      ],
+      "awards": [],
+      "specialties": [
+        "General medicine",
+        "Chronic disease management",
+        "Preventive health"
+      ]
+    },
+    {
+      "slug": "dr-lakshmi-narayanan",
+      "name": "Dr. Lakshmi Narayanan",
+      "role": "Consultant, Obstetrics & Gynaecology",
+      "qualification": "MBBS, MS (OBG)",
+      "registrationNumber": "TNMC-55807",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri · 4:00 PM – 7:00 PM",
+      "bio": "Dr. Narayanan manages antenatal care, deliveries, and gynaecological health for patients across Madhanandapuram, with a focus on clear communication and personalized birth planning.",
+      "photo": "/images/doctor-lakshmi-narayanan.jpg",
+      "education": [
+        "MBBS — Kilpauk Medical College",
+        "MS, Obstetrics & Gynaecology — Madras Medical College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Antenatal care",
+        "Normal & assisted deliveries",
+        "Gynaecological health"
+      ]
+    },
+    {
+      "slug": "dr-arvind-menon",
+      "name": "Dr. Arvind Menon",
+      "role": "Consultant, General Surgery",
+      "qualification": "MBBS, MS (General Surgery)",
+      "registrationNumber": "TNMC-61294",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil",
+        "Malayalam"
+      ],
+      "availability": "Tue, Thu, Sat · 11:00 AM – 2:00 PM",
+      "bio": "Dr. Menon handles minor and major surgical procedures at the hospital, from day-care surgeries to planned inpatient operations, with an emphasis on minimally invasive techniques where possible.",
+      "photo": "/images/doctor-arvind-menon.jpg",
+      "education": [
+        "MBBS — Coimbatore Medical College",
+        "MS, General Surgery — Christian Medical College, Vellore"
+      ],
+      "awards": [],
+      "specialties": [
+        "General & laparoscopic surgery",
+        "Day-care procedures",
+        "Post-operative care"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-emergency-care",
+      "name": "General & Emergency Care",
+      "tagline": "Round-the-clock care for everyday illness and urgent needs",
+      "overview": "Our general and emergency department is staffed at all hours to handle everything from fevers and infections to urgent, time-sensitive conditions, with a doctor always available on-site.",
+      "symptoms": [
+        "Fever, infections, or persistent illness",
+        "Accidents or injuries",
+        "Sudden or severe pain"
+      ],
+      "procedure": [
+        "Immediate triage and assessment on arrival",
+        "Doctor consultation and, if needed, diagnostics",
+        "Treatment, observation, or admission as required"
+      ],
+      "benefits": [
+        "Doctor on-site 24/7",
+        "No appointment needed for emergencies",
+        "Direct access to inpatient admission if required"
+      ],
+      "recovery": "Most general cases are treated and discharged the same day; more serious cases are admitted for observation.",
+      "faqs": [
+        {
+          "question": "Is the emergency department open at night?",
+          "answer": "Yes, our emergency and general care team is available 24 hours a day, every day of the week."
+        },
+        {
+          "question": "Do I need an appointment for emergency care?",
+          "answer": "No, walk in any time — emergency and urgent cases are seen immediately."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "inpatient-care"
+      ]
+    },
+    {
+      "slug": "minor-major-surgery",
+      "name": "Minor & Major Surgery",
+      "tagline": "Surgical care from day-care procedures to planned operations",
+      "overview": "Our surgical team handles a wide range of procedures, from quick day-care surgeries to larger planned operations, supported by a dedicated recovery ward and post-operative follow-up.",
+      "symptoms": [
+        "Hernias, cysts, and abscesses requiring surgical treatment",
+        "Appendicitis and other acute surgical conditions",
+        "Planned procedures referred by another doctor"
+      ],
+      "procedure": [
+        "Pre-operative consultation and assessment",
+        "Surgery scheduling and preparation",
+        "Procedure performed by our surgical team",
+        "Post-operative monitoring and follow-up"
+      ],
+      "benefits": [
+        "Both day-care and inpatient surgical options",
+        "Experienced general surgery team",
+        "Structured recovery and follow-up care"
+      ],
+      "recovery": "Recovery time depends on the procedure — day-care surgeries typically allow same-day discharge, while larger operations may require a short inpatient stay.",
+      "faqs": [
+        {
+          "question": "Do you handle both minor and major surgeries?",
+          "answer": "Yes, we perform a range of procedures from small day-care surgeries to larger planned operations requiring admission."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "inpatient-care",
+        "diagnostic-services"
+      ]
+    },
+    {
+      "slug": "inpatient-care",
+      "name": "Inpatient Care",
+      "tagline": "Comfortable, monitored recovery for admitted patients",
+      "overview": "Our inpatient ward offers round-the-clock nursing care and monitoring for patients who need to be admitted, whether for observation, post-surgical recovery, or ongoing treatment.",
+      "symptoms": [],
+      "procedure": [
+        "Admission and bed allocation",
+        "Continuous nursing care and monitoring",
+        "Regular doctor rounds",
+        "Discharge planning and instructions"
+      ],
+      "benefits": [
+        "Round-the-clock nursing staff",
+        "Clean, comfortable ward facilities",
+        "Coordinated care between attending doctors"
+      ],
+      "recovery": "Length of stay depends on the condition being treated and is discussed with the attending doctor throughout admission.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-emergency-care"
+      ]
+    },
+    {
+      "slug": "diagnostic-services",
+      "name": "Diagnostic Services",
+      "tagline": "On-site lab and diagnostic support for faster answers",
+      "overview": "We offer on-site diagnostic and lab support so common tests can be completed and reviewed without sending patients elsewhere, helping doctors make faster, better-informed decisions.",
+      "symptoms": [],
+      "procedure": [
+        "Sample collection or test performed on-site",
+        "Results reviewed by your attending doctor",
+        "Follow-up consultation to discuss findings"
+      ],
+      "benefits": [
+        "On-site lab reduces wait times",
+        "Results shared directly with your doctor",
+        "Supports both outpatient and inpatient care"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "Preventive screening packages for the whole family",
+      "overview": "Our health checkup packages cover routine screening for common conditions, helping patients catch issues early and stay on top of their health with a single visit.",
+      "symptoms": [],
+      "procedure": [
+        "Package selection based on age and health history",
+        "Screening tests performed on-site",
+        "Consultation to review results with a doctor"
+      ],
+      "benefits": [
+        "Packages tailored for different age groups",
+        "Results reviewed with a doctor, not just handed over",
+        "Convenient single-visit screening"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I get a health checkup?",
+          "answer": "For most adults, an annual checkup is recommended; your doctor may suggest a different frequency based on your health history."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "diagnostic-services"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Medicine",
+      "doctorSlugs": [
+        "dr-rajesh-gupta"
+      ]
+    },
+    {
+      "name": "Obstetrics & Gynaecology",
+      "doctorSlugs": [
+        "dr-lakshmi-narayanan"
+      ]
+    },
+    {
+      "name": "General Surgery",
+      "doctorSlugs": [
+        "dr-arvind-menon"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "emergencyPhone": "+91 98414 78255",
+  "gallery": [
+    {
+      "caption": "Hospital reception and lobby",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception-lobby.jpg"
+    },
+    {
+      "caption": "Doctor's consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Inpatient ward",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-patient-ward.jpg"
+    },
+    {
+      "caption": "Patient waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Hospital entrance and signage",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/hospital-exterior-signage.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "My father was admitted for observation and the nursing staff checked on him constantly. It felt like they genuinely cared, not just doing rounds.",
+      "author": "Patient, Dr Gupta's Hospital",
+      "rating": 5
+    },
+    {
+      "quote": "We've been coming here for years for general checkups. Dr. Gupta remembers our family history without looking it up every time.",
+      "author": "Patient, Dr Gupta's Hospital",
+      "rating": 5
+    },
+    {
+      "quote": "Had a minor surgery done here and was home the same evening. The follow-up calls to check on recovery were a nice surprise.",
+      "author": "Patient, Dr Gupta's Hospital",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "Yes, walk-ins are welcome for general and emergency care. Specialist consultations are best booked in advance to avoid waiting."
+    },
+    {
+      "question": "Is the hospital open on Sundays?",
+      "answer": "Yes, we are open all seven days, and our emergency department is available 24 hours a day."
+    },
+    {
+      "question": "Do you have inpatient beds available?",
+      "answer": "Yes, we have inpatient beds for admitted patients requiring observation, post-surgical recovery, or ongoing treatment."
+    },
+    {
+      "question": "Is this the only branch of Dr Gupta's Hospital?",
+      "answer": "This is our main branch in Madhanandapuram. Please call us directly for information on any other locations."
+    },
+    {
+      "question": "Do I need a referral to see a specialist here?",
+      "answer": "No referral is required — you can call or walk in directly to book a consultation with any of our specialists."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "when-to-visit-a-hospital-vs-a-clinic",
+      "title": "When to Visit a Hospital vs. a Local Clinic",
+      "excerpt": "Not sure whether your symptoms need a quick clinic visit or a hospital? Here's a simple way to decide.",
+      "author": "Dr. Rajesh Gupta",
+      "date": "2026-06-02",
+      "content": [
+        "A lot of patients hesitate before deciding where to go — a nearby clinic, or a hospital like ours. The honest answer is that it depends on how urgent and how uncertain the situation is.",
+        "For routine issues — a common cold, minor cuts, a repeat prescription — a local clinic is often faster and perfectly adequate.",
+        "But if there's any chance you might need diagnostics, observation, or admission — persistent high fever, breathing difficulty, severe pain, an injury that won't stop bleeding, or symptoms that keep getting worse — go straight to a hospital with round-the-clock care and on-site diagnostic support.",
+        "When in doubt, it's always safer to come in and be checked. Our general and emergency team is available every day, all day, specifically for these judgment calls — you don't have to make them alone."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care, schedule appointments, and maintain patient records."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to deliver and coordinate your care. We do not sell patient data, and access is restricted to your treating doctors and hospital staff involved in your care."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to, or correction of, your medical records at any time by contacting our front office."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Appointments may be rescheduled by calling the hospital directly; walk-ins for general and emergency care are always welcome."
+      },
+      {
+        "heading": "Billing",
+        "body": "Patients are responsible for consultation, treatment, and any admission charges, which will be explained by our billing desk before treatment where possible."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace a consultation with a licensed physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Dr Gupta's Hospital — Madhanandapuram, Chennai",
+    "description": "Multi-speciality hospital in Madhanandapuram, Chennai offering general medicine, surgery, obstetrics, inpatient care, and 24/7 emergency services."
+  }
+}
