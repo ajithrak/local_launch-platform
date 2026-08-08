@@ -1,0 +1,455 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "smilecraft",
+  "business": {
+    "name": "iDentist Family Dental Care",
+    "city": "Chennai, Tamil Nadu",
+    "phone": "+91 99522 48569",
+    "whatsapp": "919952248569",
+    "email": "hello@identistdental.in",
+    "address": "Mugalivakkam Main Rd, Om Shakthi Nagar, Himachal Nagar, Ramji Nagar, Madhanandapuram, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:30 AM – 1:30 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Family Dental Care in Madhanandapuram",
+    "headline": "Dental Care Your Whole Family Can Rely On.",
+    "subheadline": "From your child's first checkup to your parents' dentures, iDentist Family Dental Care treats every generation under one roof — gentle, thorough, and close to home.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "A dental clinic built for the whole family",
+    "body": [
+      "iDentist Family Dental Care was started with one goal — to be the clinic a family in Madhanandapuram can trust for every dental need, at every age, without having to travel across the city for a specialist.",
+      "Whether it's a toddler's first dental visit, a teenager needing braces, or a grandparent needing a root canal or dentures, our team treats each patient with the same unhurried, careful attention — in a clinic that feels approachable rather than clinical."
+    ],
+    "highlights": [
+      "Treatment for every age, from toddlers to seniors",
+      "Same-day appointments for most routine procedures",
+      "Modern, sterile equipment and painless technique",
+      "Conveniently located on Mugalivakkam Main Road"
+    ],
+    "image": "/images/about-clinic.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Smile",
+      "value": "5,000+",
+      "label": "Smiles Treated"
+    },
+    {
+      "icon": "Users",
+      "value": "2",
+      "label": "Dental Specialists"
+    },
+    {
+      "icon": "Baby",
+      "value": "Kids & Adults",
+      "label": "Family Focused"
+    },
+    {
+      "icon": "Clock",
+      "value": "7",
+      "label": "Days Availability"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Users",
+      "title": "Care for Every Family Member",
+      "description": "From pediatric checkups to elder care, we treat patients of every age in one familiar clinic."
+    },
+    {
+      "icon": "Clock",
+      "title": "Same-Day Appointments",
+      "description": "Most routine procedures — checkups, cleanings, and fillings — are scheduled the same day you call."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Sterile, Modern Equipment",
+      "description": "Every instrument is sterilized per protocol, with modern equipment for accurate, comfortable treatment."
+    },
+    {
+      "icon": "Smile",
+      "title": "Gentle With Nervous Patients",
+      "description": "We take extra time with anxious patients and children so every visit feels calm, not rushed."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-priya-raghavan",
+      "name": "Dr. Priya Raghavan",
+      "role": "Chief Dental Surgeon",
+      "qualification": "BDS, MDS (Conservative Dentistry & Endodontics)",
+      "registrationNumber": "TNDC-A-18542",
+      "photo": "/images/dr-priya-raghavan.jpg",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:30 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Priya leads the clinical practice at iDentist, focusing on root canal treatment, restorative dentistry, and full-family care. She's known among patients for explaining every step before she starts.",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS Conservative Dentistry & Endodontics — Madras Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Root canal treatment",
+        "Tooth-colored fillings",
+        "Full mouth rehabilitation"
+      ]
+    },
+    {
+      "slug": "dr-arvind-shankar",
+      "name": "Dr. Arvind Shankar",
+      "role": "Orthodontist & Pediatric Dentist",
+      "qualification": "BDS, MDS (Orthodontics & Dentofacial Orthopaedics)",
+      "registrationNumber": "TNDC-A-21097",
+      "photo": "/images/dr-arvind-shankar.jpg",
+      "experienceYears": 8,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 10:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Arvind handles braces, aligners, and children's dentistry at iDentist, with a particular focus on making young patients comfortable during their very first dental visits.",
+      "education": [
+        "BDS — Meenakshi Ammal Dental College, Chennai",
+        "MDS Orthodontics & Dentofacial Orthopaedics — Sri Ramachandra Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Braces & clear aligners",
+        "Pediatric dentistry",
+        "Bite correction"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "dental-checkups-cleaning",
+      "name": "Dental Checkups & Cleaning",
+      "tagline": "Routine care that catches problems early",
+      "overview": "Regular checkups and professional cleaning form the foundation of family dental health — we recommend a visit every six months for every family member above age three.",
+      "symptoms": [
+        "Yellowing or stained teeth",
+        "Bad breath",
+        "Bleeding gums while brushing"
+      ],
+      "procedure": [
+        "Oral examination and X-ray if needed",
+        "Scaling and polishing",
+        "Fluoride application (for children)",
+        "Personalized oral hygiene guidance"
+      ],
+      "benefits": [
+        "Catches cavities and gum disease early",
+        "Removes tartar buildup that brushing can't",
+        "Quick, painless, and suitable for all ages"
+      ],
+      "recovery": "No downtime — you can eat and drink normally right after.",
+      "faqs": [
+        {
+          "question": "How often should I get a dental checkup?",
+          "answer": "We recommend a checkup and cleaning every six months for adults and children alike."
+        },
+        {
+          "question": "Is scaling bad for teeth?",
+          "answer": "No — scaling only removes tartar and plaque from the tooth surface, it doesn't damage enamel."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "teeth-whitening"
+      ]
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the natural tooth, relieve the pain",
+      "overview": "Dr. Priya specializes in painless, single-to-multi-sitting root canal treatment to relieve infection and save your natural tooth wherever possible.",
+      "symptoms": [
+        "Severe or throbbing tooth pain",
+        "Sensitivity to hot or cold that lingers",
+        "Swelling or tenderness in the gums",
+        "Darkening of a tooth"
+      ],
+      "procedure": [
+        "Diagnosis with X-ray",
+        "Local anesthesia",
+        "Removal of infected pulp and canal cleaning",
+        "Filling and sealing the canal",
+        "Crown placement to protect the tooth"
+      ],
+      "benefits": [
+        "Saves your natural tooth instead of extraction",
+        "Relieves pain caused by infection",
+        "Modern technique keeps the process largely painless"
+      ],
+      "recovery": "Mild sensitivity for a few days is normal; most patients resume normal eating within 24 hours.",
+      "faqs": [
+        {
+          "question": "Is root canal treatment painful?",
+          "answer": "With local anesthesia, the procedure itself is largely painless — most discomfort patients fear is from the untreated infection, not the treatment."
+        },
+        {
+          "question": "How many visits does it take?",
+          "answer": "Most root canals are completed in one to two sittings, depending on the tooth and severity of infection."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "dental-checkups-cleaning"
+      ]
+    },
+    {
+      "slug": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "tagline": "A brighter smile in one sitting",
+      "overview": "Safe, professional in-office whitening that lifts stains from tea, coffee, and everyday wear without damaging enamel.",
+      "symptoms": [],
+      "procedure": [
+        "Shade assessment",
+        "Gum protection application",
+        "Whitening gel application under controlled conditions",
+        "Final shade check"
+      ],
+      "benefits": [
+        "Visible results in a single sitting",
+        "Safer and more even than over-the-counter kits",
+        "Long-lasting with proper care"
+      ],
+      "recovery": "Mild sensitivity for a day or two; avoid staining foods and drinks for 48 hours.",
+      "faqs": [
+        {
+          "question": "How long does whitening last?",
+          "answer": "Results typically last 12–18 months depending on diet and oral hygiene habits."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "dental-checkups-cleaning"
+      ]
+    },
+    {
+      "slug": "braces-clear-aligners",
+      "name": "Braces & Clear Aligners",
+      "tagline": "Straighter teeth for teens and adults",
+      "overview": "Dr. Arvind offers both traditional braces and clear aligners, matched to your bite, budget, and lifestyle — for teenagers and adults alike.",
+      "symptoms": [
+        "Crowded or crooked teeth",
+        "Gaps between teeth",
+        "Overbite or underbite"
+      ],
+      "procedure": [
+        "Orthodontic assessment and X-ray",
+        "Custom treatment plan",
+        "Braces or aligner fitting",
+        "Monthly adjustment visits"
+      ],
+      "benefits": [
+        "Options for both visible and near-invisible correction",
+        "Custom treatment plans for teens and adults",
+        "Regular monitoring to keep treatment on track"
+      ],
+      "recovery": "Mild soreness for 2-3 days after adjustments is normal and manageable with over-the-counter pain relief.",
+      "faqs": [
+        {
+          "question": "At what age can my child start orthodontic treatment?",
+          "answer": "We typically evaluate children from age 7, though most active treatment starts between ages 10-14."
+        },
+        {
+          "question": "How long does treatment take?",
+          "answer": "Most cases take 12–24 months depending on the complexity of the correction needed."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "pediatric-dentistry"
+      ]
+    },
+    {
+      "slug": "pediatric-dentistry",
+      "name": "Pediatric Dentistry",
+      "tagline": "Gentle dental care for your child's first visits",
+      "overview": "A calm, friendly approach to children's dentistry — from first checkups to cavity fillings — designed to build good dental habits early and avoid dental fear later in life.",
+      "symptoms": [
+        "Tooth decay in baby teeth",
+        "Delayed or irregular tooth eruption",
+        "Thumb-sucking related concerns"
+      ],
+      "procedure": [
+        "Friendly introductory visit and oral exam",
+        "Fluoride application or sealants as needed",
+        "Cavity treatment with child-friendly technique",
+        "Guidance for parents on home care"
+      ],
+      "benefits": [
+        "Builds comfort with dental visits from an early age",
+        "Preventive focus reduces future treatment needs",
+        "Child-friendly pacing and communication"
+      ],
+      "recovery": "No downtime for routine visits; simple aftercare guidance given for any treatment performed.",
+      "faqs": [
+        {
+          "question": "When should my child's first dental visit be?",
+          "answer": "We recommend a first visit by age one, or within six months of the first tooth appearing."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "braces-clear-aligners"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "Restorative & Root Canal",
+      "doctorSlugs": [
+        "dr-priya-raghavan"
+      ]
+    },
+    {
+      "name": "Orthodontics & Pediatric Dentistry",
+      "doctorSlugs": [
+        "dr-arvind-shankar"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/reception-area.jpg"
+    },
+    {
+      "caption": "Treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/treatment-room.jpg"
+    },
+    {
+      "caption": "Dental chair setup",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/dental-chair-setup.jpg"
+    },
+    {
+      "caption": "Sterilization station",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/sterilization-station.jpg"
+    },
+    {
+      "caption": "Consultation corner",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/consultation-corner.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "We take our whole family here now — my kids, my parents, everyone. It's rare to find one clinic that's this good with both.",
+      "author": "Patient, iDentist Family Dental Care",
+      "rating": 5
+    },
+    {
+      "quote": "I was dreading my root canal but Dr. Priya explained every step and it was nowhere near as painful as I expected.",
+      "author": "Patient, iDentist Family Dental Care",
+      "rating": 5
+    },
+    {
+      "quote": "My son actually looks forward to his dental visits now. Dr. Arvind is so patient with kids.",
+      "author": "Patient, iDentist Family Dental Care",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you treat both children and adults?",
+      "answer": "Yes — we're a family clinic and treat patients of every age, from toddlers to seniors."
+    },
+    {
+      "question": "Do I need an appointment or can I walk in?",
+      "answer": "Walk-ins are welcome, but calling ahead helps us minimize your wait time, especially for routine checkups."
+    },
+    {
+      "question": "Do you offer emergency dental care?",
+      "answer": "Yes, call our clinic number directly for urgent dental pain or trauma and we'll try to accommodate you the same day."
+    },
+    {
+      "question": "Is parking available at the clinic?",
+      "answer": "Yes, two-wheeler and car parking is available near the clinic on Mugalivakkam Main Road."
+    },
+    {
+      "question": "Do you accept online appointment booking?",
+      "answer": "Yes, you can book an appointment through our website or by calling us directly."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "when-should-your-child-first-visit-the-dentist",
+      "title": "When Should Your Child First Visit the Dentist?",
+      "excerpt": "Many parents wait until something looks wrong — here's why an earlier first visit actually prevents problems.",
+      "author": "Dr. Arvind Shankar",
+      "date": "2026-03-10",
+      "content": [
+        "Most parents assume dental visits should start once all baby teeth have come in, but the general recommendation is much earlier — by your child's first birthday, or within six months of the first tooth appearing.",
+        "Early visits aren't about treatment; they're about getting your child comfortable with the clinic environment, and catching early signs of decay or misalignment before they become bigger problems.",
+        "A first visit is usually short and simple — a gentle look at the teeth and gums, and guidance for parents on brushing technique, diet, and thumb-sucking habits if relevant.",
+        "Starting early also builds a habit. Children who visit the dentist regularly from a young age tend to have far less dental anxiety as adults."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, dental, contact, and billing information necessary to provide treatment and maintain patient records."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and deliver your treatment, and to contact you regarding appointments. We do not sell patient data to third parties."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or correction of your dental records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least a few hours' notice to cancel or reschedule an appointment wherever possible, so we can accommodate other patients."
+      },
+      {
+        "heading": "Billing",
+        "body": "Treatment charges are payable at the time of visit unless otherwise agreed with the clinic in advance."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational only and does not replace an in-person dental evaluation and diagnosis."
+      }
+    ]
+  },
+  "seo": {
+    "title": "iDentist Family Dental Care — Madhanandapuram, Chennai",
+    "description": "Family dental clinic in Madhanandapuram, Chennai offering checkups, root canal treatment, braces, teeth whitening, and pediatric dentistry for all ages."
+  }
+}

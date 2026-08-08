@@ -1,0 +1,412 @@
+{
+  "industry": "healthcare",
+  "clinicType": "physiotherapy",
+  "theme": "orthoedge",
+  "business": {
+    "name": "Shree Saai Ram Physiotherapy Clinic",
+    "city": "Thiruverkadu, Chennai",
+    "phone": "+91 98410 75381",
+    "whatsapp": "919841075381",
+    "email": "hello@saairamphysio.in",
+    "address": "35, Annammal Salai, near Pupil School, Thiruverkadu Co-operative Nagar, Thiruverkadu, Chennai, Tamil Nadu 600077",
+    "hours": "Mon–Sat · 8:00 AM – 12:00 PM, 4:00 PM – 8:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Physiotherapy & Rehabilitation",
+    "headline": "Get Back To Full Strength.",
+    "subheadline": "From post-surgical recovery to sports injuries and everyday back pain, Shree Saai Ram Physiotherapy builds a real recovery plan — not just a few stretches and a discharge slip.",
+    "primaryCta": {
+      "label": "Book Assessment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "Recovery built around your actual life",
+    "body": [
+      "Shree Saai Ram Physiotherapy Clinic was started to give Thiruverkadu and the wider Chennai north-west belt a physiotherapy practice that treats recovery as a structured process, not a one-off session. Every patient gets an assessment, a written plan, and a realistic timeline — whether they're coming back from surgery, managing chronic pain, or trying to run again after a knee injury.",
+      "Our therapists work one-on-one with patients using a mix of manual therapy, targeted exercise, and modern equipment, with evening slots built around working schedules so treatment doesn't mean missing work."
+    ],
+    "highlights": [
+      "One-on-one sessions, not shared floor time",
+      "Personalized recovery plans with clear milestones",
+      "Modern rehab equipment on-site",
+      "Evening hours for working patients"
+    ],
+    "image": "/images/about-therapy-session.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "3,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Activity",
+      "value": "5",
+      "label": "Specialty Programs"
+    },
+    {
+      "icon": "Award",
+      "value": "8",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Clock",
+      "value": "6",
+      "label": "Days Open Weekly"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "ClipboardList",
+      "title": "Personalized Recovery Plans",
+      "description": "No generic handouts — every plan is built around your injury, your goals, and your actual daily movement demands."
+    },
+    {
+      "icon": "Dumbbell",
+      "title": "Modern Equipment",
+      "description": "Our therapy floor is equipped with modern rehab and strengthening equipment used alongside hands-on manual therapy."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "Experienced Physiotherapists",
+      "description": "Our therapists hold BPT and MPT qualifications with focused experience in orthopedic and sports rehabilitation."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours",
+      "description": "Extended evening slots mean working patients don't have to choose between recovery and their job."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "arun-prakash",
+      "name": "Arun Prakash",
+      "role": "Senior Physiotherapist",
+      "qualification": "MPT (Orthopedics), BPT",
+      "registrationNumber": "TNPC-PT-08421",
+      "experienceYears": 10,
+      "languages": [
+        "Tamil",
+        "English",
+        "Hindi"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 8:00 AM – 12:00 PM, 4:00 PM – 8:00 PM",
+      "bio": "Arun leads post-surgical and sports rehabilitation programs at the clinic, working closely with patients recovering from ligament surgery, fractures, and overuse injuries to build them back to full activity.",
+      "education": [
+        "MPT (Orthopedics) — Dr. MGR Medical University",
+        "BPT — Sri Ramachandra Institute of Higher Education and Research"
+      ],
+      "awards": [],
+      "specialties": [
+        "Post-surgical rehabilitation",
+        "Sports injury recovery",
+        "Manual therapy"
+      ],
+      "photo": "/images/doctor-arun-prakash.jpg"
+    },
+    {
+      "slug": "divya-shankar",
+      "name": "Divya Shankar",
+      "role": "Physiotherapist",
+      "qualification": "BPT",
+      "registrationNumber": "TNPC-PT-11267",
+      "experienceYears": 6,
+      "languages": [
+        "Tamil",
+        "English"
+      ],
+      "availability": "Mon–Sat · 8:00 AM – 12:00 PM",
+      "bio": "Divya focuses on neurological rehabilitation, geriatric mobility, and chronic back and neck pain management, with an emphasis on home exercise programs patients can realistically stick to.",
+      "education": [
+        "BPT — Madha College of Physiotherapy"
+      ],
+      "awards": [],
+      "specialties": [
+        "Back and neck pain therapy",
+        "Geriatric mobility",
+        "Neurological rehabilitation"
+      ],
+      "photo": "/images/doctor-divya-shankar.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "post-surgical-rehabilitation",
+      "name": "Post-Surgical Rehabilitation",
+      "tagline": "Structured recovery from the day you're cleared for therapy",
+      "overview": "Whether you've had knee, hip, or shoulder surgery, our post-surgical rehab program restores strength and range of motion in a structured, phase-based way so you don't plateau or re-injure yourself.",
+      "symptoms": [
+        "Stiffness and reduced range of motion after surgery",
+        "Weakness around the operated joint",
+        "Difficulty bearing weight or returning to daily activity"
+      ],
+      "procedure": [
+        "Initial assessment and surgeon-report review",
+        "Phase-based mobility and strengthening plan",
+        "Progressive loading with hands-on manual therapy",
+        "Functional testing before discharge"
+      ],
+      "benefits": [
+        "Faster, safer return to daily activity",
+        "Reduced risk of stiffness and re-injury",
+        "Plan coordinated with your surgeon's protocol"
+      ],
+      "recovery": "Typical rehab programs run 6–12 weeks depending on the surgery and starting condition, with milestones reviewed every two weeks.",
+      "faqs": [
+        {
+          "question": "How soon after surgery should I start physiotherapy?",
+          "answer": "Most surgeons clear patients for physiotherapy within 1–2 weeks post-surgery — we coordinate with your surgeon's specific protocol before starting."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "sports-injury-recovery"
+      ]
+    },
+    {
+      "slug": "sports-injury-recovery",
+      "name": "Sports Injury Recovery",
+      "tagline": "Rehab built around getting back to your sport, not just off crutches",
+      "overview": "From ligament sprains to muscle tears, our sports rehab program combines manual therapy and progressive strengthening with a real return-to-play timeline.",
+      "symptoms": [
+        "Pain or instability during sport-specific movement",
+        "Swelling after activity",
+        "Reduced strength or confidence in the injured area"
+      ],
+      "procedure": [
+        "Movement and strength assessment",
+        "Sport-specific rehab programming",
+        "Progressive strengthening and agility work",
+        "Return-to-play readiness check"
+      ],
+      "benefits": [
+        "Rehab tailored to your specific sport",
+        "Reduced risk of re-injury",
+        "Progress tracked against clear benchmarks"
+      ],
+      "recovery": "Recovery timelines vary from 3–16 weeks depending on injury severity and sport demands.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "post-surgical-rehabilitation"
+      ]
+    },
+    {
+      "slug": "back-neck-pain-therapy",
+      "name": "Back & Neck Pain Therapy",
+      "tagline": "Relief that addresses the cause, not just the symptom",
+      "overview": "Chronic back and neck pain is often driven by posture, muscle imbalance, or old injury patterns. We assess the root cause and build a plan combining manual therapy, posture correction, and strengthening.",
+      "symptoms": [
+        "Persistent lower back or neck pain",
+        "Pain that worsens with sitting or desk work",
+        "Stiffness or reduced flexibility"
+      ],
+      "procedure": [
+        "Postural and movement assessment",
+        "Manual therapy for pain relief",
+        "Core and postural strengthening program",
+        "Ergonomic and lifestyle guidance"
+      ],
+      "benefits": [
+        "Addresses root cause, not just symptoms",
+        "Practical guidance for desk-job patients",
+        "Long-term relief, not just short-term pain masking"
+      ],
+      "recovery": "Most patients see meaningful improvement within 4–6 weeks of consistent therapy.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "geriatric-mobility-therapy"
+      ]
+    },
+    {
+      "slug": "neurological-physiotherapy",
+      "name": "Neurological Physiotherapy",
+      "tagline": "Rebuilding movement and independence after neurological events",
+      "overview": "For patients recovering from stroke, nerve injury, or other neurological conditions, our therapists focus on restoring movement, balance, and functional independence through targeted, patient-paced rehabilitation.",
+      "symptoms": [
+        "Weakness or reduced coordination on one side of the body",
+        "Balance difficulty or falls",
+        "Reduced independence in daily activities"
+      ],
+      "procedure": [
+        "Neurological and functional assessment",
+        "Balance and coordination retraining",
+        "Task-specific functional training",
+        "Caregiver guidance for home practice"
+      ],
+      "benefits": [
+        "Improved balance and functional independence",
+        "Patient-paced, closely supervised sessions",
+        "Guidance for family caregivers"
+      ],
+      "recovery": "Neurological rehab is typically a longer-term program, reviewed and adjusted every 4 weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "geriatric-mobility-therapy"
+      ]
+    },
+    {
+      "slug": "geriatric-mobility-therapy",
+      "name": "Geriatric Mobility Therapy",
+      "tagline": "Staying steady, mobile, and independent with age",
+      "overview": "Our geriatric mobility program focuses on balance, strength, and fall prevention, helping older adults stay independent and confident in daily movement.",
+      "symptoms": [
+        "Reduced balance or fear of falling",
+        "General mobility decline",
+        "Joint stiffness affecting daily tasks"
+      ],
+      "procedure": [
+        "Mobility and fall-risk assessment",
+        "Balance and strength training",
+        "Gait training where needed",
+        "Home safety and exercise guidance"
+      ],
+      "benefits": [
+        "Reduced fall risk",
+        "Improved confidence in daily movement",
+        "Gentle, age-appropriate progression"
+      ],
+      "recovery": "Ongoing maintenance programs are common; most patients see improved balance within 6–8 weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "back-neck-pain-therapy",
+        "neurological-physiotherapy"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Treatment and exercise area",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-treatment-area.jpg"
+    },
+    {
+      "caption": "Rehab equipment floor",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-rehab-equipment.jpg"
+    },
+    {
+      "caption": "One-on-one therapy session",
+      "category": "Care",
+      "swatchClassName": "bg-blue-50",
+      "src": "/images/gallery-therapy-session.jpg"
+    },
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Clinic exterior",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I was back to running six months after my knee surgery — Arun built a plan that got me there in stages instead of just telling me to 'take it slow'.",
+      "author": "Patient, Shree Saai Ram Physiotherapy Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "My mother's balance and confidence walking around the house improved so much after a few weeks with Divya. We wish we'd started sooner.",
+      "author": "Patient, Shree Saai Ram Physiotherapy Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Years of desk-job back pain finally addressed properly — not just a massage, but an actual plan with exercises that worked.",
+      "author": "Patient, Shree Saai Ram Physiotherapy Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need a doctor's referral to book an appointment?",
+      "answer": "No referral is required — you can book an assessment directly, though we're happy to coordinate with your surgeon or physician if you have one."
+    },
+    {
+      "question": "How long does a typical session last?",
+      "answer": "Initial assessments run about 45–60 minutes; follow-up sessions are typically 30–45 minutes depending on your treatment plan."
+    },
+    {
+      "question": "Do you offer home visits?",
+      "answer": "Home visits can be arranged for patients with limited mobility — please call ahead to check availability."
+    },
+    {
+      "question": "What should I bring to my first visit?",
+      "answer": "Bring any relevant medical reports, imaging, or surgeon notes, along with comfortable clothing that allows movement of the affected area."
+    },
+    {
+      "question": "What is your cancellation policy?",
+      "answer": "Please give at least 24 hours notice to reschedule or cancel an appointment."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-a-recovery-plan-beats-a-generic-timeline",
+      "title": "Why a Structured Recovery Plan Beats a Generic Timeline",
+      "excerpt": "A calendar date isn't a recovery plan. Here's why milestone-based physiotherapy gets patients back to full activity faster and safer.",
+      "author": "Arun Prakash",
+      "date": "2026-04-02",
+      "content": [
+        "\"Come back in six weeks\" is not a recovery plan — it's a guess. Real recovery depends on how your body actually responds to treatment, not a number on a calendar.",
+        "At Shree Saai Ram Physiotherapy, every patient gets a plan built around measurable milestones: range of motion, strength symmetry, and functional movement, reviewed every two weeks.",
+        "This matters most for post-surgical and sports injury patients, where returning to activity too early — or too late — both carry real risk.",
+        "If your current therapy plan doesn't have clear, measurable checkpoints, it's worth asking what you're actually being measured against."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to assess and treat you, and handle it with the confidentiality your care requires."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and coordinate your treatment at our clinic, including with any referring physician or surgeon you name."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your treatment records at any time through our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment."
+      },
+      {
+        "heading": "Payments",
+        "body": "Payment is due at the time of each session unless a package arrangement has been agreed in advance."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person assessment by a qualified physiotherapist."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Shree Saai Ram Physiotherapy Clinic — Thiruverkadu, Chennai",
+    "description": "Physiotherapy and rehabilitation clinic in Thiruverkadu, Chennai offering post-surgical rehab, sports injury recovery, back and neck pain therapy, and geriatric mobility programs."
+  }
+}

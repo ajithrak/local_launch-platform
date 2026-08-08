@@ -1,0 +1,434 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "careplus",
+  "business": {
+    "name": "Aaradhana Clinic and Labs",
+    "city": "Poonamallee, Chennai",
+    "phone": "+91 83445 51661",
+    "whatsapp": "918344551661",
+    "email": "hello@aaradhanaclinic.in",
+    "address": "SSV Complex, Noombal Road, Goparasanallur, Poonamallee, Tamil Nadu 600077",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM · Sunday Closed",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "General Physician & Diagnostic Lab, Poonamallee",
+    "headline": "Consultation and Lab Tests, in One Visit.",
+    "subheadline": "Aaradhana Clinic and Labs brings a general physician's care and in-house diagnostic testing under one roof, so you get checked, tested, and treated without a separate trip across town for lab work.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Dr. Venmathi",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Care and diagnostics, without the runaround",
+    "body": [
+      "Aaradhana Clinic and Labs was started to solve a problem every family in Goparasanallur and Poonamallee knows well — getting a diagnosis usually means two trips: one to see a doctor, another to a separate lab for blood work, then a wait for reports before anyone can actually treat you.",
+      "Led by Dr. Venmathi S, our clinic combines a general physician's consultation room with an in-house diagnostic lab, so common tests can be drawn the same visit and reviewed against your symptoms without losing days in between. Whether it's a fever that won't settle, routine diabetes and blood pressure monitoring, or a full-body health checkup, we try to get you an answer — not just an appointment."
+    ],
+    "highlights": [
+      "General physician consultation and lab testing under one roof",
+      "Same-visit sample collection for common blood and urine tests",
+      "Ongoing management for diabetes, hypertension and thyroid conditions",
+      "Affordable health checkup packages for individuals and families"
+    ],
+    "image": "/images/about-doctor-with-patient-consultation.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "10,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Award",
+      "value": "12+",
+      "label": "Years Serving Poonamallee"
+    },
+    {
+      "icon": "TestTube",
+      "value": "50+",
+      "label": "Lab Tests Available In-House"
+    },
+    {
+      "icon": "Clock",
+      "value": "Same-Day",
+      "label": "Reports for Routine Tests"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Building2",
+      "title": "Clinic and Lab, One Roof",
+      "description": "Get examined and get your blood drawn in the same visit — no separate lab appointment, no second commute across Poonamallee."
+    },
+    {
+      "icon": "Clock",
+      "title": "Fast, Same-Day Reports",
+      "description": "Most routine tests — sugar, blood counts, thyroid panels — are processed in-house with same-day turnaround."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Physician-Led, Not Just a Lab",
+      "description": "Every result is reviewed by Dr. Venmathi against your symptoms and history, not just handed over as a printout."
+    },
+    {
+      "icon": "IndianRupee",
+      "title": "Transparent, Affordable Pricing",
+      "description": "Consultation and lab charges are clearly listed upfront, with checkup packages priced for families, not just individuals."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-venmathi-s",
+      "name": "Dr. Venmathi S",
+      "role": "Founder & Lead General Physician",
+      "qualification": "MBBS, MD (General Medicine)",
+      "registrationNumber": "TNMC-58214",
+      "experienceYears": 13,
+      "languages": [
+        "Tamil",
+        "English",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Venmathi S founded Aaradhana Clinic and Labs to give Poonamallee and Goparasanallur families a single place for both consultation and diagnosis. She sees patients across every age group, with a particular focus on diabetes, hypertension and thyroid management, and personally reviews in-house lab results against each patient's history before deciding on treatment.",
+      "photo": "/images/doctor-venmathi-s-headshot.jpg",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD, General Medicine — Kilpauk Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General medicine",
+        "Diabetes and hypertension management",
+        "Preventive health screening"
+      ]
+    },
+    {
+      "slug": "dr-karthik-r",
+      "name": "Dr. Karthik R",
+      "role": "Pathologist & Lab Director",
+      "qualification": "MD (Pathology)",
+      "registrationNumber": "TNMC-61037",
+      "experienceYears": 9,
+      "languages": [
+        "Tamil",
+        "English"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 6:00 PM (Lab hours)",
+      "bio": "Dr. Karthik R oversees the diagnostic lab at Aaradhana Clinic and Labs, ensuring sample collection, testing and reporting are accurate and turned around quickly, so Dr. Venmathi can act on results the same day wherever possible.",
+      "photo": "/images/doctor-karthik-r-headshot.jpg",
+      "education": [
+        "MBBS — Stanley Medical College, Chennai",
+        "MD, Pathology — Government Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Clinical pathology",
+        "Blood and biochemistry testing",
+        "Diagnostic lab quality control"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-consultation",
+      "name": "General Consultation",
+      "tagline": "Same-day appointments for everyday health concerns",
+      "overview": "From fevers and infections to unexplained fatigue or persistent pain, Dr. Venmathi provides thorough general physician consultations, with in-house lab testing available immediately when needed.",
+      "symptoms": [
+        "Fever, cold or infection",
+        "Persistent fatigue or weakness",
+        "General aches, pain or discomfort",
+        "Routine health concerns"
+      ],
+      "procedure": [
+        "Detailed history and physical examination",
+        "On-the-spot lab tests when required",
+        "Diagnosis and treatment plan explained clearly",
+        "Follow-up scheduled if needed"
+      ],
+      "benefits": [
+        "Same-day appointments in most cases",
+        "Lab tests ordered and drawn in the same visit",
+        "Clear explanation of diagnosis and next steps"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do I need an appointment for a general consultation?",
+          "answer": "Walk-ins are welcome, but calling ahead helps us reduce your wait time, especially during evening hours."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "diagnostic-lab-tests",
+        "chronic-disease-management"
+      ]
+    },
+    {
+      "slug": "diagnostic-lab-tests",
+      "name": "Diagnostic Lab Tests",
+      "tagline": "Blood work and common tests, done in-house",
+      "overview": "Our in-house lab handles routine blood work, urine analysis, and common diagnostic panels, so results can be reviewed by Dr. Venmathi the same day in most cases instead of waiting on an outside lab.",
+      "symptoms": [],
+      "procedure": [
+        "Sample collection at the clinic",
+        "In-house processing for routine tests",
+        "Results reviewed by our physician",
+        "Reports explained in a follow-up discussion"
+      ],
+      "benefits": [
+        "No separate trip to an outside lab",
+        "Same-day results for most routine tests",
+        "Results interpreted by a physician, not just printed"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "What tests are available in-house?",
+          "answer": "We handle common blood counts, blood sugar, thyroid panels, lipid profiles, urine analysis and more. For specialized or rare tests, we coordinate with partner labs and keep you updated."
+        },
+        {
+          "question": "Do I need to fast before a blood test?",
+          "answer": "Some tests, like fasting blood sugar or lipid profiles, require fasting for 8-12 hours. We'll let you know when booking your test."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "health-checkup-packages",
+        "general-consultation"
+      ]
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Chronic Disease Management",
+      "tagline": "Ongoing care for diabetes, blood pressure and thyroid",
+      "overview": "For patients managing diabetes, hypertension, thyroid disorders or other ongoing conditions, we combine regular consultations with in-house monitoring tests to keep treatment on track without repeated outside lab visits.",
+      "symptoms": [
+        "Diagnosed diabetes or high blood pressure",
+        "Thyroid imbalance",
+        "Need for regular monitoring and medication review"
+      ],
+      "procedure": [
+        "Review of current condition and medication",
+        "Routine monitoring tests as needed",
+        "Medication adjustment where appropriate",
+        "Scheduled follow-up visits"
+      ],
+      "benefits": [
+        "Continuity of care with the same physician",
+        "Monitoring tests done on-site",
+        "Practical lifestyle guidance alongside medication"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "diagnostic-lab-tests",
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "Preventive checkups for individuals and families",
+      "overview": "Our health checkup packages bundle a physician consultation with a curated set of lab tests, covering the basics that catch problems early — before they become emergencies.",
+      "symptoms": [],
+      "procedure": [
+        "Pre-checkup consultation",
+        "Bundled lab tests as per package",
+        "Physician review of all results",
+        "Personalized recommendations"
+      ],
+      "benefits": [
+        "Bundled pricing, lower than individual tests",
+        "One visit covers consultation and testing",
+        "Family packages available"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I get a full health checkup?",
+          "answer": "For most healthy adults, we recommend a full checkup once a year, or more frequently if you have an existing condition Dr. Venmathi is monitoring."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "diagnostic-lab-tests",
+        "general-consultation"
+      ]
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures",
+      "tagline": "Dressings, injections and small procedures, on-site",
+      "overview": "For minor wounds, injections, dressing changes and other small procedures, our clinic is equipped to treat you on the spot without a referral to a larger hospital.",
+      "symptoms": [
+        "Minor cuts or wounds needing dressing",
+        "Prescribed injections",
+        "Minor skin procedures"
+      ],
+      "procedure": [
+        "Assessment by Dr. Venmathi",
+        "Procedure performed on-site under sterile conditions",
+        "Aftercare instructions provided",
+        "Follow-up if required"
+      ],
+      "benefits": [
+        "No referral needed for minor procedures",
+        "Same-visit treatment",
+        "Lower cost than a hospital visit"
+      ],
+      "recovery": "Most minor procedures require only basic aftercare at home; specific instructions are given after each procedure.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-consultation"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Medicine",
+      "doctorSlugs": [
+        "dr-venmathi-s"
+      ]
+    },
+    {
+      "name": "Diagnostic Lab",
+      "doctorSlugs": [
+        "dr-karthik-r"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Clinic reception and waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-reception-waiting-area.jpg"
+    },
+    {
+      "caption": "Doctor's consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "In-house diagnostic lab",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-diagnostic-lab-equipment.jpg"
+    },
+    {
+      "caption": "Patient waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-patient-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-clinic-exterior-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I went in for a routine fever check and walked out with my blood test results the same evening. Didn't have to run to another lab and wait two days.",
+      "author": "Patient, Aaradhana Clinic and Labs",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Venmathi has been managing my father's diabetes for over a year now. She actually looks at the lab numbers herself and explains what changed, not just the medicines.",
+      "author": "Patient, Aaradhana Clinic and Labs",
+      "rating": 5
+    },
+    {
+      "quote": "Got our whole family's annual checkup done together in one morning. Simple, affordable, and no confusion about which reports belonged to whom.",
+      "author": "Patient, Aaradhana Clinic and Labs",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to book an appointment in advance?",
+      "answer": "Walk-ins are welcome, but calling ahead on +91 83445 51661 helps us plan around lab and consultation slots, especially in the evening."
+    },
+    {
+      "question": "Can I get lab tests done without a doctor's consultation?",
+      "answer": "Yes, you can walk in directly for lab tests. We also recommend a quick consultation if you'd like the results explained by Dr. Venmathi."
+    },
+    {
+      "question": "How long do lab reports take?",
+      "answer": "Most routine tests — blood counts, sugar, thyroid panels — are ready the same day. Specialized tests sent to partner labs may take longer, and we'll let you know upfront."
+    },
+    {
+      "question": "Do you treat children as well as adults?",
+      "answer": "Yes, Dr. Venmathi sees patients of all ages for general medical concerns. For specialized pediatric or surgical needs, we'll refer you to the right specialist."
+    },
+    {
+      "question": "What should I bring for a health checkup package?",
+      "answer": "Just come in fasting if your package includes fasting blood tests (we'll confirm this when you book), and bring any previous medical records if available."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-annual-health-checkups-catch-problems-early",
+      "title": "Why an Annual Health Checkup Catches Problems Before They Become Emergencies",
+      "excerpt": "Most chronic conditions show warning signs in routine blood work years before symptoms appear. Here's what a basic annual checkup actually looks for.",
+      "author": "Dr. Venmathi S",
+      "date": "2026-05-14",
+      "content": [
+        "By the time diabetes or high blood pressure start causing noticeable symptoms, they've often been quietly present for years. A basic annual checkup — blood sugar, blood pressure, lipid profile and a physical exam — is designed to catch exactly this window, while it's still easy to manage.",
+        "One reason people skip checkups is the hassle: a consultation here, a lab visit there, then a wait for results before anyone tells you what they mean. That gap is exactly why we built Aaradhana Clinic and Labs around doing both in one place — so the barrier to getting checked is as low as possible.",
+        "A good checkup isn't just a stack of numbers. What matters is whether someone looks at your results against your age, family history and lifestyle, and tells you plainly what — if anything — needs attention.",
+        "If it's been more than a year since your last full checkup, that alone is a reasonable enough reason to book one. You don't need to be feeling unwell to benefit from catching something early."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact and billing information necessary to provide consultation, diagnostic and lab services."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care, including lab testing and follow-up treatment. We do not sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your medical and lab records at any time through our clinic reception."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least a few hours' notice to cancel or reschedule an appointment where possible."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and lab test charges are payable at the time of visit. Package pricing is confirmed before testing begins."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person consultation with a physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Aaradhana Clinic and Labs — Poonamallee, Chennai",
+    "description": "General physician consultation and in-house diagnostic lab testing in Poonamallee, Chennai. Same-visit care led by Dr. Venmathi S."
+  }
+}

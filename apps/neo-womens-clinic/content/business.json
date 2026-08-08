@@ -1,0 +1,402 @@
+{
+  "industry": "healthcare",
+  "clinicType": "gynecology",
+  "theme": "mothercare",
+  "business": {
+    "name": "Neo Women's Clinic",
+    "city": "Mugalivakkam, Chennai",
+    "phone": "+91 98944 40207",
+    "whatsapp": "919894440207",
+    "email": "hello@neowomensclinic.in",
+    "address": "22, Sakthi Nagar Main Rd, Somasundaram Avenue, Mugalivakkam, Chennai, Tamil Nadu 600116",
+    "hours": "Mon–Sat · 10:00 AM – 1:00 PM, 5:00 PM – 8:00 PM · Sunday Closed",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Gynecology & Women's Health Clinic",
+    "headline": "Compassionate Women's Health Care, Close to Home.",
+    "subheadline": "From routine gynecological checkups to prenatal care and family planning, Neo Women's Clinic offers attentive, private care for women at every stage of life in Mugalivakkam.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Women's health care that listens first",
+    "body": [
+      "Neo Women's Clinic was started with a simple goal — to give the women of Mugalivakkam and Porur a nearby clinic where gynecological and prenatal care feels personal, not rushed.",
+      "Whether you're coming in for a routine wellness checkup, navigating a pregnancy, or working through a concern like PCOS, our team takes the time to explain, listen, and support you through every visit."
+    ],
+    "highlights": [
+      "Private, comfortable consultation rooms",
+      "Evening clinic hours for working women",
+      "Experienced women's health specialists",
+      "Judgment-free conversations about your health"
+    ],
+    "image": "/images/about-clinic.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "3,000+",
+      "label": "Patients Cared For"
+    },
+    {
+      "icon": "Baby",
+      "value": "500+",
+      "label": "Deliveries Supported"
+    },
+    {
+      "icon": "Award",
+      "value": "10+",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "HeartPulse",
+      "value": "2",
+      "label": "Specialist Gynecologists"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "ShieldCheck",
+      "title": "Private, Comfortable Consultations",
+      "description": "Every conversation happens in a private room, at an unhurried pace, so you never feel rushed to explain your concerns."
+    },
+    {
+      "icon": "HeartPulse",
+      "title": "Experienced Women's Health Specialists",
+      "description": "Our gynecologists bring years of dedicated experience in obstetrics, gynecology, and reproductive health."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening & Weekend Hours",
+      "description": "Clinic hours are built around working women, with evening slots available six days a week."
+    },
+    {
+      "icon": "Activity",
+      "title": "On-Site Ultrasound & Diagnostics",
+      "description": "Routine prenatal and gynecological ultrasounds are available on-site, so you're not sent elsewhere for basic scans."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-lakshmi-venkatesan",
+      "name": "Dr. Lakshmi Venkatesan",
+      "role": "Gynecologist & Obstetrician",
+      "qualification": "MBBS, MD (Obstetrics & Gynecology)",
+      "registrationNumber": "TNMC-58214",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Tamil",
+        "Telugu"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 10:00 AM – 1:00 PM",
+      "bio": "Dr. Venkatesan has spent over a decade caring for women across every stage of life, from first gynecological visits to high-risk pregnancies. She is known for taking the time to explain conditions clearly and involve patients in every decision.",
+      "photo": "/images/dr-lakshmi-venkatesan.jpg",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD, Obstetrics & Gynecology — Kilpauk Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Prenatal & antenatal care",
+        "High-risk pregnancy management",
+        "PCOS/PCOD management",
+        "Gynecological ultrasound"
+      ]
+    },
+    {
+      "slug": "dr-anitha-raghavan",
+      "name": "Dr. Anitha Raghavan",
+      "role": "Gynecologist",
+      "qualification": "MBBS, DGO",
+      "registrationNumber": "TNMC-61937",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Tue, Thu, Sat · 5:00 PM – 8:00 PM",
+      "bio": "Dr. Raghavan focuses on well-woman health, family planning, and adolescent gynecology, with a particular interest in making first-time visits feel comfortable for younger patients.",
+      "photo": "/images/dr-anitha-raghavan.jpg",
+      "education": [
+        "MBBS — Stanley Medical College, Chennai",
+        "Diploma in Gynecology & Obstetrics (DGO) — Government Kasturba Gandhi Hospital, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Well-woman health screening",
+        "Family planning counseling",
+        "Adolescent gynecology",
+        "Menstrual disorder management"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "prenatal-antenatal-care",
+      "name": "Prenatal & Antenatal Care",
+      "tagline": "Consistent care from confirmation to delivery",
+      "overview": "Regular antenatal visits with monitoring, screening, and guidance through every trimester, so you and your baby are cared for at every step.",
+      "symptoms": [],
+      "procedure": [
+        "Initial antenatal visit and health history review",
+        "Trimester-wise monitoring visits",
+        "Growth scans and screening tests as needed",
+        "Delivery planning and postpartum follow-up"
+      ],
+      "benefits": [
+        "Consistent monitoring across your pregnancy",
+        "On-site ultrasound for routine scans",
+        "Guidance on nutrition and prenatal health"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "When should I schedule my first antenatal visit?",
+          "answer": "As soon as you have a positive pregnancy test — ideally by 6 to 8 weeks — so we can confirm dates and start early monitoring."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "well-woman-health-screening"
+      ]
+    },
+    {
+      "slug": "gynecological-checkups",
+      "name": "Gynecological Checkups",
+      "tagline": "Routine care for every stage of life",
+      "overview": "Comprehensive gynecological examinations and consultations covering menstrual health, infections, and general reproductive wellness.",
+      "symptoms": [
+        "Irregular or painful periods",
+        "Unusual discharge or discomfort",
+        "General reproductive health concerns"
+      ],
+      "procedure": [
+        "Detailed health history discussion",
+        "Physical examination",
+        "Diagnostic tests as required",
+        "Personalized treatment or follow-up plan"
+      ],
+      "benefits": [
+        "Private, unhurried consultations",
+        "Clear explanation of findings and options",
+        "Continuity of care with the same doctor"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "pcos-pcod-management"
+      ]
+    },
+    {
+      "slug": "pcos-pcod-management",
+      "name": "PCOS/PCOD Management",
+      "tagline": "Long-term care for hormonal health",
+      "overview": "Diagnosis and ongoing management of PCOS/PCOD through lifestyle guidance, medication, and regular monitoring tailored to your goals.",
+      "symptoms": [
+        "Irregular periods",
+        "Weight changes",
+        "Acne or excess hair growth",
+        "Difficulty conceiving"
+      ],
+      "procedure": [
+        "Hormonal and ultrasound evaluation",
+        "Personalized management plan",
+        "Regular follow-up and monitoring",
+        "Lifestyle and nutrition guidance"
+      ],
+      "benefits": [
+        "Individualized treatment, not a one-size-fits-all plan",
+        "Support for both symptom relief and fertility goals",
+        "Ongoing monitoring to track progress"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "gynecological-checkups"
+      ]
+    },
+    {
+      "slug": "family-planning-consultation",
+      "name": "Family Planning Consultation",
+      "tagline": "Guidance for the choices that matter to you",
+      "overview": "Confidential consultations covering contraception options, preconception planning, and family planning decisions at your own pace.",
+      "symptoms": [],
+      "procedure": [
+        "Private consultation to discuss goals",
+        "Review of suitable contraception or planning options",
+        "Guidance on preconception health if planning pregnancy",
+        "Follow-up as needed"
+      ],
+      "benefits": [
+        "Judgment-free, confidential discussions",
+        "Options explained clearly, with no pressure",
+        "Support whether planning for or against pregnancy"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "prenatal-antenatal-care"
+      ]
+    },
+    {
+      "slug": "well-woman-health-screening",
+      "name": "Well-Woman Health Screening",
+      "tagline": "Preventive care, on your schedule",
+      "overview": "Routine screening visits designed to catch concerns early, covering general reproductive health, menstrual patterns, and preventive checks.",
+      "symptoms": [],
+      "procedure": [
+        "Comprehensive health history review",
+        "Physical and gynecological examination",
+        "Recommended screenings based on age and history",
+        "Open discussion time for any concerns"
+      ],
+      "benefits": [
+        "Early detection through regular screening",
+        "Time set aside for questions, not just exams",
+        "A consistent record of your health over time"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "gynecological-checkups"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception & waiting lounge",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/reception-lounge.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/consultation-room.jpg"
+    },
+    {
+      "caption": "Ultrasound & exam room",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-50",
+      "src": "/images/ultrasound-exam-room.jpg"
+    },
+    {
+      "caption": "Patient waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/patient-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I was nervous about my first gynecological visit, but the doctor explained everything patiently and made me feel completely at ease.",
+      "author": "Patient, Neo Women's Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "My antenatal visits here were unhurried and reassuring. Every scan and question was handled with real care.",
+      "author": "Patient, Neo Women's Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "I finally found a clinic close to home where I can discuss PCOS concerns without feeling rushed through a 5-minute appointment.",
+      "author": "Patient, Neo Women's Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us at +91 98944 40207, or use the Book an Appointment button on this site to request a slot."
+    },
+    {
+      "question": "How often should I visit during pregnancy?",
+      "answer": "Typically once a month through the first two trimesters, then more frequently in the final trimester. Your doctor will set a personalized schedule at your first visit."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "Your first visit includes a detailed health history discussion, a physical examination if needed, and time set aside for any questions — expect it to run longer than a routine follow-up."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and major debit/credit cards at the clinic."
+    },
+    {
+      "question": "Will my visit be kept private and confidential?",
+      "answer": "Yes. All consultations take place in a private room, and your health information is kept strictly confidential."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-regular-gynecological-checkups-matter",
+      "title": "Why Regular Gynecological Checkups Matter, Even When You Feel Fine",
+      "excerpt": "Routine checkups aren't just for when something feels wrong — here's why an annual visit matters at every age.",
+      "author": "Dr. Lakshmi Venkatesan",
+      "date": "2026-02-10",
+      "content": [
+        "Many women only think to see a gynecologist when something feels wrong, but regular checkups are one of the most effective ways to catch concerns early — often before symptoms appear.",
+        "A routine visit can screen for infections, hormonal imbalances, and other conditions like PCOS well before they become disruptive, making treatment simpler and more effective.",
+        "Checkups are also a chance to discuss anything on your mind, from menstrual changes to family planning, in a private and unhurried setting.",
+        "We recommend an annual well-woman visit for most patients, with more frequent visits during pregnancy or when managing an ongoing condition. If it's been over a year since your last visit, it's a good time to book one."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide your care, and we keep it strictly confidential."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate and deliver your care. We do not sell or share patient data with third parties."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time through our clinic."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least a few hours' notice to cancel or reschedule an appointment where possible."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and procedure charges are payable at the time of your visit and will be disclosed in advance where possible."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person consultation with your doctor."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Neo Women's Clinic — Mugalivakkam, Chennai",
+    "description": "Gynecology and women's health clinic in Mugalivakkam, Chennai offering prenatal care, gynecological checkups, PCOS management, and family planning consultations."
+  }
+}
