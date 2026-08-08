@@ -1,0 +1,422 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "smilecraft",
+  "business": {
+    "name": "Smile Lounge Dental Clinic",
+    "city": "Chennai, Tamil Nadu",
+    "phone": "+91 98842 73430",
+    "whatsapp": "919884273430",
+    "email": "hello@smileloungedental.in",
+    "address": "28, Trunk Rd, MSS Nagar, Kumananchavadi, Kattuppakkam, Chennai, Tamil Nadu 600056",
+    "hours": "Mon–Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Dental Care, Reimagined",
+    "headline": "Your Smile's Favorite Hangout.",
+    "subheadline": "Smile Lounge brings a relaxed, boutique dental experience to Kattuppakkam — comfortable chairs, gentle technique, and none of the clinical stress you're used to.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Dentists",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Dental care that feels like a lounge, not a waiting room",
+    "body": [
+      "Smile Lounge Dental Clinic was built on a simple idea — a trip to the dentist shouldn't feel like something to dread. Tucked into Kumananchavadi on Trunk Road, our studio swaps the usual clinical chill for a calmer, more considered space, without cutting any corners on the dentistry itself.",
+      "Whether you're in for a routine cleaning, a root canal, or a full smile makeover, our team walks you through every step in plain language, uses modern gentle-touch technique, and keeps evening slots open for people who simply can't get away during the day."
+    ],
+    "highlights": [
+      "Relaxed, lounge-style treatment rooms",
+      "Modern, minimally invasive technique",
+      "Evening appointments until 9 PM",
+      "Clear, upfront treatment explanations"
+    ],
+    "image": "/images/about-lounge-interior.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Smile",
+      "value": "3,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Users",
+      "value": "2",
+      "label": "Dental Specialists"
+    },
+    {
+      "icon": "Award",
+      "value": "6",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Clock",
+      "value": "7",
+      "label": "Days Consultation Support"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Sparkles",
+      "title": "A Lounge, Not a Clinic",
+      "description": "Comfortable seating, calm interiors, and a genuinely relaxed atmosphere from the moment you walk in."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Modern, Gentle Technique",
+      "description": "Minimally invasive methods designed to make even routine procedures painless and low-stress."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "Experienced Dentists",
+      "description": "Our clinicians bring years of hands-on experience across general, cosmetic, and orthodontic care."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours Available",
+      "description": "Open until 9 PM on weekdays and Saturdays, so a visit doesn't mean taking time off work."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-priya-ramanathan",
+      "name": "Dr. Priya Ramanathan",
+      "role": "Cosmetic & General Dentist",
+      "qualification": "BDS, MDS (Cosmetic Dentistry)",
+      "registrationNumber": "TNDC-18452",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Priya leads Smile Lounge's cosmetic and general dentistry practice, with a particular focus on smile makeovers, veneers, and making first-time patients feel at ease.",
+      "photo": "/images/doctor-priya-ramanathan.jpg",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS Cosmetic Dentistry — Meenakshi Ammal Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Smile makeovers",
+        "Veneers",
+        "Teeth whitening"
+      ]
+    },
+    {
+      "slug": "dr-arjun-menon",
+      "name": "Dr. Arjun Menon",
+      "role": "Orthodontist & Restorative Dentist",
+      "qualification": "BDS, MDS (Orthodontics)",
+      "registrationNumber": "TNDC-21037",
+      "experienceYears": 7,
+      "languages": [
+        "English",
+        "Tamil",
+        "Malayalam"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Arjun handles Smile Lounge's orthodontic and restorative work, from braces and aligners to root canals, crowns, and implants.",
+      "photo": "/images/doctor-arjun-menon.jpg",
+      "education": [
+        "BDS — Sri Ramachandra Dental College, Chennai",
+        "MDS Orthodontics — Tamil Nadu Government Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Braces & aligners",
+        "Root canal treatment",
+        "Dental implants"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "teeth-whitening-cosmetic-dentistry",
+      "name": "Teeth Whitening & Cosmetic Dentistry",
+      "tagline": "A brighter smile, done comfortably",
+      "overview": "Professional in-office and take-home whitening options paired with cosmetic touch-ups, tailored to give you a natural, brighter smile without sensitivity.",
+      "symptoms": [
+        "Stained or discolored teeth",
+        "Dull or uneven smile"
+      ],
+      "procedure": [
+        "Shade assessment and consultation",
+        "In-office whitening or custom take-home trays",
+        "Follow-up shade check"
+      ],
+      "benefits": [
+        "Visible results in a single session",
+        "Reduced sensitivity compared to over-the-counter kits",
+        "In-office or take-home options"
+      ],
+      "recovery": "No downtime — most patients resume normal eating and drinking within a few hours.",
+      "faqs": [
+        {
+          "question": "How long do whitening results last?",
+          "answer": "With good oral hygiene and occasional touch-ups, results typically last 12–18 months."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "smile-makeover-veneers"
+      ]
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the tooth, painlessly",
+      "overview": "Modern, gentle root canal therapy to treat infected or badly decayed teeth while preserving your natural tooth wherever possible.",
+      "symptoms": [
+        "Persistent tooth pain",
+        "Sensitivity to hot or cold",
+        "Swelling near a tooth"
+      ],
+      "procedure": [
+        "Diagnosis with digital X-ray",
+        "Local anesthesia and pulp removal",
+        "Canal cleaning and sealing",
+        "Crown placement for protection"
+      ],
+      "benefits": [
+        "Preserves your natural tooth",
+        "Relieves pain and infection",
+        "Completed in as few as 1–2 sittings"
+      ],
+      "recovery": "Mild sensitivity for a day or two; most patients return to normal activity the same day.",
+      "faqs": [
+        {
+          "question": "Is a root canal painful?",
+          "answer": "With modern anesthesia and technique, most patients report far less discomfort than they expect."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "braces-orthodontics",
+      "name": "Braces & Orthodontics",
+      "tagline": "Straighter teeth, at your own pace",
+      "overview": "Traditional braces and clear aligner options to correct crowding, gaps, and bite issues for teens and adults alike.",
+      "symptoms": [
+        "Crowded or crooked teeth",
+        "Gaps between teeth",
+        "Bite misalignment"
+      ],
+      "procedure": [
+        "Orthodontic assessment and scans",
+        "Custom treatment plan",
+        "Bracket or aligner fitting",
+        "Periodic progress reviews"
+      ],
+      "benefits": [
+        "Options for both visible and near-invisible treatment",
+        "Custom-fitted for comfort",
+        "Regular progress tracking"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "dental-implants",
+      "name": "Dental Implants",
+      "tagline": "A permanent fix for missing teeth",
+      "overview": "Titanium implant placement to replace missing teeth with a fixed, natural-feeling result that functions like your own tooth.",
+      "symptoms": [
+        "Missing tooth or teeth",
+        "Loose or ill-fitting dentures"
+      ],
+      "procedure": [
+        "Consultation and 3D imaging",
+        "Implant placement",
+        "Healing period",
+        "Crown fitting"
+      ],
+      "benefits": [
+        "Long-term, permanent solution",
+        "Preserves surrounding jawbone",
+        "Looks and functions like a natural tooth"
+      ],
+      "recovery": "Initial healing takes a few days; full integration typically takes 2–4 months before the final crown.",
+      "faqs": [
+        {
+          "question": "How long do dental implants last?",
+          "answer": "With proper care, implants can last 15–20 years or longer."
+        }
+      ],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "smile-makeover-veneers",
+      "name": "Smile Makeover & Veneers",
+      "tagline": "See your new smile before you commit",
+      "overview": "A combination of veneers, whitening, and minor reshaping to redesign your smile, planned around what actually suits your face.",
+      "symptoms": [],
+      "procedure": [
+        "Smile design consultation",
+        "Minimal tooth preparation",
+        "Temporary veneer fitting",
+        "Final veneer placement"
+      ],
+      "benefits": [
+        "Natural-looking, durable results",
+        "Minimally invasive preparation",
+        "Personalized smile design"
+      ],
+      "recovery": "No downtime required after final placement.",
+      "faqs": [
+        {
+          "question": "How long do veneers last?",
+          "answer": "With proper care, veneers typically last 10–15 years."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "teeth-whitening-cosmetic-dentistry"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General & Cosmetic Dentistry",
+      "doctorSlugs": [
+        "dr-priya-ramanathan",
+        "dr-arjun-menon"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Our lounge-style reception & waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception-lounge.jpg"
+    },
+    {
+      "caption": "Treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-treatment-room.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Sterilization & instrument prep area",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-sterilization-area.jpg"
+    },
+    {
+      "caption": "A relaxed patient experience",
+      "category": "Patient Experience",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-patient-experience.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I used to dread dental visits, but this place actually feels relaxing — comfortable chairs and a team that explains everything before they do it.",
+      "author": "Patient, Smile Lounge Dental Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Got my root canal done here and it was nowhere near as painful as I expected. Evening slot meant I didn't have to take leave from work.",
+      "author": "Patient, Smile Lounge Dental Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "My smile makeover turned out exactly how we discussed. The whole place feels more like a lounge than a hospital, which made a big difference.",
+      "author": "Patient, Smile Lounge Dental Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need to book an appointment or can I walk in?",
+      "answer": "Walk-ins are welcome, but we recommend booking ahead so we can keep wait times short, especially for evening slots."
+    },
+    {
+      "question": "What happens during my first visit?",
+      "answer": "Your first visit includes a full oral examination, a discussion of any concerns, and a clear treatment plan before anything is started."
+    },
+    {
+      "question": "What payment options do you accept?",
+      "answer": "We accept cash, all major cards, and UPI payments at the clinic."
+    },
+    {
+      "question": "Do you handle dental emergencies?",
+      "answer": "Yes, call us at +91 98842 73430 and we'll do our best to fit you in the same day for urgent issues like severe pain or a broken tooth."
+    },
+    {
+      "question": "Do you treat children?",
+      "answer": "Yes, we see children for routine checkups and basic dental care in a calm, low-stress setting."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-a-relaxed-visit-leads-to-better-dental-care",
+      "title": "Why a Relaxed Visit Leads to Better Dental Care",
+      "excerpt": "Dental anxiety keeps a lot of people away from routine checkups. Here's how a calmer environment actually changes outcomes.",
+      "author": "Dr. Priya Ramanathan",
+      "date": "2026-07",
+      "content": [
+        "A large number of patients avoid the dentist for years simply because of anxiety — not because of cost or access. That avoidance almost always makes small problems bigger and more expensive to treat.",
+        "At Smile Lounge, we designed the space intentionally around this — comfortable seating, calmer lighting, and a team that explains every step before starting, rather than after.",
+        "Modern, minimally invasive technique also plays a big role. Many procedures that used to require significant drilling or discomfort can now be done far more gently, which changes how patients feel about coming back.",
+        "The result is simple: patients who feel comfortable come in more regularly for checkups, which means problems get caught early instead of turning into root canals or extractions.",
+        "If it's been a while since your last visit, a relaxed first consultation — with no pressure to commit to treatment on the spot — is often the easiest way to get back on track."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, dental, contact, and billing information necessary to provide treatment and maintain accurate patient records."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and deliver your treatment, communicate appointment details, and manage billing. We do not sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your dental records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours' notice to cancel or reschedule an appointment wherever possible."
+      },
+      {
+        "heading": "Billing",
+        "body": "Payment for treatment is due at the time of service unless otherwise agreed in advance."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person dental evaluation."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Smile Lounge Dental Clinic — Kattuppakkam, Chennai",
+    "description": "Modern, comfort-focused dental care in Kattuppakkam & Kumananchavadi, Chennai. Book an appointment for cosmetic, general, and orthodontic dentistry at Smile Lounge Dental Clinic."
+  }
+}

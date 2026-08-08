@@ -1,0 +1,468 @@
+{
+  "industry": "healthcare",
+  "clinicType": "multi-speciality",
+  "theme": "mednova",
+  "business": {
+    "name": "London Dental and Health Center",
+    "city": "Chennai, Tamil Nadu",
+    "phone": "+91 98404 74924",
+    "whatsapp": "919840474924",
+    "email": "hello@londondentalhealth.in",
+    "address": "12/75, Christ School Rd, Jeevan Prakash Nagar, Chennai, Senneerkuppam, Tamil Nadu 600056",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Dental & General Health Care, Under One Roof",
+    "headline": "Family Health and Dental Care You Can Walk To.",
+    "subheadline": "From toothaches to fevers, London Dental and Health Center brings a dentist and a general physician together in one neighborhood clinic in Senneerkuppam, so your family doesn't need two addresses for two kinds of care.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "One clinic, two kinds of care, no runaround",
+    "body": [
+      "London Dental and Health Center was started with a simple idea: a neighborhood in Senneerkuppam and Kattupakkam shouldn't need to travel across the city for routine dental work or a general check-up. Both live here, in the same clinic, on Christ School Road.",
+      "Whether it's a child's first dental visit, a root canal that's been put off too long, or a fever that needs a doctor's eye before it gets worse, our team treats every visit the same way — unhurried, explained clearly, and priced honestly before any treatment begins."
+    ],
+    "highlights": [
+      "Dental and general medicine under one roof",
+      "Evening hours for working families",
+      "Clear, upfront pricing before treatment",
+      "Walk-ins welcome alongside scheduled appointments"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "12,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Calendar",
+      "value": "9+",
+      "label": "Years in Senneerkuppam"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "Specialities Under One Roof"
+    },
+    {
+      "icon": "Smile",
+      "value": "5,000+",
+      "label": "Dental Procedures"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Stethoscope",
+      "title": "Dental & General Health, One Visit",
+      "description": "See a dentist for a filling and a general physician for a check-up in the same visit, without a second appointment across town."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "Experienced, Registered Doctors",
+      "description": "Our dentist and physician are both council-registered, with years of practice treating families in and around Senneerkuppam."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening & Weekend-Friendly Hours",
+      "description": "Open till 9 PM on weekdays and Saturdays, so a day job doesn't mean choosing between work and a doctor's visit."
+    },
+    {
+      "icon": "Building2",
+      "title": "Right on Christ School Road",
+      "description": "Easy to reach from Jeevan Prakash Nagar, Kattupakkam, and the surrounding neighborhoods, with the clinic clearly signed at street level."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-arjun-krishnan",
+      "name": "Dr. Arjun Krishnan",
+      "role": "Chief Dental Surgeon",
+      "qualification": "BDS, MDS (Conservative Dentistry & Endodontics)",
+      "registrationNumber": "TNDC-24817",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Krishnan has practiced general and restorative dentistry in Chennai for over a decade, with a particular focus on root canal treatment and making anxious first-time patients comfortable in the chair.",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS, Conservative Dentistry & Endodontics — Meenakshi Ammal Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Root canal treatment",
+        "Cosmetic dentistry",
+        "Tooth extractions",
+        "Dental fillings & crowns"
+      ],
+      "photo": "/images/doctor-arjun-krishnan.jpg"
+    },
+    {
+      "slug": "dr-priya-natarajan",
+      "name": "Dr. Priya Natarajan",
+      "role": "General Physician",
+      "qualification": "MBBS",
+      "registrationNumber": "TNMC-58932",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Natarajan handles day-to-day family medicine at the clinic — fevers, infections, chronic condition management, and preventive health checks — with an emphasis on listening before prescribing.",
+      "education": [
+        "MBBS — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General consultation",
+        "Fever & infection care",
+        "Chronic disease management",
+        "Preventive health checkups"
+      ],
+      "photo": "/images/doctor-priya-natarajan.jpg"
+    },
+    {
+      "slug": "dr-kavitha-suresh",
+      "name": "Dr. Kavitha Suresh",
+      "role": "Consultant Dentist",
+      "qualification": "BDS",
+      "registrationNumber": "TNDC-31056",
+      "experienceYears": 6,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 5:00 PM – 9:00 PM",
+      "bio": "Dr. Suresh sees pediatric and general dental patients on evening and weekend shifts, with a gentle approach that's earned her a following among parents bringing in young children.",
+      "education": [
+        "BDS — Sree Balaji Dental College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Pediatric dentistry",
+        "Dental checkups & cleaning",
+        "Minor oral procedures"
+      ],
+      "photo": "/images/doctor-kavitha-suresh.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "Same-day consultations for everyday illness",
+      "overview": "From fevers and infections to ongoing conditions like diabetes and hypertension, our general physician provides thorough consultations with clear next steps, not just a prescription.",
+      "symptoms": [
+        "Fever, cold, or persistent cough",
+        "Fatigue or unexplained weight change",
+        "Ongoing management of diabetes, blood pressure, or thyroid conditions"
+      ],
+      "procedure": [
+        "Detailed symptom history and vitals check",
+        "Physical examination",
+        "Lab tests referral if needed",
+        "Treatment plan and follow-up guidance"
+      ],
+      "benefits": [
+        "Same-day appointments in most cases",
+        "Continuity of care with one regular physician",
+        "Clear explanation of diagnosis and treatment"
+      ],
+      "recovery": "Most consultations require no downtime; follow-up visits are scheduled based on your condition.",
+      "faqs": [
+        {
+          "question": "Do I need to fast before a consultation?",
+          "answer": "Not for a general consultation. If blood tests are recommended, we'll let you know if fasting is required beforehand."
+        },
+        {
+          "question": "Can I get a prescription refill without a full visit?",
+          "answer": "For existing patients on ongoing medication, a brief follow-up visit is usually enough — call ahead and we'll fit you in."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "dental-checkup-treatment",
+      "name": "Dental Checkup & Treatment",
+      "tagline": "Routine exams, cleaning, and general dental care",
+      "overview": "Regular dental checkups catch problems while they're still small. We combine thorough exams with cleaning, fillings, and general treatment in a single, unhurried visit.",
+      "symptoms": [
+        "Tooth sensitivity or mild pain",
+        "Bleeding or swollen gums",
+        "Visible cavities or discoloration"
+      ],
+      "procedure": [
+        "Oral examination and X-ray if needed",
+        "Scaling and cleaning",
+        "Filling or minor treatment as required",
+        "Home care guidance"
+      ],
+      "benefits": [
+        "Early detection of cavities and gum issues",
+        "Same-visit treatment for most routine cases",
+        "Transparent pricing before any procedure"
+      ],
+      "recovery": "No downtime for checkups and cleaning; minor treatments allow you to return to normal eating within a few hours.",
+      "faqs": [
+        {
+          "question": "How often should I get a dental checkup?",
+          "answer": "We recommend every six months for most patients, though your dentist may suggest more frequent visits if you have ongoing issues."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "root-canal-treatment"
+      ]
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the tooth, stop the pain",
+      "overview": "When decay or infection reaches the tooth's nerve, root canal treatment removes the source of pain and preserves the natural tooth instead of extracting it.",
+      "symptoms": [
+        "Sharp or throbbing tooth pain",
+        "Sensitivity to hot or cold that lingers",
+        "Swelling or a pimple-like bump on the gum"
+      ],
+      "procedure": [
+        "Diagnosis with clinical exam and X-ray",
+        "Local anesthesia and cleaning of the root canal",
+        "Sealing the canal",
+        "Crown placement to protect the treated tooth"
+      ],
+      "benefits": [
+        "Preserves your natural tooth",
+        "Relieves pain at the source, not just symptoms",
+        "Completed across one to two visits in most cases"
+      ],
+      "recovery": "Mild soreness for a day or two is normal; most patients return to normal eating within 24–48 hours.",
+      "faqs": [
+        {
+          "question": "Is root canal treatment painful?",
+          "answer": "The procedure itself is done under local anesthesia and is generally no more uncomfortable than a filling. Some soreness afterward is normal and manageable with medication."
+        },
+        {
+          "question": "How many visits does it take?",
+          "answer": "Most root canals are completed in one to two visits, depending on the tooth and extent of infection."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "dental-checkup-treatment"
+      ]
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures",
+      "tagline": "Extractions, wound care, and small surgical needs",
+      "overview": "For tooth extractions, minor wound dressing, and small in-clinic procedures, our team handles the work with proper sterilization and clear aftercare instructions.",
+      "symptoms": [
+        "Damaged tooth beyond repair",
+        "Minor cuts or wounds needing dressing",
+        "Ingrown nail or minor skin concerns"
+      ],
+      "procedure": [
+        "Assessment and consent discussion",
+        "Local anesthesia where applicable",
+        "Procedure performed under sterile conditions",
+        "Aftercare instructions and follow-up if needed"
+      ],
+      "benefits": [
+        "Avoid a hospital visit for minor, routine procedures",
+        "Same-day treatment in most cases",
+        "Clear aftercare guidance to prevent complications"
+      ],
+      "recovery": "Recovery depends on the procedure — most minor extractions and dressings heal within a few days with basic care.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "root-canal-treatment"
+      ]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "Preventive screening for the whole family",
+      "overview": "Basic health checkup packages covering vitals, blood pressure, blood sugar, and general screening, designed to catch issues early rather than waiting for symptoms.",
+      "symptoms": [],
+      "procedure": [
+        "Vitals and basic physical examination",
+        "Blood pressure and blood sugar screening",
+        "Review of family and personal health history",
+        "Doctor consultation with results and recommendations"
+      ],
+      "benefits": [
+        "Early detection of common conditions",
+        "Affordable packages for individuals and families",
+        "Results reviewed directly with the doctor"
+      ],
+      "recovery": "No downtime — most checkups are completed within a single visit.",
+      "faqs": [
+        {
+          "question": "How long does a health checkup take?",
+          "answer": "A basic checkup typically takes 30–45 minutes, including the doctor consultation."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Medicine",
+      "doctorSlugs": [
+        "dr-priya-natarajan"
+      ]
+    },
+    {
+      "name": "Dental Care",
+      "doctorSlugs": [
+        "dr-arjun-krishnan",
+        "dr-kavitha-suresh"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Clinic reception",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Dental treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-dental-treatment-room.jpg"
+    },
+    {
+      "caption": "Patient waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic exterior & signage",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-exterior-signage.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I came in for a toothache and mentioned I'd also been feeling feverish — they had the doctor look at me the same visit. Didn't expect that from a dental clinic.",
+      "author": "Patient, London Dental and Health Center",
+      "rating": 5
+    },
+    {
+      "quote": "Evening hours made all the difference. I could finally get my daughter's dental checkup done after work instead of taking a day off.",
+      "author": "Patient, London Dental and Health Center",
+      "rating": 5
+    },
+    {
+      "quote": "Root canal I'd been putting off for a year, done in two visits with no drama. The doctor explained every step before starting.",
+      "author": "Patient, London Dental and Health Center",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "Yes, walk-ins are welcome for both dental and general consultations, though booking an appointment ahead of time helps avoid waiting."
+    },
+    {
+      "question": "What services are available at the clinic?",
+      "answer": "We offer general health consultations, dental checkups and treatment, root canal treatment, minor procedures, and preventive health checkup packages, all at one location."
+    },
+    {
+      "question": "What should I expect on my first visit?",
+      "answer": "Your first visit includes a review of your medical or dental history, an examination, and a clear explanation of any recommended treatment before we proceed."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and major debit and credit cards. Pricing for any treatment is shared upfront before you commit to it."
+    },
+    {
+      "question": "Do you handle dental or medical emergencies?",
+      "answer": "We accommodate urgent dental pain and general urgent care during clinic hours. For after-hours emergencies, please head to the nearest hospital emergency department."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-your-family-needs-a-dentist-and-a-doctor-nearby",
+      "title": "Why Your Family Needs Both a Dentist and a Doctor Nearby",
+      "excerpt": "Dental health and general health affect each other more than most people realize — here's why keeping both close matters.",
+      "author": "Dr. Priya Natarajan",
+      "date": "2026-07",
+      "content": [
+        "It's easy to think of dental care and general health as separate categories — one for your teeth, one for everything else. In practice, they overlap constantly. Gum infections have been linked to heart health, uncontrolled diabetes shows up first in the mouth as slow-healing gums, and a child running a fever is sometimes actually dealing with a dental abscess, not a viral infection.",
+        "When a dentist and a general physician work in the same clinic, that overlap stops being a coordination problem. A patient who comes in for a toothache but mentions they've also been unusually tired can be seen by both of us in the same visit, instead of being sent across town with a referral slip and told to come back another day.",
+        "This matters even more for families with young children and elderly parents. Kids need dental visits that don't turn into an ordeal, and older patients often manage multiple conditions where a small dental issue can complicate things like blood sugar control. Having both kinds of care under one roof means fewer visits, fewer missed follow-ups, and a care team that actually has the full picture.",
+        "Practically speaking, we'd encourage every family to have a routine: a dental checkup every six months, and a general health checkup at least once a year, ideally at a clinic close enough that neither one feels like a chore. That's the entire reason London Dental and Health Center exists on Christ School Road — so that routine is actually easy to keep."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect the medical, dental, and contact information necessary to provide treatment, schedule appointments, and maintain accurate patient records."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to deliver and coordinate your care at our clinic. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to, or correction of, your medical and dental records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Appointments can be rescheduled or cancelled by calling the clinic; we ask for at least a few hours' notice where possible so we can offer the slot to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Treatment costs are shared with patients before any procedure begins. Payment is due at the time of the visit unless otherwise arranged."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational only and does not replace an in-person consultation with our doctors."
+      }
+    ]
+  },
+  "seo": {
+    "title": "London Dental and Health Center — Senneerkuppam, Chennai",
+    "description": "Dental and general health care under one roof in Senneerkuppam, Chennai. Book a checkup, root canal, or general consultation at London Dental and Health Center on Christ School Road."
+  }
+}
