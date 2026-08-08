@@ -6,10 +6,12 @@ export function generateStaticParams() {
   return config.doctors.map((doctor) => ({ slug: doctor.slug }));
 }
 
-export default function DoctorPage({ params }: { params: { slug: string } }) {
-  if (!config.doctors.some((d) => d.slug === params.slug)) {
+export default async function DoctorPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+
+  if (!config.doctors.some((d) => d.slug === slug)) {
     notFound();
   }
 
-  return <DoctorDetailPageContent config={config} doctorSlug={params.slug} />;
+  return <DoctorDetailPageContent config={config} doctorSlug={slug} />;
 }

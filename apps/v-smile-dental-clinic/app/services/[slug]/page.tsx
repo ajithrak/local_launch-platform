@@ -6,10 +6,12 @@ export function generateStaticParams() {
   return config.services.map((service) => ({ slug: service.slug }));
 }
 
-export default function ServicePage({ params }: { params: { slug: string } }) {
-  if (!config.services.some((s) => s.slug === params.slug)) {
+export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+
+  if (!config.services.some((s) => s.slug === slug)) {
     notFound();
   }
 
-  return <ServiceDetailPageContent config={config} serviceSlug={params.slug} />;
+  return <ServiceDetailPageContent config={config} serviceSlug={slug} />;
 }
