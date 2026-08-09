@@ -1,0 +1,429 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "careplus",
+  "business": {
+    "name": "Amrutha Multi Speciality Homoeopathic Clinic and Counselling Centre",
+    "city": "Porur, Chennai",
+    "phone": "+91 98400 68288",
+    "whatsapp": "919840068288",
+    "email": "hello@amruthahomoeopathy.in",
+    "address": "No 48-1A, Ganesh Avenue, Sakthi Nagar, Porur, Chennai, Tamil Nadu 600116",
+    "hours": "Mon–Sat · 10:00 AM – 1:00 PM, 5:00 PM – 8:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Homoeopathy & Counselling, Porur, Chennai",
+    "headline": "Gentle Care for the Whole Person.",
+    "subheadline": "Amrutha Multi Speciality Homoeopathic Clinic and Counselling Centre brings together classical homoeopathic treatment and professional counselling under one roof, for patients who want unhurried, holistic support.",
+    "primaryCta": {
+      "label": "Book a Consultation",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Practitioners",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Holistic care, rooted in Porur",
+    "body": [
+      "Amrutha Multi Speciality Homoeopathic Clinic and Counselling Centre was founded on a simple belief — that health is more than the absence of illness, and that the mind and body deserve to be cared for together, not separately.",
+      "We offer classical homoeopathic consultations for chronic and everyday conditions, alongside professional counselling for stress, anxiety, and relationship concerns, all delivered with the time and attention each patient deserves.",
+      "Our BHMS-qualified physician and experienced counsellor work closely together so that patients dealing with both physical and emotional concerns don't have to explain their story twice."
+    ],
+    "highlights": [
+      "Homoeopathy and counselling under one roof",
+      "Gentle, non-invasive treatment approach",
+      "Unhurried consultations with real listening time",
+      "Serving Porur and greater Chennai families"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Award",
+      "value": "12+",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Users",
+      "value": "6,000+",
+      "label": "Patients Supported"
+    },
+    {
+      "icon": "HeartPulse",
+      "value": "2",
+      "label": "Specialities, One Roof"
+    },
+    {
+      "icon": "Smile",
+      "value": "2",
+      "label": "Practitioners on Staff"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "HeartPulse",
+      "title": "Mind & Body, Together",
+      "description": "Homoeopathic treatment and counselling support work hand in hand here, so physical and emotional wellbeing are never treated as separate problems."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Gentle, Non-Invasive Care",
+      "description": "Homoeopathy works with the body's own healing tendencies, using gentle remedies with no harsh side effects for patients of every age."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "Experienced Practitioners",
+      "description": "Our BHMS-qualified physician and trained counsellor bring years of hands-on experience to every consultation."
+    },
+    {
+      "icon": "Clock",
+      "title": "Unhurried Consultations",
+      "description": "We take the time to properly understand each patient's history and concerns — no rushed five-minute visits here."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-lakshmi-narayanan",
+      "name": "Dr. Lakshmi Narayanan",
+      "role": "Homoeopathic Physician & Clinic Director",
+      "qualification": "BHMS, MD (Homoeopathy)",
+      "registrationNumber": "CCH-TN-28461",
+      "experienceYears": 15,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 10:00 AM – 1:00 PM, 5:00 PM – 8:00 PM",
+      "bio": "Dr. Lakshmi Narayanan founded Amrutha Multi Speciality Homoeopathic Clinic with the goal of offering patients an alternative to rushed, symptom-only care. She takes a detailed case history for every patient and believes in treating the person, not just the diagnosis.",
+      "education": [
+        "BHMS — Government Homoeopathy Medical College, Chennai",
+        "MD (Homoeopathy) — The Tamil Nadu Dr. M.G.R. Medical University"
+      ],
+      "awards": [],
+      "specialties": [
+        "Chronic condition support",
+        "Allergy and skin conditions",
+        "Joint and lifestyle-related concerns",
+        "Women's health"
+      ],
+      "photo": "/images/dr-lakshmi-narayanan.jpg"
+    },
+    {
+      "slug": "priya-venkataraman",
+      "name": "Priya Venkataraman",
+      "role": "Counselling Psychologist",
+      "qualification": "MA Counselling Psychology",
+      "registrationNumber": "RCI-CP-19734",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Tue, Thu, Sat · 11:00 AM – 6:00 PM",
+      "bio": "Priya works with individuals, couples, and families navigating stress, anxiety, and relationship difficulties. Her approach is warm and patient-led, giving people space to be heard before working toward practical steps forward.",
+      "education": [
+        "MA Counselling Psychology — Madras University",
+        "Certificate in Cognitive Behavioural Techniques"
+      ],
+      "awards": [],
+      "specialties": [
+        "Stress and anxiety counselling",
+        "Family and relationship counselling",
+        "Work-life balance support",
+        "Adolescent counselling"
+      ],
+      "photo": "/images/priya-venkataraman-counsellor.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "homoeopathic-consultation",
+      "name": "Homoeopathic Consultation",
+      "tagline": "A detailed, unhurried case-taking approach",
+      "overview": "Every homoeopathic consultation begins with a thorough case history — your health background, lifestyle, and concerns — so the treatment plan is built around you, not a generic protocol.",
+      "symptoms": [],
+      "procedure": [
+        "Detailed case history and lifestyle discussion",
+        "Physical assessment where relevant",
+        "Individualised remedy selection",
+        "Follow-up plan to track progress"
+      ],
+      "benefits": [
+        "Personalised treatment, not one-size-fits-all",
+        "Gentle remedies with minimal side effects",
+        "Suitable for all age groups"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How long does a first consultation take?",
+          "answer": "First visits typically take 40–60 minutes since we go through a detailed case history before suggesting any treatment."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "chronic-condition-management"
+      ]
+    },
+    {
+      "slug": "chronic-condition-management",
+      "name": "Chronic Condition Management",
+      "tagline": "Ongoing support for allergies, skin, and joint concerns",
+      "overview": "We work with patients managing long-standing conditions such as allergies, recurring skin issues, and joint discomfort, offering a gentle, sustained approach alongside your existing care.",
+      "symptoms": [
+        "Recurring allergies or skin flare-ups",
+        "Persistent joint stiffness or discomfort",
+        "Long-standing conditions not fully settled by prior treatment"
+      ],
+      "procedure": [
+        "Comprehensive review of condition history",
+        "Individualised homoeopathic treatment plan",
+        "Regular follow-up and plan adjustment",
+        "Lifestyle guidance to support treatment"
+      ],
+      "benefits": [
+        "Continuity of care with the same physician",
+        "Gentle, non-invasive approach for long-term use",
+        "Treatment plans that adapt as symptoms change"
+      ],
+      "recovery": "Homoeopathic treatment for chronic conditions is typically gradual; we discuss realistic timelines and check in regularly to see how you're responding.",
+      "faqs": [
+        {
+          "question": "Can homoeopathy be used alongside my existing treatment?",
+          "answer": "In many cases, yes — homoeopathy is often used to support ongoing care. We always recommend discussing your full treatment picture with us and your other treating doctors so everyone is informed."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "homoeopathic-consultation"
+      ]
+    },
+    {
+      "slug": "individual-counselling",
+      "name": "Individual Counselling",
+      "tagline": "A confidential space to work through what's on your mind",
+      "overview": "One-on-one counselling sessions for anyone navigating stress, low mood, life transitions, or simply wanting a confidential space to think things through with support.",
+      "symptoms": [],
+      "procedure": [
+        "Initial conversation to understand your concerns",
+        "Collaborative goal-setting for sessions",
+        "Regular sessions using evidence-informed techniques",
+        "Ongoing review of progress"
+      ],
+      "benefits": [
+        "Fully confidential, judgment-free sessions",
+        "Flexible pacing based on your comfort",
+        "Practical coping strategies you can use daily"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "stress-anxiety-support"
+      ]
+    },
+    {
+      "slug": "stress-anxiety-support",
+      "name": "Stress & Anxiety Support",
+      "tagline": "Practical, compassionate support for everyday overwhelm",
+      "overview": "Focused counselling support for people experiencing stress, worry, or anxiety that's affecting daily life, work, or sleep — with practical techniques alongside a listening ear.",
+      "symptoms": [
+        "Persistent worry or racing thoughts",
+        "Difficulty relaxing or sleeping",
+        "Feeling overwhelmed by daily responsibilities"
+      ],
+      "procedure": [
+        "Understanding your stress triggers and patterns",
+        "Introducing grounding and coping techniques",
+        "Regular sessions to build on progress",
+        "Optional coordination with homoeopathic support"
+      ],
+      "benefits": [
+        "Practical tools you can use between sessions",
+        "A calm, private space to be heard",
+        "Combined mind-body support when helpful"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "individual-counselling",
+        "family-relationship-counselling"
+      ]
+    },
+    {
+      "slug": "family-relationship-counselling",
+      "name": "Family & Relationship Counselling",
+      "tagline": "Support for couples and families working things through",
+      "overview": "Guided sessions for couples and families navigating conflict, communication difficulties, or major life transitions, with a focus on practical, respectful ways forward.",
+      "symptoms": [],
+      "procedure": [
+        "Joint and individual conversations as needed",
+        "Identifying communication patterns",
+        "Working toward shared, practical goals",
+        "Follow-up sessions to sustain progress"
+      ],
+      "benefits": [
+        "Neutral, structured space for difficult conversations",
+        "Techniques to improve everyday communication",
+        "Support tailored to your family's situation"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do both partners need to attend every session?",
+          "answer": "Not necessarily — we often combine joint sessions with individual ones, depending on what's most useful for your situation."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "individual-counselling"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "Homoeopathy",
+      "doctorSlugs": [
+        "dr-lakshmi-narayanan"
+      ]
+    },
+    {
+      "name": "Counselling",
+      "doctorSlugs": [
+        "priya-venkataraman"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception and front desk",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Counselling room",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/gallery-counselling-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I came in for a long-standing skin issue and stayed because of how much time Dr. Narayanan takes to actually listen. It doesn't feel rushed here.",
+      "author": "Patient, Amrutha Multi Speciality Homoeopathic Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Being able to speak to a counsellor and a homoeopathic physician at the same clinic made things so much easier during a really stressful year.",
+      "author": "Patient, Amrutha Multi Speciality Homoeopathic Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "The counselling sessions gave me practical ways to manage my anxiety, and I never felt judged. Very calm, welcoming space.",
+      "author": "Patient, Amrutha Multi Speciality Homoeopathic Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "We recommend booking ahead so we can give you a proper time slot, but do call us and we'll try to accommodate walk-ins where possible."
+    },
+    {
+      "question": "Is homoeopathy safe to use alongside my other medical treatment?",
+      "answer": "Homoeopathy is generally gentle and is often used alongside other forms of care. We recommend informing us of any other treatment you're currently receiving so we can support your overall care appropriately."
+    },
+    {
+      "question": "What should I expect in a first counselling session?",
+      "answer": "The first session is mainly about understanding your situation and what you're hoping to work on — there's no pressure to share more than you're comfortable with. It's a conversation, not an assessment."
+    },
+    {
+      "question": "What are your payment options?",
+      "answer": "We accept cash, UPI, and major cards at the clinic. Please speak with our front desk for details on consultation fees."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us at +91 98400 68288, or use the appointment form on this website, and our team will confirm a time slot with you."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "homoeopathy-and-counselling-for-chronic-stress",
+      "title": "How Homoeopathy and Counselling Can Work Together for Chronic Stress",
+      "excerpt": "Chronic stress rarely shows up as just one thing — here's how a combined homoeopathic and counselling approach can offer more complete support.",
+      "author": "Dr. Lakshmi Narayanan",
+      "date": "2026-05-14",
+      "content": [
+        "Chronic stress has a way of showing up in more than one place at once — as tension headaches or skin flare-ups on one hand, and as racing thoughts or trouble sleeping on the other. Treating only the physical symptoms, or only the emotional ones, often means missing half the picture.",
+        "At Amrutha Multi Speciality Homoeopathic Clinic and Counselling Centre, we see this regularly: a patient comes in for a persistent skin condition, and it turns out the flare-ups track closely with a particularly stressful stretch at work or at home.",
+        "This is where having both homoeopathic care and counselling support under one roof becomes genuinely useful. A homoeopathic consultation focuses on gentle, individualised support for the physical symptoms, while counselling sessions give the patient a structured space to work through the underlying stress itself.",
+        "Neither approach claims to be a quick fix, and we're careful not to overpromise — homoeopathy and counselling are both about supporting the body and mind's own capacity to manage and adapt, not about instant cures.",
+        "If you've noticed your physical symptoms seem to track with stressful periods in your life, it may be worth discussing both sides of the picture with us at your next visit."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and appointment information necessary to provide homoeopathic and counselling care, and to coordinate your visits with us."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care at our clinic. We never sell patient data, and counselling records are kept strictly confidential."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your medical and consultation records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment, so we can offer the slot to another patient."
+      },
+      {
+        "heading": "Fees",
+        "body": "Consultation fees are payable at the time of your visit. Please speak with our front desk for current pricing."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational only and does not replace an in-person consultation. Homoeopathic and counselling services are intended to support, not replace, care from other medical professionals when needed."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Amrutha Multi Speciality Homoeopathic Clinic — Porur, Chennai",
+    "description": "Homoeopathy and counselling clinic in Porur, Chennai, offering gentle, unhurried care for chronic conditions, allergies, and mental wellness support."
+  }
+}

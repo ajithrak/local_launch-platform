@@ -1,0 +1,411 @@
+{
+  "industry": "healthcare",
+  "clinicType": "physiotherapy",
+  "theme": "orthoedge",
+  "business": {
+    "name": "Starke Physiotherapy Clinic",
+    "city": "Porur, Chennai",
+    "phone": "+91 99941 75437",
+    "whatsapp": "919994175437",
+    "email": "hello@starkephysio.in",
+    "address": "Plot no:23A, Madha Nagar Main Road, Moulivakkam, Madhanandapuram, Porur, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 7:30 AM – 12:00 PM, 4:00 PM – 8:00 PM · Sunday Closed"
+  },
+  "hero": {
+    "eyebrow": "Strength-Based Rehab & Posture Correction",
+    "headline": "Build The Strength That Keeps Pain From Coming Back.",
+    "subheadline": "Starke Physiotherapy Clinic in Porur treats injuries and chronic pain with structured strength-based rehabilitation — built for people who sit at a desk all day and want a body that can actually keep up outside of it.",
+    "primaryCta": {
+      "label": "Book Assessment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "Recovery that makes you stronger than before",
+    "body": [
+      "Starke Physiotherapy Clinic was started around a simple observation: most pain that brings people into a clinic in Porur isn't from a dramatic injury — it's from years of poor posture, weak stabilizing muscles, and bodies that were never rebuilt with real strength after the last time something hurt. We treat the injury in front of us, but we don't stop there.",
+      "Every plan combines hands-on assessment with progressive strength training, so patients leave not just pain-free but genuinely more resilient — whether that means a desk job that no longer wrecks your lower back, or a body that can handle real physical activity without breaking down again."
+    ],
+    "highlights": [
+      "Strength-based recovery plans, not just passive treatment",
+      "Dedicated posture and ergonomic assessment for desk-job pain",
+      "Modern strength and rehab equipment on-site",
+      "Injury prevention built into every recovery plan"
+    ],
+    "image": "/images/about-strength-rehab-session.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "2,500+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Dumbbell",
+      "value": "4",
+      "label": "Strength Recovery Programs"
+    },
+    {
+      "icon": "Award",
+      "value": "6",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Briefcase",
+      "value": "150+",
+      "label": "Desk-Job Patients Treated"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Target",
+      "title": "Personalized Strength-Based Plans",
+      "description": "Recovery plans are built around rebuilding strength and stability, not just easing pain for a week or two."
+    },
+    {
+      "icon": "Dumbbell",
+      "title": "Modern Equipment",
+      "description": "Our therapy floor is equipped with strength training and rehab equipment used alongside hands-on assessment."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "Experienced Physiotherapists",
+      "description": "Our therapists hold BPT and MPT qualifications with focused training in strength rehabilitation and posture correction."
+    },
+    {
+      "icon": "MapPin",
+      "title": "Convenient Porur Location",
+      "description": "Easy to reach from Moulivakkam, Madhanandapuram, and the surrounding Porur belt, with evening slots for working patients."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "vikram-anand",
+      "name": "Vikram Anand",
+      "role": "Senior Physiotherapist, Strength & Conditioning Rehab",
+      "qualification": "MPT (Strength & Conditioning Rehab), BPT",
+      "registrationNumber": "TNPTA-52104",
+      "experienceYears": 9,
+      "languages": [
+        "Tamil",
+        "English",
+        "Hindi"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 7:30 AM – 12:00 PM, 4:00 PM – 8:00 PM",
+      "bio": "Vikram leads Starke's strength-based rehabilitation programs, working with patients recovering from injury as well as active adults who want to build lasting strength and prevent recurring pain, not just treat the current flare-up.",
+      "education": [
+        "MPT (Strength & Conditioning Rehab) — Dr. MGR Medical University",
+        "BPT — Sri Ramachandra Institute of Higher Education and Research"
+      ],
+      "awards": [],
+      "specialties": [
+        "Strength-based rehabilitation",
+        "Injury prevention",
+        "Chronic pain management"
+      ],
+      "photo": "/images/doctor-vikram-anand.jpg"
+    },
+    {
+      "slug": "meera-krishnan",
+      "name": "Meera Krishnan",
+      "role": "Physiotherapist, Ergonomics & Posture Correction",
+      "qualification": "BPT",
+      "registrationNumber": "TNPTA-67219",
+      "experienceYears": 5,
+      "languages": [
+        "Tamil",
+        "English"
+      ],
+      "availability": "Tue, Thu, Sat · 7:30 AM – 12:00 PM, 4:00 PM – 8:00 PM",
+      "bio": "Meera specializes in posture and ergonomic assessment for desk-job and screen-heavy patients, along with neck and back pain therapy, helping patients understand and correct the daily habits that keep bringing the pain back.",
+      "education": [
+        "BPT — Madha College of Physiotherapy"
+      ],
+      "awards": [],
+      "specialties": [
+        "Ergonomics & posture correction",
+        "Neck and back pain therapy",
+        "Workplace injury prevention"
+      ],
+      "photo": "/images/doctor-meera-krishnan.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "posture-ergonomic-assessment",
+      "name": "Posture & Ergonomic Assessment",
+      "tagline": "Find out what your desk is actually doing to your body",
+      "overview": "We assess how you sit, stand, and move through a typical workday, then identify the specific postural habits and ergonomic gaps driving your pain — and fix them, not just treat the symptom.",
+      "symptoms": [
+        "Pain that consistently worsens by the end of a workday",
+        "Rounded shoulders or forward head posture",
+        "Stiffness after long periods at a desk"
+      ],
+      "procedure": [
+        "Postural and movement screening",
+        "Workstation and daily habit review",
+        "Corrective exercise and stretching plan",
+        "Follow-up posture recheck"
+      ],
+      "benefits": [
+        "Identifies the actual cause of desk-related pain",
+        "Practical, realistic workstation adjustments",
+        "Reduces recurrence, not just today's discomfort"
+      ],
+      "recovery": "Most patients notice reduced discomfort within 3–4 weeks of consistent corrective exercise.",
+      "faqs": [
+        {
+          "question": "Do I need to bring anything from my office setup?",
+          "answer": "Photos of your desk and chair setup are helpful but not required — we can work from a description of your daily routine."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "neck-back-pain-therapy",
+        "strength-based-rehabilitation"
+      ]
+    },
+    {
+      "slug": "strength-based-rehabilitation",
+      "name": "Strength-Based Rehabilitation",
+      "tagline": "Recovery that leaves you stronger than before the injury",
+      "overview": "Rather than stopping at pain relief, our strength-based rehab programs progressively rebuild the muscles and stability around an injury so you're less likely to end up back here in six months.",
+      "symptoms": [
+        "Recurring pain after previous treatment",
+        "Weakness or instability following injury",
+        "Difficulty returning to normal activity levels"
+      ],
+      "procedure": [
+        "Strength and movement assessment",
+        "Progressive loading program",
+        "Functional strength training",
+        "Reassessment and program adjustment"
+      ],
+      "benefits": [
+        "Builds resilience, not just short-term relief",
+        "Reduces likelihood of re-injury",
+        "Progress tracked against clear strength benchmarks"
+      ],
+      "recovery": "Typical strength-rebuilding programs run 6–10 weeks, with progress reviewed every two weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "pre-post-workout-injury-prevention",
+        "chronic-pain-management"
+      ]
+    },
+    {
+      "slug": "chronic-pain-management",
+      "name": "Chronic Pain Management",
+      "tagline": "A structured plan for pain that hasn't responded to rest",
+      "overview": "For pain that has lingered for months, we build a structured management plan combining hands-on therapy, targeted strengthening, and realistic activity pacing to reduce pain and restore function over time.",
+      "symptoms": [
+        "Pain lasting longer than 3 months",
+        "Pain that limits daily activity or sleep",
+        "Previous treatments that gave only short-term relief"
+      ],
+      "procedure": [
+        "Detailed pain and function history",
+        "Hands-on therapy for pain relief",
+        "Graded activity and strengthening plan",
+        "Ongoing monitoring and adjustment"
+      ],
+      "benefits": [
+        "Addresses long-standing pain, not just recent flare-ups",
+        "Realistic, sustainable activity pacing",
+        "Reduces reliance on repeated short-term fixes"
+      ],
+      "recovery": "Chronic pain programs are typically reviewed monthly, with most patients reporting meaningful improvement by week 8.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "strength-based-rehabilitation"
+      ]
+    },
+    {
+      "slug": "pre-post-workout-injury-prevention",
+      "name": "Pre/Post-Workout Injury Prevention",
+      "tagline": "Train harder without breaking down",
+      "overview": "For gym-goers and active adults, we assess movement patterns and muscle imbalances before they become injuries, and build a pre- and post-workout routine that keeps you training consistently.",
+      "symptoms": [
+        "Recurring niggles during or after training",
+        "Muscle tightness or imbalance noticed during workouts",
+        "History of the same injury flaring up repeatedly"
+      ],
+      "procedure": [
+        "Movement pattern and imbalance screening",
+        "Targeted mobility and activation routine",
+        "Load management guidance",
+        "Periodic reassessment"
+      ],
+      "benefits": [
+        "Fewer training interruptions from recurring injuries",
+        "Routines that fit around your actual training schedule",
+        "Builds long-term training consistency"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "strength-based-rehabilitation"
+      ]
+    },
+    {
+      "slug": "neck-back-pain-therapy",
+      "name": "Neck & Back Pain Therapy",
+      "tagline": "Relief that holds up once you're back at your desk",
+      "overview": "Neck and back pain rarely comes from a single cause — we treat the immediate pain with hands-on therapy while correcting the postural and strength deficits that keep bringing it back.",
+      "symptoms": [
+        "Persistent neck or lower back pain",
+        "Pain that worsens with prolonged sitting",
+        "Stiffness or reduced flexibility through the spine"
+      ],
+      "procedure": [
+        "Postural and movement assessment",
+        "Hands-on therapy for pain relief",
+        "Core and postural strengthening program",
+        "Ergonomic and lifestyle guidance"
+      ],
+      "benefits": [
+        "Addresses the root cause, not just the pain flare-up",
+        "Practical guidance for desk-job patients",
+        "Long-term relief instead of repeat short-term treatment"
+      ],
+      "recovery": "Most patients see meaningful improvement within 4–6 weeks of consistent therapy.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "posture-ergonomic-assessment",
+        "chronic-pain-management"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Strength training and exercise floor",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-training-floor.jpg"
+    },
+    {
+      "caption": "Rehab and strength equipment",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-rehab-equipment.jpg"
+    },
+    {
+      "caption": "One-on-one therapy session in progress",
+      "category": "Care",
+      "swatchClassName": "bg-blue-50",
+      "src": "/images/gallery-therapy-session.jpg"
+    },
+    {
+      "caption": "Reception and waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-reception-area.jpg"
+    },
+    {
+      "caption": "Clinic exterior",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-clinic-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I've done physio before and always went back to square one within a few months. This time the focus on actually building strength made the difference.",
+      "author": "Patient, Starke Physiotherapy Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "They asked about my desk setup on the first visit, which no other clinic had done. My back pain finally stopped coming back every few weeks.",
+      "author": "Patient, Starke Physiotherapy Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Good equipment, and the therapists explain why they're doing each exercise instead of just running through a routine.",
+      "author": "Patient, Starke Physiotherapy Clinic",
+      "rating": 4
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need an appointment or can I walk in?",
+      "answer": "Walk-ins are welcome, but booking an appointment in advance helps us keep wait times short and ensures the right therapist is available for your condition."
+    },
+    {
+      "question": "What should I expect at my first session?",
+      "answer": "Your first session includes a detailed assessment of your movement, posture, and pain history, followed by a discussion of a recommended treatment plan before any hands-on therapy begins."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and major cards. Payment is due at the time of each session unless other arrangements have been made."
+    },
+    {
+      "question": "How many sessions will I typically need?",
+      "answer": "It varies by condition, but most patients complete a program of 6–10 sessions, with progress reviewed regularly to adjust the plan as needed."
+    },
+    {
+      "question": "Do you treat back pain caused by desk jobs?",
+      "answer": "Yes — desk-job related back and neck pain is one of the most common conditions we treat, and our posture and ergonomic assessment is built specifically for it."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-sitting-all-day-causes-back-pain",
+      "title": "Why Sitting All Day Causes More Back Pain Than You Think",
+      "excerpt": "It's not just posture — prolonged sitting weakens the exact muscles your back relies on to protect itself, and that's the part most advice misses.",
+      "author": "Meera Krishnan",
+      "date": "2026-04-22",
+      "content": [
+        "Most advice about desk-related back pain stops at \"sit up straight,\" but posture is only part of the story — hours of sitting also switches off the glutes and deep core muscles that normally support your lower back.",
+        "When those stabilizing muscles go quiet for eight hours a day, your spine ends up absorbing load it was never meant to handle alone, which is why pain often shows up even in people who sit reasonably upright.",
+        "This is why stretching alone rarely fixes desk-related back pain for good — the muscles that switched off need to be actively retrained and strengthened, not just loosened.",
+        "A combination of ergonomic adjustments, movement breaks through the day, and a targeted strengthening routine addresses both the posture and the underlying weakness, which is the only approach that tends to hold up over time."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to assess and treat your condition."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and deliver your treatment and is not shared with third parties without your consent."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your records at any time through our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule a session."
+      },
+      {
+        "heading": "Payments",
+        "body": "Payment is due at the time of each session unless a package or other arrangement has been agreed in advance."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person evaluation by a qualified physiotherapist."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Starke Physiotherapy Clinic — Porur, Chennai",
+    "description": "Physiotherapy clinic in Porur, Chennai offering strength-based rehabilitation, posture and ergonomic assessment, and chronic pain management."
+  }
+}

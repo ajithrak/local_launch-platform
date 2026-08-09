@@ -1,0 +1,452 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "orthoedge",
+  "business": {
+    "name": "Bhairavi Dental & Maxillofacial Center",
+    "city": "Porur, Chennai",
+    "phone": "+91 99949 23060",
+    "whatsapp": "919994923060",
+    "email": "hello@bhairavidental.in",
+    "address": "10/87, 7th Ave, Ramakrishna Nagar, Porur, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:30 AM – 1:00 PM, 4:30 PM – 8:30 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Oral & Maxillofacial Surgery + General Dentistry",
+    "headline": "Precision Surgical Dentistry, Done Right.",
+    "subheadline": "From wisdom tooth impactions to jaw surgery and dental implants, Bhairavi Dental & Maxillofacial Center handles the complex cases other clinics refer out — with a surgeon-led team and a straight answer on what your treatment actually needs.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "A specialist practice, not a general clinic that also does surgery",
+    "body": [
+      "Bhairavi Dental & Maxillofacial Center was built around a simple gap: most dental clinics in Porur can clean, fill, and extract — but when a case involves impacted wisdom teeth, jaw irregularities, facial trauma, or multiple implants, patients get referred out to a surgical specialist across town.",
+      "We are that specialist, in-house. Our oral & maxillofacial surgeon works alongside a general dentist so routine care and complex surgical cases are handled under one roof, with one team that knows your full history.",
+      "Every surgical case is explained in plain language before treatment starts — what the procedure involves, what anesthesia is used, and what recovery actually looks like."
+    ],
+    "highlights": [
+      "In-house oral & maxillofacial surgeon for complex cases",
+      "Wisdom tooth, implant, and jaw surgery under one roof",
+      "Sterile, dedicated surgical operatory",
+      "Clear pre- and post-op guidance for every procedure"
+    ],
+    "image": "/images/about-clinic-consultation.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Award",
+      "value": "12",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Activity",
+      "value": "5,000+",
+      "label": "Surgical Procedures Performed"
+    },
+    {
+      "icon": "Users",
+      "value": "2",
+      "label": "In-House Specialists"
+    },
+    {
+      "icon": "ShieldCheck",
+      "value": "100%",
+      "label": "Sterile Surgical Protocol"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Bone",
+      "title": "Real Surgical Expertise",
+      "description": "Our oral & maxillofacial surgeon handles impactions, jaw correction, and facial trauma cases — not just referrals to someone else."
+    },
+    {
+      "icon": "Microscope",
+      "title": "Modern, Sterile Facility",
+      "description": "A dedicated surgical operatory with hospital-grade sterilization, separate from routine treatment chairs."
+    },
+    {
+      "icon": "BadgeCheck",
+      "title": "Experienced, Registered Surgeons",
+      "description": "Every clinician here is registered with the Tamil Nadu Dental Council and trained specifically in oral surgery."
+    },
+    {
+      "icon": "HeartPulse",
+      "title": "Routine to Complex, One Team",
+      "description": "From a check-up and cleaning to full jaw surgery, your care stays with a team that already knows your case."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-arvind-bhairavan",
+      "name": "Dr. Arvind Bhairavan",
+      "role": "Oral & Maxillofacial Surgeon",
+      "qualification": "BDS, MDS (Oral & Maxillofacial Surgery)",
+      "registrationNumber": "TNDC-19542",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:00 PM, 4:30 PM – 8:30 PM",
+      "bio": "Dr. Bhairavan leads all surgical cases at the center, including impacted wisdom tooth extractions, dental implant placement, orthognathic (jaw) surgery, and facial trauma reconstruction. He trained in oral and maxillofacial surgery with a focus on minimally invasive surgical technique and structured post-operative recovery.",
+      "education": [
+        "BDS — Tamil Nadu Government Dental College, Chennai",
+        "MDS, Oral & Maxillofacial Surgery — Ragas Dental College, Chennai"
+      ],
+      "awards": [
+        "Best Paper Award, Indian Association of Oral & Maxillofacial Surgeons (Tamil Nadu Chapter), 2021"
+      ],
+      "specialties": [
+        "Impacted wisdom tooth extraction",
+        "Orthognathic (jaw) surgery",
+        "Dental implants",
+        "Facial trauma & reconstruction"
+      ],
+      "photo": "/images/doctor-oral-surgeon.jpg"
+    },
+    {
+      "slug": "dr-meenakshi-suresh",
+      "name": "Dr. Meenakshi Suresh",
+      "role": "General Dentist & Prosthodontist",
+      "qualification": "BDS, MDS (Prosthodontics)",
+      "registrationNumber": "TNDC-21873",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:00 PM, 4:30 PM – 8:30 PM",
+      "bio": "Dr. Suresh manages routine dental care, root canal treatment, and prosthodontic work including crowns, bridges, and implant restorations — working closely with Dr. Bhairavan on cases that need both surgical and restorative treatment.",
+      "education": [
+        "BDS — SRM Dental College, Chennai",
+        "MDS, Prosthodontics — Meenakshi Ammal Dental College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Root canal treatment",
+        "Crowns & bridges",
+        "Implant restoration",
+        "General dental care"
+      ],
+      "photo": "/images/doctor-general-dentist.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "wisdom-tooth-extraction",
+      "name": "Wisdom Tooth Extraction & Impaction Surgery",
+      "tagline": "Surgical removal of impacted and problem wisdom teeth",
+      "overview": "Impacted wisdom teeth are one of the most common reasons patients are referred to an oral surgeon. We handle the full range in-house, from straightforward extractions to fully impacted teeth requiring surgical removal.",
+      "symptoms": [
+        "Pain or swelling at the back of the jaw",
+        "Difficulty opening the mouth fully",
+        "Recurring gum infection around the back molars",
+        "Crowding or pressure on neighboring teeth"
+      ],
+      "procedure": [
+        "Clinical exam and X-ray/OPG to assess impaction",
+        "Local or sedation anesthesia based on case complexity",
+        "Surgical extraction of the impacted tooth",
+        "Suturing and post-operative care instructions"
+      ],
+      "benefits": [
+        "Performed in-house by a qualified oral surgeon",
+        "Sedation options for anxious patients",
+        "Reduces risk of infection, crowding, and cyst formation"
+      ],
+      "recovery": "Most patients recover within 5–7 days with mild swelling; a follow-up visit is scheduled for suture removal if needed.",
+      "faqs": [
+        {
+          "question": "Will I be put to sleep for the extraction?",
+          "answer": "Most extractions are done under local anesthesia. Sedation is offered for complex impactions or anxious patients — we'll discuss the right option for your case beforehand."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "dental-implants",
+        "jaw-surgery"
+      ]
+    },
+    {
+      "slug": "dental-implants",
+      "name": "Dental Implants",
+      "tagline": "Permanent, natural-feeling replacement for missing teeth",
+      "overview": "We place and restore dental implants for single missing teeth or full-arch cases, combining Dr. Bhairavan's surgical placement with Dr. Suresh's prosthodontic restoration under one treatment plan.",
+      "symptoms": [
+        "One or more missing teeth",
+        "Loose or failing dentures",
+        "Difficulty chewing due to gaps"
+      ],
+      "procedure": [
+        "3D imaging and treatment planning",
+        "Surgical placement of the titanium implant",
+        "Healing period for osseointegration",
+        "Custom crown fitted onto the implant"
+      ],
+      "benefits": [
+        "Functions and feels like a natural tooth",
+        "Prevents bone loss at the missing tooth site",
+        "Surgical and restorative work coordinated in-house"
+      ],
+      "recovery": "Initial healing takes 2–3 weeks; full osseointegration before the final crown typically takes 3–4 months.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "wisdom-tooth-extraction",
+        "general-dental-care"
+      ]
+    },
+    {
+      "slug": "jaw-surgery",
+      "name": "Jaw Surgery (Orthognathic)",
+      "tagline": "Corrective surgery for jaw alignment and bite irregularities",
+      "overview": "Orthognathic surgery corrects significant jaw misalignment that affects bite, breathing, or facial symmetry, usually in coordination with orthodontic treatment before and after surgery.",
+      "symptoms": [
+        "Visible jaw misalignment or facial asymmetry",
+        "Chronic difficulty chewing or biting",
+        "Jaw pain or TMJ discomfort",
+        "Breathing difficulty linked to jaw structure"
+      ],
+      "procedure": [
+        "Detailed imaging and surgical planning with your orthodontist",
+        "Pre-surgical orthodontic preparation where needed",
+        "Surgical correction of the jaw under anesthesia",
+        "Structured post-operative recovery and follow-up"
+      ],
+      "benefits": [
+        "Corrects functional bite and breathing issues",
+        "Improves facial symmetry and jaw function",
+        "Planned jointly with your orthodontist for lasting results"
+      ],
+      "recovery": "Initial recovery is typically 2–3 weeks, with full healing and bite stabilization over several months.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "facial-trauma-care"
+      ]
+    },
+    {
+      "slug": "facial-trauma-care",
+      "name": "Facial Trauma & Reconstruction",
+      "tagline": "Emergency and reconstructive care for facial and jaw injuries",
+      "overview": "We treat fractures and soft tissue injuries to the jaw and face resulting from accidents, falls, or sports injuries, from initial stabilization through reconstructive follow-up.",
+      "symptoms": [
+        "Jaw or facial fracture following an accident",
+        "Difficulty closing the mouth or bite misalignment after injury",
+        "Facial lacerations near the mouth or jaw",
+        "Numbness or swelling after facial trauma"
+      ],
+      "procedure": [
+        "Emergency clinical assessment and imaging",
+        "Stabilization of fractures where required",
+        "Surgical repair or reconstruction as needed",
+        "Follow-up care through full recovery"
+      ],
+      "benefits": [
+        "Prompt assessment for trauma cases",
+        "Surgical reconstruction available in-house",
+        "Coordinated follow-up until full recovery"
+      ],
+      "recovery": "Recovery time depends on injury severity; your surgeon will outline a specific timeline after assessment.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "jaw-surgery"
+      ]
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the natural tooth, relieve the pain",
+      "overview": "Root canal treatment removes infected pulp from inside the tooth to eliminate pain and infection while preserving the natural tooth structure.",
+      "symptoms": [
+        "Persistent tooth pain, especially with hot or cold",
+        "Swelling or tenderness in the gums",
+        "Darkening of the tooth",
+        "Pain when chewing or biting"
+      ],
+      "procedure": [
+        "Diagnosis and X-ray to confirm infection",
+        "Removal of infected pulp under local anesthesia",
+        "Cleaning and sealing of the root canal",
+        "Crown placement to restore the tooth"
+      ],
+      "benefits": [
+        "Preserves your natural tooth",
+        "Relieves pain caused by infection",
+        "Completed in-house, usually within 1–2 visits"
+      ],
+      "recovery": "Mild sensitivity for a few days is normal; most patients return to normal eating within a week.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-dental-care"
+      ]
+    },
+    {
+      "slug": "general-dental-care",
+      "name": "General Dental Care",
+      "tagline": "Routine check-ups, cleaning, and preventive care",
+      "overview": "Regular dental check-ups, professional cleaning, fillings, and preventive care to catch issues early and avoid the need for surgical intervention later.",
+      "symptoms": [
+        "Due for a routine check-up or cleaning",
+        "Sensitivity or minor cavities",
+        "Bleeding or inflamed gums",
+        "General dental maintenance"
+      ],
+      "procedure": [
+        "Comprehensive oral examination",
+        "Professional cleaning and scaling",
+        "Fillings or minor restorative work as needed",
+        "Preventive guidance for ongoing care"
+      ],
+      "benefits": [
+        "Catches problems before they need surgery",
+        "Same team as your surgical specialist if complications arise",
+        "Family-friendly routine care"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "root-canal-treatment"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception & waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Surgical treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-surgical-room.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Sterilization area",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-sterilization-area.jpg"
+    },
+    {
+      "caption": "Clinic exterior",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-clinic-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I'd been told by two clinics that my wisdom tooth removal would need a referral elsewhere. Dr. Bhairavan handled it here in one visit, and recovery was easier than I expected.",
+      "author": "Patient, Bhairavi Dental & Maxillofacial Center",
+      "rating": 5
+    },
+    {
+      "quote": "Got two dental implants done over a few months. The surgical placement and the crown fitting were both handled by their team, so I never had to explain my case twice to a new doctor.",
+      "author": "Patient, Bhairavi Dental & Maxillofacial Center",
+      "rating": 5
+    },
+    {
+      "quote": "Very clear about what to expect before my root canal — no surprises on the day, and the pain I came in with was gone by the next morning.",
+      "author": "Patient, Bhairavi Dental & Maxillofacial Center",
+      "rating": 4
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "We accommodate walk-ins when possible, but booking an appointment in advance ensures you're seen closer to your preferred time, especially for surgical consultations."
+    },
+    {
+      "question": "What should I expect before a surgical procedure like a wisdom tooth extraction?",
+      "answer": "You'll have a consultation with an X-ray or OPG scan first, so your surgeon can explain the procedure, anesthesia option, and recovery timeline before your surgery date is scheduled."
+    },
+    {
+      "question": "Is anesthesia used for surgical procedures?",
+      "answer": "Yes. Most surgical procedures are done under local anesthesia, with sedation options available for more complex cases or anxious patients — this is discussed and agreed on before treatment."
+    },
+    {
+      "question": "What payment options do you accept?",
+      "answer": "We accept cash, UPI, and major cards. Please speak with our front desk about cost estimates before treatment begins."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call us directly at +91 99949 23060, message us on WhatsApp, or use the appointment form on this website."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "wisdom-tooth-extraction-what-to-expect",
+      "title": "Wisdom Tooth Extraction: What to Expect Before and After",
+      "excerpt": "A plain-language walkthrough of what happens before, during, and after a wisdom tooth extraction — so there are no surprises on the day.",
+      "author": "Dr. Arvind Bhairavan",
+      "date": "2026-05-12",
+      "content": [
+        "Not every wisdom tooth needs to come out — but when one is impacted, causing pain, or putting neighboring teeth at risk, extraction is usually the right call. The first step is always an X-ray or OPG scan to see exactly how the tooth is positioned.",
+        "Before the procedure, we walk through the anesthesia option that fits your case. Most extractions use local anesthesia; more complex impactions may call for sedation, which we'll discuss with you well before the surgery date.",
+        "The extraction itself is usually done within 30–60 minutes depending on complexity. You'll be given clear aftercare instructions — what to eat, how to manage swelling, and when to avoid rinsing or spitting forcefully.",
+        "Mild swelling and discomfort for the first 2–3 days is normal and manageable with prescribed medication. Most patients are back to regular eating within a week, and we schedule a follow-up if sutures need to be removed.",
+        "If you're unsure whether your wisdom tooth needs attention, a consultation and scan will give you a clear answer rather than letting the discomfort linger."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to evaluate and treat you, including details shared during consultations and surgical case history."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate your care between our surgical and general dental teams and is not shared with third parties without your consent."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your dental and treatment records at any time through our front office."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment, especially for scheduled surgical procedures."
+      },
+      {
+        "heading": "Billing",
+        "body": "Payment is due at the time of treatment. Cost estimates for surgical procedures are provided in advance during your consultation."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person clinical evaluation by a qualified dentist or oral surgeon."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Bhairavi Dental & Maxillofacial Center — Porur, Chennai",
+    "description": "Specialist oral & maxillofacial surgery and general dental care in Porur, Chennai. Wisdom tooth extraction, dental implants, jaw surgery, and more."
+  }
+}

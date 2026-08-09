@@ -1,0 +1,473 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "mednova",
+  "business": {
+    "name": "Signature Dental",
+    "city": "Porur, Chennai",
+    "phone": "+91 88707 40443",
+    "whatsapp": "918870740443",
+    "email": "hello@signaturedental.in",
+    "address": "MS Nagar, Porur, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Premium Dental & Smile Design Studio",
+    "headline": "A Signature Smile, Designed Around You.",
+    "subheadline": "Cosmetic and general dentistry delivered with precision, modern technology, and an unhurried, upscale patient experience — right here in Porur.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Dentists",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Dentistry treated as a craft, not a checklist",
+    "body": [
+      "Signature Dental was started with a simple idea — that a neighborhood dental clinic doesn't have to feel clinical or rushed. Every patient here gets an unhurried consultation, a clearly explained treatment plan, and care that considers how your smile looks, not just how your teeth function.",
+      "We built our practice around cosmetic and restorative dentistry, from smile makeovers and veneers to implants and full-mouth rehabilitation, using modern equipment and sterilization protocols in a calm, private setting in Porur."
+    ],
+    "highlights": [
+      "Cosmetic-first approach to every treatment plan",
+      "Modern equipment and strict sterilization protocols",
+      "Private, unhurried consultations",
+      "Experienced dentists across cosmetic and restorative care"
+    ],
+    "image": "/images/about-dentist-patient.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "2",
+      "label": "Specialist Dentists"
+    },
+    {
+      "icon": "Award",
+      "value": "12+",
+      "label": "Years Combined Experience"
+    },
+    {
+      "icon": "Smile",
+      "value": "3k+",
+      "label": "Smiles Treated"
+    },
+    {
+      "icon": "ShieldCheck",
+      "value": "100%",
+      "label": "Sterilized Instruments"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Sparkles",
+      "title": "Personalized Smile Design",
+      "description": "Every treatment plan starts with a conversation about how you want your smile to look and feel, not a generic procedure list."
+    },
+    {
+      "icon": "Microscope",
+      "title": "Modern, Well-Maintained Equipment",
+      "description": "Digital diagnostics and modern dental technology, maintained to premium clinical standards."
+    },
+    {
+      "icon": "GraduationCap",
+      "title": "Experienced Cosmetic Dentists",
+      "description": "Our dentists hold postgraduate training in cosmetic and restorative dentistry, not just general practice."
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "A Refined Patient Experience",
+      "description": "Private consultation rooms, transparent pricing, and a team that explains every step before it happens."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-ishaan-mehta",
+      "name": "Dr. Ishaan Mehta",
+      "role": "Cosmetic Dentist & Clinic Director",
+      "qualification": "BDS, MDS (Cosmetic & Aesthetic Dentistry)",
+      "registrationNumber": "TNDC-24817",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Mehta leads Signature Dental's cosmetic practice, focusing on smile makeovers, veneers, and full-mouth rehabilitation. He believes great cosmetic dentistry should look natural first and dramatic never.",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS, Cosmetic & Aesthetic Dentistry — Manipal College of Dental Sciences"
+      ],
+      "awards": [],
+      "specialties": [
+        "Smile makeovers",
+        "Porcelain veneers",
+        "Full-mouth rehabilitation",
+        "Cosmetic bonding"
+      ],
+      "photo": "/images/doctor-ishaan-mehta.jpg"
+    },
+    {
+      "slug": "dr-nandini-suresh",
+      "name": "Dr. Nandini Suresh",
+      "role": "Prosthodontist",
+      "qualification": "BDS, MDS (Prosthodontics)",
+      "registrationNumber": "TNDC-26193",
+      "experienceYears": 7,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 10:00 AM – 1:30 PM",
+      "bio": "Dr. Suresh specializes in dental implants, crowns, and bridges, with a particular focus on restoring both function and appearance for patients needing extensive dental work.",
+      "education": [
+        "BDS — Sri Ramachandra Dental College, Chennai",
+        "MDS, Prosthodontics — SRM Dental College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Dental implants",
+        "Crowns and bridges",
+        "Root canal treatment",
+        "Full-mouth rehabilitation"
+      ],
+      "photo": "/images/doctor-nandini-suresh.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "smile-makeover-veneers",
+      "name": "Smile Makeover & Veneers",
+      "tagline": "A smile redesigned around your face, not a template",
+      "overview": "Our signature service combines porcelain veneers, cosmetic bonding, and alignment corrections into a single, personalized smile design plan — built around digital mock-ups so you know what to expect before any work begins.",
+      "symptoms": [
+        "Chipped, stained, or uneven teeth",
+        "Gaps or minor misalignment affecting confidence",
+        "Wanting a more polished smile for events or photos"
+      ],
+      "procedure": [
+        "Smile design consultation and digital mock-up",
+        "Shade matching and veneer or bonding plan",
+        "Minimal tooth preparation where required",
+        "Fitting and final polish"
+      ],
+      "benefits": [
+        "Natural-looking, proportionate results",
+        "Digital preview before treatment begins",
+        "Minimally invasive where possible"
+      ],
+      "recovery": "Most smile makeovers involve no downtime; mild sensitivity after veneer placement typically settles within a few days.",
+      "faqs": [
+        {
+          "question": "How long does a smile makeover take?",
+          "answer": "Depending on scope, a full smile makeover typically takes 2–4 visits over 1–3 weeks, from design consultation to final fitting."
+        },
+        {
+          "question": "Are veneers permanent?",
+          "answer": "Porcelain veneers are long-lasting — typically 10–15 years with good care — but they do involve minor, irreversible tooth preparation."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "teeth-whitening",
+        "full-mouth-rehabilitation"
+      ]
+    },
+    {
+      "slug": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "tagline": "Professional-grade whitening, done safely",
+      "overview": "In-clinic whitening treatment that lifts years of staining in a single session, using professional-grade gels under controlled supervision rather than over-the-counter kits.",
+      "symptoms": [
+        "Yellowing or staining from coffee, tea, or tobacco",
+        "Dullness after years of home whitening kits"
+      ],
+      "procedure": [
+        "Shade assessment and gum protection",
+        "Professional-grade whitening gel application",
+        "Controlled activation in-clinic",
+        "Aftercare guidance to maintain results"
+      ],
+      "benefits": [
+        "Visible results in a single visit",
+        "Supervised, enamel-safe process",
+        "Longer-lasting than at-home kits"
+      ],
+      "recovery": "No downtime; mild, temporary sensitivity is common for 24–48 hours after treatment.",
+      "faqs": [
+        {
+          "question": "How long do whitening results last?",
+          "answer": "With good oral hygiene and limited staining foods, results typically last 6–12 months before a touch-up is needed."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "smile-makeover-veneers"
+      ]
+    },
+    {
+      "slug": "dental-implants",
+      "name": "Dental Implants",
+      "tagline": "A permanent, natural-feeling replacement for missing teeth",
+      "overview": "Titanium implants topped with custom-matched crowns, giving patients a stable, natural-feeling replacement for one or several missing teeth.",
+      "symptoms": [
+        "Missing one or more teeth",
+        "Loose or failing bridgework",
+        "Difficulty chewing due to gaps"
+      ],
+      "procedure": [
+        "Clinical evaluation and imaging",
+        "Implant placement",
+        "Healing period for osseointegration",
+        "Custom crown fitting"
+      ],
+      "benefits": [
+        "Functions and feels like a natural tooth",
+        "Doesn't affect adjacent healthy teeth",
+        "Long-term, durable solution"
+      ],
+      "recovery": "Initial healing takes about a week; full integration before the final crown is fitted typically takes 8–12 weeks.",
+      "faqs": [
+        {
+          "question": "Is the implant procedure painful?",
+          "answer": "The procedure is done under local anesthesia and is generally well-tolerated; mild discomfort afterward is managed with standard pain relief."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "full-mouth-rehabilitation"
+      ]
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the natural tooth, comfortably",
+      "overview": "Modern, largely painless root canal treatment that removes infection while preserving your natural tooth structure wherever possible.",
+      "symptoms": [
+        "Persistent tooth pain, especially with hot or cold",
+        "Swelling or tenderness near a tooth",
+        "Darkening of a single tooth"
+      ],
+      "procedure": [
+        "Diagnosis and digital X-ray",
+        "Local anesthesia and access preparation",
+        "Cleaning and shaping of root canals",
+        "Sealing and crown placement"
+      ],
+      "benefits": [
+        "Preserves your natural tooth",
+        "Modern technique with minimal discomfort",
+        "Usually completed in 1–2 visits"
+      ],
+      "recovery": "Mild soreness for a few days is normal; most patients resume normal eating and routine the same day.",
+      "faqs": [
+        {
+          "question": "Does a root canal hurt?",
+          "answer": "With modern anesthesia techniques, the procedure itself is largely painless — most patients report less discomfort than expected."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "routine-checkups-cleaning"
+      ]
+    },
+    {
+      "slug": "full-mouth-rehabilitation",
+      "name": "Full Mouth Rehabilitation",
+      "tagline": "Comprehensive restoration for function and appearance",
+      "overview": "A coordinated treatment plan combining implants, crowns, veneers, and gum care to fully restore patients with extensive dental wear, damage, or missing teeth.",
+      "symptoms": [
+        "Multiple missing or damaged teeth",
+        "Chronic bite or jaw discomfort",
+        "Significant wear from grinding or age"
+      ],
+      "procedure": [
+        "Comprehensive oral evaluation and imaging",
+        "Staged treatment plan across required procedures",
+        "Restorative and cosmetic work in sequence",
+        "Final bite adjustment and review"
+      ],
+      "benefits": [
+        "One coordinated plan instead of piecemeal treatment",
+        "Restores both function and appearance",
+        "Long-term bite stability"
+      ],
+      "recovery": "Recovery is staged across the treatment plan and reviewed in detail during your consultation.",
+      "faqs": [
+        {
+          "question": "How long does full mouth rehabilitation take?",
+          "answer": "Depending on complexity, treatment is typically staged over 2–6 months to allow proper healing between stages."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "dental-implants",
+        "smile-makeover-veneers"
+      ]
+    },
+    {
+      "slug": "routine-checkups-cleaning",
+      "name": "Routine Checkups & Cleaning",
+      "tagline": "The foundation every great smile is built on",
+      "overview": "Thorough dental checkups and professional cleaning to catch issues early and keep your smile in premium condition between larger treatments.",
+      "symptoms": [
+        "Due for a routine six-month checkup",
+        "Plaque buildup or mild gum sensitivity",
+        "General preventive care"
+      ],
+      "procedure": [
+        "Clinical examination and digital X-ray if needed",
+        "Professional scaling and polishing",
+        "Gum health assessment",
+        "Personalized home-care guidance"
+      ],
+      "benefits": [
+        "Early detection of issues",
+        "Prevents costlier treatment down the line",
+        "Keeps your smile makeover results looking their best"
+      ],
+      "recovery": "No downtime.",
+      "faqs": [
+        {
+          "question": "How often should I get a checkup?",
+          "answer": "We recommend a checkup and cleaning every six months for most patients."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "root-canal-treatment"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception & patient lounge",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception-lounge.jpg"
+    },
+    {
+      "caption": "Treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-treatment-room.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Sterilization area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-sterilization-area.jpg"
+    },
+    {
+      "caption": "Clinic exterior",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-clinic-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "The whole experience felt more like a premium salon visit than a dental appointment — right down to how clearly they explained every step of my smile makeover.",
+      "author": "Patient, Signature Dental",
+      "rating": 5
+    },
+    {
+      "quote": "I was nervous about veneers looking fake, but the result was subtle and natural. Exactly what I asked for in the first consultation.",
+      "author": "Patient, Signature Dental",
+      "rating": 5
+    },
+    {
+      "quote": "Booked a routine cleaning and ended up staying with them for an implant. Professional, unhurried, and genuinely explained the options instead of pushing one.",
+      "author": "Patient, Signature Dental",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "We recommend booking an appointment to avoid wait times, but walk-ins are welcome and accommodated as slots allow."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "Your first visit includes a full oral examination, a discussion of your concerns and goals, and a clear treatment plan with transparent pricing before any work begins."
+    },
+    {
+      "question": "What payment options do you accept?",
+      "answer": "We accept cash, all major cards, and UPI. Staged payment options are available for larger treatment plans like implants or full-mouth rehabilitation."
+    },
+    {
+      "question": "How long does a smile makeover take?",
+      "answer": "Most smile makeovers are completed over 2–4 visits within 1–3 weeks, depending on the combination of treatments involved."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book directly through our appointment page, or call or WhatsApp us and our team will confirm a slot."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "what-actually-goes-into-a-smile-makeover",
+      "title": "What Actually Goes Into a Smile Makeover",
+      "excerpt": "Smile makeovers get treated as one procedure, but they're usually a combination of several — here's how a plan actually comes together.",
+      "author": "Dr. Ishaan Mehta",
+      "date": "2026-06-02",
+      "content": [
+        "\"Smile makeover\" isn't a single procedure — it's a treatment plan that usually combines two or three techniques, chosen based on what your teeth actually need rather than a fixed package.",
+        "For some patients, that means whitening plus a small amount of cosmetic bonding to fix chips or gaps. For others with more wear or discoloration, porcelain veneers give a more controlled, longer-lasting result.",
+        "The process should always start with a digital mock-up or shade and shape discussion, so you have a clear idea of the outcome before any tooth structure is touched.",
+        "Timeline matters too — a conservative makeover with whitening and bonding can be done in a visit or two, while a veneer-based plan typically spans several appointments to allow for precise shade matching and fit.",
+        "The best outcomes come from a plan that looks proportionate to your face and existing teeth, not the most dramatic version possible — that's the difference between a smile that looks 'done' and one that just looks like yours, improved."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect the contact, medical, and billing information necessary to schedule appointments, provide dental care, and process payments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your dental care. We do not sell patient data, and access is limited to your treating dentist and clinic staff."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to, or correction of, your dental records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Appointments may be rescheduled or cancelled up to 24 hours in advance without charge. Late cancellations may be asked to reschedule for the next available slot."
+      },
+      {
+        "heading": "Billing",
+        "body": "Treatment costs are shared upfront wherever possible. Patients are responsible for payment at the time of treatment unless a staged payment plan has been agreed in advance."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person consultation with a licensed dentist."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Signature Dental — Porur, Chennai",
+    "description": "Premium cosmetic and general dental care in Porur, Chennai — smile makeovers, veneers, implants, and routine dental treatment."
+  }
+}

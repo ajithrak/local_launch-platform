@@ -1,0 +1,455 @@
+{
+  "industry": "healthcare",
+  "clinicType": "gynecology",
+  "theme": "mothercare",
+  "business": {
+    "name": "TS Diabetes Center and Women's Health Clinic",
+    "city": "Mugalivakkam, Chennai",
+    "phone": "+91 99622 12491",
+    "whatsapp": "919962212491",
+    "email": "hello@tsdiabeteswomenshealth.in",
+    "address": "Shop-1, Aster's Street, Plot III, No.3/2, VGN Blooming Garden, Mugalivakkam, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Diabetes Care & Women's Health, Under One Roof",
+    "headline": "Two Specialities. One Clinic. One Less Appointment to Juggle.",
+    "subheadline": "TS Diabetes Center and Women's Health Clinic brings together diabetes management and gynecological care in Mugalivakkam — because so many of our patients need both, and shouldn't have to visit two different clinics to get it.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Built around a simple observation",
+    "body": [
+      "So many women managing diabetes also need regular gynecological care — for PCOS, pregnancy, thyroid issues, or routine checkups. Yet most clinics make you choose: a diabetes specialist here, a gynecologist across town.",
+      "TS Diabetes Center and Women's Health Clinic was set up to close that gap. Under one roof in Mugalivakkam, our team manages blood sugar and hormonal health together — because in the body, they're rarely separate problems anyway.",
+      "Whether you're here to get your HbA1c under control, manage PCOS, plan a healthy pregnancy alongside diabetes, or simply want a women's health checkup with a doctor who understands your full picture, we're set up to see you properly, not just quickly."
+    ],
+    "highlights": [
+      "Diabetes management and gynecology under one roof",
+      "Doctors who coordinate care across both specialities",
+      "Private, comfortable consultation rooms",
+      "Evening hours for working patients"
+    ],
+    "image": "/images/about-consultation-desk.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "3,000+",
+      "label": "Patients Cared For"
+    },
+    {
+      "icon": "Activity",
+      "value": "2",
+      "label": "Specialities, One Clinic"
+    },
+    {
+      "icon": "Award",
+      "value": "10+",
+      "label": "Years Combined Experience"
+    },
+    {
+      "icon": "Clock",
+      "label": "Evening Appointments Available",
+      "value": "Mon–Sat"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "HeartPulse",
+      "title": "Two Specialities in One Clinic",
+      "description": "Diabetes management and women's health care in a single visit, coordinated by doctors who talk to each other, not two unconnected clinics."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced Doctors",
+      "description": "Our team brings focused experience in diabetes and endocrinology alongside obstetrics and gynaecology, so nothing gets a generic answer."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Private, Comfortable Consultations",
+      "description": "Every consultation happens in a private room with unhurried time for the questions that matter to you."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours",
+      "description": "Open until 8 PM on weekdays, so you don't have to take time off work to manage your health."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-senthil-kumar",
+      "name": "Dr. Senthil Kumar",
+      "role": "Physician & Diabetes Specialist",
+      "qualification": "MBBS, MD (General Medicine)",
+      "photo": "/images/doctor-senthil-kumar.jpg",
+      "registrationNumber": "TN-MC-58214",
+      "experienceYears": 14,
+      "languages": [
+        "Tamil",
+        "English",
+        "Telugu"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:00 PM",
+      "bio": "Dr. Senthil Kumar focuses on the day-to-day realities of living with diabetes — practical diet plans, medication that actually fits your routine, and close monitoring to prevent complications before they start. He works closely with the clinic's gynecology team for patients managing diabetes alongside pregnancy or PCOS.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD, General Medicine — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Type 1 & Type 2 diabetes management",
+        "Thyroid & hormonal disorders",
+        "Diabetes in pregnancy (coordinated care)",
+        "Preventive health checkups"
+      ]
+    },
+    {
+      "slug": "dr-abirami-raghavan",
+      "name": "Dr. Abirami Raghavan",
+      "role": "Gynecologist & Obstetrician",
+      "qualification": "MBBS, DGO (Obstetrics & Gynaecology)",
+      "photo": "/images/doctor-abirami-raghavan.jpg",
+      "registrationNumber": "TN-MC-61073",
+      "experienceYears": 11,
+      "languages": [
+        "Tamil",
+        "English",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:00 PM",
+      "bio": "Dr. Abirami Raghavan cares for women through every stage — routine gynecological checkups, PCOS/PCOD, prenatal care, and menopause. She pays particular attention to patients whose gynecological health intersects with diabetes or thyroid conditions, working alongside Dr. Senthil Kumar to keep both under control.",
+      "education": [
+        "MBBS — Kilpauk Medical College, Chennai",
+        "DGO, Obstetrics & Gynaecology — Government Stanley Hospital, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "PCOS/PCOD management",
+        "High-risk & diabetic pregnancy care",
+        "Routine gynecological checkups",
+        "Menstrual & menopausal health"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "diabetes-management-monitoring",
+      "name": "Diabetes Management & Monitoring",
+      "tagline": "Practical, ongoing control of blood sugar",
+      "overview": "Regular monitoring, medication management, and lifestyle guidance for patients with Type 1 or Type 2 diabetes, tailored to fit your daily routine rather than fight against it.",
+      "symptoms": [
+        "Frequent thirst or urination",
+        "Unexplained fatigue",
+        "Slow-healing wounds",
+        "Family history of diabetes"
+      ],
+      "procedure": [
+        "Blood sugar and HbA1c testing",
+        "Review of diet, activity, and medication history",
+        "Personalized management plan",
+        "Scheduled follow-up monitoring"
+      ],
+      "benefits": [
+        "Fewer complications through consistent monitoring",
+        "Medication plans that fit your lifestyle",
+        "Coordinated care if you're also managing PCOS or pregnancy"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I get my blood sugar checked?",
+          "answer": "It depends on your treatment plan — we'll set a monitoring schedule at your first visit, typically every 4-12 weeks for HbA1c."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "thyroid-hormonal-health",
+        "prenatal-care"
+      ]
+    },
+    {
+      "slug": "gynecological-checkups",
+      "name": "Gynecological Checkups",
+      "tagline": "Routine women's health care, done unhurried",
+      "overview": "Comprehensive gynecological exams and screenings for women at every life stage, from first visits to menopause.",
+      "symptoms": [],
+      "procedure": [
+        "Health history and concerns discussion",
+        "Physical examination and screening",
+        "Relevant lab work or ultrasound referral",
+        "Follow-up plan as needed"
+      ],
+      "benefits": [
+        "Early detection of common gynecological conditions",
+        "A private, judgment-free space for questions",
+        "Continuity of care with the same doctor"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "pcos-pcod-management"
+      ]
+    },
+    {
+      "slug": "pcos-pcod-management",
+      "name": "PCOS/PCOD Management",
+      "tagline": "Hormonal, metabolic, and lifestyle care together",
+      "overview": "Diagnosis and long-term management of PCOS/PCOD, addressing both the hormonal and metabolic sides of the condition — an area where our two specialities work especially closely together.",
+      "symptoms": [
+        "Irregular periods",
+        "Weight gain or difficulty losing weight",
+        "Acne or excess hair growth",
+        "Difficulty conceiving"
+      ],
+      "procedure": [
+        "Hormonal and metabolic evaluation",
+        "Ultrasound assessment as needed",
+        "Combined diabetes-risk and gynecological treatment plan",
+        "Ongoing monitoring and lifestyle support"
+      ],
+      "benefits": [
+        "Treatment that addresses hormones and blood sugar together",
+        "Reduced long-term diabetes risk",
+        "Support for fertility goals where relevant"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Is PCOS connected to diabetes?",
+          "answer": "PCOS is closely linked to insulin resistance, which is why we manage it jointly between our diabetes and gynecology doctors."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "diabetes-management-monitoring",
+        "thyroid-hormonal-health"
+      ]
+    },
+    {
+      "slug": "prenatal-care",
+      "name": "Prenatal Care",
+      "tagline": "Pregnancy care, with diabetes risk covered too",
+      "overview": "Full prenatal care from early pregnancy through delivery planning, with built-in screening and management for gestational diabetes.",
+      "symptoms": [],
+      "procedure": [
+        "Initial prenatal visit and history review",
+        "Trimester-wise monitoring visits",
+        "Gestational diabetes screening",
+        "Delivery planning and referral coordination"
+      ],
+      "benefits": [
+        "One clinic for both pregnancy and diabetes screening",
+        "Closer monitoring for high-risk or diabetic pregnancies",
+        "Unhurried visits for first-time parents"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "diabetes-management-monitoring"
+      ]
+    },
+    {
+      "slug": "thyroid-hormonal-health",
+      "name": "Thyroid & Hormonal Health",
+      "tagline": "Because hormones rarely act alone",
+      "overview": "Testing and treatment for thyroid and other hormonal imbalances, often evaluated alongside diabetes and gynecological health for a complete picture.",
+      "symptoms": [
+        "Unexplained weight changes",
+        "Fatigue or low energy",
+        "Irregular periods",
+        "Hair thinning"
+      ],
+      "procedure": [
+        "Thyroid and hormone panel testing",
+        "Clinical evaluation",
+        "Personalized treatment and monitoring plan"
+      ],
+      "benefits": [
+        "Identifies root causes rather than just symptoms",
+        "Coordinated with diabetes and gynecological care",
+        "Simple, ongoing monitoring"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "diabetes-management-monitoring",
+        "pcos-pcod-management"
+      ]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "One visit, a complete picture",
+      "overview": "Combined diabetes and women's health checkup packages designed for busy patients who want a thorough review without multiple clinic visits.",
+      "symptoms": [],
+      "procedure": [
+        "Blood sugar, thyroid, and basic metabolic panel",
+        "Gynecological screening",
+        "Consultation with both doctors",
+        "Consolidated health report"
+      ],
+      "benefits": [
+        "One appointment covers both specialities",
+        "Useful baseline for future monitoring",
+        "Convenient for annual checkups"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "diabetes-management-monitoring",
+        "gynecological-checkups"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "Diabetes & General Medicine",
+      "doctorSlugs": [
+        "dr-senthil-kumar"
+      ]
+    },
+    {
+      "name": "Women's Health",
+      "doctorSlugs": [
+        "dr-abirami-raghavan"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception & waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Diagnostics & monitoring corner",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-50",
+      "src": "/images/gallery-diagnostics-monitoring.jpg"
+    },
+    {
+      "caption": "Patient waiting lounge",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I was managing my diabetes at one clinic and seeing a gynecologist somewhere else for my PCOS. Coming here meant one appointment instead of two, and the doctors actually coordinate with each other.",
+      "author": "Patient, TS Diabetes Center and Women's Health Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "My blood sugar was high through most of my pregnancy and I was anxious about it. Being able to see both my diabetes doctor and my gynecologist at the same clinic made it so much easier to stay on top of.",
+      "author": "Patient, TS Diabetes Center and Women's Health Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Abirami took the time to actually explain what was going on with my PCOS instead of just handing me a prescription. Never felt rushed.",
+      "author": "Patient, TS Diabetes Center and Women's Health Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What specialities does this clinic cover?",
+      "answer": "We combine two specialities under one roof: diabetes and general medicine care, and women's health and gynecology. Many of our patients use both."
+    },
+    {
+      "question": "What should I bring for my first visit?",
+      "answer": "Please bring any previous medical records, current medications, and recent lab reports if you have them. If not, that's fine too — we can start fresh."
+    },
+    {
+      "question": "Do you accept insurance or is payment out of pocket?",
+      "answer": "We currently operate on a direct-payment basis. Please contact the clinic to confirm accepted payment methods before your visit."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book through our appointment page on this site, or call us directly at +91 99622 12491."
+    },
+    {
+      "question": "If I need both a diabetes consultation and a gynecology consultation, do I need two separate appointments?",
+      "answer": "Not necessarily. Let us know when booking that you need both, and we'll do our best to coordinate a single visit covering both consultations."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "diabetes-management-matters-more-during-pregnancy",
+      "title": "Why Diabetes Management Matters More During Pregnancy",
+      "excerpt": "Gestational and pre-existing diabetes both raise the stakes during pregnancy. Here's why close monitoring across both specialities makes a real difference.",
+      "author": "Dr. Senthil Kumar",
+      "date": "2026-02-10",
+      "content": [
+        "Pregnancy changes how your body processes insulin, which is why blood sugar control matters even more during these nine months — whether you already had diabetes or developed gestational diabetes along the way.",
+        "Poorly controlled blood sugar during pregnancy raises the risk of complications for both mother and baby, including higher birth weight, preterm delivery, and a harder recovery after birth.",
+        "This is exactly the kind of situation where having diabetes and gynecology care under one roof helps. Your prenatal visits and your blood sugar monitoring don't happen in isolation — both doctors are looking at the same picture and adjusting your plan together.",
+        "If you're pregnant and managing diabetes, or if you've just been flagged for gestational diabetes, the most useful first step is a joint consultation that looks at your pregnancy and your blood sugar as one connected story, not two separate problems."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide diabetes and gynecological care."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate and deliver your care across both specialities offered at this clinic. We do not sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or correction of your medical records at any time through our office."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation charges are due at the time of visit. Please confirm current fees with our front desk before booking."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace a consultation with your physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "TS Diabetes Center and Women's Health Clinic — Mugalivakkam, Chennai",
+    "description": "Diabetes management and women's health care under one roof in Mugalivakkam, Chennai. Book a consultation for diabetes, PCOS, prenatal care, and more."
+  }
+}
