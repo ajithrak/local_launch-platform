@@ -1,0 +1,471 @@
+{
+  "industry": "healthcare",
+  "clinicType": "multi-speciality",
+  "theme": "mednova",
+  "business": {
+    "name": "GR ENT Diabetes & Geriatric Care Clinics",
+    "city": "Moulivakkam, Chennai",
+    "phone": "+91 63747 79312",
+    "whatsapp": "916374779312",
+    "email": "hello@grentdiabetes.in",
+    "address": "2/41, Mangadu Rd, Sri Ranga Nagar, Moulivakkam, Chennai, Tamil Nadu 600116",
+    "hours": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "ENT · Diabetes · Geriatric Care, Under One Roof",
+    "headline": "Three Specialities. One Clinic Your Whole Family Can Rely On.",
+    "subheadline": "GR ENT Diabetes & Geriatric Care Clinics brings together ear-nose-throat treatment, diabetes management, and elderly-focused care in Moulivakkam — because so many of our patients need all three, not just one.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Care built around how patients actually age",
+    "body": [
+      "GR ENT Diabetes & Geriatric Care Clinics was set up around a simple observation: ENT problems, diabetes, and the general health needs of older adults are rarely separate issues. Hearing loss, sinus trouble, blood sugar management, and age-related frailty often show up in the same patient, and in the same family.",
+      "Rather than sending patients across the city to three different specialists, we bring ENT care, diabetes management, and geriatric health support into a single clinic in Moulivakkam — with doctors who take the time to explain things clearly and never rush an elderly patient through a visit.",
+      "Whether you're bringing in a parent for a routine diabetes review, need a hearing assessment, or want a general health checkup for an older family member, our team is set up to handle it with patience and continuity of care."
+    ],
+    "highlights": [
+      "Three specialities under one roof: ENT, diabetes, geriatric care",
+      "Unhurried consultations designed for elderly patients",
+      "Experienced doctors with dedicated geriatric focus",
+      "Convenient Moulivakkam location with easy access"
+    ],
+    "image": "/images/about-clinic-waiting-room.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "2",
+      "label": "Specialist Doctors"
+    },
+    {
+      "icon": "HeartPulse",
+      "value": "3",
+      "label": "Specialities Covered"
+    },
+    {
+      "icon": "Award",
+      "value": "15+",
+      "label": "Years Combined Experience"
+    },
+    {
+      "icon": "Clock",
+      "value": "6",
+      "label": "Days Open Weekly"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Stethoscope",
+      "title": "Three Specialities for the Whole Family",
+      "description": "ENT care, diabetes management, and geriatric health support in one clinic — no need to shuttle between different hospitals for related conditions."
+    },
+    {
+      "icon": "GraduationCap",
+      "title": "Experienced, Qualified Doctors",
+      "description": "Our doctors bring focused training in ENT and internal medicine with a specific interest in the health needs of older adults."
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "Patient, Unhurried Care for Elderly Patients",
+      "description": "We build extra time into every consultation for elderly patients, so questions get answered and nothing feels rushed."
+    },
+    {
+      "icon": "MapPin",
+      "title": "Convenient Moulivakkam Location",
+      "description": "Easily accessible from Sri Ranga Nagar and surrounding neighbourhoods, with a straightforward walk-in reception process."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-ganesh-raman",
+      "name": "Dr. Ganesh Raman",
+      "role": "ENT Specialist",
+      "qualification": "MBBS, MS (ENT)",
+      "registrationNumber": "TNMC-58214",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 9:30 AM – 1:00 PM",
+      "bio": "Dr. Ganesh Raman treats the full range of ear, nose, and throat conditions, with particular attention to age-related hearing loss and sinus issues common among older patients. He believes in explaining diagnoses in plain language before recommending treatment.",
+      "photo": "/images/doctor-ganesh-raman.jpg",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MS, ENT — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Hearing loss & hearing assessment",
+        "Sinusitis & nasal disorders",
+        "Ear infections and wax removal",
+        "Throat and voice disorders"
+      ]
+    },
+    {
+      "slug": "dr-lakshmi-narayanan",
+      "name": "Dr. Lakshmi Narayanan",
+      "role": "Diabetes & Geriatric Care Physician",
+      "qualification": "MBBS, MD (General Medicine)",
+      "registrationNumber": "TNMC-63709",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon–Sat · 5:00 PM – 8:00 PM",
+      "bio": "Dr. Lakshmi Narayanan manages long-term diabetes care and general health for elderly patients, with a focus on practical, sustainable treatment plans that fit into daily life. She works closely with families to coordinate ongoing care for ageing parents.",
+      "photo": "/images/doctor-lakshmi-narayanan.jpg",
+      "education": [
+        "MBBS — Kilpauk Medical College, Chennai",
+        "MD, General Medicine — Madras Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Diabetes management & monitoring",
+        "Geriatric health checkups",
+        "Chronic disease management",
+        "General internal medicine"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "ent-consultation-treatment",
+      "name": "ENT Consultation & Treatment",
+      "tagline": "Complete ear, nose, and throat care",
+      "overview": "From routine ear infections to persistent sinus trouble, our ENT consultations cover diagnosis and treatment for the full range of ear, nose, and throat conditions affecting patients of all ages.",
+      "symptoms": [
+        "Ear pain, discharge, or blocked sensation",
+        "Persistent nasal congestion or sinus pressure",
+        "Sore throat or hoarseness that won't resolve",
+        "Recurring throat infections"
+      ],
+      "procedure": [
+        "Detailed history and ENT examination",
+        "Diagnosis using clinical assessment and endoscopy where needed",
+        "Treatment plan — medication, minor procedure, or referral",
+        "Follow-up to confirm resolution"
+      ],
+      "benefits": [
+        "Same-day consultation for most ENT complaints",
+        "Clear explanation of diagnosis before treatment",
+        "Care coordinated with diabetes management when relevant"
+      ],
+      "recovery": "Most ENT conditions resolve within a few days to two weeks with appropriate treatment; minor in-clinic procedures typically need no downtime.",
+      "faqs": [
+        {
+          "question": "Do I need a referral to see the ENT specialist?",
+          "answer": "No referral is needed — you can book an ENT consultation directly."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "hearing-assessment"
+      ]
+    },
+    {
+      "slug": "hearing-assessment",
+      "name": "Hearing Assessment",
+      "tagline": "Understanding hearing loss before it affects daily life",
+      "overview": "Hearing loss is common among older adults and often goes unaddressed for years. Our hearing assessments identify the type and extent of hearing loss so we can recommend the right next step, whether that's treatment, monitoring, or a hearing aid referral.",
+      "symptoms": [
+        "Difficulty following conversations, especially in groups",
+        "Frequently asking others to repeat themselves",
+        "Turning the TV or phone volume unusually high",
+        "Ringing or buzzing in the ears"
+      ],
+      "procedure": [
+        "Ear examination to rule out wax buildup or infection",
+        "Hearing evaluation appropriate to the patient's age and history",
+        "Discussion of results and practical next steps",
+        "Referral for hearing aids if required"
+      ],
+      "benefits": [
+        "Assessment tailored for elderly patients",
+        "No pressure to purchase devices you don't need",
+        "Clear, jargon-free explanation of results"
+      ],
+      "recovery": "The assessment itself is non-invasive with no recovery time required.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "ent-consultation-treatment"
+      ]
+    },
+    {
+      "slug": "diabetes-management-monitoring",
+      "name": "Diabetes Management & Monitoring",
+      "tagline": "Practical, ongoing diabetes care",
+      "overview": "We help patients manage type 2 diabetes with regular monitoring, medication adjustment, and lifestyle guidance that's realistic for day-to-day life, not just a one-time prescription.",
+      "symptoms": [
+        "Frequent thirst or urination",
+        "Unexplained fatigue",
+        "Slow-healing cuts or wounds",
+        "Blurred vision"
+      ],
+      "procedure": [
+        "Blood sugar review and history intake",
+        "Assessment of current medication and lifestyle factors",
+        "Personalized management plan with clear targets",
+        "Scheduled follow-up visits to track progress"
+      ],
+      "benefits": [
+        "Ongoing relationship with the same physician, not a new doctor each visit",
+        "Plans adjusted for elderly patients' overall health, not diabetes alone",
+        "Family involved in care planning where helpful"
+      ],
+      "recovery": "Diabetes management is ongoing rather than a one-time treatment; most patients settle into a stable routine within a few visits.",
+      "faqs": [
+        {
+          "question": "How often should I come in for diabetes review?",
+          "answer": "Most patients are reviewed every 4–6 weeks initially, moving to longer intervals once blood sugar is well controlled."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "chronic-disease-management",
+        "geriatric-health-checkups"
+      ]
+    },
+    {
+      "slug": "geriatric-health-checkups",
+      "name": "Geriatric Health Checkups",
+      "tagline": "Comprehensive health reviews for older adults",
+      "overview": "Our geriatric checkups look at overall health in older patients — not just one complaint at a time — covering mobility, medication review, chronic conditions, and general wellbeing in a single unhurried visit.",
+      "symptoms": [
+        "General decline in energy or mobility",
+        "Multiple ongoing medications needing review",
+        "Family concerns about a parent's overall health",
+        "No recent full health checkup"
+      ],
+      "procedure": [
+        "Extended consultation covering full medical history",
+        "Physical examination and basic diagnostics",
+        "Medication review to avoid unnecessary overlap",
+        "Written summary shared with patient and family"
+      ],
+      "benefits": [
+        "Unhurried appointment slots built specifically for elderly patients",
+        "Coordinated view across diabetes, ENT, and general health",
+        "Family members welcome to join the consultation"
+      ],
+      "recovery": "This is a consultative service with no recovery period involved.",
+      "faqs": [
+        {
+          "question": "Can a family member accompany an elderly patient during the checkup?",
+          "answer": "Yes, we encourage it — having a family member present helps with both history-taking and understanding the follow-up plan."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "diabetes-management-monitoring",
+        "chronic-disease-management"
+      ]
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Chronic Disease Management",
+      "tagline": "Coordinated care for long-term conditions",
+      "overview": "For patients managing diabetes alongside other chronic conditions such as hypertension or thyroid disorders, we provide coordinated, ongoing management rather than treating each condition in isolation.",
+      "symptoms": [
+        "Multiple chronic conditions being managed separately",
+        "Difficulty keeping track of medications",
+        "Symptoms that seem connected across conditions"
+      ],
+      "procedure": [
+        "Review of all existing conditions and current treatment",
+        "Consolidated management plan across conditions",
+        "Regular monitoring visits",
+        "Adjustments based on progress"
+      ],
+      "benefits": [
+        "One doctor tracking the full picture, not fragmented care",
+        "Fewer, more useful visits instead of scattered appointments",
+        "Particularly suited to elderly patients with multiple conditions"
+      ],
+      "recovery": "Ongoing management rather than a fixed recovery timeline; review frequency is set based on condition stability.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "diabetes-management-monitoring",
+        "geriatric-health-checkups"
+      ]
+    },
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "For everyday health concerns, at any age",
+      "overview": "Not every visit needs a specialist. Our general health consultations cover common ailments, health concerns, and referrals for the whole family, alongside our ENT and diabetes-focused care.",
+      "symptoms": [
+        "Fever, cold, or common infections",
+        "General health concerns without a clear diagnosis",
+        "Need for a routine health checkup"
+      ],
+      "procedure": [
+        "Consultation and examination",
+        "Diagnosis and treatment, or referral to the appropriate specialist",
+        "Prescription and clear care instructions"
+      ],
+      "benefits": [
+        "Convenient single visit for common health concerns",
+        "Direct referral within the clinic when a speciality is needed",
+        "Suitable for all age groups"
+      ],
+      "recovery": "Varies by condition; most common ailments resolve within a few days of treatment.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [
+    {
+      "name": "ENT",
+      "doctorSlugs": [
+        "dr-ganesh-raman"
+      ]
+    },
+    {
+      "name": "Diabetes & Geriatric Care",
+      "doctorSlugs": [
+        "dr-lakshmi-narayanan"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Clinic reception",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "ENT examination room",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-ent-examination-room.jpg"
+    },
+    {
+      "caption": "Patient waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "We were struggling to find one place that could handle my father's diabetes and his hearing problems without running between hospitals. GR ENT Diabetes & Geriatric Care sorted both, and the doctors never made him feel rushed.",
+      "author": "Patient, GR ENT Diabetes & Geriatric Care Clinics",
+      "rating": 5
+    },
+    {
+      "quote": "My mother is 72 and gets anxious at hospitals, but the staff here were patient with her from the first visit. Her diabetes checkups are now something she doesn't dread.",
+      "author": "Patient, GR ENT Diabetes & Geriatric Care Clinics",
+      "rating": 5
+    },
+    {
+      "quote": "Got my sinus issue treated and my father's routine health checkup done on the same visit. Saved us a lot of time and the doctors explained everything clearly.",
+      "author": "Patient, GR ENT Diabetes & Geriatric Care Clinics",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What specialities does GR ENT Diabetes & Geriatric Care Clinics cover?",
+      "answer": "We cover three areas: ENT (ear, nose, and throat) care, diabetes management, and geriatric care for elderly patients, along with general health consultations."
+    },
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "Walk-ins are welcome, though booking an appointment in advance helps reduce waiting time, especially for elderly patients."
+    },
+    {
+      "question": "What should I bring for my first visit?",
+      "answer": "Please bring any previous medical records, current medications, and relevant test reports. For elderly patients, having a family member accompany the visit is helpful."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and major debit and credit cards at the clinic."
+    },
+    {
+      "question": "How can I book an appointment?",
+      "answer": "You can call the clinic directly or use the Book Appointment option on this website, and our reception team will confirm your slot."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "hearing-loss-and-diabetes-in-older-adults",
+      "title": "Why Hearing Loss and Diabetes Often Go Hand in Hand in Older Adults",
+      "excerpt": "The two conditions show up together more often than most families realize — here's why, and what to watch for.",
+      "author": "Dr. Ganesh Raman",
+      "date": "2026-06-10",
+      "content": [
+        "It's a pattern we see often at the clinic: an elderly patient comes in for a diabetes review, and during the conversation it becomes clear they've also been struggling to follow conversations or have the television volume turned up unusually high.",
+        "Research has consistently found that people with diabetes are roughly twice as likely to experience hearing loss compared to those without it. High blood sugar levels over time can damage the small blood vessels and nerves in the inner ear, similar to the way diabetes affects the eyes and kidneys.",
+        "The tricky part is that hearing loss develops gradually, so patients and families often don't notice it until it starts affecting daily communication. That's why we recommend a simple hearing check as part of routine diabetes reviews for older patients, rather than waiting for a complaint.",
+        "The good news is that when caught early, hearing loss is very manageable, whether through monitoring, medical treatment, or a hearing aid referral. Combined with steady blood sugar control, most patients see a meaningful improvement in their day-to-day quality of life.",
+        "If you're managing diabetes for yourself or an elderly parent, it's worth asking your doctor for a hearing assessment alongside your regular diabetes checkup, especially if you've noticed conversations becoming harder to follow."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide consultations, manage ongoing treatment, and schedule appointments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care at our clinic. We do not sell patient data, and access is restricted to your treating doctor and clinic staff."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to, or correction of, your medical records at any time by contacting our reception."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Appointments may be rescheduled or cancelled by calling the clinic ahead of your scheduled time; walk-ins are accommodated based on availability."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and treatment charges are payable at the time of visit; itemized billing is provided on request."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational and does not replace an in-person consultation with a licensed physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "GR ENT Diabetes & Geriatric Care Clinics — Moulivakkam, Chennai",
+    "description": "GR ENT Diabetes & Geriatric Care Clinics in Moulivakkam, Chennai offers ENT treatment, diabetes management, and geriatric care for the whole family, with unhurried, patient-focused consultations."
+  }
+}

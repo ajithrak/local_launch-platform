@@ -1,0 +1,387 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "mothercare",
+  "business": {
+    "name": "Anita Roges Clinic",
+    "city": "Madhanandapuram, Chennai",
+    "phone": "+91 99410 33899",
+    "whatsapp": "919941033899",
+    "email": "hello@anitarogesclinic.in",
+    "address": "25C3+QJC, Guruswamy Nagar, Santosh Nagar, Madhanandapuram, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:00 PM · Sunday Closed",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "General Medicine & Family Care",
+    "headline": "A Doctor Who Actually Knows You.",
+    "subheadline": "Anita Roges Clinic is a neighbourhood general practice in Madhanandapuram built around one idea — care that comes from someone who remembers your history, not a new face every visit.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Dr. Anita Roges",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Personal care, right in your neighbourhood",
+    "body": [
+      "Anita Roges Clinic was started by Dr. Anita Roges to give families in Madhanandapuram a general practice that feels personal — the kind of clinic where the doctor already knows your history before you finish describing your symptoms.",
+      "From a child's fever to an elderly parent's ongoing blood pressure check-up, every member of the family is seen by the same familiar doctor, in the same welcoming clinic, visit after visit.",
+      "Evening hours mean you don't have to choose between work and a doctor's visit, and walk-ins are always accommodated wherever possible."
+    ],
+    "highlights": [
+      "One doctor, consistently, across every visit",
+      "Morning and evening hours to fit your day",
+      "Whole-family care under one roof",
+      "A calm, welcoming clinic environment"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "8,000+",
+      "label": "Patients Cared For"
+    },
+    {
+      "icon": "Calendar",
+      "value": "10+",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "HeartPulse",
+      "value": "5,000+",
+      "label": "Consultations a Year"
+    },
+    {
+      "icon": "Clock",
+      "value": "7",
+      "label": "Days of Availability"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "HeartPulse",
+      "title": "Personal, Attentive Care",
+      "description": "Dr. Anita Roges gets to know your history, so every visit builds on the last instead of starting from scratch."
+    },
+    {
+      "icon": "Clock",
+      "title": "Morning & Evening Hours",
+      "description": "Open before work and after, so a doctor's visit never has to mean missing a full day."
+    },
+    {
+      "icon": "Users",
+      "title": "Care for the Whole Family",
+      "description": "From children to grandparents, every generation of your family is seen by the same trusted doctor."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "A Welcoming Clinic",
+      "description": "A calm, unhurried space designed to put patients at ease from the moment they walk in."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-anita-roges",
+      "name": "Dr. Anita Roges",
+      "role": "General Physician",
+      "qualification": "MBBS, MD (General Medicine)",
+      "registrationNumber": "TNMC-58214",
+      "experienceYears": 12,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:00 PM",
+      "bio": "Dr. Anita Roges founded this clinic to bring personal, attentive general medicine to Madhanandapuram — the kind of practice where patients are known by name and history, not treated as another number in a queue. She sees patients across all ages, from routine check-ups to ongoing management of chronic conditions.",
+      "photo": "/images/dr-anita-roges.jpg",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD, General Medicine — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General health & preventive care",
+        "Chronic disease management",
+        "Women's and family health"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "Same-doctor consultations for everyday health concerns",
+      "overview": "From fevers and infections to unexplained fatigue, Dr. Anita Roges provides thorough, unhurried consultations for everyday health concerns affecting any member of the family.",
+      "symptoms": [
+        "Fever, cold & cough",
+        "Body aches and fatigue",
+        "Digestive discomfort",
+        "General wellness concerns"
+      ],
+      "procedure": [
+        "Detailed history and symptom review",
+        "Physical examination",
+        "Diagnosis and personalised treatment plan",
+        "Follow-up guidance as needed"
+      ],
+      "benefits": [
+        "Seen by the same doctor every visit",
+        "Unhurried time to explain your symptoms",
+        "Clear, practical treatment guidance"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do I need to book ahead for a general consultation?",
+          "answer": "Walk-ins are welcome whenever possible, but booking ahead helps us minimise your wait time."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "chronic-disease-management",
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Chronic Disease Management",
+      "tagline": "Ongoing, consistent care for diabetes, BP and more",
+      "overview": "Regular monitoring and management of long-term conditions like diabetes, hypertension, and thyroid disorders, with the continuity of seeing the same doctor at every visit.",
+      "symptoms": [
+        "Diagnosed diabetes or pre-diabetes",
+        "High or fluctuating blood pressure",
+        "Thyroid imbalances",
+        "Ongoing medication management"
+      ],
+      "procedure": [
+        "Review of medical history and current medication",
+        "Relevant screening and monitoring",
+        "Personalised management plan",
+        "Scheduled follow-up visits to track progress"
+      ],
+      "benefits": [
+        "Consistent tracking of your condition over time",
+        "One doctor familiar with your full history",
+        "Practical lifestyle and medication guidance"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation",
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "womens-health-checkups",
+      "name": "Women's Health Checkups",
+      "tagline": "Attentive, comfortable care for women at every life stage",
+      "overview": "Routine women's health checkups and consultations handled with the comfort and attentiveness of a doctor who takes the time to listen.",
+      "symptoms": [
+        "Routine wellness check-ins",
+        "Menstrual or hormonal concerns",
+        "Pre- and post-natal general health",
+        "General health concerns specific to women"
+      ],
+      "procedure": [
+        "Confidential history and concerns discussion",
+        "Relevant examination and screening",
+        "Personalised care recommendations"
+      ],
+      "benefits": [
+        "A comfortable, private consultation setting",
+        "Care from a doctor who listens without rushing",
+        "Coordinated referrals when specialist care is needed"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "Routine immunisations for children and adults",
+      "overview": "Age-appropriate vaccinations for infants, children, and adults, administered in a calm clinic setting with clear guidance on schedules.",
+      "symptoms": [],
+      "procedure": [
+        "Review of vaccination history and schedule",
+        "Vaccine administration",
+        "Post-vaccination observation and guidance"
+      ],
+      "benefits": [
+        "Vaccination schedules tracked and reminded",
+        "Comfortable experience for young children",
+        "Guidance on travel and seasonal vaccines"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do you maintain vaccination records for children?",
+          "answer": "Yes, we track and remind you of your child's upcoming vaccination schedule."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "Comprehensive screening for early, preventive care",
+      "overview": "Bundled health screening packages covering key blood work, vitals, and consultation, designed to catch potential concerns early.",
+      "symptoms": [],
+      "procedure": [
+        "Pre-checkup consultation to select the right package",
+        "Screening and lab tests",
+        "Results review with Dr. Anita Roges",
+        "Personalised follow-up plan"
+      ],
+      "benefits": [
+        "Early detection of common health risks",
+        "Results explained in person, not just on paper",
+        "Packages tailored by age and health history"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "chronic-disease-management",
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Our reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Health checkup corner",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-checkup-corner.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Dr. Roges actually remembers what we spoke about last time. It sounds small, but it makes every visit feel like she genuinely knows my family.",
+      "author": "Patient, Anita Roges Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "I've been coming here for my BP check-ups for years now. There's real comfort in seeing the same doctor who already knows my history.",
+      "author": "Patient, Anita Roges Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "The evening hours saved us so many times when my kids fell sick after school. Always attentive, never rushed.",
+      "author": "Patient, Anita Roges Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need an appointment, or can I walk in?",
+      "answer": "Walk-ins are welcome whenever possible, though booking ahead through our appointment page helps reduce your wait time."
+    },
+    {
+      "question": "What should I bring to my first visit?",
+      "answer": "Please bring any previous medical records, current medications, and a valid ID. If you don't have prior records, that's fine — we'll start a fresh history with you."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and major cards at the clinic."
+    },
+    {
+      "question": "Can the whole family see the same doctor?",
+      "answer": "Yes — Dr. Anita Roges sees patients of all ages, from children to grandparents, so your whole family can be cared for by one familiar doctor."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book through our appointment page online, or call us directly at +91 99410 33899."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-one-doctor-who-knows-your-history-matters",
+      "title": "Why Having One Doctor Who Knows Your History Actually Matters",
+      "excerpt": "It's easy to underestimate how much continuity of care changes the quality of your treatment — here's why seeing the same doctor, visit after visit, matters more than it seems.",
+      "author": "Dr. Anita Roges",
+      "date": "2026-02-10",
+      "content": [
+        "When you see a different doctor every time you visit a clinic, every appointment starts from zero — a new person hearing your symptoms for the first time, working from a chart instead of a memory.",
+        "Continuity of care changes that. When one doctor sees you consistently, they start to notice patterns you might not even mention — a recurring headache that lines up with stress, a blood pressure trend worth watching, a medication that didn't quite agree with you last time.",
+        "This matters most for chronic conditions like diabetes and hypertension, where small changes over months are exactly what need tracking. It also matters for something as simple as a child's recurring cold, where a familiar doctor can tell the difference between 'this is normal for them' and 'this is new.'",
+        "That's the idea behind how this clinic is run. Every patient, across every visit, is seen by the same doctor — so the care you get keeps building on what came before, instead of starting over each time."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and maintain accurate patient records."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate and deliver your care. We do not sell or share patient data with third parties."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time through our clinic."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please inform us in advance if you are unable to make a scheduled appointment, so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and treatment charges are payable at the time of your visit unless otherwise arranged."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person consultation with your physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Anita Roges Clinic — Madhanandapuram, Chennai",
+    "description": "Personal, patient-first general practice in Madhanandapuram, Chennai, led by Dr. Anita Roges. Family care, chronic disease management, and health checkups."
+  }
+}

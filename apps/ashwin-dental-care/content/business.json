@@ -1,0 +1,449 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "smilecraft",
+  "business": {
+    "name": "Ashwin Dental Care",
+    "city": "Mugalivakkam, Chennai",
+    "phone": "+91 97511 66543",
+    "whatsapp": "919751166543",
+    "email": "hello@ashwindentalcare.in",
+    "address": "Plot no.16, VGN Lakshmi Nagar Main Rd, VGN Lakshmi Nagar, Mugalivakkam, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Braces & Invisalign Specialists",
+    "headline": "Straighter Teeth, On Your Terms.",
+    "subheadline": "Ashwin Dental Care is Mugalivakkam's orthodontics-focused clinic — traditional braces and Invisalign clear aligners from a dedicated specialist, alongside complete general dental care.",
+    "primaryCta": {
+      "label": "Book a Consultation",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Explore Orthodontics",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "An orthodontic specialist, not just a dentist who also does braces",
+    "body": [
+      "Ashwin Dental Care was set up around a specific gap in Mugalivakkam — patients who needed real orthodontic expertise, not a general dentist fitting braces on the side.",
+      "Dr. Ashwin Kumar, a qualified orthodontist, leads every braces and Invisalign case personally, from the first bite assessment through to retention — while the clinic's general dentistry side handles everything else a family needs, from checkups to root canals.",
+      "The clinic sees a mix of teenagers starting orthodontic treatment for the first time and adults choosing Invisalign for a more discreet option, and treatment plans are built around what actually fits each patient's life and budget."
+    ],
+    "highlights": [
+      "Dedicated orthodontist for braces & Invisalign",
+      "Both metal/ceramic braces and clear aligners offered",
+      "Treatment plans for teens and adults",
+      "In-house sterilization and modern equipment"
+    ],
+    "image": "/images/about-clear-aligners.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Smile",
+      "value": "1,200+",
+      "label": "Orthodontic Cases Treated"
+    },
+    {
+      "icon": "Users",
+      "value": "2",
+      "label": "Dental Specialists"
+    },
+    {
+      "icon": "Award",
+      "value": "7",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "ShieldCheck",
+      "value": "100%",
+      "label": "Sterilized Instruments"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Smile",
+      "title": "Orthodontic Specialist Expertise",
+      "description": "Braces and Invisalign cases are led by a qualified orthodontist, not a general dentist working outside their core training."
+    },
+    {
+      "icon": "Sparkles",
+      "title": "Braces or Invisalign — Your Choice",
+      "description": "We offer traditional metal and ceramic braces alongside clear aligners, and help you pick what actually suits your case and lifestyle."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Modern Equipment, Strict Sterilization",
+      "description": "Every instrument is sterilized between patients, with modern imaging and diagnostic equipment used for every case."
+    },
+    {
+      "icon": "Clock",
+      "title": "Personalized Treatment Plans",
+      "description": "No two smiles are the same — treatment timelines and options are built around each patient, whether teen or adult."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-ashwin-kumar",
+      "name": "Dr. Ashwin Kumar",
+      "role": "Orthodontist",
+      "qualification": "BDS, MDS (Orthodontics & Dentofacial Orthopaedics)",
+      "registrationNumber": "TNDC-24817",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Ashwin Kumar founded Ashwin Dental Care to bring dedicated orthodontic expertise to Mugalivakkam. He personally manages every braces and Invisalign case, from diagnosis and treatment planning through to retention, for both teenage and adult patients.",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS Orthodontics & Dentofacial Orthopaedics — Tamil Nadu Dr. MGR Medical University"
+      ],
+      "awards": [],
+      "specialties": [
+        "Traditional braces",
+        "Invisalign & clear aligners",
+        "Bite correction",
+        "Dentofacial orthopaedics"
+      ],
+      "photo": "/images/dr-ashwin-kumar.jpg"
+    },
+    {
+      "slug": "dr-karthik-ramesh",
+      "name": "Dr. Karthik Ramesh",
+      "role": "General Dentist",
+      "qualification": "BDS",
+      "registrationNumber": "TNDC-31562",
+      "experienceYears": 6,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Karthik Ramesh handles general and preventive dentistry at the clinic, including checkups, fillings, root canals, and teeth whitening, and works closely with Dr. Kumar on cases that need orthodontic referral.",
+      "education": [
+        "BDS — Meenakshi Ammal Dental College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General checkups",
+        "Root canal treatment",
+        "Teeth whitening",
+        "Preventive care"
+      ],
+      "photo": "/images/dr-karthik-ramesh.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "traditional-braces",
+      "name": "Traditional Braces",
+      "tagline": "Reliable, proven correction for every bite complexity",
+      "overview": "Metal and ceramic braces remain the most reliable option for complex bite and alignment corrections, offering precise control over tooth movement throughout treatment.",
+      "symptoms": [
+        "Crowded or overlapping teeth",
+        "Gaps between teeth",
+        "Overbite, underbite, or crossbite"
+      ],
+      "procedure": [
+        "Orthodontic assessment and X-rays",
+        "Treatment plan and bracket type selection (metal or ceramic)",
+        "Bracket bonding and wire placement",
+        "Monthly adjustment visits",
+        "Retainer fitting after debonding"
+      ],
+      "benefits": [
+        "Handles complex cases other options can't",
+        "Ceramic option available for a less visible look",
+        "Predictable, well-established results"
+      ],
+      "recovery": "Mild soreness for 2–3 days after placement and each adjustment is normal; no downtime from daily activities.",
+      "faqs": [
+        {
+          "question": "Braces or Invisalign — which is right for me?",
+          "answer": "Braces handle more complex bite corrections and don't rely on patient compliance, while Invisalign is more discreet and removable. Dr. Kumar will recommend one based on your specific case during the consultation."
+        },
+        {
+          "question": "How long does braces treatment take?",
+          "answer": "Most cases take 18–24 months, though this varies with how complex the correction is."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "invisalign-clear-aligners",
+        "orthodontic-consultation"
+      ]
+    },
+    {
+      "slug": "invisalign-clear-aligners",
+      "name": "Invisalign & Clear Aligners",
+      "tagline": "Straighten your teeth without anyone noticing",
+      "overview": "Clear, removable aligners custom-fitted to your teeth, ideal for teens and adults who want orthodontic correction without visible metal brackets.",
+      "symptoms": [
+        "Mild to moderate crowding or spacing",
+        "Minor bite misalignment",
+        "Relapse after previous orthodontic treatment"
+      ],
+      "procedure": [
+        "Digital scan and suitability assessment",
+        "Custom aligner set planning",
+        "Aligner fitting and wear instructions",
+        "Aligner changes every 1–2 weeks",
+        "Progress check-ins every 6–8 weeks"
+      ],
+      "benefits": [
+        "Virtually invisible during treatment",
+        "Removable for eating and brushing",
+        "Fewer in-clinic visits than traditional braces"
+      ],
+      "recovery": "No downtime — mild pressure for the first day or two of each new aligner is normal.",
+      "faqs": [
+        {
+          "question": "How long does Invisalign treatment take?",
+          "answer": "Most cases take 12–18 months, depending on how much correction is needed."
+        },
+        {
+          "question": "Is Invisalign suitable for teenagers?",
+          "answer": "Yes, for teens who are reliably able to wear aligners for the recommended hours each day. Dr. Kumar will assess suitability during your consultation."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "traditional-braces",
+        "orthodontic-consultation"
+      ]
+    },
+    {
+      "slug": "orthodontic-consultation",
+      "name": "Orthodontic Consultation",
+      "tagline": "A clear picture of your treatment options before you commit",
+      "overview": "A full orthodontic assessment — including X-rays and bite analysis — to walk you through whether braces or Invisalign fits your case, along with realistic timelines and costs.",
+      "symptoms": [],
+      "procedure": [
+        "Dental and orthodontic history review",
+        "X-rays and bite assessment",
+        "Discussion of braces vs. Invisalign options",
+        "Treatment timeline and cost estimate"
+      ],
+      "benefits": [
+        "Honest recommendation between braces and Invisalign",
+        "Clear cost and timeline expectations upfront",
+        "No obligation to proceed"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "At what age can my child start an orthodontic consultation?",
+          "answer": "We recommend a first orthodontic check-up by age 7–8, even if treatment doesn't start immediately — it helps catch developing issues early."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "traditional-braces",
+        "invisalign-clear-aligners"
+      ]
+    },
+    {
+      "slug": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "tagline": "Professional whitening, done safely",
+      "overview": "In-office professional whitening for patients wanting a brighter smile before or after orthodontic treatment, using dentist-supervised treatment stronger and gentler than store-bought kits.",
+      "symptoms": [],
+      "procedure": [
+        "Shade assessment",
+        "Gum protection and whitening gel application",
+        "In-office treatment session",
+        "Follow-up shade check"
+      ],
+      "benefits": [
+        "Noticeably brighter results in a single visit",
+        "Dentist-supervised for reduced sensitivity",
+        "Popular finishing step after braces or aligners"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the tooth, remove the pain",
+      "overview": "Modern, minimally painful root canal treatment to remove infected pulp and save teeth that would otherwise need extraction.",
+      "symptoms": [
+        "Persistent tooth pain",
+        "Sensitivity to hot or cold",
+        "Swelling or tenderness in the gums"
+      ],
+      "procedure": [
+        "Diagnosis and X-ray",
+        "Local anesthesia",
+        "Removal of infected pulp and canal cleaning",
+        "Filling and sealing",
+        "Crown placement if needed"
+      ],
+      "benefits": [
+        "Saves the natural tooth",
+        "Relieves pain caused by infection",
+        "Usually completed in 1–2 visits"
+      ],
+      "recovery": "Mild sensitivity for a few days is normal; most patients resume normal eating within 24 hours.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "general-dental-checkups",
+      "name": "General Dental Checkups",
+      "tagline": "Preventive care for the whole family",
+      "overview": "Routine checkups, cleanings, and preventive care to catch issues early — including monitoring for patients who may eventually need orthodontic treatment.",
+      "symptoms": [],
+      "procedure": [
+        "Oral examination",
+        "Professional cleaning",
+        "X-rays if needed",
+        "Personalized oral care guidance"
+      ],
+      "benefits": [
+        "Catches cavities and gum issues early",
+        "Suitable for children through adults",
+        "Recommended every 6 months"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Orthodontic treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-orthodontic-treatment-room.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Sterilization area",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-sterilization-area.jpg"
+    },
+    {
+      "caption": "Clinic exterior",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-clinic-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I was nervous about wearing braces as an adult, but Dr. Kumar walked me through every step and the results were worth it.",
+      "author": "Patient, Ashwin Dental Care",
+      "rating": 5
+    },
+    {
+      "quote": "Chose Invisalign for my daughter after the consultation made the options really clear. No pressure, just honest advice.",
+      "author": "Patient, Ashwin Dental Care",
+      "rating": 5
+    },
+    {
+      "quote": "Went in for a root canal I'd been dreading and it was over quickly with barely any discomfort. Very professional clinic.",
+      "author": "Patient, Ashwin Dental Care",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Braces or Invisalign — how do I decide?",
+      "answer": "It depends on your bite complexity, lifestyle, and preference. Braces suit more complex corrections and don't depend on patient compliance, while Invisalign is removable and less visible. Dr. Kumar will recommend the right fit during your consultation."
+    },
+    {
+      "question": "How long does orthodontic treatment take?",
+      "answer": "Traditional braces typically take 18–24 months, while Invisalign cases usually take 12–18 months, depending on how much correction is needed."
+    },
+    {
+      "question": "At what age can my child start orthodontic treatment?",
+      "answer": "We recommend a first orthodontic check-up around age 7–8. Active treatment usually starts later, once enough permanent teeth have come in, but early evaluation helps catch issues sooner."
+    },
+    {
+      "question": "What payment options are available?",
+      "answer": "We accept cash, UPI, and card payments, and can discuss installment plans for orthodontic treatment during your consultation."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "Call or WhatsApp us at +91 97511 66543, or use the appointment form on this website, and we'll confirm a slot that works for you."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "braces-or-invisalign-how-to-decide",
+      "title": "Braces or Invisalign? How to Decide What's Right for You",
+      "excerpt": "Both straighten teeth effectively, but they suit different cases and lifestyles — here's how to think through the choice.",
+      "author": "Dr. Ashwin Kumar",
+      "date": "2026-03-10",
+      "content": [
+        "Traditional braces and Invisalign both move teeth into proper alignment, but they get there differently, and the right choice depends on your specific case.",
+        "Braces use fixed brackets and wires, giving the orthodontist precise, continuous control over tooth movement — which makes them better suited to complex crowding, large gaps, or significant bite corrections.",
+        "Invisalign uses a series of custom, removable clear aligners. It's a strong option for mild to moderate corrections and is popular with adults and image-conscious teens because it's far less visible day to day.",
+        "One trade-off to consider: because aligners are removable, results depend on wearing them 20-22 hours a day. Patients who won't reliably keep to that schedule often get better outcomes with fixed braces.",
+        "The only way to know for sure is a proper orthodontic assessment — X-rays and a bite analysis will show whether your case is straightforward enough for aligners or needs the control that braces provide.",
+        "Whichever option fits, both lead to the same outcome: a straighter, healthier bite. The consultation is where that decision gets made, not before."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "March 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect dental, medical, contact, and billing information necessary to assess and provide treatment, including orthodontic records such as X-rays and scans."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and deliver your treatment, and to contact you regarding appointments. We do not sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your dental and treatment records at any time through our clinic."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "March 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment, especially for orthodontic adjustment visits."
+      },
+      {
+        "heading": "Billing",
+        "body": "Treatment costs, including orthodontic payment plans, are discussed and agreed upon before treatment begins."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person dental or orthodontic evaluation."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Ashwin Dental Care — Braces & Invisalign, Mugalivakkam, Chennai",
+    "description": "Orthodontics-focused dental clinic in Mugalivakkam, Chennai, offering traditional braces, Invisalign clear aligners, and complete general dental care."
+  }
+}

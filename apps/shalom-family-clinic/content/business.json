@@ -1,0 +1,418 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "careplus",
+  "business": {
+    "name": "Shalom Family Clinic",
+    "city": "Madhanandapuram, Chennai",
+    "phone": "+91 95971 17677",
+    "whatsapp": "919597117677",
+    "email": "hello@shalomfamilyclinic.in",
+    "address": "74b, Kannammal St, Guruswamy Nagar, Madanandapuram, Madhanandapuram, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Family Medicine, Madhanandapuram",
+    "headline": "Warm, Unhurried Care for Every Age.",
+    "subheadline": "From a child's first vaccination to a grandparent's blood pressure check, Shalom Family Clinic is where your whole family comes for care that actually listens.",
+    "primaryCta": {
+      "label": "Book a Visit",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "One clinic, every generation of your family",
+    "body": [
+      "Shalom Family Clinic was started with a simple idea — a neighbourhood clinic in Madhanandapuram where you don't have to explain your history every single visit, because your doctor already knows it.",
+      "We see patients of every age under one roof, from routine child vaccinations to ongoing management of diabetes and blood pressure for grandparents. Evening hours mean you don't have to take time off work to see a doctor.",
+      "No long waits, no rushed five-minute consultations — just a clinic that treats you like family, because in a neighbourhood this size, you probably already are."
+    ],
+    "highlights": [
+      "General physicians and pediatric care under one roof",
+      "Evening clinic hours after work, 5:00 PM – 8:30 PM",
+      "Unhurried consultations with real time for questions",
+      "Serving Madhanandapuram and surrounding families"
+    ],
+    "image": "/images/clinic-reception-desk.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "1,000+",
+      "label": "Families Cared For"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "Family Physicians"
+    },
+    {
+      "icon": "Clock",
+      "value": "7",
+      "label": "Days a Week Open"
+    },
+    {
+      "icon": "Baby",
+      "value": "All Ages",
+      "label": "Newborns to Seniors"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Users",
+      "title": "Care for the Whole Family",
+      "description": "One clinic for every generation — children, parents, and grandparents can all be seen without hopping between specialists."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced Doctors",
+      "description": "Our physicians bring years of family and pediatric practice, with the patience to actually listen before prescribing."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening & Weekend Hours",
+      "description": "Open evenings and Saturdays so a doctor's visit doesn't mean missing work or school."
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "Welcoming, Unhurried Visits",
+      "description": "A calm, clean clinic environment where consultations take the time they need — no clock-watching."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-arvind-raman",
+      "name": "Dr. Arvind Raman",
+      "role": "General Physician & Family Medicine",
+      "qualification": "MBBS, MD (Family Medicine)",
+      "registrationNumber": "TNMC-88214",
+      "experienceYears": 13,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Arvind Raman has spent over a decade in general and family practice across Chennai, with a particular focus on chronic disease management and preventive health for adults. He believes most health problems get easier to manage when a doctor actually has time to listen.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD, Family Medicine — Sri Ramachandra Medical College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Diabetes and hypertension management",
+        "Preventive health checkups",
+        "Adult general medicine"
+      ],
+      "photo": "/images/dr-arvind-raman.jpg"
+    },
+    {
+      "slug": "dr-vignesh-kumar",
+      "name": "Dr. Vignesh Kumar",
+      "role": "Pediatrician",
+      "qualification": "MBBS, MD (Pediatrics)",
+      "registrationNumber": "TNMC-91357",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:00 PM",
+      "bio": "Dr. Vignesh Kumar treats infants through teenagers, with a gentle approach that keeps children calm during checkups and vaccinations. He works closely with parents on growth tracking, feeding concerns, and school-age health questions.",
+      "education": [
+        "MBBS — Stanley Medical College, Chennai",
+        "MD, Pediatrics — Kilpauk Medical College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Newborn and infant care",
+        "Childhood vaccinations",
+        "Growth and development checkups"
+      ],
+      "photo": "/images/dr-vignesh-kumar.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "Everyday illness and general medical concerns, addressed properly",
+      "overview": "From fevers and infections to persistent aches and general wellness questions, our general physicians take time to understand what's actually going on before prescribing anything.",
+      "symptoms": [
+        "Fever, cold, or persistent cough",
+        "Body aches or unexplained fatigue",
+        "General wellness concerns"
+      ],
+      "procedure": [
+        "Detailed history and symptom review",
+        "Physical examination",
+        "Lab tests arranged if needed",
+        "Clear treatment plan explained in person"
+      ],
+      "benefits": [
+        "Same-day appointments for urgent concerns",
+        "Doctors who take time to explain, not just prescribe",
+        "Follow-up support until you're better"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do I need an appointment for a general consultation?",
+          "answer": "Walk-ins are welcome, but calling ahead helps us reduce your wait time, especially during evening hours."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "chronic-disease-management",
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "pediatric-care",
+      "name": "Pediatric Care",
+      "tagline": "Gentle, attentive care from newborn through teenage years",
+      "overview": "Regular checkups, growth tracking, and treatment for childhood illnesses, delivered in a way that keeps kids calm and parents informed.",
+      "symptoms": [
+        "Fever or illness in infants and children",
+        "Growth or feeding concerns",
+        "Routine wellness checkups"
+      ],
+      "procedure": [
+        "Growth and development assessment",
+        "Age-appropriate physical examination",
+        "Guidance on feeding, sleep, and milestones",
+        "Open time for parent questions"
+      ],
+      "benefits": [
+        "Doctors experienced in keeping children calm",
+        "Consistent care from the same pediatrician",
+        "Evening slots for working parents"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "vaccinations"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "On-schedule immunizations for children and adults",
+      "overview": "We maintain the standard childhood immunization schedule along with adult vaccinations like flu and tetanus, and take the time to explain each one.",
+      "symptoms": [],
+      "procedure": [
+        "Review of immunization record",
+        "Age-appropriate vaccine administration",
+        "Post-vaccination observation",
+        "Guidance on what to expect afterward"
+      ],
+      "benefits": [
+        "Full recommended schedule available",
+        "Careful record-keeping for future reference",
+        "Clear explanation of each vaccine"
+      ],
+      "recovery": "Mild soreness or low-grade fever for a day is common and expected after most vaccines.",
+      "faqs": [
+        {
+          "question": "Do you follow the government immunization schedule?",
+          "answer": "Yes, we follow the standard Indian immunization schedule and can also advise on additional recommended vaccines."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "pediatric-care"
+      ]
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Chronic Disease Management",
+      "tagline": "Ongoing care for diabetes, blood pressure, and more",
+      "overview": "For patients managing long-term conditions like diabetes, hypertension, or thyroid disorders, we provide continuity of care with regular monitoring and medication review.",
+      "symptoms": [
+        "Diagnosed diabetes or hypertension",
+        "Thyroid or cholesterol concerns",
+        "Need for ongoing medication management"
+      ],
+      "procedure": [
+        "Review of medical history and current medications",
+        "Relevant lab work and monitoring",
+        "Medication adjustment as needed",
+        "Lifestyle and diet guidance"
+      ],
+      "benefits": [
+        "Continuity of care with the same physician",
+        "Regular monitoring to catch issues early",
+        "Practical lifestyle guidance, not just prescriptions"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation",
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "Preventive screening packages for individuals and families",
+      "overview": "Comprehensive checkup packages covering blood work, blood pressure, and general screening, designed to catch issues early rather than waiting for symptoms.",
+      "symptoms": [],
+      "procedure": [
+        "Pre-checkup consultation to tailor the package",
+        "Lab work and vital measurements",
+        "Physician review of results",
+        "Follow-up consultation to discuss findings"
+      ],
+      "benefits": [
+        "Early detection of common health issues",
+        "Packages for individuals and full families",
+        "Clear, in-person explanation of results"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I get a checkup?",
+          "answer": "For most healthy adults, an annual checkup is a good baseline; your doctor may suggest more frequent screening depending on your history."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "chronic-disease-management"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception and front desk",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/clinic-reception-desk.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-50",
+      "src": "/images/clinic-consultation-room.jpg"
+    },
+    {
+      "caption": "Patient waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/clinic-waiting-area.jpg"
+    },
+    {
+      "caption": "Children's corner",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/clinic-childrens-corner.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Dr. Raman actually remembers what we discussed last visit without checking her notes. That kind of continuity is rare these days.",
+      "author": "Patient, Shalom Family Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "We take our son here for every checkup and vaccination. He isn't scared of the doctor anymore, which says a lot.",
+      "author": "Patient, Shalom Family Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "The evening hours make a real difference — I can see a doctor after work instead of taking leave for every small thing.",
+      "author": "Patient, Shalom Family Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "Yes, walk-ins are welcome, though calling ahead helps us reduce your wait, especially during busy evening hours."
+    },
+    {
+      "question": "What should I bring for my first visit?",
+      "answer": "Please bring a photo ID and any previous medical records or prescriptions, if available, so we can understand your history."
+    },
+    {
+      "question": "What payment options do you accept?",
+      "answer": "We accept cash, UPI, and card payments at the clinic. Please speak to our front desk for any billing questions."
+    },
+    {
+      "question": "Do you treat children as well as adults?",
+      "answer": "Yes — Shalom Family Clinic offers both pediatric and general family medicine, so the whole family can be seen in one place."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us directly, or use the appointment form on this website, and our team will confirm a time slot."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "building-a-relationship-with-a-family-doctor",
+      "title": "Building a Relationship With a Family Doctor: Why It Matters",
+      "excerpt": "Seeing the same doctor over time changes the quality of your care — here's why continuity matters more than most people realize.",
+      "author": "Dr. Arvind Raman",
+      "date": "2026-05-14",
+      "content": [
+        "When you see a different doctor every time you're unwell, each visit starts from zero — a fresh history, a fresh set of guesses. A family doctor who knows your history skips straight to what matters.",
+        "Continuity of care isn't just convenient — it changes outcomes. A doctor who has tracked your blood pressure over two years will notice a subtle trend that a one-off visit would miss entirely.",
+        "This matters even more for children, where growth and development are best understood as a pattern over time rather than a single snapshot.",
+        "Building this relationship doesn't require anything dramatic — it starts with choosing one clinic for routine care and sticking with it, so your doctor has the fuller picture the next time something comes up."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments for you and your family."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care. We do not sell or share patient data with third parties."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to your medical records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "We appreciate advance notice if you need to cancel or reschedule an appointment, so we can offer the slot to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation fees are payable at the time of your visit. Please speak with our front desk for any billing questions."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational only and does not replace an in-person consultation with a physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Shalom Family Clinic — Madhanandapuram, Chennai",
+    "description": "Warm, unhurried family medicine and pediatric care in Madhanandapuram, Chennai. General health consultations, vaccinations, and chronic disease management for every age."
+  }
+}

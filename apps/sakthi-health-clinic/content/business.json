@@ -1,0 +1,418 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "orthoedge",
+  "business": {
+    "name": "Sakthi Health Clinic",
+    "city": "Kolapakkam, Chennai",
+    "phone": "+91 73388 27771",
+    "whatsapp": "917338827771",
+    "email": "hello@sakthihealthclinic.in",
+    "address": "BM Towers, Plot no:32, Kolapakkam Main Rd, Ramamoorthy Avenue, Kolapakkam, Chennai, Tamil Nadu 600128",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "General Physician Clinic",
+    "headline": "Strength Starts With Knowing Your Health.",
+    "subheadline": "Sakthi means strength — and real strength comes from staying ahead of illness, not just treating it after it hits. General consultations, preventive checkups, and chronic care for Kolapakkam families.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "Health care built around staying strong, not just getting better",
+    "body": [
+      "Sakthi Health Clinic was started with a simple belief: most people only see a doctor once something is already wrong. We wanted to build a clinic that Kolapakkam residents would visit for their everyday energy, fatigue, and wellness concerns too — not just when they're sick.",
+      "'Sakthi' means strength and vitality in Tamil, and that's the lens we bring to general medicine — helping you understand what's behind low energy, recurring tiredness, or that nagging feeling that something's off, alongside treating the illnesses that bring most patients through our door.",
+      "Whether it's a fever, a full body checkup, or a chronic condition that needs ongoing management, our approach stays the same: listen carefully, explain clearly, and treat the whole person."
+    ],
+    "highlights": [
+      "Evening hours for working professionals",
+      "Preventive checkups, not just sick visits",
+      "Chronic disease management under one doctor",
+      "Walk-ins welcome alongside appointments"
+    ],
+    "image": "/images/about-consultation.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "8,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "General Physicians"
+    },
+    {
+      "icon": "Clock",
+      "value": "7",
+      "label": "Days a Week Open"
+    },
+    {
+      "icon": "HeartPulse",
+      "value": "100+",
+      "label": "Checkups Every Month"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "ShieldCheck",
+      "title": "Proactive, Not Just Reactive",
+      "description": "We look at energy levels, fatigue, and lifestyle factors, not just the symptom you walked in with — catching problems before they become serious."
+    },
+    {
+      "icon": "Award",
+      "title": "Experienced Doctors",
+      "description": "Our physicians bring years of general medicine practice, so you get an accurate read on your health without unnecessary referrals."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening & Weekend Hours",
+      "description": "Open six days a week with evening slots, so a visit to the clinic doesn't mean taking a day off work."
+    },
+    {
+      "icon": "Microscope",
+      "title": "Comprehensive Checkups",
+      "description": "Full body and deficiency screenings that go beyond a quick BP check, so nothing important gets missed."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-vikram-sundaram",
+      "name": "Dr. Vikram Sundaram",
+      "role": "General Physician",
+      "qualification": "MBBS, MD General Medicine",
+      "photo": "/images/doctor-vikram-sundaram.jpg",
+      "registrationNumber": "TNMC-58214",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Sundaram has spent over a decade in general medicine practice across Chennai, with a particular interest in preventive health and chronic disease management. He believes most long-term conditions are easier to manage — or avoid — when caught early.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD General Medicine — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Preventive health checkups",
+        "Chronic disease management",
+        "Fatigue and energy-related conditions"
+      ]
+    },
+    {
+      "slug": "dr-priya-ramachandran",
+      "name": "Dr. Priya Ramachandran",
+      "role": "General Physician",
+      "qualification": "MBBS, MD General Medicine",
+      "photo": "/images/doctor-priya-ramachandran.jpg",
+      "registrationNumber": "TNMC-61932",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Tue, Thu, Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Ramachandran focuses on general wellness and nutrient deficiency screening, working closely with patients who come in feeling 'just tired' to find the actual underlying cause. She also manages vaccinations and everyday illness care for the whole family.",
+      "education": [
+        "MBBS — Sri Ramachandra Medical College, Chennai",
+        "MD General Medicine — Kilpauk Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Vitamin and nutrient deficiency screening",
+        "General wellness",
+        "Vaccinations"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "The right first stop for any health concern",
+      "overview": "From fevers and infections to unexplained fatigue, our general consultations start with a thorough history and examination so you get an accurate diagnosis, not a guess.",
+      "symptoms": [
+        "Fever, cold, or infection symptoms",
+        "Persistent fatigue or low energy",
+        "General aches, digestive issues, or unexplained discomfort"
+      ],
+      "procedure": [
+        "Detailed history and symptom review",
+        "Physical examination",
+        "Basic diagnostics where needed",
+        "Treatment plan and follow-up guidance"
+      ],
+      "benefits": [
+        "Same-day appointments in most cases",
+        "Doctor continuity across visits",
+        "Clear explanation of diagnosis and next steps"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "preventive-health-checkups",
+        "chronic-disease-management"
+      ]
+    },
+    {
+      "slug": "preventive-health-checkups",
+      "name": "Preventive Health Checkups",
+      "tagline": "Catch what a symptom-based visit would miss",
+      "overview": "Full body checkups covering blood pressure, blood sugar, cholesterol, and organ function panels, designed to catch developing issues well before they turn into a diagnosis.",
+      "symptoms": [
+        "No symptoms — annual or periodic screening",
+        "Family history of diabetes, hypertension, or heart disease",
+        "Age 30+ wanting a health baseline"
+      ],
+      "procedure": [
+        "Pre-checkup consultation to tailor the panel",
+        "Blood pressure, sugar, and lipid profile screening",
+        "Basic organ function tests",
+        "Results review with the doctor"
+      ],
+      "benefits": [
+        "Personalized panel instead of a one-size-fits-all package",
+        "Results explained in person, not just handed over",
+        "Follow-up plan if anything needs attention"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I get a full body checkup?",
+          "answer": "For most healthy adults, once a year is a reasonable baseline; your doctor may recommend more frequent screening based on age or existing conditions."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "vitamin-deficiency-screening",
+        "chronic-disease-management"
+      ]
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Chronic Disease Management",
+      "tagline": "Ongoing care for diabetes, hypertension, and more",
+      "overview": "We manage chronic conditions like diabetes, hypertension, and thyroid disorders as an ongoing relationship, not a one-off prescription — with regular monitoring and plan adjustments.",
+      "symptoms": [
+        "Diagnosed diabetes or hypertension",
+        "Thyroid or cholesterol imbalances",
+        "Need for regular medication review"
+      ],
+      "procedure": [
+        "Baseline assessment and history review",
+        "Medication and lifestyle plan",
+        "Scheduled monitoring visits",
+        "Plan adjustments based on progress"
+      ],
+      "benefits": [
+        "Same doctor tracking your condition over time",
+        "Fewer surprises through regular monitoring",
+        "Lifestyle guidance alongside medication"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "preventive-health-checkups",
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "vitamin-deficiency-screening",
+      "name": "Vitamin & Nutrient Deficiency Screening",
+      "tagline": "Because 'just tired' deserves an actual answer",
+      "overview": "Low B12, vitamin D, or iron are among the most common — and most overlooked — causes of persistent fatigue. We screen for and treat these deficiencies directly.",
+      "symptoms": [
+        "Persistent tiredness despite adequate rest",
+        "Low mood or difficulty concentrating",
+        "Hair thinning, brittle nails, or pale skin"
+      ],
+      "procedure": [
+        "Symptom and diet history review",
+        "Targeted blood screening",
+        "Supplementation or dietary plan",
+        "Follow-up screening to confirm improvement"
+      ],
+      "benefits": [
+        "Targeted testing instead of guesswork",
+        "Practical, affordable supplementation plans",
+        "Follow-up to confirm levels actually improve"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation",
+        "preventive-health-checkups"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "Routine and travel immunizations for the whole family",
+      "overview": "From annual flu shots to travel vaccinations and adult booster doses, we keep vaccination records simple and visits quick.",
+      "symptoms": [
+        "Due for an annual flu shot",
+        "Upcoming travel requiring immunization",
+        "Overdue adult booster doses"
+      ],
+      "procedure": [
+        "Vaccination history review",
+        "Recommendation based on age and travel plans",
+        "Administration and observation",
+        "Record update for future reference"
+      ],
+      "benefits": [
+        "No long waits — most visits under 20 minutes",
+        "Records maintained for future visits",
+        "Guidance on which vaccines you actually need"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Clinic reception",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Health checkup and diagnostics corner",
+      "category": "Care",
+      "swatchClassName": "bg-blue-50",
+      "src": "/images/gallery-diagnostics-corner.jpg"
+    },
+    {
+      "caption": "Patient waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I went in just for what I thought was routine tiredness, and it turned out to be a vitamin deficiency that had been dragging me down for months. Feel like a different person now.",
+      "author": "Patient, Sakthi Health Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "The evening hours make such a difference — I can actually see a doctor after work instead of taking leave. The full body checkup was thorough and explained clearly.",
+      "author": "Patient, Sakthi Health Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "My father's diabetes has been much better managed since we started coming here regularly. The doctor actually remembers his history each visit.",
+      "author": "Patient, Sakthi Health Clinic",
+      "rating": 4
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do I need an appointment, or can I walk in?",
+      "answer": "Walk-ins are welcome, though booking an appointment in advance helps reduce your wait time, especially during evening hours."
+    },
+    {
+      "question": "What should I bring for my first visit?",
+      "answer": "Please bring any previous medical records, current medications, and a valid ID. If you've had recent lab work done elsewhere, bring those reports too."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and all major debit and credit cards."
+    },
+    {
+      "question": "Do you offer full body checkups?",
+      "answer": "Yes, we offer preventive health checkups covering blood pressure, blood sugar, cholesterol, and organ function screening, tailored to your age and health history."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call us directly or use the Book Appointment page on this website. WhatsApp booking is also available."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-just-being-tired-is-worth-a-doctors-visit",
+      "title": "Why 'Just Being Tired' Is Worth a Doctor's Visit",
+      "excerpt": "Persistent fatigue is one of the most dismissed symptoms in general medicine — and one of the most useful ones to actually investigate.",
+      "author": "Dr. Vikram Sundaram",
+      "date": "2026-05-12",
+      "content": [
+        "Almost every week, a patient tells us some version of the same thing: 'I'm probably just tired, I'm not really sick.' And almost every week, that turns out to be worth a closer look.",
+        "Persistent fatigue can come from vitamin D or B12 deficiency, low iron, thyroid imbalances, poor sleep quality, or early-stage chronic conditions like diabetes — all of which are straightforward to test for and, in most cases, straightforward to treat.",
+        "The reason fatigue gets dismissed so often is that it doesn't feel urgent the way a fever or an injury does. But low energy that persists for weeks, not days, is your body telling you something worth listening to.",
+        "'Sakthi' means strength — and real strength isn't about pushing through exhaustion, it's about understanding what's causing it. A simple consultation and a basic panel of blood tests can often explain months of unexplained tiredness.",
+        "If you've been telling yourself you're 'just tired' for more than a few weeks, that's exactly the kind of thing worth bringing to a general physician rather than waiting out."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to evaluate and treat you, and to maintain your health records for future visits."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to provide your care and is not shared with third parties except where required by law or for your treatment coordination."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time through our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least a few hours notice to cancel or reschedule an appointment where possible; walk-ins are also accommodated based on availability."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and screening fees are due at the time of your visit. Please ask our front desk for current fee details."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational only and does not replace an in-person medical evaluation."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Sakthi Health Clinic — Kolapakkam, Chennai",
+    "description": "General physician clinic in Kolapakkam, Chennai offering consultations, preventive health checkups, chronic disease management, and vaccinations."
+  }
+}
