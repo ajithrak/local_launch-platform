@@ -1,0 +1,419 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "mothercare",
+  "business": {
+    "name": "Grace Dental Care",
+    "city": "Mugalivakkam, Chennai",
+    "phone": "+91 72993 07788",
+    "whatsapp": "917299307788",
+    "email": "hello@gracedentalcare.in",
+    "address": "10, Jasmine Street, VGN Blooming Garden, Mugalivakkam, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 10:00 AM – 1:30 PM, 5:00 PM – 8:30 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Gentle, Patient-First Dental Care",
+    "headline": "Dentistry That Feels Unhurried.",
+    "subheadline": "Grace Dental Care is built for people who put off the dentist out of nerves — calm rooms, clear explanations, and a team that never rushes you through a visit.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Dentists",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Dental care, without the dread",
+    "body": [
+      "Grace Dental Care was started with one simple observation: most people don't avoid the dentist because they don't care about their teeth — they avoid it because past visits left them anxious.",
+      "So every part of this clinic, from how appointments are paced to how procedures are explained, is built around one goal — helping even the most nervous patient feel genuinely at ease in the chair.",
+      "Whether it's a routine checkup, a child's first dental visit, or a procedure you've been putting off for years, you're met with patience here, not judgment."
+    ],
+    "highlights": [
+      "Extra time built into every appointment — no rushing",
+      "Every step explained before it happens, never a surprise",
+      "A calm, quiet clinic environment designed to ease nerves",
+      "Gentle care for children on their first dental visits"
+    ],
+    "image": "/images/about-gentle-dentist-child-patient.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "6,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Smile",
+      "value": "3,500+",
+      "label": "Painless Procedures"
+    },
+    {
+      "icon": "Award",
+      "value": "10",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Clock",
+      "value": "7",
+      "label": "Days a Week Open"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "HeartHandshake",
+      "title": "Gentle With Nervous Patients",
+      "description": "If the dentist's chair makes you anxious, you're not alone — our whole approach is built to slow down and put you at ease first."
+    },
+    {
+      "icon": "GraduationCap",
+      "title": "Experienced, Patient Dentists",
+      "description": "A decade of practice paired with the patience to explain every step and answer every question, however small."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "A Calm Clinic Environment",
+      "description": "Quiet rooms, unhurried scheduling, and a team trained to notice when someone needs a moment before continuing."
+    },
+    {
+      "icon": "Moon",
+      "title": "Evening Hours Available",
+      "description": "Open until 8:30 PM on weekdays, so a dental visit doesn't mean taking time off work or school."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-ananya-krishnan",
+      "name": "Dr. Ananya Krishnan",
+      "role": "Chief Dentist & Root Canal Specialist",
+      "qualification": "BDS, MDS (Conservative Dentistry & Endodontics)",
+      "registrationNumber": "TNDC-19452",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 10:00 AM – 1:30 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Krishnan has spent over a decade helping nervous patients get through root canals and other procedures without dread, taking the time to explain each step before it happens and pausing whenever a patient needs a break.",
+      "photo": "/images/doctor-ananya-krishnan.jpg",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS, Conservative Dentistry & Endodontics — SRM Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Painless root canal treatment",
+        "Dental implants",
+        "Cosmetic bonding"
+      ]
+    },
+    {
+      "slug": "dr-arvind-menon",
+      "name": "Dr. Arvind Menon",
+      "role": "Pediatric & Family Dentist",
+      "qualification": "BDS, MDS (Pediatric & Preventive Dentistry)",
+      "registrationNumber": "TNDC-22671",
+      "experienceYears": 8,
+      "languages": [
+        "English",
+        "Tamil",
+        "Malayalam"
+      ],
+      "availability": "Tue, Thu, Sat · 10:00 AM – 1:30 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Menon focuses on making a child's first dental visit a good memory rather than a scary one, and brings that same gentle, unhurried style to nervous adult patients as well.",
+      "photo": "/images/doctor-arvind-menon.jpg",
+      "education": [
+        "BDS — Meenakshi Ammal Dental College, Chennai",
+        "MDS, Pediatric & Preventive Dentistry — Saveetha Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Pediatric dentistry",
+        "Preventive care",
+        "Teeth whitening"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-dental-checkups",
+      "name": "General Dental Checkups",
+      "tagline": "Routine care that catches problems early",
+      "overview": "A thorough but relaxed checkup covering cleaning, cavity checks, and gum health, with time set aside to answer any questions you have.",
+      "symptoms": [],
+      "procedure": [
+        "Review of dental and medical history",
+        "Full mouth examination and X-rays if needed",
+        "Professional cleaning and plaque removal",
+        "Discussion of findings and any next steps"
+      ],
+      "benefits": [
+        "Catches cavities and gum issues early",
+        "No pressure or upselling of treatments",
+        "A comfortable starting point for anxious patients"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I get a checkup?",
+          "answer": "We recommend a checkup and cleaning every six months, though we'll tailor this to your specific needs."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "painless-root-canal-treatment"
+      ]
+    },
+    {
+      "slug": "painless-root-canal-treatment",
+      "name": "Painless Root Canal Treatment",
+      "tagline": "Modern techniques, minimal discomfort",
+      "overview": "Root canal treatment using modern anesthesia and a slow, communicative approach designed specifically for patients who dread the procedure.",
+      "symptoms": [
+        "Persistent tooth pain",
+        "Sensitivity to hot or cold that lingers",
+        "Swelling or tenderness in the gums"
+      ],
+      "procedure": [
+        "Diagnosis and X-ray to confirm the issue",
+        "Local anesthesia, applied gradually and checked",
+        "Cleaning and shaping of the root canal",
+        "Sealing and, if needed, a protective crown"
+      ],
+      "benefits": [
+        "Minimal discomfort with modern techniques",
+        "Every step explained before it happens",
+        "Breaks offered throughout for nervous patients"
+      ],
+      "recovery": "Mild sensitivity for a day or two is normal; most patients return to regular activity the same day.",
+      "faqs": [
+        {
+          "question": "Is a root canal really painful?",
+          "answer": "With modern anesthesia and technique, most patients feel little more than pressure. We go at your pace and check in throughout."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-dental-checkups",
+        "dental-implants"
+      ]
+    },
+    {
+      "slug": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "tagline": "A brighter smile in a single visit",
+      "overview": "Safe, dentist-supervised whitening that lifts stains and discoloration without damaging enamel.",
+      "symptoms": [],
+      "procedure": [
+        "Shade assessment and suitability check",
+        "Gum protection applied",
+        "Whitening gel application under supervision",
+        "Final shade check and aftercare guidance"
+      ],
+      "benefits": [
+        "Noticeably brighter smile in one sitting",
+        "Dentist-supervised for safety",
+        "Long-lasting with proper aftercare"
+      ],
+      "recovery": "Some temporary sensitivity is common for a day; avoiding staining foods for 48 hours helps results last.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-dental-checkups"
+      ]
+    },
+    {
+      "slug": "dental-implants",
+      "name": "Dental Implants",
+      "tagline": "A permanent, natural-feeling replacement",
+      "overview": "Titanium implants that replace missing teeth with a stable, natural-feeling result, placed with careful planning and clear communication at each stage.",
+      "symptoms": [
+        "One or more missing teeth",
+        "Difficulty chewing on one side",
+        "A loose or failing bridge or denture"
+      ],
+      "procedure": [
+        "Consultation and 3D imaging",
+        "Implant placement under local anesthesia",
+        "Healing period with regular check-ins",
+        "Custom crown fitting"
+      ],
+      "benefits": [
+        "Looks and functions like a natural tooth",
+        "Protects surrounding teeth from shifting",
+        "Built to last with proper care"
+      ],
+      "recovery": "Mild swelling for a few days is normal; the full healing period before the crown is fitted typically takes a few months.",
+      "faqs": [
+        {
+          "question": "Is the implant procedure painful?",
+          "answer": "It's done under local anesthesia, so the placement itself is comfortable. We manage any post-procedure discomfort with clear aftercare guidance."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "painless-root-canal-treatment"
+      ]
+    },
+    {
+      "slug": "pediatric-dentistry",
+      "name": "Pediatric Dentistry",
+      "tagline": "Gentle care for a child's first smiles",
+      "overview": "A calm, friendly approach to children's dental care, focused on making early visits comfortable so good dental habits — and confidence — start young.",
+      "symptoms": [],
+      "procedure": [
+        "A gentle, playful introduction to the clinic",
+        "Simple examination at the child's pace",
+        "Cleaning and cavity checks",
+        "Guidance for parents on home care"
+      ],
+      "benefits": [
+        "Builds comfort with dental visits early",
+        "Extra patience for first-time young patients",
+        "Preventive focus to avoid future problems"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "At what age should my child's first visit be?",
+          "answer": "We recommend a first visit by age 2–3, kept short and friendly to build familiarity with the clinic."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-dental-checkups"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception & waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/gallery-reception-waiting-area.jpg"
+    },
+    {
+      "caption": "Treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-treatment-room.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Sterilization area",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-sterilization-area.jpg"
+    },
+    {
+      "caption": "Clinic exterior",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-100",
+      "src": "/images/gallery-clinic-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I hadn't been to a dentist in over five years because of how anxious it made me. The team here talked me through everything and I didn't feel rushed once. I've since gone back for two more visits without dreading it.",
+      "author": "Patient, Grace Dental Care",
+      "rating": 5
+    },
+    {
+      "quote": "My son was terrified before his first checkup. The dentist spent the first few minutes just letting him look around the room before doing anything — he actually asked to go back.",
+      "author": "Patient, Grace Dental Care",
+      "rating": 5
+    },
+    {
+      "quote": "I finally got the root canal I'd been putting off for two years. It was nowhere near as bad as I'd built it up to be in my head — they checked in with me constantly.",
+      "author": "Patient, Grace Dental Care",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "We accept walk-ins when slots are available, but booking ahead by phone or WhatsApp helps us reserve enough time for your visit."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "Your first visit starts with an unhurried conversation about your dental history and any concerns, followed by an examination — nothing happens without explaining it first."
+    },
+    {
+      "question": "I get very nervous at the dentist — can you accommodate that?",
+      "answer": "Yes, and you're far from the only one. We routinely work with nervous patients — expect extra time, clear explanations before every step, and breaks whenever you need them."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and all major cards. Costs are discussed and confirmed with you before any treatment begins."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us at +91 72993 07788, or use the booking form on this website."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "scared-of-the-dentist-what-actually-helps",
+      "title": "Scared of the Dentist? Here's What Actually Helps",
+      "excerpt": "Dental anxiety is common and manageable — here's what genuinely makes a difference, from how we've seen it work with our own patients.",
+      "author": "Dr. Ananya Krishnan",
+      "date": "2026-02-10",
+      "content": [
+        "If the thought of a dental visit makes your stomach drop, you're in good company — dental anxiety is one of the most common reasons people delay care, sometimes for years.",
+        "The single biggest thing that helps is communication. Knowing what's about to happen, step by step, before it happens removes most of the fear of the unknown that makes procedures feel worse than they are.",
+        "Going slow matters too. There's no rule that says a checkup or procedure has to be rushed through — pausing when a patient needs a moment almost always leads to a calmer visit overall.",
+        "It also helps to say the fear out loud. Telling your dentist directly that you're anxious lets them adjust pace, explain more, or simply check in more often — small changes that make a real difference.",
+        "Putting off a visit usually makes the eventual appointment harder, not easier, since problems left untreated tend to need more involved treatment later. Starting with something small, like a checkup with no procedures attached, is often the easiest way back in."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect the medical, contact, and billing information necessary to provide dental care and coordinate your appointments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to deliver and coordinate your care. We do not sell or share patient data with third parties."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your dental records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Treatment costs are discussed and confirmed with you before any procedure begins. Payment is due at the time of visit."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this site is informational and does not replace an in-person consultation with a qualified dentist."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Grace Dental Care — Mugalivakkam, Chennai",
+    "description": "Gentle, patient-first dental clinic in Mugalivakkam, Chennai, offering root canals, implants, whitening, and pediatric dentistry — especially welcoming for nervous patients."
+  }
+}

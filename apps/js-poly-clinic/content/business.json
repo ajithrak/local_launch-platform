@@ -1,0 +1,483 @@
+{
+  "industry": "healthcare",
+  "clinicType": "multi-speciality",
+  "theme": "mednova",
+  "business": {
+    "name": "J.S.Poly Clinic",
+    "city": "Thirumudivakkam, Chennai",
+    "phone": "+91 87780 12573",
+    "whatsapp": "918778012573",
+    "email": "hello@jspolyclinic.in",
+    "address": "2/83, Mangadu Rd, Sri Ranga Nagar, Rajiv Gandhi Nagar, Thirumudivakkam, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:30 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Your Neighbourhood Polyclinic in Thirumudivakkam",
+    "headline": "Multiple Specialities. One Familiar Clinic.",
+    "subheadline": "J.S.Poly Clinic brings a general physician, a paediatrician, and a gynaecologist together at one address on Mangadu Road, so most of what your family needs doesn't require crossing town.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "The first call for most of what your family needs",
+    "body": [
+      "J.S.Poly Clinic sits on Mangadu Road in Thirumudivakkam as a genuine polyclinic — 'poly' meaning many, because that's the whole idea. Instead of a single specialist working alone, we've put a general physician, a paediatrician, and a gynaecologist under one roof, with a shared front desk and shared records.",
+      "That matters more than it sounds. A fever that needs a general physician one week and a child's vaccination the next don't need two different clinics, two different intake forms, and two different drives across Thirumudivakkam. For most households, this one address covers most of the calendar year.",
+      "We keep the clinic open into the evening on purpose, because appointments that only exist during office hours aren't much use to people who work office hours."
+    ],
+    "highlights": [
+      "General medicine, paediatrics & women's health, one address",
+      "Open evenings until 8:30 PM, Monday to Saturday",
+      "Vaccinations and minor procedures done on-site",
+      "Straightforward, walk-in-friendly front desk"
+    ],
+    "image": "/images/about-clinic-consultation.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Stethoscope",
+      "value": "3",
+      "label": "Specialities Under One Roof"
+    },
+    {
+      "icon": "UserRound",
+      "value": "3",
+      "label": "Resident Doctors"
+    },
+    {
+      "icon": "Clock",
+      "value": "6",
+      "label": "Days Open Every Week"
+    },
+    {
+      "icon": "Syringe",
+      "value": "10+",
+      "label": "Years Combined Practice"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Stethoscope",
+      "title": "Multiple Specialities in One Visit",
+      "description": "General medicine, paediatric care, and women's health are all handled at the same address, so one trip often covers what would otherwise take three."
+    },
+    {
+      "icon": "GraduationCap",
+      "title": "Doctors Who've Actually Practised",
+      "description": "Every doctor on our panel has years of hands-on clinical experience, not just a fresh degree — the kind of judgement that only comes from seeing a lot of patients."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Slots That Fit Real Schedules",
+      "description": "We stay open until 8:30 PM most evenings, so you're not choosing between a doctor's visit and a day's wages."
+    },
+    {
+      "icon": "MapPin",
+      "title": "Right on Mangadu Road",
+      "description": "No need to plan a special trip into the city — J.S.Poly Clinic is a short walk or ride for most of Thirumudivakkam and Sri Ranga Nagar."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-senthil-kumar",
+      "name": "Dr. Senthil Kumar",
+      "role": "General Physician & Clinic Head",
+      "qualification": "MBBS, MD (General Medicine)",
+      "registrationNumber": "TNMC-64521",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Senthil Kumar heads J.S.Poly Clinic and sees the bulk of everyday general medicine cases — fevers, infections, and the ongoing management of diabetes and blood pressure. He's known locally for taking the time to actually explain a prescription rather than just hand it over.",
+      "education": [
+        "MBBS — Kilpauk Medical College, Chennai",
+        "MD, General Medicine — Madras Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Diabetes & blood pressure management",
+        "Fever & infectious disease care",
+        "Preventive health screening"
+      ],
+      "photo": "/images/doctor-senthil-kumar.jpg"
+    },
+    {
+      "slug": "dr-nandhini-suresh",
+      "name": "Dr. Nandhini Suresh",
+      "role": "Paediatrician",
+      "qualification": "MBBS, DCH (Paediatrics)",
+      "registrationNumber": "TNMC-72908",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Tue, Thu, Sat · 5:00 PM – 8:30 PM",
+      "bio": "Dr. Nandhini Suresh looks after infants and children, from routine growth checks to the full vaccination schedule. She spends extra time with new parents, since most of the anxious questions in a first year never get asked in a five-minute visit.",
+      "education": [
+        "MBBS — Sri Ramachandra Medical College, Chennai",
+        "DCH, Paediatrics — Institute of Child Health, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Infant & newborn care",
+        "Childhood vaccination schedules",
+        "Growth & nutrition monitoring"
+      ],
+      "photo": "/images/doctor-nandhini-suresh.jpg"
+    },
+    {
+      "slug": "dr-revathi-balamurugan",
+      "name": "Dr. Revathi Balamurugan",
+      "role": "Gynaecologist & Obstetrician",
+      "qualification": "MBBS, DGO (Obstetrics & Gynaecology)",
+      "registrationNumber": "TNMC-58317",
+      "experienceYears": 12,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Wed, Fri, Sat · 10:00 AM – 1:00 PM",
+      "bio": "Dr. Revathi Balamurugan handles women's health across every life stage — routine gynaecological check-ups, PCOS and menstrual concerns, and prenatal care — in a private consultation room, at an unhurried pace.",
+      "education": [
+        "MBBS — Stanley Medical College, Chennai",
+        "DGO, Obstetrics & Gynaecology — Government Kilpauk Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Prenatal & postnatal care",
+        "PCOS & menstrual health",
+        "Routine gynaecological check-ups"
+      ],
+      "photo": "/images/doctor-revathi-balamurugan.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "Everyday illness and long-term condition care",
+      "overview": "Fevers, infections, and chronic conditions like diabetes and hypertension make up most of what walks through our door, and our general medicine consultations are built to handle both the urgent and the ongoing.",
+      "symptoms": [
+        "Fever, cold, cough or body ache",
+        "Elevated blood pressure or blood sugar readings",
+        "Persistent fatigue or unexplained weight change"
+      ],
+      "procedure": [
+        "History and symptom review",
+        "Physical examination",
+        "Lab tests arranged where needed",
+        "Treatment or ongoing management plan"
+      ],
+      "benefits": [
+        "Walk-ins accommodated for urgent concerns",
+        "Continuity of care for chronic conditions",
+        "Straightforward explanations, not rushed prescriptions"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Can I walk in without an appointment for a fever or cold?",
+          "answer": "Yes, walk-ins are welcome for urgent general medicine concerns, though calling ahead helps us plan for you."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "pediatric-care",
+      "name": "Pediatric Care",
+      "tagline": "Newborn visits through the school years",
+      "overview": "Growth monitoring, common childhood illnesses, and everyday parenting questions are all part of a paediatric visit here — not just the vaccination itself.",
+      "symptoms": [
+        "Fever, cold or stomach upset in a child",
+        "Questions about growth or development milestones",
+        "Feeding or nutrition concerns"
+      ],
+      "procedure": [
+        "Growth and development check",
+        "Symptom assessment and examination",
+        "Review of feeding and nutrition",
+        "Time set aside for parent questions"
+      ],
+      "benefits": [
+        "Same paediatrician across visits for continuity",
+        "Unhurried appointments for first-time parents",
+        "Evening slots that don't require missing school pickup"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "vaccinations"
+      ]
+    },
+    {
+      "slug": "womens-health-checkups",
+      "name": "Women's Health Checkups",
+      "tagline": "Gynaecological and prenatal care, handled privately",
+      "overview": "From routine gynaecological consultations and PCOS management to prenatal check-ups, women's health visits happen in a private consultation room with an unhurried, one-doctor continuity.",
+      "symptoms": [
+        "Irregular periods or PCOS symptoms",
+        "Routine prenatal check-up",
+        "General gynaecological concerns"
+      ],
+      "procedure": [
+        "Private consultation and history review",
+        "Examination as required",
+        "Lab or scan referrals if needed",
+        "Personalised care plan"
+      ],
+      "benefits": [
+        "Consistent care with the same gynaecologist",
+        "Private, comfortable consultation room",
+        "Weekend appointment slots available"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures",
+      "tagline": "Dressing, injections & small procedures, close to home",
+      "overview": "Wound dressing, prescribed injections, and small outpatient procedures are handled on-site in a clean, well-equipped treatment room, so routine needs don't require a trip to a bigger hospital.",
+      "symptoms": [
+        "Minor cuts or wounds needing dressing",
+        "Prescribed injections or IV fluids",
+        "Small skin procedures"
+      ],
+      "procedure": [
+        "Assessment by the attending doctor",
+        "Procedure performed under sterile conditions",
+        "Aftercare instructions provided"
+      ],
+      "benefits": [
+        "No need to travel for routine minor care",
+        "Quick turnaround with minimal waiting",
+        "Follow-up available at the same clinic"
+      ],
+      "recovery": "Most minor procedures need only basic aftercare at home; the attending doctor will explain any precautions specific to your case.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "Childhood schedules and routine adult immunisation",
+      "overview": "We maintain the full recommended childhood vaccination schedule on-site, along with common adult immunisations, tracked so you're never guessing what's due next.",
+      "symptoms": [],
+      "procedure": [
+        "Review of vaccination record or due schedule",
+        "Vaccine administered by trained staff",
+        "Observation period post-vaccination",
+        "Next-due date noted for follow-up"
+      ],
+      "benefits": [
+        "Full childhood immunisation schedule maintained on-site",
+        "Records tracked so nothing gets missed",
+        "Adult and travel vaccinations also available"
+      ],
+      "recovery": "Mild soreness or a low-grade fever after vaccination is common for a day or two; our team explains what to expect before you leave.",
+      "faqs": [
+        {
+          "question": "Do you maintain vaccination records for children?",
+          "answer": "Yes, we track each child's vaccination history at the clinic and remind parents when the next dose is due."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "pediatric-care"
+      ]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "Preventive screening for individuals and families",
+      "overview": "Our checkup packages bundle the essentials — blood work, blood pressure, blood sugar, and a general examination — so common lifestyle conditions get caught early rather than waited out.",
+      "symptoms": [],
+      "procedure": [
+        "Pre-checkup consultation",
+        "Screening tests as per the chosen package",
+        "Doctor review of results",
+        "Follow-up recommendations if needed"
+      ],
+      "benefits": [
+        "Early detection of common lifestyle conditions",
+        "Packages suited to different age groups",
+        "Results explained in person, not just handed over"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I get a general health checkup?",
+          "answer": "For most healthy adults, an annual checkup is a reasonable baseline; your doctor may suggest more frequent screening based on your history."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Medicine",
+      "doctorSlugs": [
+        "dr-senthil-kumar"
+      ]
+    },
+    {
+      "name": "Paediatrics",
+      "doctorSlugs": [
+        "dr-nandhini-suresh"
+      ]
+    },
+    {
+      "name": "Obstetrics & Gynaecology",
+      "doctorSlugs": [
+        "dr-revathi-balamurugan"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Clinic reception",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-clinic-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Paediatric care corner",
+      "category": "Care",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-pediatric-corner.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-slate-100",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "We used to travel to three different places for my son's vaccinations, my own checkups, and my mother's blood pressure visits. Now it's all one clinic, five minutes from home.",
+      "author": "Patient, J.S.Poly Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Nandhini was patient with every first-time-parent question we had about our daughter's vaccination schedule. Never felt rushed, even on a busy evening.",
+      "author": "Patient, J.S.Poly Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Good to have a proper gynaecologist this close to Mangadu Road. Dr. Revathi explained everything clearly and the clinic itself is clean and calm.",
+      "author": "Patient, J.S.Poly Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Which specialities are available at J.S.Poly Clinic?",
+      "answer": "We currently offer General Medicine, Paediatrics, and Obstetrics & Gynaecology, along with minor procedures, vaccinations, and health checkup packages, all at the same location."
+    },
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "Yes, walk-ins are welcome, especially for urgent general medicine concerns. For paediatric and gynaecology visits, booking ahead is recommended since those doctors keep specific hours."
+    },
+    {
+      "question": "What should I bring for my first visit?",
+      "answer": "Please bring a photo ID and any previous prescriptions, test reports, or vaccination records relevant to your visit."
+    },
+    {
+      "question": "What payment options are accepted?",
+      "answer": "We accept cash, UPI, and major debit and credit cards at the clinic."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us at +91 87780 12573, or use the appointment form on this website, and our front desk will confirm a slot with the right doctor."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-a-polyclinic-can-save-you-unnecessary-referrals",
+      "title": "Why a Polyclinic Can Save You a Lot of Unnecessary Referrals",
+      "excerpt": "A single-doctor clinic often means a referral slip and a second trip across the city. Here's how having multiple specialities under one roof changes that.",
+      "author": "Dr. Senthil Kumar",
+      "date": "2026-06-02",
+      "content": [
+        "It's a familiar pattern in growing neighbourhoods like Thirumudivakkam: you visit a general physician for a routine issue, and it turns out the real concern falls slightly outside their scope, so you're handed a referral slip and sent across town for another consultation, another intake form, another wait.",
+        "A polyclinic — 'poly' simply meaning many — solves a good chunk of this by keeping multiple general specialities at one address. When a general physician, a paediatrician, and a gynaecologist all work out of the same clinic, a lot of what used to require a referral just becomes a conversation between doctors down the same corridor.",
+        "There's a continuity benefit too, one that's easy to underestimate until you've lived without it. When one clinic holds your family's records across specialities, a doctor treating your child can quickly reference a relevant family history, and vice versa — something far harder when care is scattered across unconnected clinics with no shared file.",
+        "None of this replaces a tertiary hospital for genuinely complex or emergency cases — a polyclinic isn't trying to be one. But for the large share of everyday health needs a family actually has in a given year, one familiar address covers most of it, and that's the whole point of the model."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments at J.S.Poly Clinic."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care and that of your family members. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time by contacting our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "We recommend booking appointments in advance for paediatric and gynaecology consultations. Please inform us as early as possible if you need to reschedule or cancel."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation fees are payable at the time of visit. We accept cash, UPI, and card payments."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person consultation with a qualified doctor."
+      }
+    ]
+  },
+  "seo": {
+    "title": "J.S.Poly Clinic — Thirumudivakkam, Chennai",
+    "description": "J.S.Poly Clinic in Thirumudivakkam, Chennai offers general medicine, paediatric care, and women's health under one roof, with evening appointments six days a week."
+  }
+}

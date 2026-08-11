@@ -1,0 +1,451 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "orthoedge",
+  "business": {
+    "name": "Crown Dental",
+    "city": "Chennai, TN",
+    "phone": "+91 99400 42068",
+    "whatsapp": "919940042068",
+    "email": "hello@crowndentalclinic.in",
+    "address": "42/90 Gurusamy Nagar Extn, Main Rd, Madanandapuram, Mugalivakkam, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Multispeciality Dental Clinic",
+    "headline": "Precision Restorative Dentistry, Built to Last.",
+    "subheadline": "Crown Dental is a multispeciality practice in Mugalivakkam led by Dr. V. Sangeetha, focused on restorative and cosmetic work — crowns, implants, and full mouth rehabilitation — done with lab-grade precision.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "Every crown starts with a precise fit",
+    "body": [
+      "Crown Dental was built around a simple idea: restorative dentistry — crowns, bridges, implants — succeeds or fails on precision, not just skill in the chair. Every case here starts with careful diagnosis and ends with a fit that's checked, not assumed.",
+      "Led by Dr. V. Sangeetha, our multispeciality team covers restorative, cosmetic, and orthodontic care under one roof in Mugalivakkam, so patients don't need to bounce between clinics for connected treatment."
+    ],
+    "highlights": [
+      "Multispeciality care under one roof",
+      "Precision-fitted crowns and bridges",
+      "Modern sterilization and imaging equipment",
+      "Flexible evening hours for working patients"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "5,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Crown",
+      "value": "3,000+",
+      "label": "Crowns & Restorations"
+    },
+    {
+      "icon": "Award",
+      "value": "10+",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "ShieldCheck",
+      "value": "100%",
+      "label": "Sterilized Instruments"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Crown",
+      "title": "Precision Restorative Work",
+      "description": "Crowns, bridges, and implants fitted with careful diagnostics, not guesswork — fewer follow-up adjustments, longer-lasting results."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced Lead Dentist",
+      "description": "Dr. V. Sangeetha brings over a decade of clinical experience in restorative and prosthetic dentistry to every case."
+    },
+    {
+      "icon": "Users",
+      "title": "Multiple Specialities, One Roof",
+      "description": "Restorative, cosmetic, orthodontic, and general dentistry are all handled in-house, so your treatment plan stays coordinated."
+    },
+    {
+      "icon": "Microscope",
+      "title": "Modern Equipment",
+      "description": "Digital diagnostics and a fully sterilized treatment environment for safer, more accurate care."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-v-sangeetha",
+      "name": "Dr. V. Sangeetha",
+      "role": "Lead Dentist & Prosthodontist",
+      "qualification": "BDS, MDS (Prosthodontics & Crown and Bridge)",
+      "registrationNumber": "TNDC-28417",
+      "experienceYears": 12,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 10:00 AM – 1:30 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Sangeetha leads Crown Dental with a focus on restorative and prosthetic dentistry, treating everything from single-tooth crowns to full mouth rehabilitation. She founded the clinic to bring precision, lab-coordinated crown work to Mugalivakkam.",
+      "education": [
+        "BDS — Tamil Nadu Dr. MGR Medical University",
+        "MDS, Prosthodontics and Crown and Bridge — Tamil Nadu Dr. MGR Medical University"
+      ],
+      "awards": [],
+      "specialties": [
+        "Dental crowns & bridges",
+        "Full mouth rehabilitation",
+        "Dental implants"
+      ],
+      "photo": "/images/doctor-sangeetha.jpg"
+    },
+    {
+      "slug": "dr-arjun-menon",
+      "name": "Dr. Arjun Menon",
+      "role": "Orthodontist",
+      "qualification": "BDS, MDS (Orthodontics & Dentofacial Orthopedics)",
+      "registrationNumber": "TNDC-31905",
+      "experienceYears": 7,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Tue, Thu, Sat · 5:00 PM – 9:00 PM",
+      "bio": "Dr. Menon manages braces and orthodontic care at Crown Dental, working closely with Dr. Sangeetha on combined restorative and orthodontic treatment plans.",
+      "education": [
+        "BDS — Rajah Muthiah Dental College",
+        "MDS, Orthodontics — Sri Ramachandra Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Braces & clear aligners",
+        "Dentofacial orthopedics",
+        "Bite correction"
+      ]
+    }
+  ],
+  "services": [
+    {
+      "slug": "dental-crowns-bridges",
+      "name": "Dental Crowns & Bridges",
+      "tagline": "A precise fit for lasting restorations",
+      "overview": "Our core speciality — crowns and bridges fabricated and fitted with careful measurement and lab coordination, so restorations sit right the first time and hold up for years.",
+      "symptoms": [
+        "Cracked or heavily worn tooth",
+        "Large cavity beyond filling repair",
+        "Missing tooth affecting bite or appearance"
+      ],
+      "procedure": [
+        "Diagnosis and tooth preparation",
+        "Precision impressions or digital scan",
+        "Temporary crown while lab fabricates final restoration",
+        "Final fitting and bite adjustment"
+      ],
+      "benefits": [
+        "Precision fit reduces follow-up adjustments",
+        "Choice of ceramic, zirconia, or metal-ceramic crowns",
+        "Restores both function and appearance"
+      ],
+      "recovery": "Most patients resume normal eating within a day of final placement; minor sensitivity settles within a week.",
+      "faqs": [
+        {
+          "question": "How long does a crown take from start to finish?",
+          "answer": "Typically two visits over 5–7 days — one for preparation and impressions, one for final fitting, with a temporary crown in between."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "full-mouth-rehabilitation",
+        "root-canal-treatment"
+      ]
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the natural tooth, relieve the pain",
+      "overview": "Root canal therapy to treat infected or badly decayed teeth, typically followed by a crown to protect and restore the tooth long-term.",
+      "symptoms": [
+        "Persistent tooth pain or throbbing",
+        "Sensitivity to hot or cold that lingers",
+        "Swelling or tenderness near a tooth"
+      ],
+      "procedure": [
+        "Diagnosis with clinical exam and X-ray",
+        "Removal of infected pulp under local anaesthesia",
+        "Cleaning and sealing of the root canal",
+        "Crown placement to protect the treated tooth"
+      ],
+      "benefits": [
+        "Saves the natural tooth instead of extraction",
+        "Relieves pain from infection or decay",
+        "Usually completed in 1–2 sittings"
+      ],
+      "recovery": "Mild soreness for 2–3 days is normal; a follow-up crown is typically placed within two weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "dental-crowns-bridges"
+      ]
+    },
+    {
+      "slug": "dental-implants",
+      "name": "Dental Implants",
+      "tagline": "A permanent replacement for missing teeth",
+      "overview": "Titanium implants placed to replace missing teeth, topped with a custom-fitted crown for a result that looks and functions like a natural tooth.",
+      "symptoms": [
+        "One or more missing teeth",
+        "Loose or failing bridge",
+        "Difficulty chewing due to gaps"
+      ],
+      "procedure": [
+        "Imaging and implant planning",
+        "Implant placement under local anaesthesia",
+        "Healing period for osseointegration",
+        "Custom crown fitted onto the implant"
+      ],
+      "benefits": [
+        "Functions and feels like a natural tooth",
+        "Doesn't require altering adjacent teeth",
+        "Long-term solution with proper care"
+      ],
+      "recovery": "Initial healing takes 1–2 weeks; full osseointegration before crown placement typically takes 8–12 weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "dental-crowns-bridges",
+        "full-mouth-rehabilitation"
+      ]
+    },
+    {
+      "slug": "braces-orthodontics",
+      "name": "Braces & Orthodontics",
+      "tagline": "Straighter teeth, corrected bite",
+      "overview": "Orthodontic treatment for children and adults, including traditional braces and clear aligners, led by our in-house orthodontist.",
+      "symptoms": [
+        "Crooked or crowded teeth",
+        "Gaps between teeth",
+        "Misaligned bite"
+      ],
+      "procedure": [
+        "Orthodontic assessment and imaging",
+        "Treatment planning — braces or aligners",
+        "Regular adjustment visits",
+        "Retainer phase after treatment"
+      ],
+      "benefits": [
+        "Options for both children and adults",
+        "Coordinated with restorative care when needed",
+        "Improves bite function, not just appearance"
+      ],
+      "recovery": "Mild discomfort for a few days after each adjustment is normal and settles quickly.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "full-mouth-rehabilitation",
+      "name": "Full Mouth Rehabilitation",
+      "tagline": "Comprehensive restoration for complex cases",
+      "overview": "A coordinated treatment plan combining crowns, implants, and other restorative work to rebuild function and appearance across the whole mouth.",
+      "symptoms": [
+        "Multiple missing or damaged teeth",
+        "Long-term bite or jaw discomfort",
+        "Extensive wear from grinding or age"
+      ],
+      "procedure": [
+        "Comprehensive assessment and treatment planning",
+        "Phased restorative and surgical treatment",
+        "Coordinated crown, bridge, and implant work",
+        "Final bite calibration"
+      ],
+      "benefits": [
+        "Single coordinated plan instead of piecemeal fixes",
+        "Restores both function and appearance",
+        "Overseen directly by Dr. Sangeetha"
+      ],
+      "recovery": "Treatment is phased over several weeks to months depending on case complexity.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "dental-implants",
+        "dental-crowns-bridges"
+      ]
+    },
+    {
+      "slug": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "tagline": "A brighter smile in a single visit",
+      "overview": "In-clinic professional whitening for patients looking to brighten their smile safely and evenly, without damaging enamel.",
+      "symptoms": [
+        "Yellowing or dull tooth colour",
+        "Staining from coffee, tea, or tobacco",
+        "Uneven tooth shade"
+      ],
+      "procedure": [
+        "Shade assessment and cleaning",
+        "Protective gum barrier application",
+        "In-chair whitening treatment",
+        "Shade check and aftercare guidance"
+      ],
+      "benefits": [
+        "Visible results in a single session",
+        "Professionally supervised, safer than store kits",
+        "Even, natural-looking results"
+      ],
+      "recovery": "Mild sensitivity for a day or two is common and resolves on its own.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [
+    {
+      "name": "Restorative & Prosthodontics",
+      "doctorSlugs": [
+        "dr-v-sangeetha"
+      ]
+    },
+    {
+      "name": "Orthodontics",
+      "doctorSlugs": [
+        "dr-arjun-menon"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception and waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-treatment-room.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Sterilization area",
+      "category": "Care",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-sterilization.jpg"
+    },
+    {
+      "caption": "Clinic exterior",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I needed a crown replaced and was nervous about the fit after a bad experience elsewhere. It was done right the first time, no adjustments needed.",
+      "author": "Patient, Crown Dental",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Sangeetha explained every step of my root canal clearly and the whole thing was far less painful than I expected.",
+      "author": "Patient, Crown Dental",
+      "rating": 5
+    },
+    {
+      "quote": "Got my implant done here after months of putting it off. The clinic is clean, well-equipped, and the evening hours worked perfectly with my job.",
+      "author": "Patient, Crown Dental",
+      "rating": 4
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "We accept walk-ins when slots are available, but booking an appointment in advance guarantees you a specific time and shorter wait."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "Your first visit includes a clinical examination, X-rays if needed, and a discussion of your treatment options and estimated costs before anything is scheduled."
+    },
+    {
+      "question": "How long does getting a crown actually take?",
+      "answer": "Most crowns take two visits over about a week — tooth preparation and impressions at the first visit, and final fitting once the lab completes the restoration."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, all major cards, and UPI. Treatment cost estimates are always shared before we begin."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us directly, or use the appointment form on this website and our front desk will confirm a slot."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "crowns-vs-fillings-when-do-you-need-a-crown",
+      "title": "Crowns vs. Fillings: When Do You Actually Need a Crown?",
+      "excerpt": "Not every cavity needs a crown, but some do. Here's how we decide, and why the difference matters for how long the repair lasts.",
+      "author": "Dr. V. Sangeetha",
+      "date": "2026-02-10",
+      "content": [
+        "Fillings work well for small to moderate cavities where enough healthy tooth structure remains to support the repair. They're quicker, cheaper, and less invasive.",
+        "Crowns come in when the damage is more extensive — a large cavity, a cracked tooth, or a tooth that's already had a root canal and needs protection from further fracture.",
+        "The general rule we use: if more than half the visible tooth structure is compromised, a filling is unlikely to hold up long-term and a crown is the more durable choice.",
+        "The trade-off is time and cost — a crown typically needs two visits and lab fabrication, versus a same-visit filling. But for the right case, it prevents repeat trips back to the chair for the same tooth.",
+        "If you're unsure which applies to you, an exam and X-ray usually settles it quickly — we'll always explain the reasoning before recommending either option."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect the medical, contact, and billing information necessary to evaluate and treat you, and to schedule and manage your appointments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate your dental care at Crown Dental and is not shared with third parties beyond what treatment requires."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your dental records at any time through our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please give at least 24 hours notice if you need to cancel or reschedule an appointment."
+      },
+      {
+        "heading": "Billing",
+        "body": "Treatment costs are shared and agreed upon before work begins; payment is due at the time of each visit unless otherwise arranged."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational only and does not replace an in-person dental examination and diagnosis."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Crown Dental — Mugalivakkam, Chennai",
+    "description": "Crown Dental is a multispeciality dental clinic in Mugalivakkam, Chennai led by Dr. V. Sangeetha, offering crowns, root canals, implants, orthodontics, and full mouth rehabilitation."
+  }
+}

@@ -1,0 +1,404 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "careplus",
+  "business": {
+    "name": "Sugam Clinic",
+    "city": "Moulivakkam, Chennai",
+    "phone": "+91 97501 37784",
+    "whatsapp": "919750137784",
+    "email": "hello@sugamclinic.in",
+    "address": "249R+XW2, Mangadu Rd, Rajiv Gandhi Nagar, Moulivakkam, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "General Physician Clinic, Moulivakkam",
+    "headline": "Healthcare That's Actually Sugam — Easy.",
+    "subheadline": "No long waits, no confusing referrals, no rushed five-minute visits. Just straightforward care from a doctor who has time for your questions.",
+    "primaryCta": {
+      "label": "Book a Visit",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "image": "/images/about-consultation.jpg",
+    "title": "Healthcare, minus the hassle",
+    "body": [
+      "Sugam means easy — and that's the whole idea behind this clinic. Moulivakkam and Rajiv Gandhi Nagar residents shouldn't have to take half a day off work just to see a doctor for a fever or a routine checkup.",
+      "We built Sugam Clinic around quick, no-fuss consultations: walk in, get seen by an experienced general physician, get a clear explanation of what's going on, and get back to your day. Evening hours mean you don't have to choose between work and your health."
+    ],
+    "highlights": [
+      "Quick, unhurried consultations — no assembly-line visits",
+      "Morning and evening hours for working people",
+      "On-site basic diagnostics, no separate lab trip needed",
+      "Clear explanations, no confusing medical jargon"
+    ]
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "12,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Clock",
+      "value": "<15 min",
+      "label": "Average Wait Time"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "General Physicians"
+    },
+    {
+      "icon": "Award",
+      "value": "9",
+      "label": "Years Serving Moulivakkam"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Clock",
+      "title": "Fast, Hassle-Free Appointments",
+      "description": "Call or message ahead and get a same-day slot in most cases — no weeks-long wait to see a doctor for a routine concern."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced Doctors",
+      "description": "Our physicians bring years of general medicine practice, so common issues get diagnosed quickly and correctly the first time."
+    },
+    {
+      "icon": "Sunset",
+      "title": "Evening Hours That Fit Your Day",
+      "description": "Open until 8:30 PM on weekdays, so you don't have to skip work or school for a routine visit."
+    },
+    {
+      "icon": "Users",
+      "title": "No Long Waits",
+      "description": "We keep appointment slots realistic rather than overbooked, so you're rarely sitting in the waiting room for long."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-karthik-raman",
+      "name": "Dr. Karthik Raman",
+      "role": "General Physician & Clinic Director",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-58421",
+      "experienceYears": 15,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Raman founded Sugam Clinic on a simple idea: a patient shouldn't need to navigate confusing referrals or sit through a rushed visit just to get a fever, infection, or routine health concern sorted out. He focuses on quick, clear consultations — diagnosing efficiently and explaining the plan in plain language before you leave.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD General Medicine — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General health consultations",
+        "Quick diagnostics",
+        "Chronic disease management",
+        "Minor procedures"
+      ],
+      "photo": "/images/doctor-karthik-raman.jpg"
+    },
+    {
+      "slug": "dr-divya-shankar",
+      "name": "Dr. Divya Shankar",
+      "role": "General Physician",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-61930",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 9:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Shankar sees a wide range of everyday health concerns — from seasonal infections to ongoing conditions like diabetes and hypertension — and is known among patients for taking the time to actually answer questions rather than rushing to the next appointment.",
+      "education": [
+        "MBBS — Kilpauk Medical College, Chennai",
+        "MD General Medicine — Sri Ramachandra Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Vaccinations",
+        "Women's general health",
+        "Preventive checkups",
+        "Minor ailments"
+      ],
+      "photo": "/images/doctor-divya-shankar.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "See a doctor the same day, without the runaround",
+      "overview": "Whether it's a fever, a persistent cough, stomach trouble, or something you just want checked out, our general physicians handle it in a single, unhurried visit — with a clear explanation of what's going on and what to do next.",
+      "symptoms": [
+        "Fever or body ache",
+        "Cold, cough, or sore throat",
+        "Stomach upset or digestive trouble",
+        "General fatigue or unexplained discomfort"
+      ],
+      "procedure": [
+        "Quick check-in, minimal paperwork",
+        "One-on-one consultation with the doctor",
+        "On-the-spot basic examination",
+        "Clear diagnosis and treatment plan explained in plain language"
+      ],
+      "benefits": [
+        "Same-day appointments in most cases",
+        "No confusing medical jargon",
+        "Prescription and next steps explained clearly before you leave"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do I need to book in advance for a general consultation?",
+          "answer": "Walk-ins are welcome when slots are open, but calling or messaging ahead on WhatsApp guarantees you a specific time and avoids any wait."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "quick-diagnostic-checkups",
+        "chronic-disease-management"
+      ]
+    },
+    {
+      "slug": "quick-diagnostic-checkups",
+      "name": "Quick Diagnostic Checkups",
+      "tagline": "Basic diagnostics on-site — no separate lab trip",
+      "overview": "For common tests — blood pressure, sugar levels, basic blood work, and similar routine checks — we handle collection and coordination right at the clinic, so you're not making a second trip across town to a lab.",
+      "symptoms": [],
+      "procedure": [
+        "Doctor identifies which checks are needed",
+        "Sample collection or measurement done on-site",
+        "Results coordinated and explained at a follow-up call or visit"
+      ],
+      "benefits": [
+        "No separate lab visit for routine tests",
+        "Faster turnaround on common results",
+        "Results explained by the doctor, not just handed over as numbers"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "Routine immunizations, done quickly and correctly",
+      "overview": "From seasonal flu shots to routine adult immunizations, we keep commonly needed vaccines on hand and administer them as part of a quick, straightforward visit.",
+      "symptoms": [],
+      "procedure": [
+        "Quick review of vaccination history",
+        "Vaccine administered by clinic staff",
+        "Short observation period before you leave"
+      ],
+      "benefits": [
+        "No appointment-only restriction for common vaccines",
+        "Clear guidance on what reactions are normal",
+        "Vaccination record maintained for you"
+      ],
+      "recovery": "Mild soreness at the injection site or slight tiredness is normal for a day; our team lets you know what to expect before you leave.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures",
+      "tagline": "Small procedures handled in-house, no hospital referral needed",
+      "overview": "Wound dressing, minor cuts and burns, abscess drainage, and similar small procedures are handled right at the clinic — sparing you an unnecessary trip to a hospital for something straightforward.",
+      "symptoms": [
+        "Minor cuts, burns, or wounds",
+        "Dressing changes",
+        "Small skin infections or abscesses"
+      ],
+      "procedure": [
+        "Doctor examines and assesses the issue",
+        "Procedure performed on-site under local care",
+        "Aftercare instructions given clearly"
+      ],
+      "benefits": [
+        "Avoids unnecessary hospital referrals for minor issues",
+        "Same-visit treatment in most cases",
+        "Follow-up dressing appointments available"
+      ],
+      "recovery": "Most minor procedures need only simple at-home aftercare; the doctor will flag anything that needs a follow-up visit.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Chronic Disease Management",
+      "tagline": "Ongoing care for diabetes, blood pressure, and more — without the hassle",
+      "overview": "For patients managing long-term conditions like diabetes, hypertension, or thyroid issues, we offer regular, unhurried follow-up visits that keep your treatment on track without making every check-in feel like a major appointment.",
+      "symptoms": [
+        "Diagnosed diabetes or hypertension",
+        "Thyroid conditions",
+        "Need for regular monitoring and medication review"
+      ],
+      "procedure": [
+        "Review of current medication and recent readings",
+        "Physical check and any needed on-site tests",
+        "Medication or lifestyle plan adjusted as needed"
+      ],
+      "benefits": [
+        "Continuity of care with the same doctor over time",
+        "Shorter, simpler follow-up visits once established",
+        "Reminders for periodic checkups"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "quick-diagnostic-checkups",
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Quick-checkup corner",
+      "category": "Care",
+      "swatchClassName": "bg-emerald-50",
+      "src": "/images/gallery-quick-checkup.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-clinic-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Walked in with a fever, was seen within ten minutes, and had a clear explanation and medicines in hand within half an hour. This is how a clinic visit should feel.",
+      "author": "Patient, Sugam Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "I work till 6 most days and could never make it to a clinic before. The evening hours here actually let me get a checkup without taking leave.",
+      "author": "Patient, Sugam Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "No confusing referrals, no running between departments — the doctor just listened, explained things simply, and sorted it out in one visit.",
+      "author": "Patient, Sugam Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "Yes, walk-ins are welcome when slots are open. For a guaranteed time, we recommend calling or messaging ahead on WhatsApp."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "A quick check-in with basic details, followed by an unhurried consultation with the doctor. Bring any prior prescriptions or medical records if you have them, though it's not required."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and all major debit and credit cards at the clinic."
+    },
+    {
+      "question": "How quickly can I get an appointment?",
+      "answer": "Most patients are seen the same day. Call or message us on WhatsApp and we'll fit you into the next available slot, morning or evening."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book through the Appointment page on this website, or simply call or WhatsApp us directly at +91 97501 37784."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "quick-and-easy-shouldnt-mean-rushed",
+      "title": "Why 'Quick and Easy' Shouldn't Mean Rushed — Getting Both at the Doctor's Office",
+      "excerpt": "A fast appointment and a thorough one aren't opposites. Here's how a clinic visit can respect your time without cutting corners on care.",
+      "author": "Dr. Karthik Raman",
+      "date": "2026-05-14",
+      "content": [
+        "Most people assume that a quick doctor's visit means a rushed one — five minutes, a hurried prescription, and out the door with more questions than you walked in with. It doesn't have to be that way.",
+        "The real time sink in most clinic visits isn't the consultation itself, it's everything around it: long waits, confusing paperwork, being bounced between departments for basic tests. Cut that out, and the actual conversation with your doctor can stay unhurried while your total time at the clinic still drops sharply.",
+        "That's the model we've built at Sugam Clinic — streamlined check-in, on-site basic diagnostics, and evening hours so you're not choosing between work and a checkup. But the consultation itself is never rushed; the doctor takes the time needed to actually explain what's going on.",
+        "If your last doctor's visit felt like you were rushed out before your questions were answered, that's not something you have to accept as normal. Easy and thorough can coexist — that's exactly the gap we set out to close."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care at Sugam Clinic. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please inform us as early as possible if you need to cancel or reschedule an appointment, so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and procedure fees are payable at the time of your visit. Please ask our front desk for current fee information."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person consultation with a qualified physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Sugam Clinic — Moulivakkam, Chennai",
+    "description": "Sugam Clinic in Moulivakkam, Chennai offers fast, hassle-free general physician consultations with morning and evening hours for busy families and working people."
+  }
+}
