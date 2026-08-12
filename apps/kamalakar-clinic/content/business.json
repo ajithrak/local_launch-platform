@@ -1,0 +1,412 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "mednova",
+  "business": {
+    "name": "Kamalakar Clinic",
+    "city": "Mugalivakkam, Chennai",
+    "phone": "044 4263 6448",
+    "whatsapp": "914442636448",
+    "email": "hello@kamalakarclinic.in",
+    "address": "Bus stop, Mount Poonamalle Road, opposite Sabari Sagar, near S & S, Madha Nagar, Mugalivakkam, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:30 PM – 9:00 PM · Sunday 9:00 AM – 1:00 PM",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "A Familiar Name on Mount Poonamalle Road",
+    "headline": "Everyday Healthcare, Right at the Madha Nagar Bus Stop.",
+    "subheadline": "Kamalakar Clinic has stood opposite Sabari Sagar on Mount Poonamalle Road for years, offering Mugalivakkam families a general physician who's easy to reach and even easier to talk to.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "A neighbourhood clinic, run the way one should be",
+    "body": [
+      "Kamalakar Clinic sits right at the bus stop on Mount Poonamalle Road, opposite Sabari Sagar and a short walk from Madha Nagar — a location chosen so that getting to a doctor never has to be the hard part of getting well. For the households and working families of Mugalivakkam, this has meant a general physician within easy reach for everyday illness, ongoing conditions, and the kind of routine check-ins that are easy to postpone when a clinic feels far away.",
+      "The clinic is named for its founding doctor, and that founder-led character still shapes how it runs — a small, attentive practice rather than a large impersonal one. Patients are seen by the same physician visit after visit, which matters most for the ongoing management of things like diabetes and blood pressure, where a doctor who already knows your history is worth more than a fresh set of questions each time.",
+      "We've kept the clinic straightforward on purpose: walk-ins are welcome, evening hours mean a visit doesn't have to cost you a day's wages, and the near S&S, Madha Nagar landmark means most autos and buses along Mount Poonamalle Road already know exactly where to stop."
+    ],
+    "highlights": [
+      "Founder-led general physician practice in Mugalivakkam",
+      "Walk-ins welcome, evening hours until 9:00 PM",
+      "Right at the Madha Nagar bus stop on Mount Poonamalle Road",
+      "Continuity of care for chronic conditions like diabetes & BP"
+    ],
+    "image": "/images/about-consultation.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Stethoscope",
+      "value": "1",
+      "label": "General Physician Clinic"
+    },
+    {
+      "icon": "Clock",
+      "value": "7",
+      "label": "Days Open Every Week"
+    },
+    {
+      "icon": "MapPin",
+      "value": "1",
+      "label": "Address on Mount Poonamalle Road"
+    },
+    {
+      "icon": "UserRound",
+      "value": "15+",
+      "label": "Years Serving Mugalivakkam"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "MapPin",
+      "title": "Impossible to Miss on Mount Poonamalle Road",
+      "description": "Right at the Madha Nagar bus stop, opposite Sabari Sagar and near S & S — a landmark location most of Mugalivakkam already passes on their daily commute."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "One Doctor, Every Visit",
+      "description": "You see the same general physician each time, which means chronic conditions like diabetes and blood pressure get managed with real continuity, not a new set of questions every visit."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours That Fit a Workday",
+      "description": "Open until 9:00 PM most evenings and on Sundays too, so a clinic visit doesn't have to mean taking time off work."
+    },
+    {
+      "icon": "HeartHandshake",
+      "title": "A Founder-Led, Neighbourhood Practice",
+      "description": "Kamalakar Clinic carries its founding doctor's name and approach — a small, personal practice built on familiarity rather than a rotating cast of unfamiliar faces."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-kamalakar-reddy",
+      "name": "Dr. Kamalakar Reddy",
+      "role": "General Physician & Founder",
+      "qualification": "MBBS, MD (General Medicine)",
+      "registrationNumber": "TNMC-51742",
+      "experienceYears": 18,
+      "languages": [
+        "English",
+        "Tamil",
+        "Telugu"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:30 PM – 9:00 PM · Sunday 9:00 AM – 1:00 PM",
+      "bio": "Dr. Kamalakar Reddy founded the clinic that carries his name and has been its lead physician ever since, seeing generations of the same Mugalivakkam families through everyday fevers, infections, and the long-term management of diabetes and hypertension. He's known locally for a calm, unhurried manner and for actually explaining a diagnosis rather than just writing a prescription.",
+      "education": [
+        "MBBS — Stanley Medical College, Chennai",
+        "MD, General Medicine — Madras Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Diabetes & blood pressure management",
+        "Fever & infectious disease care",
+        "Preventive health screening"
+      ],
+      "photo": "/images/doctor-kamalakar-reddy.jpg"
+    },
+    {
+      "slug": "dr-divya-rao",
+      "name": "Dr. Divya Rao",
+      "role": "General Physician",
+      "qualification": "MBBS",
+      "registrationNumber": "TNMC-68930",
+      "experienceYears": 7,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 5:30 PM – 9:00 PM",
+      "bio": "Dr. Divya Rao sees patients alongside Dr. Kamalakar Reddy on evening shifts, handling routine consultations, minor procedures, and follow-up visits so patients aren't left waiting during the clinic's busiest hours. She has a particular interest in preventive health and lifestyle-related conditions.",
+      "education": [
+        "MBBS — Sri Ramachandra Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Routine health checkups",
+        "Lifestyle & preventive medicine",
+        "Minor procedures & wound care"
+      ],
+      "photo": "/images/doctor-divya-rao.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "Everyday illness and long-term condition care",
+      "overview": "Fevers, infections, and chronic conditions like diabetes and hypertension make up most of what walks through our door on Mount Poonamalle Road, and our consultations are built to handle both the urgent and the ongoing.",
+      "symptoms": [
+        "Fever, cold, cough or body ache",
+        "Elevated blood pressure or blood sugar readings",
+        "Persistent fatigue or unexplained weight change"
+      ],
+      "procedure": [
+        "History and symptom review",
+        "Physical examination",
+        "Lab tests arranged where needed",
+        "Treatment or ongoing management plan"
+      ],
+      "benefits": [
+        "Walk-ins accommodated for urgent concerns",
+        "Continuity of care for chronic conditions",
+        "Straightforward explanations, not rushed prescriptions"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Can I walk in without an appointment for a fever or cold?",
+          "answer": "Yes, walk-ins are welcome for urgent general medicine concerns, though calling ahead helps us plan for you."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "diabetes-bp-management",
+      "name": "Diabetes & Blood Pressure Management",
+      "tagline": "Ongoing care for the conditions that need it most",
+      "overview": "Diabetes and hypertension are managed best over time, by a doctor who already knows your history — which is exactly how we approach it, with regular follow-ups and medication reviews rather than one-off visits.",
+      "symptoms": [
+        "Diagnosed diabetes or hypertension needing regular monitoring",
+        "Unusual thirst, fatigue, or frequent urination",
+        "Headaches or dizziness linked to blood pressure"
+      ],
+      "procedure": [
+        "Blood pressure and blood sugar readings",
+        "Review of current medication and lifestyle",
+        "Adjustment of treatment plan as needed",
+        "Scheduled follow-up for ongoing monitoring"
+      ],
+      "benefits": [
+        "Same doctor across every follow-up visit",
+        "Medication reviewed regularly, not left on autopilot",
+        "Practical lifestyle guidance, not just prescriptions"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I come in if I have diabetes or high blood pressure?",
+          "answer": "It varies by patient, but most chronic condition follow-ups are scheduled every 4 to 6 weeks, or sooner if your readings need closer attention."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-health-consultation",
+        "health-checkup-packages"
+      ]
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures & Wound Care",
+      "tagline": "Dressing, injections & small procedures, close to home",
+      "overview": "Wound dressing, prescribed injections, and small outpatient procedures are handled on-site in a clean treatment room, so routine needs don't require a trip further into the city.",
+      "symptoms": [
+        "Minor cuts or wounds needing dressing",
+        "Prescribed injections or IV fluids",
+        "Small skin procedures"
+      ],
+      "procedure": [
+        "Assessment by the attending doctor",
+        "Procedure performed under sterile conditions",
+        "Aftercare instructions provided"
+      ],
+      "benefits": [
+        "No need to travel for routine minor care",
+        "Quick turnaround with minimal waiting",
+        "Follow-up available at the same clinic"
+      ],
+      "recovery": "Most minor procedures need only basic aftercare at home; the attending doctor will explain any precautions specific to your case.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "health-checkup-packages",
+      "name": "Health Checkup Packages",
+      "tagline": "Preventive screening for individuals and families",
+      "overview": "Our checkup packages bundle the essentials — blood work, blood pressure, blood sugar, and a general examination — so common lifestyle conditions get caught early rather than waited out.",
+      "symptoms": [],
+      "procedure": [
+        "Pre-checkup consultation",
+        "Screening tests as per the chosen package",
+        "Doctor review of results",
+        "Follow-up recommendations if needed"
+      ],
+      "benefits": [
+        "Early detection of common lifestyle conditions",
+        "Packages suited to different age groups",
+        "Results explained in person, not just handed over"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "How often should I get a general health checkup?",
+          "answer": "For most healthy adults, an annual checkup is a reasonable baseline; your doctor may suggest more frequent screening based on your history."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-health-consultation",
+        "diabetes-bp-management"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "Routine adult and travel immunisation",
+      "overview": "We administer common adult immunisations and travel vaccines on-site, with an observation period and clear guidance on what to expect afterward.",
+      "symptoms": [],
+      "procedure": [
+        "Review of vaccination history and due schedule",
+        "Vaccine administered by trained staff",
+        "Observation period post-vaccination",
+        "Next-due date noted for follow-up"
+      ],
+      "benefits": [
+        "Common adult and travel vaccines available on-site",
+        "Records tracked so nothing gets missed",
+        "Clear guidance on possible side effects"
+      ],
+      "recovery": "Mild soreness or a low-grade fever after vaccination is common for a day or two; our team explains what to expect before you leave.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Medicine",
+      "doctorSlugs": [
+        "dr-kamalakar-reddy",
+        "dr-divya-rao"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance on Mount Poonamalle Road",
+      "category": "Facility",
+      "swatchClassName": "bg-slate-100",
+      "src": "/images/gallery-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Dr. Kamalakar has been treating my parents for years now. He knows their history without having to ask twice, which makes a real difference for their diabetes checkups.",
+      "author": "Patient, Kamalakar Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Easy to find right at the bus stop, and the evening hours mean I don't have to leave work early just for a doctor's visit.",
+      "author": "Patient, Kamalakar Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Divya was thorough and patient during my checkup, and the clinic itself is clean and never feels rushed even when it's busy.",
+      "author": "Patient, Kamalakar Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Where exactly is Kamalakar Clinic located?",
+      "answer": "We're on Mount Poonamalle Road at the Madha Nagar bus stop, opposite Sabari Sagar and near S & S, Mugalivakkam, Chennai 600125 — easy to spot from the main road."
+    },
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "Yes, walk-ins are welcome, especially for urgent general medicine concerns. Calling ahead is helpful but not required."
+    },
+    {
+      "question": "What should I bring for my first visit?",
+      "answer": "Please bring a photo ID and any previous prescriptions, test reports, or medical records relevant to your visit."
+    },
+    {
+      "question": "What payment options are accepted?",
+      "answer": "We accept cash, UPI, and major debit and credit cards at the clinic."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us at 044 4263 6448, or use the appointment form on this website, and our front desk will confirm a slot with the right doctor."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "why-continuity-of-care-matters-for-chronic-conditions",
+      "title": "Why Seeing the Same Doctor Matters for Diabetes & Blood Pressure",
+      "excerpt": "Chronic conditions like diabetes and hypertension aren't a one-visit problem — here's why continuity with a single general physician makes such a difference.",
+      "author": "Dr. Kamalakar Reddy",
+      "date": "2026-07-10",
+      "content": [
+        "Diabetes and high blood pressure aren't conditions that get solved in a single visit — they're managed, month after month, through small adjustments to medication, diet, and monitoring. That kind of management works best when the doctor making those adjustments already knows your history, rather than starting from scratch at every appointment.",
+        "At Kamalakar Clinic, patients with chronic conditions tend to see the same physician visit after visit. That continuity means fewer repeated questions, faster recognition of what's changed since your last reading, and a treatment plan that actually evolves with you instead of resetting each time.",
+        "It also means catching small changes early — a blood pressure reading trending upward over three visits tells a very different story than a single high reading in isolation, but only if the same doctor is tracking both.",
+        "None of this replaces specialist care for complicated cases, and we refer onward when that's genuinely needed. But for the everyday management that most diabetes and blood pressure patients need, a familiar doctor at a familiar clinic on Mount Poonamalle Road covers most of what the year actually requires."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments at Kamalakar Clinic."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time by contacting our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "August 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Walk-ins are welcome, but booking ahead is recommended for evening slots. Please inform us as early as possible if you need to reschedule or cancel."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation fees are payable at the time of visit. We accept cash, UPI, and card payments."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person consultation with a qualified doctor."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Kamalakar Clinic — Mugalivakkam, Chennai",
+    "description": "Kamalakar Clinic on Mount Poonamalle Road, Mugalivakkam offers general medicine consultations, chronic condition management, and preventive health checkups with evening hours seven days a week."
+  }
+}

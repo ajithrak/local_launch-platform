@@ -1,0 +1,414 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "careplus",
+  "business": {
+    "name": "Rajan Clinic",
+    "city": "Moulivakkam, Chennai",
+    "phone": "+91 9092158941",
+    "whatsapp": "919092158941",
+    "email": "hello@rajanclinic.in",
+    "address": "No. 62, Moulivakkam, Kundrathur Main Rd, Lawrence Nagar, Lakshme Nagar, Tharapakkam, Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "General Physician Clinic, Tharapakkam",
+    "headline": "Your Neighbourhood Clinic on Kundrathur Main Road.",
+    "subheadline": "Rajan Clinic has been treating families across Moulivakkam, Lawrence Nagar and Tharapakkam with straightforward, unhurried general medicine — walk in when you need us.",
+    "primaryCta": {
+      "label": "Book a Visit",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "image": "/images/about-consultation.jpg",
+    "title": "A clinic that knows the neighbourhood",
+    "body": [
+      "Rajan Clinic sits right on Kundrathur Main Road in Tharapakkam, tucked between Moulivakkam and Lawrence Nagar — close enough that most patients walk in rather than plan a special trip. That was always the idea: healthcare that fits into daily life here, not the other way around.",
+      "The clinic is built around a simple approach — see the patient promptly, listen properly, explain the diagnosis in plain Tamil or English, and treat what can be treated on the spot. For anything that needs a specialist, we say so honestly and point you in the right direction rather than keeping you waiting.",
+      "Families in Lakshme Nagar and the surrounding streets have relied on Rajan Clinic for everyday concerns — fevers, infections, blood pressure and sugar checks, minor injuries — and for the ongoing, unglamorous work of keeping chronic conditions under control year after year."
+    ],
+    "highlights": [
+      "Walk-in friendly, right on Kundrathur Main Road",
+      "Morning and evening hours around the workday",
+      "Consultations in Tamil, English and Hindi",
+      "On-site basic diagnostics for common tests"
+    ]
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "10,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Clock",
+      "value": "<20 min",
+      "label": "Average Wait Time"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "General Physicians"
+    },
+    {
+      "icon": "Award",
+      "value": "12",
+      "label": "Years Serving Tharapakkam"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "MapPin",
+      "title": "Right on Kundrathur Main Road",
+      "description": "Easy to reach from Moulivakkam, Lawrence Nagar and Lakshme Nagar — no need to travel across the city for routine care."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced General Physicians",
+      "description": "Years of everyday general medicine practice mean common problems are diagnosed quickly and correctly, without unnecessary tests."
+    },
+    {
+      "icon": "Sunset",
+      "title": "Morning and Evening Hours",
+      "description": "Open till 9:00 PM on weekdays, so a visit doesn't mean missing work or pulling kids out of school."
+    },
+    {
+      "icon": "Languages",
+      "title": "Care in Your Language",
+      "description": "Consultations in Tamil, English and Hindi, so every explanation is one you actually understand."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-rajan-selvam",
+      "name": "Dr. Rajan Selvam",
+      "role": "Founder & General Physician",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-42107",
+      "experienceYears": 20,
+      "languages": [
+        "Tamil",
+        "English",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Rajan started this clinic on Kundrathur Main Road with a straightforward goal — give the Tharapakkam and Moulivakkam area a place for honest, unhurried general medicine, without the long waits or confusing referrals of a bigger hospital. Two decades in, he still prefers a short queue and a proper conversation with every patient over a packed waiting room.",
+      "education": [
+        "MBBS — Kilpauk Medical College, Chennai",
+        "MD General Medicine — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General health consultations",
+        "Diabetes and hypertension management",
+        "Fever and infection care",
+        "Minor procedures"
+      ],
+      "photo": "/images/doctor-rajan-selvam.jpg"
+    },
+    {
+      "slug": "dr-anitha-krishnan",
+      "name": "Dr. Anitha Krishnan",
+      "role": "General Physician",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-59864",
+      "experienceYears": 9,
+      "languages": [
+        "Tamil",
+        "English"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Anitha sees a wide range of everyday health concerns at Rajan Clinic, from seasonal infections to long-term diabetes and blood pressure follow-ups. Patients from Lawrence Nagar and Lakshme Nagar know her for actually answering questions instead of rushing to the next appointment.",
+      "education": [
+        "MBBS — Sri Ramachandra Medical College, Chennai",
+        "MD General Medicine — Madras Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Preventive checkups",
+        "Women's general health",
+        "Vaccinations",
+        "Chronic disease follow-ups"
+      ],
+      "photo": "/images/doctor-anitha-krishnan.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-consultation",
+      "name": "General Consultation",
+      "tagline": "Walk in on Kundrathur Main Road, walk out with answers",
+      "overview": "Whether it's a fever, a persistent cough, stomach trouble, or something you just want checked out, our physicians handle it in a single, unhurried visit — with a clear explanation of what's going on and what to do next.",
+      "symptoms": [
+        "Fever or body ache",
+        "Cold, cough, or sore throat",
+        "Stomach upset or digestive trouble",
+        "General fatigue or unexplained discomfort"
+      ],
+      "procedure": [
+        "Quick check-in, minimal paperwork",
+        "One-on-one consultation with the doctor",
+        "On-the-spot basic examination",
+        "Clear diagnosis and treatment plan explained in plain language"
+      ],
+      "benefits": [
+        "Same-day appointments in most cases",
+        "No confusing medical jargon",
+        "Prescription and next steps explained clearly before you leave"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do I need to book in advance for a general consultation?",
+          "answer": "Walk-ins are welcome during clinic hours, but calling or messaging ahead on WhatsApp guarantees you a specific time and avoids any wait."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "preventive-health-checkups",
+        "chronic-disease-management"
+      ]
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Diabetes & Blood Pressure Management",
+      "tagline": "Ongoing care for diabetes and hypertension, without the hassle",
+      "overview": "For patients managing long-term conditions like diabetes, hypertension, or thyroid issues, we offer regular, unhurried follow-up visits that keep treatment on track without every check-in feeling like a major appointment.",
+      "symptoms": [
+        "Diagnosed diabetes or hypertension",
+        "Thyroid conditions",
+        "Need for regular monitoring and medication review"
+      ],
+      "procedure": [
+        "Review of current medication and recent readings",
+        "Physical check and any needed on-site tests",
+        "Medication or lifestyle plan adjusted as needed"
+      ],
+      "benefits": [
+        "Continuity of care with the same doctor over time",
+        "Shorter, simpler follow-up visits once established",
+        "Reminders for periodic checkups"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "preventive-health-checkups",
+        "general-consultation"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "Routine immunizations, done quickly and correctly",
+      "overview": "From seasonal flu shots to routine adult and childhood immunizations, we keep commonly needed vaccines on hand and administer them as part of a quick, straightforward visit.",
+      "symptoms": [],
+      "procedure": [
+        "Quick review of vaccination history",
+        "Vaccine administered by clinic staff",
+        "Short observation period before you leave"
+      ],
+      "benefits": [
+        "No appointment-only restriction for common vaccines",
+        "Clear guidance on what reactions are normal",
+        "Vaccination record maintained for you"
+      ],
+      "recovery": "Mild soreness at the injection site or slight tiredness is normal for a day; our team lets you know what to expect before you leave.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-consultation"
+      ]
+    },
+    {
+      "slug": "minor-procedures-wound-care",
+      "name": "Minor Procedures & Wound Care",
+      "tagline": "Small procedures handled in-house, no hospital referral needed",
+      "overview": "Wound dressing, minor cuts and burns, abscess drainage, and similar small procedures are handled right at the clinic — sparing you an unnecessary trip to a hospital for something straightforward.",
+      "symptoms": [
+        "Minor cuts, burns, or wounds",
+        "Dressing changes",
+        "Small skin infections or abscesses"
+      ],
+      "procedure": [
+        "Doctor examines and assesses the issue",
+        "Procedure performed on-site under local care",
+        "Aftercare instructions given clearly"
+      ],
+      "benefits": [
+        "Avoids unnecessary hospital referrals for minor issues",
+        "Same-visit treatment in most cases",
+        "Follow-up dressing appointments available"
+      ],
+      "recovery": "Most minor procedures need only simple at-home aftercare; the doctor will flag anything that needs a follow-up visit.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "preventive-health-checkups",
+      "name": "Preventive Health Checkups",
+      "tagline": "Catch small issues before they become big ones",
+      "overview": "Routine blood pressure, sugar, and basic blood work checks are handled right at the clinic, giving you a clear picture of your health without a separate trip to a diagnostic lab.",
+      "symptoms": [],
+      "procedure": [
+        "Doctor identifies which checks are needed",
+        "Sample collection or measurement done on-site",
+        "Results coordinated and explained at a follow-up call or visit"
+      ],
+      "benefits": [
+        "No separate lab visit for routine tests",
+        "Faster turnaround on common results",
+        "Results explained by the doctor, not just handed over as numbers"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-consultation",
+        "chronic-disease-management"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General Medicine",
+      "doctorSlugs": [
+        "dr-rajan-selvam",
+        "dr-anitha-krishnan"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance on Kundrathur Main Road",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-50",
+      "src": "/images/gallery-entrance.jpg"
+    },
+    {
+      "caption": "Pharmacy counter",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-pharmacy.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Been coming to Rajan Clinic for my BP checkups for years now. It's five minutes from my house in Lawrence Nagar and Dr. Rajan actually remembers my history.",
+      "author": "Patient, Rajan Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Took my son in with a bad fever on a weekday evening and we were seen within minutes. No appointment drama, just straightforward care.",
+      "author": "Patient, Rajan Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Doctor explained my sugar readings in plain Tamil instead of throwing numbers at me. First clinic where I actually understood my own reports.",
+      "author": "Patient, Rajan Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "Yes, walk-ins are welcome during clinic hours. For a guaranteed time, we recommend calling or messaging ahead on WhatsApp."
+    },
+    {
+      "question": "Where exactly is the clinic located?",
+      "answer": "Rajan Clinic is at No. 62, Kundrathur Main Road, Lawrence Nagar, Tharapakkam — close to Moulivakkam and Lakshme Nagar, Chennai 600125."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "A quick check-in with basic details, followed by an unhurried consultation with the doctor. Bring any prior prescriptions or medical records if you have them, though it's not required."
+    },
+    {
+      "question": "How quickly can I get an appointment?",
+      "answer": "Most patients are seen the same day. Call or message us on WhatsApp and we'll fit you into the next available slot, morning or evening."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book through the Appointment page on this website, or simply call or WhatsApp us directly at +91 90921 58941."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "managing-diabetes-with-a-neighbourhood-clinic",
+      "title": "Managing Diabetes Doesn't Need a Hospital Visit Every Time",
+      "excerpt": "Routine follow-ups for a chronic condition like diabetes work best close to home. Here's why a neighbourhood general physician is often the right fit.",
+      "author": "Dr. Rajan Selvam",
+      "date": "2026-05-10",
+      "content": [
+        "Diabetes and hypertension are conditions you manage for years, not weeks. That makes convenience just as important as expertise — a follow-up you keep postponing because the hospital is across town does you no good.",
+        "At Rajan Clinic, most of our long-term patients are people from Moulivakkam, Lawrence Nagar and Tharapakkam who found it easier to keep a regular schedule once the clinic was a five-minute walk or drive away rather than a planned trip.",
+        "Routine follow-ups don't need to be complicated: a quick review of your readings, a check on how the current medication is working, and an honest conversation about diet and lifestyle. We keep basic tests on-site so you're not making a separate trip to a lab just to track your numbers.",
+        "If you've been putting off a follow-up because it felt like too much effort, that's exactly the gap a neighbourhood clinic like ours is meant to close."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care at Rajan Clinic. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please inform us as early as possible if you need to cancel or reschedule an appointment, so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and procedure fees are payable at the time of your visit. Please ask our front desk for current fee information."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person consultation with a qualified physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Rajan Clinic — General Physician, Tharapakkam, Chennai",
+    "description": "Rajan Clinic on Kundrathur Main Road in Tharapakkam offers fast, hassle-free general physician consultations for families across Moulivakkam and Lawrence Nagar, Chennai."
+  }
+}

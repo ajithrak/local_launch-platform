@@ -1,0 +1,430 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "mothercare",
+  "business": {
+    "name": "Sai Clinic",
+    "city": "Tharapakkam, Chennai",
+    "phone": "+91 98843 03176",
+    "whatsapp": "919884303176",
+    "email": "hello@saiclinic.in",
+    "address": "25C2+J2P, Ramachandran Nagar Rd, Vasuki Nagar, Tharapakkam, Chennai, Greater Chennai, Tamil Nadu 600125",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "General Physician Clinic, Tharapakkam",
+    "headline": "Family Care, at a Gentle Pace.",
+    "subheadline": "From a grandparent's blood pressure check to a toddler's fever, Sai Clinic gives every patient on Ramachandran Nagar Rd the same unhurried, patient listening — no rushing, no confusing jargon.",
+    "primaryCta": {
+      "label": "Book a Visit",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "image": "/images/about-consultation.jpg",
+    "title": "A clinic that treats the whole family gently",
+    "body": [
+      "Sai Clinic sits on Ramachandran Nagar Rd in Vasuki Nagar, Tharapakkam — a neighbourhood where the same family often brings in three generations across a single week. That shapes everything about how we practice.",
+      "An elderly parent managing blood pressure needs a different kind of patience than a toddler with a fever, and both deserve a doctor who isn't watching the clock. So consultations here are unhurried by design — enough time to actually listen, explain things simply, and make sure nobody leaves with unanswered questions.",
+      "Whether it's a routine checkup, a child's first clinic visit, or ongoing care for a chronic condition, our approach stays the same: calm, clear, and genuinely attentive."
+    ],
+    "highlights": [
+      "Unhurried consultations for every age, from infants to elders",
+      "Morning and evening hours for working families",
+      "Calm, uncrowded waiting area near Vasuki Nagar",
+      "Clear explanations in Tamil, English, or Hindi — whatever's comfortable"
+    ]
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "8,000+",
+      "label": "Patients Cared For"
+    },
+    {
+      "icon": "HeartHandshake",
+      "value": "3",
+      "label": "Generations Treated in One Family"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "General Physicians"
+    },
+    {
+      "icon": "Award",
+      "value": "7",
+      "label": "Years Serving Tharapakkam"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "HeartHandshake",
+      "title": "Gentle With Every Age",
+      "description": "The same patient, unhurried approach whether we're checking on a newborn or an elderly parent — nobody gets rushed through."
+    },
+    {
+      "icon": "Clock",
+      "title": "Fits Around Your Day",
+      "description": "Morning and evening hours mean a checkup doesn't have to mean missing work or pulling a child out of school."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced, Attentive Doctors",
+      "description": "Years of general medicine practice paired with the patience to actually listen before reaching for a prescription pad."
+    },
+    {
+      "icon": "Users",
+      "title": "A Calm, Uncrowded Clinic",
+      "description": "Realistic appointment slots and a quiet waiting area, so visits feel calm rather than like standing in a queue."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-meenakshi-sundaram",
+      "name": "Dr. Meenakshi Sundaram",
+      "role": "General Physician & Clinic Director",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-54217",
+      "experienceYears": 16,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Sundaram founded Sai Clinic with a simple belief: a doctor's visit shouldn't feel rushed just because the waiting room is full. She has spent over a decade and a half treating entire families in Tharapakkam — often the same household across three generations — and is known for slowing down with elderly patients and small children alike, explaining every diagnosis in plain, calm language.",
+      "education": [
+        "MBBS — Stanley Medical College, Chennai",
+        "MD General Medicine — Madras Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General health consultations",
+        "Geriatric care",
+        "Chronic disease management",
+        "Preventive checkups"
+      ],
+      "photo": "/images/doctor-meenakshi-sundaram.jpg"
+    },
+    {
+      "slug": "dr-arjun-balasubramanian",
+      "name": "Dr. Arjun Balasubramanian",
+      "role": "General Physician",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-63784",
+      "experienceYears": 8,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Balasubramanian sees a wide range of everyday concerns, from a child's first fever to a parent's ongoing diabetes management, and is especially known for putting anxious young patients at ease with a calm, unhurried bedside manner.",
+      "education": [
+        "MBBS — Chengalpattu Medical College, Chennai",
+        "MD General Medicine — Sri Ramachandra Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Pediatric general care",
+        "Vaccinations",
+        "Diabetes & hypertension management",
+        "Minor procedures"
+      ],
+      "photo": "/images/doctor-arjun-balasubramanian.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "An unhurried visit, for any age in the family",
+      "overview": "Whether it's a fever, a persistent cough, stomach trouble, or something you simply want checked out, our physicians take the time to listen fully before reaching a diagnosis — and explain it back to you in plain language.",
+      "symptoms": [
+        "Fever or body ache",
+        "Cold, cough, or sore throat",
+        "Stomach upset or digestive trouble",
+        "General fatigue or unexplained discomfort"
+      ],
+      "procedure": [
+        "Quick check-in, minimal paperwork",
+        "One-on-one consultation with the doctor",
+        "On-the-spot basic examination",
+        "Clear diagnosis and treatment plan explained without jargon"
+      ],
+      "benefits": [
+        "Same-day appointments in most cases",
+        "No confusing medical jargon",
+        "Prescription and next steps explained clearly before you leave"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do I need to book in advance for a general consultation?",
+          "answer": "Walk-ins are welcome when slots are open, but calling or messaging ahead on WhatsApp guarantees you a specific time and avoids any wait."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "child-wellness-visits",
+        "elder-care-checkups"
+      ]
+    },
+    {
+      "slug": "child-wellness-visits",
+      "name": "Child Wellness Visits",
+      "tagline": "Gentle care for a little one's first clinic visits",
+      "overview": "From routine fevers to growth checkups, we take extra time with younger patients — letting a nervous child settle in before any examination begins, and keeping parents informed every step of the way.",
+      "symptoms": [
+        "Fever, cough, or cold in infants and children",
+        "Growth and development concerns",
+        "Stomach upset or loss of appetite"
+      ],
+      "procedure": [
+        "A calm, unrushed introduction to the room",
+        "Gentle physical examination at the child's pace",
+        "Clear explanation to parents of findings and next steps"
+      ],
+      "benefits": [
+        "Extra patience for anxious young patients",
+        "Parents included in every part of the conversation",
+        "Builds comfort with clinic visits early on"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Can I stay in the room during my child's examination?",
+          "answer": "Always — a parent or guardian is welcome throughout the entire visit."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "vaccinations",
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "elder-care-checkups",
+      "name": "Elder Care Checkups",
+      "tagline": "Patient, thorough care for ageing parents",
+      "overview": "Regular checkups for blood pressure, sugar levels, joint pain, and other age-related concerns, delivered at a pace that respects how much an elderly patient may want to discuss.",
+      "symptoms": [
+        "High blood pressure or diabetes monitoring",
+        "Joint pain or mobility concerns",
+        "General age-related fatigue or discomfort"
+      ],
+      "procedure": [
+        "Review of ongoing medication and recent readings",
+        "Physical check and any needed on-site tests",
+        "Medication or lifestyle plan adjusted as needed, explained clearly"
+      ],
+      "benefits": [
+        "Continuity of care with the same doctor over time",
+        "Extra time allowed for questions",
+        "Family members welcome to join the conversation"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "chronic-disease-management",
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "Routine immunizations for every age",
+      "overview": "From childhood immunization schedules to seasonal flu shots for adults and elders, we keep commonly needed vaccines on hand and administer them as part of a calm, straightforward visit.",
+      "symptoms": [],
+      "procedure": [
+        "Quick review of vaccination history",
+        "Vaccine administered gently by clinic staff",
+        "Short observation period before you leave"
+      ],
+      "benefits": [
+        "No appointment-only restriction for common vaccines",
+        "Clear guidance on what reactions are normal",
+        "Vaccination record maintained for the whole family"
+      ],
+      "recovery": "Mild soreness at the injection site or slight tiredness is normal for a day; our team lets you know what to expect before you leave.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "child-wellness-visits",
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Chronic Disease Management",
+      "tagline": "Ongoing, unhurried care for diabetes, blood pressure, and more",
+      "overview": "For patients managing long-term conditions like diabetes, hypertension, or thyroid issues, we offer regular, calm follow-up visits that keep treatment on track without every check-in feeling like a major appointment.",
+      "symptoms": [
+        "Diagnosed diabetes or hypertension",
+        "Thyroid conditions",
+        "Need for regular monitoring and medication review"
+      ],
+      "procedure": [
+        "Review of current medication and recent readings",
+        "Physical check and any needed on-site tests",
+        "Medication or lifestyle plan adjusted as needed"
+      ],
+      "benefits": [
+        "Continuity of care with the same doctor over time",
+        "Shorter, simpler follow-up visits once established",
+        "Reminders for periodic checkups"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "elder-care-checkups",
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures",
+      "tagline": "Small procedures handled in-house, no hospital referral needed",
+      "overview": "Wound dressing, minor cuts and burns, and similar small procedures are handled right at the clinic — sparing a family an unnecessary trip to a hospital for something straightforward.",
+      "symptoms": [
+        "Minor cuts, burns, or wounds",
+        "Dressing changes",
+        "Small skin infections or abscesses"
+      ],
+      "procedure": [
+        "Doctor examines and assesses the issue",
+        "Procedure performed on-site with local care",
+        "Aftercare instructions given clearly"
+      ],
+      "benefits": [
+        "Avoids unnecessary hospital referrals for minor issues",
+        "Same-visit treatment in most cases",
+        "Follow-up dressing appointments available"
+      ],
+      "recovery": "Most minor procedures need only simple at-home aftercare; the doctor will flag anything that needs a follow-up visit.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-rose-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "My father is 72 and used to dread doctor visits because he felt rushed. Dr. Sundaram sat with him, actually listened to his concerns, and explained his blood pressure medication clearly. He doesn't mind going anymore.",
+      "author": "Patient's daughter, Vasuki Nagar",
+      "rating": 5
+    },
+    {
+      "quote": "My daughter was terrified of clinics after a bad experience elsewhere. The doctor here let her explore the room first and only started the checkup once she was comfortable. She now asks when her next visit is.",
+      "author": "Patient, Tharapakkam",
+      "rating": 5
+    },
+    {
+      "quote": "I work till 6 most evenings and could never make it to a clinic before 9 PM closing became a lifesaver. No rushing, no confusing referrals — just clear answers.",
+      "author": "Patient, Ramachandran Nagar Rd",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "Yes, walk-ins are welcome when slots are open. For a guaranteed time, we recommend calling or messaging ahead on WhatsApp."
+    },
+    {
+      "question": "Is Sai Clinic suitable for both young children and elderly patients?",
+      "answer": "Yes — we regularly treat entire families across generations, and every visit is paced to suit the patient, whether that's a toddler or a grandparent."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "A quick check-in with basic details, followed by an unhurried consultation with the doctor. Bring any prior prescriptions or medical records if you have them, though it's not required."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and all major debit and credit cards at the clinic."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book through the Appointment page on this website, or simply call or WhatsApp us directly at +91 98843 03176."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "caring-for-three-generations-under-one-roof",
+      "title": "Caring for Three Generations Under One Roof — What We've Learned",
+      "excerpt": "Treating grandparents, parents, and children from the same family teaches you that 'unhurried' means something different for every age. Here's what that looks like in practice.",
+      "author": "Dr. Meenakshi Sundaram",
+      "date": "2026-04-18",
+      "content": [
+        "In a neighbourhood like Tharapakkam, it's common for us to see three generations of the same family walk through our door across a single week — a grandmother for her blood pressure check, her daughter for a stomach bug, and a grandchild for a routine vaccination.",
+        "What we've learned over the years is that 'unhurried care' doesn't mean the same thing for every patient. An elderly patient often needs time to describe symptoms in their own words, without being cut off. A small child needs time simply to feel safe in the room before any examination starts. A working parent needs the visit itself to be quick, even if the conversation within it isn't rushed.",
+        "So rather than treating every visit the same way, we've built our approach around reading what each patient — and each age — actually needs. That might mean an extra five minutes of conversation with an elder, or letting a toddler hold the stethoscope before we use it.",
+        "None of this requires anything fancy. It just requires deciding, as a clinic, that going a little slower is worth it. That's the whole philosophy behind Sai Clinic, and it's one we intend to keep however much the practice grows."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care at Sai Clinic. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please inform us as early as possible if you need to cancel or reschedule an appointment, so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and procedure fees are payable at the time of your visit. Please ask our front desk for current fee information."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person consultation with a qualified physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Sai Clinic — Tharapakkam, Chennai",
+    "description": "Sai Clinic in Tharapakkam, Chennai offers gentle, unhurried general physician care for the whole family — from infants to elderly parents — with morning and evening hours."
+  }
+}

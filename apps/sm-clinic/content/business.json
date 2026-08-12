@@ -1,0 +1,424 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "careplus",
+  "business": {
+    "name": "S.M Clinic",
+    "city": "Madhanandapuram, Chennai",
+    "phone": "+91 9444779475",
+    "whatsapp": "919444779475",
+    "email": "hello@smclinic.in",
+    "address": "24CV+2FM, Kundrathur Main Rd, Jayalakshmi Nagar, Madhanandapuram, Chennai, Mowlivakkam, Tamil Nadu 600125, India",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "General Physician Clinic, Madhanandapuram",
+    "headline": "Your Neighbourhood Clinic on Kundrathur Main Road.",
+    "subheadline": "S.M Clinic has been the first call for Jayalakshmi Nagar and Madhanandapuram families who want a straightforward diagnosis, a doctor who listens, and no unnecessary trip across town.",
+    "primaryCta": {
+      "label": "Book a Visit",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "image": "/images/about-consultation.jpg",
+    "title": "Local care, done right",
+    "body": [
+      "S.M Clinic sits right on Kundrathur Main Road in Jayalakshmi Nagar, Madhanandapuram — close enough that most patients walk in rather than drive. That was the point: healthcare shouldn't mean fighting traffic to Porur or Poonamallee for a fever or a routine checkup.",
+      "We've built the clinic around straightforward, unhurried consultations. You see the doctor, get examined properly, get your questions answered in plain Tamil or English, and walk out with a clear plan — not a stack of referral slips."
+    ],
+    "highlights": [
+      "Steps from Jayalakshmi Nagar and Madhanandapuram households",
+      "Morning and evening hours around the workday",
+      "On-site basic diagnostics for common tests",
+      "Doctors who explain things in Tamil or English, whichever is easier"
+    ]
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "10,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Clock",
+      "value": "<15 min",
+      "label": "Average Wait Time"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "General Physicians"
+    },
+    {
+      "icon": "MapPin",
+      "value": "Kundrathur Main Rd",
+      "label": "Right in Madhanandapuram"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "MapPin",
+      "title": "Right on Kundrathur Main Road",
+      "description": "No need to travel to Porur or Poonamallee for routine care — we're a short walk or ride from most of Madhanandapuram and Jayalakshmi Nagar."
+    },
+    {
+      "icon": "Clock",
+      "title": "Fast, Same-Day Appointments",
+      "description": "Call or WhatsApp ahead and get a same-day slot in most cases, instead of waiting weeks to see a doctor for a routine concern."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced Doctors",
+      "description": "Our physicians bring years of general medicine practice, so common issues are diagnosed correctly the first time, without unnecessary tests."
+    },
+    {
+      "icon": "Sunset",
+      "title": "Evening Hours That Fit Your Day",
+      "description": "Open till 9:00 PM on weekdays, so a visit doesn't mean taking time off work or pulling kids out of school."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-senthil-murugan",
+      "name": "Dr. Senthil Murugan",
+      "role": "General Physician & Clinic Director",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-54187",
+      "experienceYears": 16,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Murugan founded S.M Clinic to give Madhanandapuram a proper general physician within walking distance — somewhere residents could get a fever, infection, or chronic condition looked at without a trip to Porur. He keeps consultations unhurried and explains every diagnosis in plain terms before writing a prescription.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MD General Medicine — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General health consultations",
+        "Chronic disease management",
+        "Quick diagnostics",
+        "Minor procedures"
+      ],
+      "photo": "/images/doctor-senthil-murugan.jpg"
+    },
+    {
+      "slug": "dr-anitha-suresh",
+      "name": "Dr. Anitha Suresh",
+      "role": "General Physician",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-60245",
+      "experienceYears": 10,
+      "languages": [
+        "English",
+        "Tamil",
+        "Telugu"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Suresh treats a wide range of everyday health concerns — seasonal infections, diabetes, thyroid and blood pressure follow-ups — and is known for taking the time to walk patients through what their reports actually mean.",
+      "education": [
+        "MBBS — Sri Ramachandra Medical College, Chennai",
+        "MD General Medicine — Chengalpattu Medical College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Women's general health",
+        "Preventive checkups",
+        "Vaccinations",
+        "Minor ailments"
+      ],
+      "photo": "/images/doctor-anitha-suresh.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "See a doctor the same day, right on Kundrathur Main Road",
+      "overview": "Whether it's a fever, a persistent cough, stomach trouble, or something you'd simply like checked out, our general physicians handle it in a single, unhurried visit — with a clear explanation of what's going on and what to do next.",
+      "symptoms": [
+        "Fever or body ache",
+        "Cold, cough, or sore throat",
+        "Stomach upset or digestive trouble",
+        "General fatigue or unexplained discomfort"
+      ],
+      "procedure": [
+        "Quick check-in, minimal paperwork",
+        "One-on-one consultation with the doctor",
+        "On-the-spot basic examination",
+        "Clear diagnosis and treatment plan explained in Tamil or English"
+      ],
+      "benefits": [
+        "Same-day appointments in most cases",
+        "No confusing medical jargon",
+        "Prescription and next steps explained clearly before you leave"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do I need to book in advance for a general consultation?",
+          "answer": "Walk-ins are welcome when slots are open, but calling or messaging ahead on WhatsApp guarantees you a specific time and avoids any wait."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "quick-diagnostic-checkups",
+        "chronic-disease-management"
+      ]
+    },
+    {
+      "slug": "quick-diagnostic-checkups",
+      "name": "Quick Diagnostic Checkups",
+      "tagline": "Basic diagnostics on-site — no separate lab trip",
+      "overview": "For common tests — blood pressure, blood sugar, basic blood work, and similar routine checks — we handle collection and coordination right at the clinic, so you're not making a second trip to a lab in Porur or Poonamallee.",
+      "symptoms": [],
+      "procedure": [
+        "Doctor identifies which checks are needed",
+        "Sample collection or measurement done on-site",
+        "Results coordinated and explained at a follow-up call or visit"
+      ],
+      "benefits": [
+        "No separate lab visit for routine tests",
+        "Faster turnaround on common results",
+        "Results explained by the doctor, not just handed over as numbers"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "Routine immunizations, done quickly and correctly",
+      "overview": "From seasonal flu shots to routine adult and travel immunizations, we keep commonly needed vaccines on hand and administer them as part of a quick, straightforward visit.",
+      "symptoms": [],
+      "procedure": [
+        "Quick review of vaccination history",
+        "Vaccine administered by clinic staff",
+        "Short observation period before you leave"
+      ],
+      "benefits": [
+        "No appointment-only restriction for common vaccines",
+        "Clear guidance on what reactions are normal",
+        "Vaccination record maintained for you"
+      ],
+      "recovery": "Mild soreness at the injection site or slight tiredness is normal for a day; our team lets you know what to expect before you leave.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures",
+      "tagline": "Small procedures handled in-house, no hospital referral needed",
+      "overview": "Wound dressing, minor cuts and burns, and abscess drainage are handled right at the clinic — sparing you an unnecessary trip to a hospital in Porur for something straightforward.",
+      "symptoms": [
+        "Minor cuts, burns, or wounds",
+        "Dressing changes",
+        "Small skin infections or abscesses"
+      ],
+      "procedure": [
+        "Doctor examines and assesses the issue",
+        "Procedure performed on-site under local care",
+        "Aftercare instructions given clearly"
+      ],
+      "benefits": [
+        "Avoids unnecessary hospital referrals for minor issues",
+        "Same-visit treatment in most cases",
+        "Follow-up dressing appointments available"
+      ],
+      "recovery": "Most minor procedures need only simple at-home aftercare; the doctor will flag anything that needs a follow-up visit.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Chronic Disease Management",
+      "tagline": "Ongoing care for diabetes, blood pressure, and more",
+      "overview": "For patients managing long-term conditions like diabetes, hypertension, or thyroid issues, we offer regular, unhurried follow-up visits that keep treatment on track without every check-in feeling like a major appointment.",
+      "symptoms": [
+        "Diagnosed diabetes or hypertension",
+        "Thyroid conditions",
+        "Need for regular monitoring and medication review"
+      ],
+      "procedure": [
+        "Review of current medication and recent readings",
+        "Physical check and any needed on-site tests",
+        "Medication or lifestyle plan adjusted as needed"
+      ],
+      "benefits": [
+        "Continuity of care with the same doctor over time",
+        "Shorter, simpler follow-up visits once established",
+        "Reminders for periodic checkups"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "quick-diagnostic-checkups",
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "womens-health-checkups",
+      "name": "Women's Health Checkups",
+      "tagline": "Preventive care and general wellness for women",
+      "overview": "Routine wellness checks, anemia and thyroid screening, and general health guidance for women in Madhanandapuram and Jayalakshmi Nagar, handled with the same unhurried, listen-first approach.",
+      "symptoms": [
+        "Fatigue or low energy",
+        "Irregular periods requiring general evaluation",
+        "General wellness check needed"
+      ],
+      "procedure": [
+        "Detailed history and physical examination",
+        "Basic on-site tests where relevant",
+        "Referral coordination for specialist care if needed"
+      ],
+      "benefits": [
+        "Female physician available on request",
+        "Straightforward explanations, no rushed visits",
+        "Coordinated referrals when specialist care is needed"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance on Kundrathur Main Road",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-50",
+      "src": "/images/gallery-entrance.jpg"
+    },
+    {
+      "caption": "Pharmacy counter",
+      "category": "Care",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-pharmacy.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Walked in with a fever, was seen within ten minutes, and had a clear explanation and medicines in hand within half an hour. Exactly what you want from a neighbourhood clinic.",
+      "author": "Patient, S.M Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "I work till late most days and could never make it to a clinic before. The evening hours here actually let me get a checkup without taking leave.",
+      "author": "Patient, S.M Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "So convenient having a proper clinic right on Kundrathur Main Road — no more driving to Porur for a routine checkup.",
+      "author": "Resident, Jayalakshmi Nagar",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "Yes, walk-ins are welcome when slots are open. For a guaranteed time, we recommend calling or messaging ahead on WhatsApp."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "A quick check-in with basic details, followed by an unhurried consultation with the doctor. Bring any prior prescriptions or medical records if you have them, though it's not required."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and all major debit and credit cards at the clinic."
+    },
+    {
+      "question": "How quickly can I get an appointment?",
+      "answer": "Most patients are seen the same day. Call or message us on WhatsApp and we'll fit you into the next available slot, morning or evening."
+    },
+    {
+      "question": "Where exactly is the clinic located?",
+      "answer": "We're on Kundrathur Main Road in Jayalakshmi Nagar, Madhanandapuram — easily reachable from Mowlivakkam and surrounding areas."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "quick-and-easy-shouldnt-mean-rushed",
+      "title": "Why a Quick Appointment Shouldn't Mean a Rushed One",
+      "excerpt": "A fast appointment and a thorough one aren't opposites. Here's how a neighbourhood clinic visit can respect your time without cutting corners on care.",
+      "author": "Dr. Senthil Murugan",
+      "date": "2026-05-14",
+      "content": [
+        "Most people assume a quick doctor's visit means a rushed one — five minutes, a hurried prescription, and out the door with more questions than you walked in with. It doesn't have to be that way.",
+        "The real time sink in most clinic visits isn't the consultation itself, it's everything around it: long waits, confusing paperwork, being sent across town for basic tests. Cut that out, and the actual conversation with your doctor can stay unhurried while your total time at the clinic still drops sharply.",
+        "That's the model we've built at S.M Clinic — streamlined check-in, on-site basic diagnostics, and evening hours so you're not choosing between work and a checkup. But the consultation itself is never rushed; the doctor takes the time needed to actually explain what's going on.",
+        "If your last doctor's visit felt like you were rushed out before your questions were answered, that's not something you have to accept as normal. Being close to home in Madhanandapuram and being thorough can go together — that's exactly the gap we set out to close."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care at S.M Clinic. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please inform us as early as possible if you need to cancel or reschedule an appointment, so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and procedure fees are payable at the time of your visit. Please ask our front desk for current fee information."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person consultation with a qualified physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "S.M Clinic — Madhanandapuram, Chennai",
+    "description": "S.M Clinic on Kundrathur Main Road in Madhanandapuram, Chennai offers fast, hassle-free general physician consultations with morning and evening hours for local families."
+  }
+}

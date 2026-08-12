@@ -1,0 +1,425 @@
+{
+  "industry": "healthcare",
+  "clinicType": "general-physician",
+  "theme": "mednova",
+  "business": {
+    "name": "Skope Clinic",
+    "city": "Kumananchavadi, Chennai",
+    "phone": "+91 63834 14876",
+    "whatsapp": "916383414876",
+    "email": "hello@skopeclinic.in",
+    "address": "MSS Nagar, Indrani Nagar, Kumananchavadi, Chennai, Kattuppakkam, Tamil Nadu 600056",
+    "hours": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "General Physician Clinic, Kumananchavadi",
+    "headline": "Trusted Family Care, Right Here in Kumananchavadi.",
+    "subheadline": "From everyday fevers to ongoing conditions like diabetes and blood pressure, Skope Clinic gives Kattuppakkam families a doctor who knows them by name — with morning and evening hours that actually fit around work.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "image": "/images/about-consultation.jpg",
+    "title": "A neighbourhood clinic built for MSS Nagar and Indrani Nagar families",
+    "body": [
+      "Skope Clinic sits right in MSS Nagar, Indrani Nagar, serving the fast-growing Kumananchavadi and Kattuppakkam neighbourhoods with the kind of everyday medical care that doesn't require a trip across the city.",
+      "Whether it's a child running a fever, a parent managing diabetes or hypertension, or a routine health checkup before travel, our general physicians take the time to listen, examine thoroughly, and explain the treatment plan in terms that actually make sense — not rushed prescriptions handed over in five minutes.",
+      "As Kattuppakkam has grown, so has the need for dependable, walk-in-friendly healthcare close to home. That's exactly the gap Skope Clinic was built to fill."
+    ],
+    "highlights": [
+      "Unhurried consultations with a doctor who remembers your history",
+      "Morning and evening hours for working families",
+      "Basic on-site diagnostics — no separate lab trip for routine tests",
+      "Clear, jargon-free explanations of every diagnosis and prescription"
+    ]
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "8,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Clock",
+      "value": "<20 min",
+      "label": "Average Wait Time"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "General Physicians"
+    },
+    {
+      "icon": "HeartPulse",
+      "value": "6",
+      "label": "Years Serving Kattuppakkam"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "MapPin",
+      "title": "Right in Kumananchavadi",
+      "description": "Located in MSS Nagar, Indrani Nagar — no need to travel into central Chennai for routine medical care."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours That Fit Your Day",
+      "description": "Open until 9:00 PM on weekdays, so you can see a doctor after work without taking leave."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Experienced, Attentive Physicians",
+      "description": "Our doctors take the time to actually examine and explain — not rush you out with a prescription."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Continuity of Care",
+      "description": "See the same physician visit after visit, so chronic conditions like diabetes and blood pressure are managed consistently over time."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-rajesh-kumar",
+      "name": "Dr. Rajesh Kumar",
+      "role": "General Physician & Clinic Director",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-54217",
+      "experienceYears": 14,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Kumar founded Skope Clinic to bring dependable, walk-in-friendly general medicine to the growing Kumananchavadi and Kattuppakkam community. He focuses on thorough, unhurried consultations — getting to the root of a health concern rather than treating symptoms in isolation — and is known locally for taking the time to answer every question before a patient leaves.",
+      "education": [
+        "MBBS — Stanley Medical College, Chennai",
+        "MD General Medicine — Madras Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "General health consultations",
+        "Diabetes and hypertension management",
+        "Fever and infection care",
+        "Preventive health checkups"
+      ],
+      "photo": "/images/doctor-rajesh-kumar.jpg"
+    },
+    {
+      "slug": "dr-priya-narayanan",
+      "name": "Dr. Priya Narayanan",
+      "role": "General Physician",
+      "qualification": "MBBS, MD General Medicine",
+      "registrationNumber": "TNMC-60148",
+      "experienceYears": 8,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Tue, Thu, Sat · 9:00 AM – 1:00 PM, 5:00 PM – 9:00 PM",
+      "bio": "Dr. Narayanan sees a broad range of everyday health concerns, from seasonal infections to women's general health and routine immunizations. Patients often mention how clearly she explains lab results and treatment options before they even have to ask.",
+      "education": [
+        "MBBS — Sri Ramachandra Medical College, Chennai",
+        "MD General Medicine — Chengalpattu Medical College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Women's general health",
+        "Vaccinations",
+        "Minor ailments",
+        "Preventive checkups"
+      ],
+      "photo": "/images/doctor-priya-narayanan.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-health-consultation",
+      "name": "General Health Consultation",
+      "tagline": "See a doctor without crossing town",
+      "overview": "For fevers, infections, stomach trouble, or anything that just needs a doctor's eye, our general physicians offer a thorough, one-on-one consultation right here in Kumananchavadi — with a clear diagnosis and plan before you leave.",
+      "symptoms": [
+        "Fever or body ache",
+        "Cold, cough, or sore throat",
+        "Stomach upset or digestive trouble",
+        "General fatigue or unexplained discomfort"
+      ],
+      "procedure": [
+        "Quick check-in at reception",
+        "One-on-one consultation with the doctor",
+        "On-the-spot physical examination",
+        "Diagnosis and treatment plan explained clearly"
+      ],
+      "benefits": [
+        "Same-day appointments in most cases",
+        "No confusing medical jargon",
+        "Prescription and next steps explained before you leave"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Do I need to book in advance?",
+          "answer": "Walk-ins are welcome when slots are open, but calling or messaging us on WhatsApp ahead of time guarantees a specific slot and avoids any wait."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "quick-diagnostic-checkups",
+        "chronic-disease-management"
+      ]
+    },
+    {
+      "slug": "chronic-disease-management",
+      "name": "Chronic Disease Management",
+      "tagline": "Ongoing care for diabetes, blood pressure, and thyroid — close to home",
+      "overview": "For patients managing long-term conditions, we offer regular follow-up visits with the same physician, so your treatment stays consistent and your readings are tracked over time instead of starting from scratch at every visit.",
+      "symptoms": [
+        "Diagnosed diabetes or hypertension",
+        "Thyroid conditions",
+        "Need for regular monitoring and medication review"
+      ],
+      "procedure": [
+        "Review of current medication and recent readings",
+        "Physical check and any needed on-site tests",
+        "Medication or lifestyle plan adjusted as needed"
+      ],
+      "benefits": [
+        "Continuity of care with the same doctor over time",
+        "Shorter, simpler follow-up visits once established",
+        "Reminders for periodic checkups"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation",
+        "quick-diagnostic-checkups"
+      ]
+    },
+    {
+      "slug": "quick-diagnostic-checkups",
+      "name": "Quick Diagnostic Checkups",
+      "tagline": "Basic diagnostics on-site — skip the separate lab trip",
+      "overview": "For common tests — blood pressure, blood sugar, and basic blood work — we handle collection right at the clinic, so you're not making a second trip across Kattuppakkam to a diagnostic lab.",
+      "symptoms": [],
+      "procedure": [
+        "Doctor identifies which checks are needed",
+        "Sample collection or measurement done on-site",
+        "Results coordinated and explained at a follow-up visit or call"
+      ],
+      "benefits": [
+        "No separate lab visit for routine tests",
+        "Faster turnaround on common results",
+        "Results explained by the doctor, not just handed over as numbers"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "vaccinations",
+      "name": "Vaccinations",
+      "tagline": "Routine immunizations for the whole family",
+      "overview": "From seasonal flu shots to routine adult and child immunizations, we keep commonly needed vaccines in stock and administer them as part of a quick, straightforward visit.",
+      "symptoms": [],
+      "procedure": [
+        "Quick review of vaccination history",
+        "Vaccine administered by clinic staff",
+        "Short observation period before you leave"
+      ],
+      "benefits": [
+        "No appointment-only restriction for common vaccines",
+        "Clear guidance on what reactions are normal",
+        "Vaccination record maintained for your family"
+      ],
+      "recovery": "Mild soreness at the injection site or slight tiredness is normal for a day; our team explains what to expect before you leave.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    },
+    {
+      "slug": "minor-procedures",
+      "name": "Minor Procedures",
+      "tagline": "Small procedures handled in-house",
+      "overview": "Wound dressing, minor cuts and burns, and small skin infections are treated right at the clinic — sparing you an unnecessary trip to a larger hospital for something straightforward.",
+      "symptoms": [
+        "Minor cuts, burns, or wounds",
+        "Dressing changes",
+        "Small skin infections or abscesses"
+      ],
+      "procedure": [
+        "Doctor examines and assesses the issue",
+        "Procedure performed on-site",
+        "Aftercare instructions given clearly"
+      ],
+      "benefits": [
+        "Avoids unnecessary hospital referrals for minor issues",
+        "Same-visit treatment in most cases",
+        "Follow-up dressing appointments available"
+      ],
+      "recovery": "Most minor procedures need only simple at-home aftercare; the doctor flags anything that needs a follow-up visit.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "womens-general-health",
+      "name": "Women's General Health",
+      "tagline": "Routine women's health checkups, without a specialist referral",
+      "overview": "For everyday women's health concerns — routine checkups, hormonal symptoms, or preventive screening guidance — Dr. Narayanan offers attentive, unhurried consultations before referring out to a specialist only when truly needed.",
+      "symptoms": [
+        "Menstrual irregularities",
+        "General hormonal symptoms",
+        "Preventive screening guidance"
+      ],
+      "procedure": [
+        "Detailed history and physical check",
+        "Guidance on tests or screenings if needed",
+        "Referral to a specialist only when necessary"
+      ],
+      "benefits": [
+        "A woman doctor available for consultations",
+        "Straightforward guidance without over-referring",
+        "Follow-up continuity with the same physician"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "general-health-consultation"
+      ]
+    }
+  ],
+  "departments": [],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-sky-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-emerald-50",
+      "src": "/images/gallery-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Walked in with a fever on a weekday evening and was seen within fifteen minutes. Clear explanation, right medicines, no runaround.",
+      "author": "Patient, Skope Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Finally a clinic in Kumananchavadi itself — I used to travel almost 40 minutes for a routine checkup. Dr. Kumar is thorough and never rushes you.",
+      "author": "Patient, Skope Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Been coming here for my diabetes follow-ups for over a year. Same doctor every time, and she actually remembers my history without me repeating it.",
+      "author": "Patient, Skope Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "Yes, walk-ins are welcome when slots are open. For a guaranteed time, we recommend calling or messaging us ahead on WhatsApp."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "A quick check-in with basic details, followed by an unhurried consultation with the doctor. Bring any prior prescriptions or medical records if you have them, though it's not required."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and all major debit and credit cards at the clinic."
+    },
+    {
+      "question": "How quickly can I get an appointment?",
+      "answer": "Most patients are seen the same day. Call or message us on WhatsApp and we'll fit you into the next available slot, morning or evening."
+    },
+    {
+      "question": "Where exactly is the clinic located?",
+      "answer": "We're in MSS Nagar, Indrani Nagar, Kumananchavadi, just off the main Kattuppakkam road — easy to reach from both Kumananchavadi and surrounding Kattuppakkam neighbourhoods."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "managing-diabetes-close-to-home",
+      "title": "Managing Diabetes and Blood Pressure Without the Commute",
+      "excerpt": "Chronic conditions need consistent follow-up, not a fresh commute across Chennai every time. Here's why a neighbourhood clinic changes the equation.",
+      "author": "Dr. Rajesh Kumar",
+      "date": "2026-06-02",
+      "content": [
+        "Managing a condition like diabetes or hypertension isn't a one-time visit — it's months and years of regular check-ins, medication reviews, and small adjustments based on how your readings trend over time.",
+        "For a lot of Kumananchavadi and Kattuppakkam residents, that used to mean a long commute into central Chennai every few weeks just for a routine follow-up. Missed appointments and inconsistent monitoring often followed, simply because the logistics were exhausting.",
+        "That's the exact problem Skope Clinic was built to solve. Being based right in MSS Nagar, Indrani Nagar means a follow-up visit doesn't eat up half your day, and seeing the same physician each time means your treatment plan actually builds on your history instead of restarting from scratch.",
+        "If you're managing a chronic condition and dreading the next follow-up because of the travel involved, that's worth solving. Consistent, nearby care makes a bigger difference to long-term outcomes than most people expect."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments at Skope Clinic."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please inform us as early as possible if you need to cancel or reschedule an appointment, so the slot can be offered to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation and procedure fees are payable at the time of your visit. Please ask our front desk for current fee information."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person consultation with a qualified physician."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Skope Clinic — Kumananchavadi, Chennai",
+    "description": "Skope Clinic in MSS Nagar, Indrani Nagar, Kumananchavadi offers trusted general physician consultations, chronic disease management, and family healthcare with morning and evening hours."
+  }
+}
