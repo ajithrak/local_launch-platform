@@ -1,0 +1,451 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "mednova",
+  "business": {
+    "name": "Shine Dental Clinic",
+    "city": "Porur, Chennai",
+    "phone": "+91 98841 94454",
+    "whatsapp": "919884194454",
+    "email": "hello@shinedentalclinic.in",
+    "address": "Sixth Avenue, 4, Ramakrishna Nagar Main Rd, Ramakrishna Nagar, Porur, Chennai, Greater Chennai, Tamil Nadu 600116, India",
+    "hours": "Mon–Sat · 9:30 AM – 1:30 PM, 4:30 PM – 8:30 PM · Sunday by appointment",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Dental Clinic in Ramakrishna Nagar, Porur",
+    "headline": "A Brighter Smile Starts Right Here in Porur.",
+    "subheadline": "Shine Dental Clinic on Sixth Avenue, Ramakrishna Nagar brings together cosmetic and general dentistry under one roof — smile makeovers, teeth whitening, and everyday dental care, all delivered with the same attention to detail.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "Dentistry that puts your smile first",
+    "body": [
+      "Shine Dental Clinic sits on Sixth Avenue in Ramakrishna Nagar, Porur — a neighbourhood clinic built for families who want dependable dental care without traveling across the city for it. From routine check-ups to full smile makeovers, every treatment plan here is built around what actually gets your smile — and your comfort — where you want it.",
+      "The name isn't an accident. We lean into cosmetic dentistry — teeth whitening, veneers, and smile design — as much as we handle root canals, fillings, and implants, because we think a healthy mouth and a confident smile should come from the same visit, not two different clinics.",
+      "Our team keeps the clinic modern and unhurried: digital X-rays, single-use sterilized instruments, and appointment slots that don't leave you waiting past your booked time."
+    ],
+    "highlights": [
+      "Cosmetic dentistry and smile makeovers as a genuine focus, not an afterthought",
+      "General, restorative, and cosmetic care under one roof",
+      "Digital imaging and fully sterilized instrumentation",
+      "Evening slots for working professionals in Porur"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "6,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Sparkles",
+      "value": "1,200+",
+      "label": "Smile Makeovers & Whitening"
+    },
+    {
+      "icon": "Award",
+      "value": "9+",
+      "label": "Years Serving Porur"
+    },
+    {
+      "icon": "ShieldCheck",
+      "value": "100%",
+      "label": "Sterilized Instruments"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Sparkles",
+      "title": "Cosmetic Dentistry, Done Seriously",
+      "description": "Teeth whitening, veneers, and smile design are a core part of what we do — not a side offering bolted onto a general practice."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Complete Family Dental Care",
+      "description": "From a child's first check-up to root canals, implants, and dentures for grandparents — one clinic covers the whole family."
+    },
+    {
+      "icon": "MapPin",
+      "title": "Right on Sixth Avenue, Porur",
+      "description": "Easy to reach from Ramakrishna Nagar, Mugalivakkam, and the rest of Porur, with evening hours that fit around work."
+    },
+    {
+      "icon": "Microscope",
+      "title": "Modern, Sterile Equipment",
+      "description": "Digital X-rays and single-use sterilized instruments for safer, more accurate treatment at every visit."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-priya-raghavan",
+      "name": "Dr. Priya Raghavan",
+      "role": "Lead Dentist & Cosmetic Dentistry Specialist",
+      "qualification": "BDS, MDS (Conservative Dentistry & Endodontics)",
+      "registrationNumber": "TNDC-29841",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil",
+        "Telugu"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:30 PM, 4:30 PM – 8:30 PM",
+      "bio": "Dr. Priya founded Shine Dental Clinic with a simple goal — make cosmetic dentistry as routine and accessible as a check-up. She leads smile makeovers, veneers, and whitening cases alongside root canal and restorative work for patients across Porur and Ramakrishna Nagar.",
+      "education": [
+        "BDS — Meenakshi Ammal Dental College, Chennai",
+        "MDS, Conservative Dentistry and Endodontics — Tamil Nadu Dr. MGR Medical University"
+      ],
+      "awards": [],
+      "specialties": [
+        "Smile makeovers & veneers",
+        "Teeth whitening",
+        "Root canal treatment"
+      ],
+      "photo": "/images/doctor-priya-raghavan.jpg"
+    },
+    {
+      "slug": "dr-karthik-subramaniam",
+      "name": "Dr. Karthik Subramaniam",
+      "role": "Implantologist & Oral Surgeon",
+      "qualification": "BDS, MDS (Oral & Maxillofacial Surgery)",
+      "registrationNumber": "TNDC-33206",
+      "experienceYears": 8,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Tue, Thu, Sat · 10:00 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Karthik handles implants, extractions, and oral surgery at Shine Dental Clinic, working closely with Dr. Priya on cases that combine surgical and cosmetic treatment — such as implant-supported smile restorations.",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS, Oral and Maxillofacial Surgery — Sri Ramachandra Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Dental implants",
+        "Wisdom tooth extraction",
+        "Oral surgery"
+      ],
+      "photo": "/images/doctor-karthik-subramaniam.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "smile-makeover",
+      "name": "Smile Makeover",
+      "tagline": "A custom plan to redesign your smile",
+      "overview": "A combination of whitening, veneers, and minor alignment correction, planned around your facial features to give you a natural, brighter smile — Shine Dental Clinic's signature service.",
+      "symptoms": [
+        "Discoloured, chipped, or uneven teeth",
+        "Gaps or minor misalignment affecting confidence",
+        "Wanting a refreshed look for an event or milestone"
+      ],
+      "procedure": [
+        "Smile design consultation and digital mock-up",
+        "Whitening and any preparatory treatment",
+        "Veneer fabrication and fitting where needed",
+        "Final shade and bite check"
+      ],
+      "benefits": [
+        "Natural-looking, personalised results",
+        "Combines whitening, veneers, and minor correction in one plan",
+        "Boosts confidence without a full orthodontic commitment"
+      ],
+      "recovery": "No downtime for whitening; veneer cases typically settle within a few days of final fitting.",
+      "faqs": [
+        {
+          "question": "How long does a full smile makeover take?",
+          "answer": "Depending on scope, most plans run from a single extended visit for whitening-only cases to 2–3 weeks for veneer work requiring lab fabrication."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "teeth-whitening",
+        "dental-veneers"
+      ]
+    },
+    {
+      "slug": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "tagline": "A visibly brighter smile in one sitting",
+      "overview": "In-clinic professional whitening using safe, enamel-friendly gels for even, noticeable results without the guesswork of store kits.",
+      "symptoms": [
+        "Yellowing or dull tooth colour",
+        "Staining from tea, coffee, or tobacco",
+        "Uneven shade across teeth"
+      ],
+      "procedure": [
+        "Shade assessment and cleaning",
+        "Protective gum barrier application",
+        "In-chair whitening session",
+        "Shade check and aftercare guidance"
+      ],
+      "benefits": [
+        "Visible results in a single visit",
+        "Professionally supervised and enamel-safe",
+        "Even, natural-looking brightness"
+      ],
+      "recovery": "Mild sensitivity for a day or two is common and resolves on its own.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "smile-makeover",
+        "dental-veneers"
+      ]
+    },
+    {
+      "slug": "dental-veneers",
+      "name": "Dental Veneers",
+      "tagline": "Thin, custom shells for a flawless front row",
+      "overview": "Custom-fabricated porcelain veneers bonded to the front of teeth to correct chips, gaps, discolouration, or shape — a key part of our smile makeover work.",
+      "symptoms": [
+        "Chipped, worn, or misshapen front teeth",
+        "Persistent staining that whitening can't fully fix",
+        "Small gaps between front teeth"
+      ],
+      "procedure": [
+        "Consultation and digital smile design",
+        "Minimal tooth preparation",
+        "Precision impressions and temporary veneers",
+        "Final veneer bonding and polish"
+      ],
+      "benefits": [
+        "Natural, tooth-like appearance",
+        "Corrects shape, shade, and minor gaps together",
+        "Long-lasting with proper care"
+      ],
+      "recovery": "No real downtime — most patients return to normal eating within a day of final bonding.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "smile-makeover",
+        "teeth-whitening"
+      ]
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the natural tooth, relieve the pain",
+      "overview": "Root canal therapy for infected or badly decayed teeth, typically completed with a protective crown so the treated tooth holds up long-term.",
+      "symptoms": [
+        "Persistent tooth pain or throbbing",
+        "Lingering sensitivity to hot or cold",
+        "Swelling or tenderness near a tooth"
+      ],
+      "procedure": [
+        "Clinical exam and X-ray diagnosis",
+        "Removal of infected pulp under local anaesthesia",
+        "Cleaning and sealing of the root canal",
+        "Crown placement to protect the tooth"
+      ],
+      "benefits": [
+        "Saves the natural tooth instead of extraction",
+        "Relieves pain from infection or decay",
+        "Usually completed in 1–2 sittings"
+      ],
+      "recovery": "Mild soreness for 2–3 days is normal; a follow-up crown is typically placed within two weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "dental-implants"
+      ]
+    },
+    {
+      "slug": "dental-implants",
+      "name": "Dental Implants",
+      "tagline": "A permanent replacement for missing teeth",
+      "overview": "Titanium implants placed by Dr. Karthik to replace missing teeth, completed with a custom crown for a result that looks and functions naturally.",
+      "symptoms": [
+        "One or more missing teeth",
+        "Loose or failing bridge",
+        "Difficulty chewing due to gaps"
+      ],
+      "procedure": [
+        "Imaging and implant planning",
+        "Implant placement under local anaesthesia",
+        "Healing period for osseointegration",
+        "Custom crown fitted onto the implant"
+      ],
+      "benefits": [
+        "Functions and feels like a natural tooth",
+        "Doesn't require altering adjacent teeth",
+        "Long-term solution with proper care"
+      ],
+      "recovery": "Initial healing takes 1–2 weeks; full osseointegration before crown placement typically takes 8–12 weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "root-canal-treatment"
+      ]
+    },
+    {
+      "slug": "general-dentistry",
+      "name": "General & Family Dentistry",
+      "tagline": "Everyday care for every member of the family",
+      "overview": "Routine check-ups, cleanings, fillings, and preventive care for children and adults — the everyday foundation of dental health.",
+      "symptoms": [
+        "Due for a routine check-up or cleaning",
+        "Cavity or tooth sensitivity",
+        "Bleeding or sensitive gums"
+      ],
+      "procedure": [
+        "Clinical exam and digital X-ray if needed",
+        "Professional cleaning and scaling",
+        "Fillings or minor treatment as required",
+        "Preventive guidance for home care"
+      ],
+      "benefits": [
+        "Catches issues early, before they need major treatment",
+        "Suitable for children through seniors",
+        "Straightforward, no-surprise pricing"
+      ],
+      "recovery": "No downtime for routine check-ups and cleanings; filling sensitivity settles within a few days.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "root-canal-treatment"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "Cosmetic Dentistry",
+      "doctorSlugs": [
+        "dr-priya-raghavan"
+      ]
+    },
+    {
+      "name": "Oral & Maxillofacial Surgery",
+      "doctorSlugs": [
+        "dr-karthik-subramaniam"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception and waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Treatment room with dental chair",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-treatment-room.jpg"
+    },
+    {
+      "caption": "Patient waiting lounge",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance, Sixth Avenue, Ramakrishna Nagar",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I got veneers done here before my sister's wedding and the results looked completely natural. Dr. Priya walked me through every step before we started.",
+      "author": "Patient, Shine Dental Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Been going here for two years now for regular cleanings and one root canal. Never a long wait, and they always explain the cost before starting anything.",
+      "author": "Patient, Shine Dental Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Got my implant done with Dr. Karthik after putting it off for years. Painless process and the clinic is spotless. Very happy I finally did it here.",
+      "author": "Patient, Shine Dental Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "We accept walk-ins when slots are available, but booking ahead through WhatsApp or the appointment form guarantees you a specific time."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "Your first visit includes a clinical examination, digital X-rays if needed, and a clear discussion of treatment options and cost before anything is scheduled."
+    },
+    {
+      "question": "How much does teeth whitening cost?",
+      "answer": "Whitening pricing depends on the method and your starting shade — our team gives you an exact quote after a quick in-clinic shade assessment, with no obligation to proceed."
+    },
+    {
+      "question": "Is Shine Dental Clinic easy to reach from other parts of Porur?",
+      "answer": "Yes — we're on Sixth Avenue in Ramakrishna Nagar, a short drive from Mugalivakkam, Iyyappanthangal, and the rest of Porur, with parking available near the clinic."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "Call or WhatsApp us directly at +91 98841 94454, or use the appointment form on this website and our front desk will confirm your slot."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "veneers-vs-whitening-whats-right-for-you",
+      "title": "Veneers vs. Whitening: What's Actually Right for Your Smile?",
+      "excerpt": "Both brighten your smile, but they solve different problems. Here's how we help patients at Shine Dental Clinic decide between the two.",
+      "author": "Dr. Priya Raghavan",
+      "date": "2026-02-18",
+      "content": [
+        "Whitening lifts the shade of your existing teeth — it's fast, non-invasive, and ideal when your teeth are healthy and evenly shaped but just look duller than you'd like.",
+        "Veneers go further: thin porcelain shells bonded to the front of your teeth that can correct shape, minor gaps, and chips at the same time as shade, not just colour.",
+        "A simple way to think about it — if your only concern is colour, whitening usually solves it in a single sitting. If you also want to fix shape, alignment, or old staining that whitening can't touch, veneers are the better fit.",
+        "Cost and timeline differ too: whitening is a same-day, lower-cost option, while veneers involve impressions, lab fabrication, and a slightly longer process for a more permanent result.",
+        "We always start with a smile consultation so you're choosing based on what your teeth actually need, not just what sounds appealing."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect the medical, contact, and billing information necessary to evaluate and treat you, and to schedule and manage your appointments at Shine Dental Clinic."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate your dental care at Shine Dental Clinic and is not shared with third parties beyond what treatment requires."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your dental records at any time through our front desk on Sixth Avenue, Ramakrishna Nagar."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "February 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please give at least 24 hours notice if you need to cancel or reschedule an appointment so we can offer the slot to another patient."
+      },
+      {
+        "heading": "Billing",
+        "body": "Treatment costs are shared and agreed upon before work begins; payment is due at the time of each visit unless otherwise arranged."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational only and does not replace an in-person dental examination and diagnosis at our clinic."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Shine Dental Clinic — Ramakrishna Nagar, Porur, Chennai",
+    "description": "Shine Dental Clinic on Sixth Avenue, Ramakrishna Nagar, Porur offers smile makeovers, teeth whitening, veneers, root canals, implants, and family dental care."
+  }
+}

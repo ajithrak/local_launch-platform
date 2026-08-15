@@ -1,0 +1,450 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "orthoedge",
+  "business": {
+    "name": "Nidesh Dental",
+    "city": "Chennai, TN",
+    "phone": "+91 7639190961",
+    "whatsapp": "917639190961",
+    "email": "care@nideshdental.in",
+    "address": "5/129, opp. BSNL exchange, Sulochana Nagar, Moulivakkam, Chennai, Mowlivakkam, Tamil Nadu 600125, India",
+    "hours": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:30 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Dental Clinic in Moulivakkam",
+    "headline": "Precision Dental Care, Structured Around You.",
+    "subheadline": "Nidesh Dental is a founder-led dental practice in Sulochana Nagar, Moulivakkam, focused on restorative and orthodontic care — crowns, root canals, and braces — done with careful diagnosis and a precise fit, not guesswork.",
+    "primaryCta": {
+      "label": "Book Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "Dentistry built on precise diagnosis, not shortcuts",
+    "body": [
+      "Nidesh Dental was founded by Dr. Nidesh Kumar with a straightforward goal: bring structured, precision-focused dental care to Moulivakkam, where residents previously had to travel across Chennai for reliable restorative and orthodontic treatment.",
+      "The clinic sits in Sulochana Nagar, right opposite the BSNL exchange — an easy landmark to navigate by if you're coming from Mugalivakkam or Porur for the first time. Every treatment plan here starts with a full clinical exam and X-rays before any work begins, so patients know exactly what they're getting into and why."
+    ],
+    "highlights": [
+      "Founder-led restorative and orthodontic care",
+      "Precision-fitted crowns, bridges, and aligners",
+      "Modern sterilization and digital X-ray equipment",
+      "Evening hours for working patients and students"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Users",
+      "value": "4,500+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Crown",
+      "value": "2,000+",
+      "label": "Crowns & Restorations"
+    },
+    {
+      "icon": "Award",
+      "value": "9+",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "ShieldCheck",
+      "value": "100%",
+      "label": "Sterilized Instruments"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Crown",
+      "title": "Precision Restorative Work",
+      "description": "Crowns, bridges, and root canals planned with X-ray diagnosis first, so restorations fit right the first time and hold up for years."
+    },
+    {
+      "icon": "Stethoscope",
+      "title": "Founder-Led Care",
+      "description": "Dr. Nidesh Kumar personally oversees restorative and prosthodontic cases, bringing close to a decade of clinical experience to every patient."
+    },
+    {
+      "icon": "Smile",
+      "title": "Orthodontics In-House",
+      "description": "Braces and clear aligner treatment is handled on-site by our in-house orthodontist, coordinated with your restorative care when needed."
+    },
+    {
+      "icon": "Microscope",
+      "title": "Modern, Sterilized Setup",
+      "description": "Digital X-rays and fully sterilized instruments for every patient, in a clinic built around safety as much as precision."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-nidesh-kumar",
+      "name": "Dr. Nidesh Kumar",
+      "role": "Founder & Lead Dentist, Prosthodontist",
+      "qualification": "BDS, MDS (Prosthodontics & Crown and Bridge)",
+      "registrationNumber": "TNDC-26841",
+      "experienceYears": 9,
+      "languages": [
+        "English",
+        "Tamil",
+        "Telugu"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:00 PM, 5:00 PM – 8:30 PM",
+      "bio": "Dr. Nidesh founded the clinic to bring precision restorative dentistry to Moulivakkam, focusing on crowns, root canals, and full mouth rehabilitation. He personally reviews every restorative case from diagnosis through final fitting.",
+      "education": [
+        "BDS — Tamil Nadu Dr. MGR Medical University",
+        "MDS, Prosthodontics and Crown and Bridge — Tamil Nadu Dr. MGR Medical University"
+      ],
+      "awards": [],
+      "specialties": [
+        "Dental crowns & bridges",
+        "Root canal treatment",
+        "Full mouth rehabilitation"
+      ],
+      "photo": "/images/doctor-nidesh-kumar.jpg"
+    },
+    {
+      "slug": "dr-priya-ramesh",
+      "name": "Dr. Priya Ramesh",
+      "role": "Orthodontist",
+      "qualification": "BDS, MDS (Orthodontics & Dentofacial Orthopedics)",
+      "registrationNumber": "TNDC-32756",
+      "experienceYears": 6,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Tue, Thu, Sat · 5:00 PM – 8:30 PM",
+      "bio": "Dr. Priya manages braces and clear aligner treatment at Nidesh Dental, working with both children and adults, and coordinates with Dr. Nidesh on combined restorative and orthodontic cases.",
+      "education": [
+        "BDS — Meenakshi Ammal Dental College",
+        "MDS, Orthodontics — Sri Ramachandra Dental College"
+      ],
+      "awards": [],
+      "specialties": [
+        "Braces & clear aligners",
+        "Bite correction",
+        "Dentofacial orthopedics"
+      ],
+      "photo": "/images/doctor-priya-ramesh.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "dental-crowns-bridges",
+      "name": "Dental Crowns & Bridges",
+      "tagline": "A precise fit for lasting restorations",
+      "overview": "Crowns and bridges planned from a full clinical exam and X-rays, then fabricated and fitted with careful measurement so restorations sit right the first time.",
+      "symptoms": [
+        "Cracked or heavily worn tooth",
+        "Large cavity beyond filling repair",
+        "Missing tooth affecting bite or appearance"
+      ],
+      "procedure": [
+        "Clinical exam and X-ray diagnosis",
+        "Tooth preparation and precision impressions",
+        "Temporary crown while the lab fabricates the final restoration",
+        "Final fitting and bite adjustment"
+      ],
+      "benefits": [
+        "Precision fit reduces follow-up adjustments",
+        "Choice of ceramic, zirconia, or metal-ceramic crowns",
+        "Restores both function and appearance"
+      ],
+      "recovery": "Most patients resume normal eating within a day of final placement; minor sensitivity settles within a week.",
+      "faqs": [
+        {
+          "question": "How long does a crown take from start to finish?",
+          "answer": "Typically two visits over about a week — one for preparation and impressions, one for final fitting, with a temporary crown in between."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "root-canal-treatment",
+        "dental-implants"
+      ]
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the natural tooth, relieve the pain",
+      "overview": "Root canal therapy to treat infected or badly decayed teeth, carried out under local anaesthesia and usually followed by a crown to protect the tooth long-term.",
+      "symptoms": [
+        "Persistent tooth pain or throbbing",
+        "Sensitivity to hot or cold that lingers",
+        "Swelling or tenderness near a tooth"
+      ],
+      "procedure": [
+        "Diagnosis with clinical exam and X-ray",
+        "Removal of infected pulp under local anaesthesia",
+        "Cleaning and sealing of the root canal",
+        "Crown placement to protect the treated tooth"
+      ],
+      "benefits": [
+        "Saves the natural tooth instead of extraction",
+        "Relieves pain from infection or decay",
+        "Usually completed in 1–2 sittings"
+      ],
+      "recovery": "Mild soreness for 2–3 days is normal; a follow-up crown is typically placed within two weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "dental-crowns-bridges"
+      ]
+    },
+    {
+      "slug": "braces-clear-aligners",
+      "name": "Braces & Clear Aligners",
+      "tagline": "Straighter teeth, a corrected bite",
+      "overview": "Orthodontic treatment for children and adults, including traditional braces and clear aligners, led by our in-house orthodontist Dr. Priya Ramesh.",
+      "symptoms": [
+        "Crooked or crowded teeth",
+        "Gaps between teeth",
+        "Misaligned bite"
+      ],
+      "procedure": [
+        "Orthodontic assessment and imaging",
+        "Treatment planning — braces or aligners",
+        "Regular adjustment visits",
+        "Retainer phase after treatment"
+      ],
+      "benefits": [
+        "Options for both children and adults",
+        "Coordinated with restorative care when needed",
+        "Improves bite function, not just appearance"
+      ],
+      "recovery": "Mild discomfort for a few days after each adjustment is normal and settles quickly.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    },
+    {
+      "slug": "dental-implants",
+      "name": "Dental Implants",
+      "tagline": "A permanent replacement for missing teeth",
+      "overview": "Titanium implants placed to replace missing teeth, topped with a custom-fitted crown for a result that looks and functions like a natural tooth.",
+      "symptoms": [
+        "One or more missing teeth",
+        "Loose or failing bridge",
+        "Difficulty chewing due to gaps"
+      ],
+      "procedure": [
+        "Imaging and implant planning",
+        "Implant placement under local anaesthesia",
+        "Healing period for osseointegration",
+        "Custom crown fitted onto the implant"
+      ],
+      "benefits": [
+        "Functions and feels like a natural tooth",
+        "Doesn't require altering adjacent teeth",
+        "Long-term solution with proper care"
+      ],
+      "recovery": "Initial healing takes 1–2 weeks; full osseointegration before crown placement typically takes 8–12 weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "dental-crowns-bridges"
+      ]
+    },
+    {
+      "slug": "general-preventive-dentistry",
+      "name": "General & Preventive Dentistry",
+      "tagline": "Routine care that catches problems early",
+      "overview": "Regular checkups, cleanings, and fillings to catch small issues before they turn into root canals or extractions.",
+      "symptoms": [
+        "Due for a routine checkup or cleaning",
+        "Minor cavity or tooth sensitivity",
+        "Bleeding or swollen gums"
+      ],
+      "procedure": [
+        "Clinical exam and X-rays as needed",
+        "Scaling and polishing",
+        "Fillings for minor cavities",
+        "Guidance on home oral care"
+      ],
+      "benefits": [
+        "Catches decay and gum issues early",
+        "Lower cost than restorative treatment later",
+        "Suited to the whole family"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "root-canal-treatment"
+      ]
+    },
+    {
+      "slug": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "tagline": "A brighter smile in a single visit",
+      "overview": "In-clinic professional whitening for patients looking to brighten their smile safely and evenly, without damaging enamel.",
+      "symptoms": [
+        "Yellowing or dull tooth colour",
+        "Staining from coffee, tea, or tobacco",
+        "Uneven tooth shade"
+      ],
+      "procedure": [
+        "Shade assessment and cleaning",
+        "Protective gum barrier application",
+        "In-chair whitening treatment",
+        "Shade check and aftercare guidance"
+      ],
+      "benefits": [
+        "Visible results in a single session",
+        "Professionally supervised, safer than store kits",
+        "Even, natural-looking results"
+      ],
+      "recovery": "Mild sensitivity for a day or two is common and resolves on its own.",
+      "faqs": [],
+      "relatedServiceSlugs": []
+    }
+  ],
+  "departments": [
+    {
+      "name": "Restorative & Prosthodontics",
+      "doctorSlugs": [
+        "dr-nidesh-kumar"
+      ]
+    },
+    {
+      "name": "Orthodontics",
+      "doctorSlugs": [
+        "dr-priya-ramesh"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception and waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-orange-100",
+      "src": "/images/gallery-treatment-room.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Sterilization area",
+      "category": "Care",
+      "swatchClassName": "bg-orange-50",
+      "src": "/images/gallery-sterilization.jpg"
+    },
+    {
+      "caption": "Clinic entrance, Sulochana Nagar",
+      "category": "Facility",
+      "swatchClassName": "bg-blue-100",
+      "src": "/images/gallery-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Found this clinic by the BSNL exchange landmark and I'm glad I did. My crown fit perfectly on the first try, no adjustments needed.",
+      "author": "Patient, Nidesh Dental",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Nidesh explained every step of my root canal clearly and it was far less painful than I expected. Very calm, methodical approach.",
+      "author": "Patient, Nidesh Dental",
+      "rating": 5
+    },
+    {
+      "quote": "My daughter's braces treatment with Dr. Priya has gone smoothly — she's patient with kids and always on time for appointments.",
+      "author": "Patient, Nidesh Dental",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Where exactly is the clinic located?",
+      "answer": "We're at 5/129, Sulochana Nagar, Moulivakkam, directly opposite the BSNL telephone exchange — an easy landmark to spot if you're coming from Porur or Mugalivakkam."
+    },
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "We accept walk-ins when slots are available, but calling or messaging us on WhatsApp ahead of time guarantees you a specific slot and shorter wait."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "Your first visit includes a clinical examination, X-rays if needed, and a clear discussion of your treatment options and costs before anything is scheduled."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, all major cards, and UPI. Treatment cost estimates are always shared before we begin any work."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us directly at +91 76391 90961, or use the appointment form on this website and our front desk will confirm a slot."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "crowns-vs-fillings-when-do-you-need-a-crown",
+      "title": "Crowns vs. Fillings: When Do You Actually Need a Crown?",
+      "excerpt": "Not every cavity needs a crown, but some do. Here's how we decide at Nidesh Dental, and why the difference matters for how long the repair lasts.",
+      "author": "Dr. Nidesh Kumar",
+      "date": "2026-02-14",
+      "content": [
+        "Fillings work well for small to moderate cavities where enough healthy tooth structure remains to support the repair. They're quicker, cheaper, and less invasive.",
+        "Crowns come in when the damage is more extensive — a large cavity, a cracked tooth, or a tooth that's already had a root canal and needs protection from further fracture.",
+        "The general rule we use at the clinic: if more than half the visible tooth structure is compromised, a filling is unlikely to hold up long-term and a crown is the more durable choice.",
+        "The trade-off is time and cost — a crown typically needs two visits and lab fabrication, versus a same-visit filling. But for the right case, it prevents repeat trips back to the chair for the same tooth.",
+        "If you're unsure which applies to you, an exam and X-ray usually settles it quickly — we'll always explain the reasoning before recommending either option."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect the medical, contact, and billing information necessary to evaluate and treat you, and to schedule and manage your appointments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used solely to coordinate your dental care at Nidesh Dental and is not shared with third parties beyond what treatment requires."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your dental records at any time through our front desk."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please give at least 24 hours notice if you need to cancel or reschedule an appointment."
+      },
+      {
+        "heading": "Billing",
+        "body": "Treatment costs are shared and agreed upon before work begins; payment is due at the time of each visit unless otherwise arranged."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational only and does not replace an in-person dental examination and diagnosis."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Nidesh Dental — Moulivakkam, Chennai",
+    "description": "Nidesh Dental is a founder-led dental clinic in Sulochana Nagar, Moulivakkam, Chennai, offering crowns, root canals, braces, implants, and general dentistry."
+  }
+}

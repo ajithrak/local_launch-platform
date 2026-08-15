@@ -1,0 +1,507 @@
+{
+  "industry": "healthcare",
+  "clinicType": "dental",
+  "theme": "smilecraft",
+  "business": {
+    "name": "The Light Dentistry",
+    "city": "Porur, Chennai",
+    "phone": "+91 95662 62295",
+    "whatsapp": "919566262295",
+    "address": "5/99, Kundrathur Main Rd, Kungumam Nagar, Jayalakshmi Nagar, Porur, Chennai, Mowlivakkam, Tamil Nadu 600125, India",
+    "hours": "Mon–Sat · 9:30 AM – 1:30 PM, 4:30 PM – 9:00 PM · Sunday Closed",
+    "socials": {}
+  },
+  "hero": {
+    "eyebrow": "Bright, Gentle Dental Care in Porur",
+    "headline": "Dentistry That Feels Lighter.",
+    "subheadline": "The Light Dentistry, part of Jebas Dental Care, brings checkups, root canals, implants, and bright-smile treatments to Kundrathur Main Road, Porur — in a calm, modern space built around patient comfort.",
+    "primaryCta": {
+      "label": "Book an Appointment",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Our Services",
+      "href": "/services"
+    }
+  },
+  "about": {
+    "title": "A brighter kind of dental visit on Kundrathur Main Road",
+    "body": [
+      "The Light Dentistry, part of Jebas Dental Care, was set up on Kundrathur Main Road to give families in Kungumam Nagar, Jayalakshmi Nagar, Mowlivakkam, and the wider Porur area a dental clinic that feels calm rather than clinical — light-filled rooms, clear explanations, and a team that doesn't rush appointments.",
+      "The clinic is led by Dr. Ashwin Jebaraj, who handles everything from routine checkups and root canals to implants and full-mouth rehabilitation, alongside Dr. Meera Selvam, who manages orthodontics and cosmetic treatments like braces, aligners, and teeth whitening.",
+      "Whether you're in for a six-month cleaning or a longer treatment plan, the approach stays the same: an honest explanation of what's needed before any work begins, modern sterilization protocols, and a genuinely easy walk-in from anywhere along Kundrathur Main Road."
+    ],
+    "highlights": [
+      "Light-filled, modern clinic on Kundrathur Main Road, Porur",
+      "Led by Dr. Ashwin Jebaraj and Dr. Meera Selvam",
+      "Modern sterilization and hygiene protocols",
+      "Clear treatment plans before any procedure begins"
+    ],
+    "image": "/images/about-clinic-interior.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Smile",
+      "value": "3,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "6",
+      "label": "Dental Services"
+    },
+    {
+      "icon": "Award",
+      "value": "8+",
+      "label": "Years of Practice"
+    },
+    {
+      "icon": "ShieldCheck",
+      "value": "100%",
+      "label": "Sterile Instrumentation"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "Sparkles",
+      "title": "Bright, Calm Clinic Environment",
+      "description": "A light-filled, modern space on Kundrathur Main Road designed to feel calming rather than clinical, especially for first-time and anxious patients."
+    },
+    {
+      "icon": "UserCheck",
+      "title": "Experienced, Local Dentists",
+      "description": "Dr. Ashwin Jebaraj and Dr. Meera Selvam handle your case directly, from the first consultation through to treatment."
+    },
+    {
+      "icon": "Microscope",
+      "title": "Modern Equipment & Sterilization",
+      "description": "Digital diagnostics and strict sterilization protocols support safer, more precise treatment at every visit."
+    },
+    {
+      "icon": "MapPin",
+      "title": "Easy to Reach Across Porur",
+      "description": "Conveniently located on Kundrathur Main Road, close to Kungumam Nagar, Jayalakshmi Nagar, and Mowlivakkam."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-ashwin-jebaraj",
+      "name": "Dr. Ashwin Jebaraj",
+      "role": "Lead Dentist & Prosthodontist",
+      "qualification": "BDS, MDS (Prosthodontics and Implantology)",
+      "registrationNumber": "TNDC-27845",
+      "experienceYears": 11,
+      "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:30 PM, 4:30 PM – 9:00 PM",
+      "bio": "Dr. Ashwin Jebaraj leads The Light Dentistry, overseeing everything from routine checkups to implant and full-mouth rehabilitation cases. He set up the clinic on Kundrathur Main Road with a simple goal — make dental visits feel less intimidating for families across Porur, Kungumam Nagar, and Jayalakshmi Nagar.",
+      "education": [
+        "BDS — Ragas Dental College, Chennai",
+        "MDS, Prosthodontics and Implantology — Meenakshi Ammal Dental College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Dental Implants",
+        "Full-Mouth Rehabilitation",
+        "Root Canal Treatment",
+        "General Dentistry"
+      ],
+      "photo": "/images/dr-ashwin-jebaraj.jpg"
+    },
+    {
+      "slug": "dr-meera-selvam",
+      "name": "Dr. Meera Selvam",
+      "role": "Orthodontist & Cosmetic Dentist",
+      "qualification": "BDS, MDS (Orthodontics and Dentofacial Orthopedics)",
+      "registrationNumber": "TNDC-33021",
+      "experienceYears": 6,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Tue, Thu, Sat · 10:00 AM – 1:30 PM, 5:00 PM – 8:00 PM",
+      "bio": "Dr. Meera Selvam runs the orthodontic and cosmetic side of the practice — braces, clear aligners, and teeth whitening — for teens and adults across Porur, working closely with Dr. Ashwin Jebaraj on combined treatment cases.",
+      "education": [
+        "BDS — Tamil Nadu Government Dental College, Chennai",
+        "MDS, Orthodontics and Dentofacial Orthopedics — SRM Dental College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Braces",
+        "Clear Aligners",
+        "Teeth Whitening",
+        "Smile Design"
+      ],
+      "photo": "/images/dr-meera-selvam.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "general-dental-checkups",
+      "name": "General Dental Checkups & Cleaning",
+      "tagline": "Routine care to catch problems early",
+      "overview": "Comprehensive dental examinations, professional cleaning, and preventive guidance to keep your teeth and gums healthy, and to catch small issues before they turn into bigger treatment.",
+      "symptoms": [
+        "Sensitivity to hot or cold",
+        "Bleeding or swollen gums",
+        "Bad breath",
+        "Routine six-month checkup due"
+      ],
+      "procedure": [
+        "Oral examination and diagnosis",
+        "Professional cleaning and scaling",
+        "X-rays where needed",
+        "Personalized oral hygiene guidance"
+      ],
+      "benefits": [
+        "Early detection of cavities and gum disease",
+        "Professional plaque and tartar removal",
+        "Reduces risk of bigger dental problems later"
+      ],
+      "recovery": "No downtime — you can eat and drink normally right after a routine checkup and cleaning.",
+      "faqs": [
+        {
+          "question": "How often should I get a dental checkup?",
+          "answer": "We recommend a checkup and cleaning every six months for most patients."
+        },
+        {
+          "question": "Does a cleaning hurt?",
+          "answer": "A routine cleaning is generally painless, though patients with sensitive gums may feel mild discomfort."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "root-canal-treatment",
+        "teeth-whitening"
+      ]
+    },
+    {
+      "slug": "root-canal-treatment",
+      "name": "Root Canal Treatment",
+      "tagline": "Save the natural tooth, relieve the pain",
+      "overview": "Root canal treatment removes infected or damaged pulp from inside a tooth, relieving pain and letting you keep your natural tooth instead of extracting it.",
+      "symptoms": [
+        "Persistent tooth pain",
+        "Sensitivity that lingers after hot or cold",
+        "Swelling or tenderness in the gums",
+        "Darkening of the tooth"
+      ],
+      "procedure": [
+        "Diagnosis and X-ray",
+        "Local anesthesia",
+        "Removal of infected pulp and canal cleaning",
+        "Filling and sealing the tooth",
+        "Crown placement where needed"
+      ],
+      "benefits": [
+        "Preserves your natural tooth",
+        "Relieves persistent pain",
+        "Prevents spread of infection"
+      ],
+      "recovery": "Mild soreness for a day or two is normal; most patients resume regular activity the same day.",
+      "faqs": [
+        {
+          "question": "Is root canal treatment painful?",
+          "answer": "The procedure itself is done under local anesthesia and is generally no more uncomfortable than a filling."
+        },
+        {
+          "question": "How many visits does it take?",
+          "answer": "Most root canals are completed in one to two visits, depending on the tooth and extent of infection."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-dental-checkups",
+        "dental-implants"
+      ]
+    },
+    {
+      "slug": "dental-implants",
+      "name": "Dental Implants",
+      "tagline": "A permanent, natural-feeling replacement for missing teeth",
+      "overview": "Dental implants replace missing teeth with a titanium post fused to the jawbone, topped with a custom crown — a long-term solution that looks and functions like a natural tooth.",
+      "symptoms": [
+        "Missing tooth or teeth",
+        "Loose or failing bridge or denture",
+        "Difficulty chewing"
+      ],
+      "procedure": [
+        "Consultation and imaging",
+        "Implant placement surgery",
+        "Healing and osseointegration period",
+        "Custom crown fitting"
+      ],
+      "benefits": [
+        "Looks and functions like a natural tooth",
+        "Preserves jawbone structure",
+        "Long-term, durable solution"
+      ],
+      "recovery": "Initial healing takes about a week; full integration with the jawbone typically takes a few months before the final crown is placed.",
+      "faqs": [
+        {
+          "question": "How long do dental implants last?",
+          "answer": "With proper care, dental implants can last 15-20 years or longer."
+        },
+        {
+          "question": "Am I a candidate for implants?",
+          "answer": "Most adults with adequate jawbone density are candidates — this is assessed during your consultation."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "oral-surgery",
+        "root-canal-treatment"
+      ]
+    },
+    {
+      "slug": "teeth-whitening",
+      "name": "Teeth Whitening",
+      "tagline": "Brighten your smile, professionally",
+      "overview": "In-office professional whitening that lifts stains and discoloration safely and more effectively than over-the-counter kits — a quick way to a noticeably lighter smile.",
+      "symptoms": [],
+      "procedure": [
+        "Shade assessment",
+        "Gum protection application",
+        "In-office whitening treatment",
+        "Follow-up shade check"
+      ],
+      "benefits": [
+        "Noticeably brighter smile in a single visit",
+        "Professional strength results",
+        "Safer than unsupervised at-home kits"
+      ],
+      "recovery": "No downtime; mild, temporary sensitivity is possible for a day or so.",
+      "faqs": [
+        {
+          "question": "How long do whitening results last?",
+          "answer": "Results typically last 6-12 months depending on diet and oral hygiene habits."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-dental-checkups"
+      ]
+    },
+    {
+      "slug": "braces-clear-aligners",
+      "name": "Braces & Clear Aligners",
+      "tagline": "Straighter teeth, a better bite",
+      "overview": "Dr. Meera Selvam's orthodontic program offers both traditional braces and clear aligners to correct crowding, spacing, and bite issues for teens and adults.",
+      "symptoms": [
+        "Crowded or crooked teeth",
+        "Gaps between teeth",
+        "Bite misalignment"
+      ],
+      "procedure": [
+        "Orthodontic assessment and imaging",
+        "Custom treatment plan",
+        "Braces or aligner fitting",
+        "Regular adjustment visits"
+      ],
+      "benefits": [
+        "Improved bite and alignment",
+        "Custom treatment plans for teens and adults",
+        "Choice of traditional or clear aligner options"
+      ],
+      "recovery": "Mild discomfort for a few days after fitting or adjustment is normal; no downtime from daily activities.",
+      "faqs": [
+        {
+          "question": "How long does orthodontic treatment take?",
+          "answer": "Most treatments take between 12 and 24 months depending on the complexity of the case."
+        },
+        {
+          "question": "Are clear aligners available?",
+          "answer": "Yes, clear aligners are offered as an alternative to traditional braces for eligible cases."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "general-dental-checkups"
+      ]
+    },
+    {
+      "slug": "oral-surgery",
+      "name": "Oral Surgery",
+      "tagline": "Surgical care for complex dental needs",
+      "overview": "From wisdom tooth extractions to more complex procedures, our oral surgery service handles cases that need a surgical approach, performed by Dr. Ashwin Jebaraj.",
+      "symptoms": [
+        "Impacted wisdom teeth",
+        "Persistent jaw pain",
+        "Complex extractions needed",
+        "Oral cysts or lesions"
+      ],
+      "procedure": [
+        "Diagnosis and imaging",
+        "Pre-surgical planning",
+        "Surgical procedure under local or sedation anesthesia",
+        "Post-operative review"
+      ],
+      "benefits": [
+        "Handles complex cases in-house",
+        "Reduces need for outside referrals",
+        "Careful post-operative follow-up"
+      ],
+      "recovery": "Recovery time varies by procedure; most patients need a few days of rest for extractions, longer for more involved surgery.",
+      "faqs": [
+        {
+          "question": "Do I need a referral for oral surgery?",
+          "answer": "No — oral surgery is handled in-house at The Light Dentistry, so no outside referral is needed."
+        },
+        {
+          "question": "Is sedation available?",
+          "answer": "Yes, sedation options are available for more involved surgical procedures."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "dental-implants",
+        "root-canal-treatment"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "General & Restorative Dentistry",
+      "doctorSlugs": [
+        "dr-ashwin-jebaraj"
+      ]
+    },
+    {
+      "name": "Prosthodontics & Implants",
+      "doctorSlugs": [
+        "dr-ashwin-jebaraj"
+      ]
+    },
+    {
+      "name": "Orthodontics & Cosmetic Dentistry",
+      "doctorSlugs": [
+        "dr-meera-selvam"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Reception area",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-reception.jpg"
+    },
+    {
+      "caption": "Treatment room",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-100",
+      "src": "/images/gallery-treatment-room.jpg"
+    },
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-50",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-teal-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance",
+      "category": "Facility",
+      "swatchClassName": "bg-cyan-100",
+      "src": "/images/gallery-clinic-exterior.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "I'd been putting off a root canal for months out of fear, but the team at The Light Dentistry explained every step and it was over before I knew it.",
+      "author": "Patient, Porur",
+      "rating": 5
+    },
+    {
+      "quote": "Dr. Ashwin Jebaraj explained the whole implant plan clearly before starting anything. No surprises, no pressure, and the clinic itself feels genuinely calm.",
+      "author": "Patient, Kungumam Nagar",
+      "rating": 5
+    },
+    {
+      "quote": "My son's braces treatment with Dr. Meera has gone really smoothly — she's patient with him and the clinic is always spotless.",
+      "author": "Patient, Jayalakshmi Nagar",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Where exactly is The Light Dentistry located?",
+      "answer": "We're on Kundrathur Main Road in Kungumam Nagar, Jayalakshmi Nagar, Porur, Chennai — easily reachable from Mowlivakkam and the rest of Porur."
+    },
+    {
+      "question": "What dental treatments does The Light Dentistry offer?",
+      "answer": "We offer general checkups and cleaning, root canal treatment, dental implants, teeth whitening, braces and clear aligners, and oral surgery — all under one roof."
+    },
+    {
+      "question": "Do you accept walk-in patients?",
+      "answer": "We recommend booking an appointment in advance to avoid waiting, but walk-ins are accommodated when slots are available."
+    },
+    {
+      "question": "What should I expect at my first visit?",
+      "answer": "Your first visit includes an oral examination, a discussion of your concerns, and X-rays if needed, followed by a clear treatment plan before any procedure begins."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book through our appointment page on this website, or call or WhatsApp us directly at +91 95662 62295."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "how-often-should-you-really-visit-the-dentist",
+      "title": "How Often Should You Really Visit the Dentist? A Porur Dentist Explains",
+      "excerpt": "Six months is the standard advice, but who actually needs to come in more — or less — often? Here's a straightforward answer.",
+      "author": "Dr. Ashwin Jebaraj",
+      "date": "2026-02-10",
+      "content": [
+        "The six-month rule is a reasonable default for most healthy adults, but it isn't a strict law — it's a starting point based on how quickly plaque tends to harden into tartar and how early most cavities are still easy to treat.",
+        "Patients with gum disease, a history of frequent cavities, braces, or certain medical conditions like diabetes often benefit from checkups every three to four months instead. On the other hand, some patients with excellent hygiene and low cavity risk can safely stretch to closer to nine months.",
+        "What matters more than the exact interval is consistency — the same clinic seeing your teeth over time can spot small changes (a new sensitive spot, receding gums, early wear) far earlier than someone visiting a different dentist every time.",
+        "At The Light Dentistry on Kundrathur Main Road, we usually settle on a personal interval after your first one or two visits, once we understand how your teeth and gums typically behave."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, dental, contact, and billing information necessary to provide treatment and manage appointments."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to plan and deliver your dental treatment and to communicate with you about appointments. We do not sell patient data."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or correction of your dental records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Please provide at least 24 hours notice to cancel or reschedule an appointment where possible."
+      },
+      {
+        "heading": "Billing",
+        "body": "Payment for treatment is due at the time of service unless otherwise agreed with our front desk."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is informational and does not replace an in-person dental evaluation and diagnosis."
+      }
+    ]
+  },
+  "seo": {
+    "title": "The Light Dentistry (Jebas Dental Care) — Porur, Chennai",
+    "description": "The Light Dentistry, part of Jebas Dental Care, is a dental clinic on Kundrathur Main Road, Porur, Chennai offering checkups, root canals, implants, whitening, braces, and oral surgery."
+  }
+}
