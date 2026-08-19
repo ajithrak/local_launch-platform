@@ -1,0 +1,453 @@
+{
+  "industry": "healthcare",
+  "clinicType": "orthopedic",
+  "theme": "orthoedge",
+  "business": {
+    "name": "Madras Ortho Clinic",
+    "city": "Gerugambakkam, Chennai",
+    "phone": "+91 75575 57571",
+    "whatsapp": "917557557571",
+    "email": "hello@madrasorthoclinic.in",
+    "address": "No. 96, 3, Kundrathur Main Rd, Tharapakkam, Gerugambakkam, Mowlivakkam, Tamil Nadu 600128",
+    "hours": "Mon–Sat · 9:30 AM – 1:00 PM, 5:30 PM – 9:00 PM · Sunday Closed",
+    "socials": {
+      "instagram": "https://instagram.com",
+      "facebook": "https://facebook.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Orthopedic & Joint Care, Gerugambakkam",
+    "headline": "Get Back to Moving Without Pain.",
+    "subheadline": "Madras Ortho Clinic on Kundrathur Main Road treats fractures, joint pain, sports injuries, and spine conditions with the same precision whether it's a weekend athlete or a grandparent managing arthritis.",
+    "primaryCta": {
+      "label": "Book Consultation",
+      "href": "/appointment"
+    },
+    "secondaryCta": {
+      "label": "Meet Our Doctors",
+      "href": "/doctors"
+    }
+  },
+  "about": {
+    "title": "Precision orthopedic care, close to Gerugambakkam",
+    "body": [
+      "Madras Ortho Clinic sits on Kundrathur Main Road in Tharapakkam, serving Gerugambakkam and the wider Mowlivakkam belt with dedicated orthopedic care — the kind that usually means a trip into central Chennai for most families in this area.",
+      "From a fracture that needs setting to a knee that's been aching for years, our approach starts with a proper clinical examination and, where needed, on-site X-rays, rather than jumping straight to a treatment plan. Surgery is recommended only when it's genuinely the right call, not the default answer.",
+      "We see the full range of orthopedic needs — sports injuries, joint pain, spine conditions, and post-fracture rehabilitation — with evening hours so a consultation doesn't mean losing a day's work."
+    ],
+    "highlights": [
+      "On-site X-ray, no separate diagnostic trip",
+      "Fracture care, joint pain, and sports injury management",
+      "Evening hours until 9 PM, six days a week",
+      "Surgery recommended only when genuinely necessary"
+    ],
+    "image": "/images/about-consultation.jpg"
+  },
+  "stats": [
+    {
+      "icon": "Bone",
+      "value": "9,000+",
+      "label": "Patients Treated"
+    },
+    {
+      "icon": "Activity",
+      "value": "1,500+",
+      "label": "Fractures & Injuries Managed"
+    },
+    {
+      "icon": "Award",
+      "value": "13",
+      "label": "Years in Practice"
+    },
+    {
+      "icon": "Stethoscope",
+      "value": "2",
+      "label": "Orthopedic Specialists"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "icon": "ScanLine",
+      "title": "On-Site Digital X-Ray",
+      "description": "Most fractures and joint concerns can be diagnosed the same visit, without sending you elsewhere for imaging."
+    },
+    {
+      "icon": "Bone",
+      "title": "Full Range of Orthopedic Care",
+      "description": "From sports injuries and fractures to chronic joint pain and spine conditions, all handled by the same experienced team."
+    },
+    {
+      "icon": "Clock",
+      "title": "Evening Hours That Fit Real Schedules",
+      "description": "Open until 9 PM most weekdays, so an orthopedic consultation doesn't mean taking a full day off work."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Surgery Only When Necessary",
+      "description": "We start with conservative treatment wherever it's medically appropriate, and recommend surgery only when it's genuinely the better option."
+    }
+  ],
+  "plans": [],
+  "doctors": [
+    {
+      "slug": "dr-mohan-ravindran",
+      "name": "Dr. Mohan Ravindran",
+      "role": "Orthopedic Surgeon & Clinic Director",
+      "qualification": "MBBS, MS (Orthopedics)",
+      "registrationNumber": "TNMC-49218",
+      "experienceYears": 17,
+      "languages": [
+        "English",
+        "Tamil",
+        "Telugu"
+      ],
+      "availability": "Mon–Sat · 9:30 AM – 1:00 PM, 5:30 PM – 9:00 PM",
+      "bio": "Dr. Ravindran founded Madras Ortho Clinic to bring dedicated orthopedic care to Gerugambakkam and the surrounding Mowlivakkam belt, an area that previously meant a long trip into the city for anything beyond general medicine. He treats everything from acute fractures to long-standing joint pain, and is known for explaining exactly what an X-ray shows before recommending any course of treatment.",
+      "education": [
+        "MBBS — Madras Medical College, Chennai",
+        "MS, Orthopedics — Stanley Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Fracture management",
+        "Joint pain & arthritis care",
+        "Sports injury treatment",
+        "Trauma & post-surgical rehabilitation"
+      ],
+      "photo": "/images/doctor-mohan-ravindran.jpg"
+    },
+    {
+      "slug": "dr-swetha-balakrishnan",
+      "name": "Dr. Swetha Balakrishnan",
+      "role": "Orthopedic Physician, Spine & Sports Injury",
+      "qualification": "MBBS, D.Ortho",
+      "registrationNumber": "TNMC-62481",
+      "experienceYears": 8,
+      "languages": [
+        "English",
+        "Tamil"
+      ],
+      "availability": "Mon, Wed, Fri, Sat · 5:30 PM – 9:00 PM",
+      "bio": "Dr. Balakrishnan focuses on spine conditions and sports injuries, working with everyone from weekend footballers to office workers dealing with chronic back pain. She spends extra time on the initial assessment, since a lot of recurring pain traces back to posture or movement patterns rather than a single injury.",
+      "education": [
+        "MBBS — Chengalpattu Medical College, Chennai",
+        "D.Ortho — Government Kilpauk Medical College, Chennai"
+      ],
+      "awards": [],
+      "specialties": [
+        "Spine & back pain management",
+        "Sports injury care",
+        "Ligament & tendon injuries",
+        "Post-injury rehabilitation guidance"
+      ],
+      "photo": "/images/doctor-swetha-balakrishnan.jpg"
+    }
+  ],
+  "services": [
+    {
+      "slug": "fracture-management",
+      "name": "Fracture Management",
+      "tagline": "From diagnosis to cast, handled the same visit",
+      "overview": "For fresh fractures and breaks, we combine on-site X-ray with immediate casting or splinting, so most patients leave with a clear diagnosis and treatment plan the same day rather than being sent elsewhere for imaging first.",
+      "symptoms": [
+        "Sudden pain and swelling after a fall or injury",
+        "Visible deformity or inability to bear weight",
+        "Suspected fracture following an accident"
+      ],
+      "procedure": [
+        "On-site digital X-ray",
+        "Fracture assessment and classification",
+        "Casting, splinting, or surgical referral as needed",
+        "Follow-up schedule for healing checks"
+      ],
+      "benefits": [
+        "Diagnosis and treatment in a single visit for most fractures",
+        "No separate trip to a diagnostic center for X-rays",
+        "Clear healing timeline explained upfront"
+      ],
+      "recovery": "Healing time varies by fracture location and severity, typically 4–8 weeks, with follow-up X-rays to confirm progress.",
+      "faqs": [
+        {
+          "question": "Do you handle fractures as a walk-in emergency?",
+          "answer": "Yes, we prioritize walk-in patients with suspected fractures — call ahead if possible so we can be ready, but you don't need an appointment."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "sports-injury-treatment",
+        "post-surgical-rehabilitation"
+      ]
+    },
+    {
+      "slug": "joint-pain-arthritis-care",
+      "name": "Joint Pain & Arthritis Care",
+      "tagline": "Ongoing management for knees, hips, and shoulders",
+      "overview": "For chronic joint pain and arthritis, we build a management plan around your specific joint and activity level — medication, physiotherapy referral, and lifestyle adjustments before considering surgical options.",
+      "symptoms": [
+        "Persistent knee, hip, or shoulder pain",
+        "Stiffness that's worse in the morning or after rest",
+        "Reduced range of motion in a joint"
+      ],
+      "procedure": [
+        "Clinical examination and joint assessment",
+        "X-ray or further imaging if needed",
+        "Personalized pain management and mobility plan",
+        "Referral for physiotherapy or surgery only if warranted"
+      ],
+      "benefits": [
+        "Conservative treatment tried first wherever appropriate",
+        "Plan tailored to your specific joint and lifestyle",
+        "Clear explanation of what's actually driving the pain"
+      ],
+      "recovery": "",
+      "faqs": [
+        {
+          "question": "Will I need surgery for my joint pain?",
+          "answer": "Not necessarily — most joint pain responds to medication, physiotherapy, and lifestyle changes. Surgery is discussed only when conservative treatment hasn't worked or the joint damage genuinely requires it."
+        }
+      ],
+      "relatedServiceSlugs": [
+        "spine-back-pain-treatment"
+      ]
+    },
+    {
+      "slug": "sports-injury-treatment",
+      "name": "Sports Injury Treatment",
+      "tagline": "Get back to your sport, not just off the sidelines",
+      "overview": "Ligament sprains, muscle tears, and overuse injuries are assessed and treated with a plan built around returning you safely to your sport, not just clearing the immediate pain.",
+      "symptoms": [
+        "Pain or instability during sport-specific movement",
+        "Swelling after activity",
+        "Reduced confidence or strength in the injured area"
+      ],
+      "procedure": [
+        "Injury assessment and imaging if needed",
+        "Treatment plan — rest, bracing, or referral as appropriate",
+        "Guidance on safe return to activity",
+        "Follow-up to confirm readiness"
+      ],
+      "benefits": [
+        "Assessment focused on your specific sport and activity level",
+        "Clear guidance on when it's safe to resume training",
+        "Reduces risk of re-injury from returning too early"
+      ],
+      "recovery": "Recovery timelines vary widely by injury, typically 2–10 weeks depending on severity.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "fracture-management",
+        "spine-back-pain-treatment"
+      ]
+    },
+    {
+      "slug": "spine-back-pain-treatment",
+      "name": "Spine & Back Pain Treatment",
+      "tagline": "Addressing the cause, not just the flare-up",
+      "overview": "Long-standing back and neck pain is assessed for its actual cause — posture, disc issues, or muscular imbalance — and treated with a combination of medication, guided exercise, and lifestyle changes.",
+      "symptoms": [
+        "Persistent lower back or neck pain",
+        "Pain that radiates into the leg or arm",
+        "Stiffness or reduced flexibility through the spine"
+      ],
+      "procedure": [
+        "Detailed history and physical examination",
+        "Imaging if a structural cause is suspected",
+        "Treatment plan combining medication and guided movement",
+        "Referral for physiotherapy or specialist care if needed"
+      ],
+      "benefits": [
+        "Focuses on the underlying cause, not just symptom relief",
+        "Practical guidance for desk-job and manual-labor patients alike",
+        "Clear escalation path if conservative treatment isn't enough"
+      ],
+      "recovery": "Most patients see meaningful improvement within 4–6 weeks of a consistent treatment plan.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "joint-pain-arthritis-care"
+      ]
+    },
+    {
+      "slug": "post-surgical-rehabilitation",
+      "name": "Post-Surgical & Post-Fracture Rehabilitation",
+      "tagline": "Structured follow-up after surgery or a serious fracture",
+      "overview": "After an orthopedic surgery or major fracture, we track healing progress, adjust casts or braces as needed, and coordinate physiotherapy referrals so recovery stays on schedule.",
+      "symptoms": [
+        "Recovering from recent orthopedic surgery",
+        "Healing from a significant fracture",
+        "Stiffness or weakness during recovery"
+      ],
+      "procedure": [
+        "Review of surgical or fracture history",
+        "Scheduled follow-up examinations and imaging",
+        "Cast or brace adjustment as healing progresses",
+        "Physiotherapy referral and coordination"
+      ],
+      "benefits": [
+        "Structured follow-up so recovery doesn't stall",
+        "Early detection of healing complications",
+        "Coordinated care between surgery and physiotherapy"
+      ],
+      "recovery": "Follow-up schedules are set based on the specific surgery or fracture, typically reviewed every 2–4 weeks.",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "fracture-management"
+      ]
+    },
+    {
+      "slug": "digital-x-ray",
+      "name": "On-Site Digital X-Ray",
+      "tagline": "Imaging the same visit, no separate diagnostic trip",
+      "overview": "Digital X-ray is available on-site for suspected fractures, joint issues, and spine concerns, so most patients get a diagnosis and treatment plan without a separate trip to an imaging center.",
+      "symptoms": [],
+      "procedure": [
+        "Doctor identifies the area needing imaging",
+        "Digital X-ray taken on-site",
+        "Immediate review with the treating doctor"
+      ],
+      "benefits": [
+        "No separate trip to a diagnostic center",
+        "Faster diagnosis and treatment planning",
+        "Results reviewed with you in person, not just handed over"
+      ],
+      "recovery": "",
+      "faqs": [],
+      "relatedServiceSlugs": [
+        "fracture-management",
+        "joint-pain-arthritis-care"
+      ]
+    }
+  ],
+  "departments": [
+    {
+      "name": "Orthopedics & Trauma",
+      "doctorSlugs": [
+        "dr-mohan-ravindran"
+      ]
+    },
+    {
+      "name": "Spine & Sports Medicine",
+      "doctorSlugs": [
+        "dr-swetha-balakrishnan"
+      ]
+    }
+  ],
+  "insurancePartners": [],
+  "gallery": [
+    {
+      "caption": "Consultation room",
+      "category": "Facility",
+      "swatchClassName": "bg-lime-100",
+      "src": "/images/gallery-consultation-room.jpg"
+    },
+    {
+      "caption": "Digital X-ray room",
+      "category": "Care",
+      "swatchClassName": "bg-slate-100",
+      "src": "/images/gallery-xray-room.jpg"
+    },
+    {
+      "caption": "Waiting area",
+      "category": "Facility",
+      "swatchClassName": "bg-lime-50",
+      "src": "/images/gallery-waiting-area.jpg"
+    },
+    {
+      "caption": "Clinic entrance, Kundrathur Main Road",
+      "category": "Facility",
+      "swatchClassName": "bg-slate-50",
+      "src": "/images/gallery-entrance.jpg"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Fractured my wrist on a Sunday evening and was worried about finding an orthopedic clinic open nearby. Dr. Ravindran had it X-rayed and cast within the hour.",
+      "author": "Patient, Madras Ortho Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Been dealing with knee pain for two years and kept putting off seeing someone. Dr. Ravindran explained exactly what the X-ray showed and started with physiotherapy before even mentioning surgery.",
+      "author": "Patient, Madras Ortho Clinic",
+      "rating": 5
+    },
+    {
+      "quote": "Tore something in my shoulder playing badminton and Dr. Swetha gave me a clear plan to get back to playing instead of just telling me to rest indefinitely.",
+      "author": "Patient, Madras Ortho Clinic",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Do you handle fracture emergencies without an appointment?",
+      "answer": "Yes, suspected fractures are treated as walk-in priorities. Call ahead if you can so we're ready, but you don't need to book in advance."
+    },
+    {
+      "question": "Is X-ray available at the clinic itself?",
+      "answer": "Yes, we have on-site digital X-ray, so most fractures and joint concerns can be diagnosed the same visit without a separate trip to a diagnostic center."
+    },
+    {
+      "question": "Will I need surgery for my joint or back pain?",
+      "answer": "Not necessarily. We start with conservative treatment — medication, physiotherapy, lifestyle changes — wherever it's appropriate, and only discuss surgery when it's genuinely the better option."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept cash, UPI, and all major debit and credit cards at the clinic."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can call or WhatsApp us at +91 75575 57571, or use the appointment form on this website, and our front desk will confirm a slot with the right doctor."
+    }
+  ],
+  "blogPosts": [
+    {
+      "slug": "when-joint-pain-needs-more-than-rest",
+      "title": "When Joint Pain Needs More Than Rest — And When It Doesn't",
+      "excerpt": "Not every ache needs a scan, and not every scan needs surgery. Here's how we actually decide what a joint pain case needs.",
+      "author": "Dr. Mohan Ravindran",
+      "date": "2026-06-02",
+      "content": [
+        "A lot of joint pain gets treated the same way by default — rest, painkillers, and a wait-and-see approach — regardless of what's actually causing it. That works for plenty of cases, but not all of them.",
+        "The first real question is whether the pain is mechanical (from overuse, alignment, or wear) or inflammatory (from a condition like arthritis). Those need genuinely different approaches, and you can usually tell the difference with a proper clinical exam and, where needed, an X-ray.",
+        "From there, most joint pain responds well to a combination of targeted exercise, activity modification, and sometimes medication — surgery is a much smaller slice of cases than people often assume, usually reserved for structural damage that conservative treatment genuinely can't fix.",
+        "The mistake we see most often isn't ignoring joint pain — it's assuming it either needs nothing or needs surgery, with nothing sensible in between. An honest assessment usually finds a middle path that gets people moving again without an operation."
+      ]
+    }
+  ],
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Information we collect",
+        "body": "We collect medical, contact, and billing information necessary to provide care and coordinate appointments at Madras Ortho Clinic."
+      },
+      {
+        "heading": "How we use it",
+        "body": "Your information is used only to deliver and coordinate your care. We do not sell or share patient data with third parties for marketing purposes."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You may request access to or a copy of your medical records at any time by contacting our clinic directly."
+      }
+    ]
+  },
+  "termsAndConditions": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "January 2026",
+    "sections": [
+      {
+        "heading": "Appointments",
+        "body": "Fracture and trauma cases are prioritized as walk-ins. For routine consultations, please inform us as early as possible if you need to reschedule or cancel."
+      },
+      {
+        "heading": "Billing",
+        "body": "Consultation, X-ray, and procedure fees are payable at the time of your visit. Please ask our front desk for current fee information."
+      },
+      {
+        "heading": "Medical disclaimer",
+        "body": "Content on this website is for general information only and does not replace an in-person consultation with a qualified orthopedic doctor."
+      }
+    ]
+  },
+  "seo": {
+    "title": "Madras Ortho Clinic — Gerugambakkam, Chennai",
+    "description": "Madras Ortho Clinic on Kundrathur Main Road, Gerugambakkam offers fracture care, joint pain treatment, sports injury management, and on-site digital X-ray."
+  }
+}
